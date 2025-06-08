@@ -11,7 +11,7 @@ Humans have amazing strengths, but also significant weaknesses. Chief among them
 
 One hallmark of exponential growth is that the time it takes to double in size, or the doubling time, is constant. An important and convenient concept we will repeatedly use in this chapter is the rule of 70:
 
-```{hint} Definition: Rule of 70
+```{note} Definition: Rule of 70
 The doubling time associated with a percentage growth rate is just 70 divided by the percentage rate. A 1% growth rate doubles in 70 years, while a 2% rate doubles in 35 years, and a 10% rate doubles in 7 years. It also works for other timescales: if pandemic cases are increasing at a rate of 3.5% per day, the doubling time is 20 days.
 ```
 
@@ -25,7 +25,7 @@ We will see how the rule of 70 arises mathematically later in this chapter. But 
 
 But let's explore an example that often reveals our faulty intuition around exponential growth. Here, we imagine a jar rich in resources, seeded with just the right number of bacteria so that if each bacterium splits every 10 minutes, the jar will become full of bacteria in exactly 24 hours. The experiment starts right at midnight. The question is: at what time will the jar be half full?
 
-Think about this on your own for a minute. Normal intuition might suggest a half-full jar at noonâhalfway along the experiment. But what happens if we work backwards? The jar is full at midnight, and doubles every ten minutes. So what time is it half full?
+Think about this on your own for a minute. Normal intuition might suggest a half-full jar at noon halfway along the experiment. But what happens if we work backwards? The jar is full at midnight, and doubles every ten minutes. So what time is it half full?
 
 The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:bacteriajar) illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.7% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
 
@@ -56,27 +56,28 @@ Now let's imagine another illustrative scenario in connection with our jar of ba
 
 The population doubles every ten minutes. If the original jar is filled at 12:00, the population doubles to fill the second jar by 12:10. Another doubling fills all four by 12:20. The celebration is short-lived.
 
-Now we draw the inevitable parallels. A planet that has served us for countless generations, and has seemed effectively infiniteâimponderably largeâmakes it difficult for us to conceive of hitting limits. Are we half-full now? One-fourth? One-eighth? All three options are scary, to different degrees. At a 2% rate of growth (in resource use), the doubling time is 35 years, and we only have about a century, even if at 1/8 full right now.[^3]
+Now we draw the inevitable parallels. A planet that has served us for countless generations, and has seemed effectively infinite - imponderably large - makes it difficult for us to conceive of hitting limits. Are we half-full now? One-fourth? One-eighth? All three options are scary, to different degrees. At a 2% rate of growth (in resource use), the doubling time is 35 years, and we only have about a century, even if at 1/8 full right now.[^3]
 
 In relation to the bacteria parable, we've already done a fair bit of exploring. We have no more jars. One planet rhymes with jars, but it is hostile to human life, has no food, and is not within easy reach. We have no meaningful outlet.[^4] And even if we ignore the practical hardships, how much time would a second planet buy us anyway for uninterrupted growth? Another 35 years?
 
 ## Exponential Math
 
-Box 1.1: Advice on Reading Math
+```{hint} Advice on Reading Math
 
-This section is among the most mathematically sophisticated in the book. Don't let it intimidate you: just calmly take it in. Realize that exponential growth obeys an unchanging set of rules, and can be covered in just a few pages. Your brain can absorb it all if you give it a chance. Read paragraphs multiple times and find that each pass can add to your comprehension. Equations are just shorthand sentences[^5] capturing the essence of the concepts being covered, so rather than reading them as algorithms to file and use later when solving problems, work to comprehend the meaning behind each one and its reason for being a part of the development. In this way, what follows is not a disorganized jumble, recklessly bouncing between math and words, but one continuous development of thought expressed in two languages at once. The Preface offers additional thoughts related to this theme, and Appendix A provides a math refresher.
+This section is among the most mathematically sophisticated in the book. Don't let it intimidate you: just calmly take it in. Realize that exponential growth obeys an unchanging set of rules, and can be covered in just a few pages. Your brain can absorb it all if you give it a chance. Read paragraphs multiple times and find that each pass can add to your comprehension. Equations are just shorthand sentences[^5] capturing the essence of the concepts being covered, so rather than reading them as algorithms to file and use later when solving problems, work to comprehend the meaning behind each one and its reason for being a part of the development. In this way, what follows is not a disorganized jumble, recklessly bouncing between math and words, but one continuous development of thought expressed in two languages at once. The Preface offers additional thoughts related to this theme, and [](#app:matheq) provides a math refresher.
+```
 
-The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have 2 Ã 2 Ã 2 Ã 2 Ã 2, or 2^5 = 32. More generally, after *n* doubling times, we have increased by a factor of 2^n, where 2 is the base, and *n* is the number of doubling times. We might formalize this as
+The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
 
 $$M = 2^n = 2^{t/t_2},$$
 
 [^3]: If we're at 1/8 right now and double every 35 years, we will be at 1/4 in 35 years, 1/2 in 70 years, and full in 105 years.
 
-[^4]: Chapter 4 addresses space realities.
+[^4]: [](#chap:spacecolonize) addresses space realities.
 
-[^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaningâso electing to use *x, n, t, b, M*, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the structure of the equation/sentence.
+[^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaning, so electing to use $x, n, t, b, M$, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the structure of the equation/sentence.
 
-where *M* represents the multiplicative scale, *t* is the elapsed time, and *t2* is the symbol we choose to represent the doubling timeâso that *n* = *t*/*t2* is just âcountingâ the number of doubling times.
+where $M$ represents the multiplicative scale, $t$ is the elapsed time, and $t_2$ is the symbol we choose to represent the doubling time - so that $n = t/t_2$ is just "counting" the number of doubling times.
 
 ```{exercise} Interest Example
 :label: ex:expgrowth:interest
