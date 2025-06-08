@@ -27,20 +27,20 @@ But let's explore an example that often reveals our faulty intuition around expo
 
 Think about this on your own for a minute. Normal intuition might suggest a half-full jar at noonâhalfway along the experiment. But what happens if we work backwards? The jar is full at midnight, and doubles every ten minutes. So what time is it half full?
 
-The answer is one doubling-time before midnight, or 11:50 PM. Figure 1.1 illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.7% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
+The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:bacteriajar) illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.7% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
 
 ```{table} Example 7% growth progression.
 :label: table:expgrowth:popgrowth
 :align: center
 | Year | Population |
-| ---- | ---------- |
+| :----: | ----------: |
 | 1900 | 100        |
 | 1910 | 200        |
 | 1920 | 400        |
 | 1930 | 800        |
-| 1940 | 1,600      |
+| 1940 | 1 600      |
 | :    | :          |
-| 2000 | 102,400    |
+| 2000 | 102 400    |
 ```
 
 10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20â30 minutes may be more realistic. We will also ignore deaths for this âtoyâ example, although the net effect only changes the rate and not the overall behavior.

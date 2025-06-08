@@ -3,7 +3,7 @@ version: 1
 project:
   toc:
     - file: ./markdown/00preface.md
-    - title: Part I: Setting the Stage - Growth and Limitations
+    - title: Part I - Setting the Stage - Growth and Limitations
       children:
         - file: ./markdown/Ch01_ExponentialGrowth.md
     - title: Appendices
