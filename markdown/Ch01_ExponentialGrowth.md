@@ -174,6 +174,7 @@ $$n &= \frac{\ln M}{\ln b}\\
 n &= \frac{\ln 1000}{\ln 1.07}\\
 n &= \frac{6.908}{0.068}\\
 n &= 102~{\rm years}
+$$
 ```
 
 The rule of 70 can be recovered[^7] by setting the multiplicative factor, $M$, to 2. Comparing to interest accumulation described by (1 + *p*)^*t*, where *p* is the annual interest (0.02 for 2%, e.g.) and *t* is the number of years, Eq. 1.4 can be re-expressed by substituting *b* = 1 + *p* and *n* = *t* as the number of years, then equating the result to the doubling time representation in Eq. 1.3 to form
