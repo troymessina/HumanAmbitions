@@ -1,0 +1,68 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  toc:
+    - file: ./chapters/00preface.md
+    - title: Experiments
+      children:
+        - file: ./markdown/Ch01_ExponentialGrowth.md
+    - title: Appendices
+      children:
+
+  id: 
+  title: Energy and Human Ambitions on a Finite Planet: Assessing and Adapting to Planetary Limits
+  github: https://github.com/troymessina/HumanAmbitions
+  license:
+    content: CC-BY-NC-4.0
+    code: GPL-3.0-or-later
+  jupyter:
+    binder: true
+    lite: true
+  requirements:
+    - python >= 3.10
+    - matplotlib >= 3.5
+    - numpy >= 2.2
+    - scipy >= 1.15
+  description: An undergraduate text on energy, the environment, and the capacity of a planet
+  keywords: [Introductory Physics, Environmental Science, Energy]
+  authors: [Troy Messina]
+  numbering:
+    headings: false
+  exclude: 
+#    - figures/**
+ #   - trinket/**
+#  exports:
+#    - format: typst
+#      id: typstpdf
+#      template: https://github.com/rowanc1/typst-book.git
+  #    articles:
+ #       - ./chapters/00preface.md
+ #       - ./chapters/01Introduction.md
+ #       - ./chapters/02ModelAndExperiment.md
+ #       - ./chapters/03Vectors.md
+
+ #     output: ./exports/ModelingWithPhysics.pdf
+#  downloads:
+#    - file: ./exports/ElectronicsLab.pdf
+#    - id: typstpdf
+#      title: Electronics Lab
+site:
+  template: book-theme 
+  title: Energy and Human Ambitions on a Finite Planet
+  options:
+    logo: ./figures/primary_rgb.png
+    logo_dark: ./figures/primary_white.png
+    logo_text: Human Ambitions
+    favicon : ./figures/favicon.ico
+    comments:
+        hypothesis: true
+        utterances: true
+  nav: []
+  #actions:
+  #  - title: Learn More
+  #    url: https://mystmd.org/guide
+#  domains:
+
+#html:
+  
+  
