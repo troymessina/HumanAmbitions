@@ -44,7 +44,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. Figure 1.1 illustr
 ```
 
 10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20â30 minutes may be more realistic. We will also ignore deaths for this âtoyâ example, although the net effect only changes the rate and not the overall behavior.
-```{figure} ../figures/Ch01_ExponentialGrowth/BacteriaJar.jpg
+```{figure} ./figures/Ch01_ExponentialGrowth/BacteriaJar.jpg
 :label: fig:expgrowth:bacteriajar
 :align: center
 :width: 100%
