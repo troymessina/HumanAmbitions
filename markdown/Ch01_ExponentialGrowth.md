@@ -80,10 +80,10 @@ where *M* represents the multiplicative scale, *t* is the elapsed time, and *t2*
 
 ```{exercise} Interest Example
 :label: ex:expgrowth:interest
-The same process happens in a bank account accumulating interest. Letâs consider that you deposit $100 into a bank account bearing 2% annual interest. At the end of one year, youâll have $102, which is 1.02 times the original amount. For the next year, itâs 1.02 times $102, or $104.04, which is the original $100 times 1.02 Ã 1.02. Then in three years it will be $106.18, or $100 times 1.023. Having sussed out the pattern, after 35 years it would be $100 times 1.0235, which happens to come to $199.99. Notice that doubling in 35 years at 2% exactly obeys the rule of 70. Table 1.2 summarizes this example.
+The same process happens in a bank account accumulating interest. Letâs consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, youâll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times 1.023. Having sussed out the pattern, after 35 years it would be \$100 times 1.0235, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 ```
-```{solution} Interest Example
-:label: ex:expgrowth:interest
+```{solution} ex:expgrowth:interest
+:label: soln:expgrowth:interest
 Table 1.2: Interest example (2% rate).
 
 | year | b^n    | dollars |
