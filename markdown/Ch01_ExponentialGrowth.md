@@ -49,7 +49,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:
 :align: center
 :width: 100%
 :alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
-The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
+The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
 ```
 
 Now let's imagine another illustrative scenario in connection with our jar of bacteria. The time is 11:30 PM: one-half hour before the end. The jar is one-eighth full. A thoughtful member of the culture projects the future and decides that more uninhabited resource-laden jars must be discovered in short order if the culture is to continue its trajectory. Imagine for a second the disbelief expressed by probably the vast majority of other inhabitants: the jar is far from full, and has served for 141 generationsâa seeming eternity. Nonetheless, this explorer returns reporting three other equal-sized food-filled jars within easy reach. A hero's welcome! How much longer will the culture be able to continue growing? What's your answer?
@@ -80,14 +80,19 @@ where *M* represents the multiplicative scale, *t* is the elapsed time, and *t2*
 
 ```{exercise} Interest Example
 :label: ex:expgrowth:interest
-The same process happens in a bank account accumulating interest. Letâs consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, youâll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times 1.023. Having sussed out the pattern, after 35 years it would be \$100 times 1.0235, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
+A bank account accumulates interest in the same way. Consider an account that you deposit \$100, and the account accrues interest at2\% annually. If no other money is added to the account, what is the balance after
+* 1 year?
+* 2 years?
+* 3 years?
+* 35 years?
 ```
 ```{solution} ex:expgrowth:interest
 :label: soln:expgrowth:interest
-Table 1.2: Interest example (2% rate).
+
+The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 
 | year | b^n    | dollars |
-| ---- | ------ | ------- |
+| ---: | ----: | :------: |
 | 0    | 1.00   | $100.00 |
 | 1    | 1.02   | $102.00 |
 | 2    | 1.0404 | $104.04 |
