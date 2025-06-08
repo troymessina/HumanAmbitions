@@ -91,7 +91,7 @@ A bank account accumulates interest in the same way as described above. Consider
 ```
 ```{solution} ex:expgrowth:interest
 :label: soln:expgrowth:interest
-
+:class: dropdown
 The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 
 | year | b^n    | dollars |
@@ -123,7 +123,10 @@ $$
 
 where we started with Eq. {eq}`eq:expgrowth:doubling`, re-expressed the number $2$, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one. By employing such tricks, we could cast any base to a power, like $b^x$ as some exponential function $e^{x \ln~b}$, and thus can transform any âpowerâ relationship into an exponential using base $e\approx 2.7183$. Casting Eq. {eq}`eq:expgrowth:baseton` in this form:
 
-$$M = b^n = e^{n \ln b}.$$
+$$
+\label{eq:expgrowth:Mbn}
+M = b^n = e^{n \ln b}.
+$$
 
 If we want to go backwards, and compute the time to reach a certain $M$ factor, we can take the natural logarithm of both sides to learn that
 
@@ -177,11 +180,11 @@ n &= 102~{\rm years}
 $$
 ```
 
-The rule of 70 can be recovered[^7] by setting the multiplicative factor, $M$, to 2. Comparing to interest accumulation described by (1 + *p*)^*t*, where *p* is the annual interest (0.02 for 2%, e.g.) and *t* is the number of years, Eq. 1.4 can be re-expressed by substituting *b* = 1 + *p* and *n* = *t* as the number of years, then equating the result to the doubling time representation in Eq. 1.3 to form
+The rule of 70 can be recovered[^7] by setting the multiplicative factor, $M$, to 2. Comparing to interest accumulation described by $(1 + p)^t$, where $p$ is the annual interest (0.02 for 2%, e.g.) and $t$ is the number of years, Eq. {eq}`eq:expgrowth:Mbn` can be re-expressed by substituting $b = 1 + p$ and $n = t$ as the number of years, then equating the result to the doubling time representation in Eq. {eq}`eq:expgrowth:doubling` to form
 
 $$M = e^{t \ln(1+p)} = e^{t \ln 2/t_2}.$$ (1.6)
 
-From this expression, we can gather that ln(1 + *p*) = ln 2/*t*~2~ by equating the exponents, and then see that the doubling time, *t*~2~, can be solved as
+From this expression, we can gather that $\ln(1 + p) = \ln 2/t_2$ by equating the exponents, and then see that the doubling time, $t_2$, can be solved as
 
 $$t_2 = \ln 2/\ln(1+ p).$$ (1.7)
 
@@ -189,7 +192,7 @@ For small values of *p* (much smaller than 1), the natural log of 1 + *p* is app
 
 Example 1.1.2 To tie some things together, letâs look at a quantitative case that can be used to validate how various pieces relate to each other. We will describe a 5% annual growth rate.
 
-The rule of 70 (Definition 1.1.1) indicates a 14 year doubling time, so that we could define *t*~2~ appearing in Eqs. 1.1, 1.3, 1.6, and 1.7 to be 14 years. Calculating exactly using Eq. 1.7 yields 14.2 years.
+The rule of 70 indicates a 14 year doubling time, so that we could define *t*~2~ appearing in Eqs. 1.1, 1.3, 1.6, and 1.7 to be 14 years. Calculating exactly using Eq. 1.7 yields 14.2 years.
 
 To evaluate growth in 10 years, we could use Eq. 1.1 with *t* = 10 and *t*~2~ = 14.2 to suggest *M* = 1.63, meaning a 63% increase in size (1.63 times as large as at the start). Or we could apply Eq. 1.2 using *b* = 1.05 and *n* = 10 to get the exact same result. Note that we have freedom to define the base as 1.05 or 2, and the corresponding number of steps (*n*) as 10 or *t*/*t*~2~ = 0.704, respectively, and get the same answer. In terms of the exponential form in Eq. 1.4, either pair of *b* and *n* produces e^0.488^.
 
