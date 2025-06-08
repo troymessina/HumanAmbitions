@@ -1,24 +1,19 @@
-# 1 Exponential Growth
+---
+title: Chapter 1 - Exponential Growth
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
+(chap:expgrowth)=
+# Exponential Growth
 
 Humans have amazing strengths, but also significant weaknesses. Chief among them, perhaps, is our collective difficulty in grasping the mathematical consequences of exponential growth.[^1] This is an ironic state, given that our economic and political goals are often geared explicitly to support continued growth. The degree to which an expectation and desire for continued growth is woven into our society makes it important to examine the phenomenon carefully, so that we might avoid building upon a shaky foundation. In this chapter, we explore the general nature of exponential growth, in order to understand the impossibility of its long-term continuance by way of exposing various absurd consequences that uninterrupted growth prescribes. The upshot[^2] is that our societal framework eventually must face a mandatory departure from the current model-a piece of knowledge we should all lodge into the backs of our minds. Subsequent chapters will address applications to economic and population growth-including more realistic logistic growth curves, then pivot toward nailing down limits imposed by our finite planet.
 
-1.1 Bacteria in a Jar . . . . . . . . . 2
-
-Exponential Math . . . . . . . . . 4
-
-1.2 Energy Extrapolation . . . . . . 7
-
-1.3 Thermodynamic Absurdity . . 10
-
-1.4 Upshot: Limits to Growth . . 13
-
-1.5 Problems . . . . . . . . . . . . . 13
-
-1.1 Bacteria in a Jar
-
 One hallmark of exponential growth is that the time it takes to double in size, or the doubling time, is constant. An important and convenient concept we will repeatedly use in this chapter is the rule of 70:
 
-**Definition 1.1.1 Rule of 70:** The doubling time associated with a percentage growth rate is just 70 divided by the percentage rate. A 1% growth rate doubles in 70 years, while a 2% rate doubles in 35 years, and a 10% rate doubles in 7 years. It also works for other timescales: if pandemic cases are increasing at a rate of 3.5% per day, the doubling time is 20 days.
+```{hint} Definition: Rule of 70
+The doubling time associated with a percentage growth rate is just 70 divided by the percentage rate. A 1% growth rate doubles in 70 years, while a 2% rate doubles in 35 years, and a 10% rate doubles in 7 years. It also works for other timescales: if pandemic cases are increasing at a rate of 3.5% per day, the doubling time is 20 days.
+```
 
 [^1]: ... a nod to Al Bartlett, who worked to raise awareness about exponential growth
 
@@ -26,15 +21,7 @@ One hallmark of exponential growth is that the time it takes to double in size, 
 
 Note that any growth, however slow, can be characterized by a doubling time, even if the process does not involve discrete steps of doubling.
 
-NGC 253 photo credit: Dylan O'Donnell.
-
-Â© 2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 2
-
-We will see how the rule of 70 arises mathematically later in this chapter. But first, it is more important to understand the *consequences*. To make the math simple, let's say that a town's size doubles every 10 years (which by the rule of 70 corresponds to a 7% growth rate, incidentally). Starting in the year 1900 at 100 residents, we expect town population to be 200 in 1910, 400 in 1920, 800 in 1930, eventually climbing to over 100,000 by the year 2000 (see Table 1.1). Unabated 7% growth would result in the town reaching the current world population just 260 years after the experiment began.
+We will see how the rule of 70 arises mathematically later in this chapter. But first, it is more important to understand the *consequences*. To make the math simple, let's say that a town's size doubles every 10 years (which by the rule of 70 corresponds to a 7% growth rate, incidentally). Starting in the year 1900 at 100 residents, we expect town population to be 200 in 1910, 400 in 1920, 800 in 1930, eventually climbing to over 100,000 by the year 2000 (see [](#table:expgrowth:popgrowth)). Unabated 7% growth would result in the town reaching the current world population just 260 years after the experiment began.
 
 But let's explore an example that often reveals our faulty intuition around exponential growth. Here, we imagine a jar rich in resources, seeded with just the right number of bacteria so that if each bacterium splits every 10 minutes, the jar will become full of bacteria in exactly 24 hours. The experiment starts right at midnight. The question is: at what time will the jar be half full?
 
@@ -42,6 +29,9 @@ Think about this on your own for a minute. Normal intuition might suggest a half
 
 The answer is one doubling-time before midnight, or 11:50 PM. Figure 1.1 illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.7% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
 
+```{table} Example 7% growth progression.
+:label: table:expgrowth:popgrowth
+:align: center
 | Year | Population |
 | ---- | ---------- |
 | 1900 | 100        |
@@ -51,22 +41,18 @@ The answer is one doubling-time before midnight, or 11:50 PM. Figure 1.1 illustr
 | 1940 | 1,600      |
 | :    | :          |
 | 2000 | 102,400    |
-
-Table 1.1: Example 7% growth progression.
+```
 
 10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20â30 minutes may be more realistic. We will also ignore deaths for this âtoyâ example, although the net effect only changes the rate and not the overall behavior.
-
-> [Figure 1.1: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green âbarsâ makes an exponential curve.]
+```{figure} ../figures/Ch01_ExponentialGrowth/BacteriaJar.jpg
+:label: fig:expgrowth:bacteriajar
+:align: center
+:width: 100%
+:alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
+The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
+```
 
 Now let's imagine another illustrative scenario in connection with our jar of bacteria. The time is 11:30 PM: one-half hour before the end. The jar is one-eighth full. A thoughtful member of the culture projects the future and decides that more uninhabited resource-laden jars must be discovered in short order if the culture is to continue its trajectory. Imagine for a second the disbelief expressed by probably the vast majority of other inhabitants: the jar is far from full, and has served for 141 generationsâa seeming eternity. Nonetheless, this explorer returns reporting three other equal-sized food-filled jars within easy reach. A hero's welcome! How much longer will the culture be able to continue growing? What's your answer?
-
-Â© 2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 3
-
-# 1 Exponential Growth
 
 The population doubles every ten minutes. If the original jar is filled at 12:00, the population doubles to fill the second jar by 12:10. Another doubling fills all four by 12:20. The celebration is short-lived.
 
@@ -74,7 +60,7 @@ Now we draw the inevitable parallels. A planet that has served us for countless 
 
 In relation to the bacteria parable, we've already done a fair bit of exploring. We have no more jars. One planet rhymes with jars, but it is hostile to human life, has no food, and is not within easy reach. We have no meaningful outlet.[^4] And even if we ignore the practical hardships, how much time would a second planet buy us anyway for uninterrupted growth? Another 35 years?
 
-### 1.1.1 Exponential Math
+## Exponential Math
 
 Box 1.1: Advice on Reading Math
 
