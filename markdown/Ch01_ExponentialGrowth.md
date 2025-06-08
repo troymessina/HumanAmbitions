@@ -83,7 +83,7 @@ For instance, doubling has $M = 2$, tripling has $M = 3$, and increasing by 29% 
 
 ```{exercise} Interest Example
 :label: ex:expgrowth:interest
-A bank account accumulates interest in the same way as described above. Consider an account that you deposit \$100, and the account accrues interest at2\% annually. If no other money is added to the account, what is the balance after
+A bank account accumulates interest in the same way as described above. Consider an account that you deposit \$100, and the account accrues interest at 2\% annually. If no other money is added to the account, what is the balance after
 * 1 year?
 * 2 years?
 * 3 years?
@@ -137,16 +137,45 @@ so that the number of applications of base, $b$, needed to achieve multiplicativ
 
 [^6]: By trick, we do not mean to imply anything devious or untoward: just a cute manipulation that can bring additional insight or make something easier.
 
-> Try it on a calculator for several examples of *b* that you concoct (make it real for yourself!).
-
-```{exercise}
-:label: ex:expgrowth:
-As an example, think of (53)4 as (5 Ã 5 Ã 5)4 = (5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã 5 Ã 5), which is just 12 fives multiplied, or 512. So we effectively just multiplied the two exponentsâ3 and 4âto get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
+```{exercise} Try It!
+:label: ex:expgrowth:tryb
+Try it on a calculator for several examples of $b$ that you concoct (make it real for yourself!).
+```
+```{solution} ex:expgrowth:tryb
+:label: soln:expgrowth:tryb
+:class: dropdown
+If I choose $b=5$ and plug $e^{\ln~5}, I get $5$.
 ```
 
+```{exercise} Powers of Powers
+:label: ex:expgrowth:powerpower
+Consider 
+$$\left 5^3\right^4$$
+* Write this as a sequence of multiplications of $5$.
+* How many fives are you multiplying? Write this as a single five with an exponent.
+* Use a calculator to compare the two values above.
+As an example, think of ($\5^{3^4} as (5 Ã 5 Ã 5)4 = (5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã 5 Ã 5), which is just 12 fives multiplied, or 512. 
+```
+```{solution} ex:expgrowth:powerpower
+:label: soln:expgrowth:powerpower
+:class: dropdown
+* We get four multiplications of $5\times 5\times 5$.
+$$\left 5^3\right^4=\left(5\times 5\times 5\right)\cdot\left(5\times 5\times 5\right)\cdot\left(5\times 5\times 5\right)\cdot\left(5\times 5\times 5\right)= $$
 
+* This is twelve multiplications of five or $5^{12}$. 
+* The result of both is $244 140 625$.
 
-Example 1.1.1 The time it would take to increase by a factor of 1,000 (M = 1000) at a rate of 1.07 (annual growth rate of 7%; b = 1.07) is n = ln M/ln 1.07 = 102 years.
+So we effectively just multiplied the two exponents 3 and 4 to get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
+```
+
+```{tip}
+The time it would take to increase by a factor of $1 000$ ($M = 1000$) at a rate of $1.07$ (annual growth rate of $7\%$; $b = 1.07$) is 
+
+$$n &= \frac{\ln M}{\ln b}\\
+n &= \frac{\ln 1000}{\ln 1.07}\\
+n &= \frac{6.908}{0.068}\\
+n &= 102~{\rm years}
+```
 
 The rule of 70 can be recovered[^7] by setting the multiplicative factor, *M*, to 2. Comparing to interest accumulation described by (1 + *p*)^*t*, where *p* is the annual interest (0.02 for 2%, e.g.) and *t* is the number of years, Eq. 1.4 can be re-expressed by substituting *b* = 1 + *p* and *n* = *t* as the number of years, then equating the result to the doubling time representation in Eq. 1.3 to form
 
