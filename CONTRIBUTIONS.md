@@ -1,5 +1,5 @@
 
-# Contributing to Electronics Lab
+# Contributing to Human Ambitions
 
 Thank you for your interest in contributing to our physics laboratory textbook! This guide will help you understand our contribution process and standards.
 
@@ -60,8 +60,8 @@ By contributing to this project, you agree that your contributions will be licen
 We recommend setting up a local development environment:
 
 1. Install [mystmd](https://mystmd.org/guide/quickstart-installation)
-2. Clone the repository: `git clone https://github.com/troymessina/ElectronicsLab.git
-3. Navigate to the project directory: `cd ElectronicsLab`
+2. Clone the repository: `git clone https://github.com/troymessina/HumanAmbitions.git
+3. Navigate to the project directory: `cd HumanAmbitions`
 4. Build the project locally: `myst build`
 5. Preview the site: `myst start`
 
