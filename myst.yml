@@ -10,14 +10,14 @@ project:
         - file: ./markdown/Ch03.md
         - file: ./markdown/Ch04.md
     -title: Part II - Energy and Fossil Fuels
-      children:
+     children:
         - file: ./markdown/Ch05.md
         - file: ./markdown/Ch06.md
         - file: ./markdown/Ch07.md
         - file: ./markdown/Ch08.md
         - file: ./markdown/Ch09.md
     -title: Part III - Alternative Energy
-      children:
+     children:
         - file: ./markdown/Ch10.md
     -title: Part IV - Going Forward
     - title: Appendices
