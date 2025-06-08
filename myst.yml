@@ -2,15 +2,15 @@
 version: 1
 project:
   toc:
-    - file: ./chapters/00preface.md
-    - title: Experiments
+    - file: ./markdown/00preface.md
+    - title: Part I
       children:
         - file: ./markdown/Ch01_ExponentialGrowth.md
     - title: Appendices
       children:
-
+        - file: ./markdown/App01_MathEquations.md
   id: 
-  title: Energy and Human Ambitions on a Finite Planet: Assessing and Adapting to Planetary Limits
+  title: Energy and Human Ambitions on a Finite Planet - Assessing and Adapting to Planetary Limits
   github: https://github.com/troymessina/HumanAmbitions
   license:
     content: CC-BY-NC-4.0
