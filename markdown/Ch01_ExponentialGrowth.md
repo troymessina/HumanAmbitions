@@ -44,7 +44,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:
 ```
 
 10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20â30 minutes may be more realistic. We will also ignore deaths for this âtoyâ example, although the net effect only changes the rate and not the overall behavior.
-```{figure} ../figures/Ch01_ExponentialGrowth/BacteriaJar.jpg
+```{figure} ../figures/Ch01_ExponentialGrowth/BacteriaJar.svg
 :label: fig:expgrowth:bacteriajar
 :align: center
 :width: 100%
@@ -70,22 +70,34 @@ The essential feature of exponential growth is that the scale goes as the power 
 
 $$M = 2^n = 2^{t/t_2},$$
 
-(1.1)
-
 [^3]: If we're at 1/8 right now and double every 35 years, we will be at 1/4 in 35 years, 1/2 in 70 years, and full in 105 years.
 
 [^4]: Chapter 4 addresses space realities.
 
 [^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaningâso electing to use *x, n, t, b, M*, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the structure of the equation/sentence.
 
-
--------------------------------------------------------------------------------- Page 4
-
 where *M* represents the multiplicative scale, *t* is the elapsed time, and *t2* is the symbol we choose to represent the doubling timeâso that *n* = *t*/*t2* is just âcountingâ the number of doubling times.
 
-### Box 1.2: Interest Example
-
+```{exercise} Interest Example
+:label: ex:expgrowth:interest
 The same process happens in a bank account accumulating interest. Letâs consider that you deposit $100 into a bank account bearing 2% annual interest. At the end of one year, youâll have $102, which is 1.02 times the original amount. For the next year, itâs 1.02 times $102, or $104.04, which is the original $100 times 1.02 Ã 1.02. Then in three years it will be $106.18, or $100 times 1.023. Having sussed out the pattern, after 35 years it would be $100 times 1.0235, which happens to come to $199.99. Notice that doubling in 35 years at 2% exactly obeys the rule of 70. Table 1.2 summarizes this example.
+```
+```{solution} Interest Example
+:label: ex:expgrowth:interest
+Table 1.2: Interest example (2% rate).
+
+| year | b^n    | dollars |
+| ---- | ------ | ------- |
+| 0    | 1.00   | $100.00 |
+| 1    | 1.02   | $102.00 |
+| 2    | 1.0404 | $104.04 |
+| 3    | 1.0612 | $106.12 |
+| :    | :      | :       |
+| 10   | 1.2190 | $121.90 |
+| :    | :      | :       |
+| :    | :      | :       |
+| 35   | 1.9999 | $199.99 |
+```
 
 The patternâwhether doubling, or applying interest as in Box 1.2âis that we multiply a chain of the same number, the base, over and over. This is the same as raising the base to some powerâthe power equaling how many times the base appears in the chain to get our overall factor. Therefore, if we designate the base as *b* and the number of times it appears as *n*, we have
 
@@ -111,19 +123,7 @@ so that the number of applications of base, *b*, needed to achieve multi- plicat
 
 For instance, doubling has *M* = 2, tripling has *M* = 3, and increasing by 29% would mean *M* = 1.29.
 
-Table 1.2: Interest example (2% rate).
 
-| year | b^n    | dollars |
-| ---- | ------ | ------- |
-| 0    | 1.00   | $100.00 |
-| 1    | 1.02   | $102.00 |
-| 2    | 1.0404 | $104.04 |
-| 3    | 1.0612 | $106.12 |
-| :    | :      | :       |
-| 10   | 1.2190 | $121.90 |
-| :    | :      | :       |
-| :    | :      | :       |
-| 35   | 1.9999 | $199.99 |
 
 ---
 
