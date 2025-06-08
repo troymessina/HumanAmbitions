@@ -64,10 +64,10 @@ In relation to the bacteria parable, we've already done a fair bit of exploring.
 
 ```{hint} Advice on Reading Math
 
-This section is among the most mathematically sophisticated in the book. Don't let it intimidate you: just calmly take it in. Realize that exponential growth obeys an unchanging set of rules, and can be covered in just a few pages. Your brain can absorb it all if you give it a chance. Read paragraphs multiple times and find that each pass can add to your comprehension. Equations are just shorthand sentences[^5] capturing the essence of the concepts being covered, so rather than reading them as algorithms to file and use later when solving problems, work to comprehend the meaning behind each one and its reason for being a part of the development. In this way, what follows is not a disorganized jumble, recklessly bouncing between math and words, but one continuous development of thought expressed in two languages at once. The Preface offers additional thoughts related to this theme, and [](#app:matheq) provides a math refresher.
+This section is among the most mathematically sophisticated in the book. Don't let it intimidate you: just calmly take it in. Realize that exponential growth obeys an unchanging set of rules, and can be covered in just a few pages. Your brain can absorb it all if you give it a chance. Read paragraphs multiple times and find that each pass can add to your comprehension. Equations are just shorthand sentences[^5] capturing the essence of the concepts being covered, so rather than reading them as algorithms to file and use later when solving problems, work to comprehend the meaning behind each one and its reason for being a part of the development. In this way, what follows is not a disorganized jumble, recklessly bouncing between math and words, but one continuous development of thought expressed in two languages at once. The Preface offers additional thoughts related to this theme, and the appendix [](#app:matheq) provides a math refresher.
 ```
 
-The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
+The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
 
 $$M = 2^n = 2^{t/t_2},$$
 
@@ -79,9 +79,11 @@ $$M = 2^n = 2^{t/t_2},$$
 
 where $M$ represents the multiplicative scale, $t$ is the elapsed time, and $t_2$ is the symbol we choose to represent the doubling time - so that $n = t/t_2$ is just "counting" the number of doubling times.
 
+For instance, doubling has $M = 2$, tripling has $M = 3$, and increasing by 29% would mean $M = 1.29$.
+
 ```{exercise} Interest Example
 :label: ex:expgrowth:interest
-A bank account accumulates interest in the same way. Consider an account that you deposit \$100, and the account accrues interest at2\% annually. If no other money is added to the account, what is the balance after
+A bank account accumulates interest in the same way as described above. Consider an account that you deposit \$100, and the account accrues interest at2\% annually. If no other money is added to the account, what is the balance after
 * 1 year?
 * 2 years?
 * 3 years?
@@ -90,7 +92,7 @@ A bank account accumulates interest in the same way. Consider an account that yo
 ```{solution} ex:expgrowth:interest
 :label: soln:expgrowth:interest
 
-The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
+The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 
 | year | b^n    | dollars |
 | ---: | ----: | :------: |
@@ -105,50 +107,44 @@ The same multiplicative process happens in a bank account accumulating interest.
 | 35   | 1.9999 | $199.99 |
 ```
 
-The patternâwhether doubling, or applying interest as in Box 1.2âis that we multiply a chain of the same number, the base, over and over. This is the same as raising the base to some powerâthe power equaling how many times the base appears in the chain to get our overall factor. Therefore, if we designate the base as *b* and the number of times it appears as *n*, we have
+The pattern whether doubling, or applying interest as in [](#ex:expgrowth:interest) is that we multiply a chain of the same number, the base, over and over. This is the same as raising the base to some power - the power equaling how many times the base appears in the chain to get our overall factor. Therefore, if we designate the base as $b$ and the number of times it appears as $n$, we have
 
-$$M = b^n.$$  (1.2)
+$$
+\label{eq:expgrowth:baseton}
+M = b^n.
+$$
 
-Now weâre going to play a math trick that will help us compute various useful attributes of growth. The exponential and natural logarithm are inverse functions, each undoing the other. So ln (*ex*) = *x* and *elnx* = *x*. We can use this trick to express the number 2 as *eln* 2, or any base number *b* = *eln b*. For the special case of *b* = 2 (doubling), we then have:
+Now we are going to play a math trick[^6] that will help us compute various useful attributes of growth. The exponential and natural logarithm are inverse functions, each undoing the other. So $\ln (e^x) = x$ and $e^{\ln~x} = x$. We can use this trick to express the number $2$ as $e^{\ln~2}$, or any base number $b = e^{\ln~b}$. For the special case of $b = 2$ (doubling), we then have:
 
-$$M = 2^{t/t_2} = (e^{\ln 2})^{t/t_2} = e^{t \ln 2/t_2},$$ (1.3)
+$$
+\label{eq:expgrowth:doubling}
+M = 2^{t/t_2} = (e^{\ln 2})^{t/t_2} = e^{t \ln 2/t_2},
+$$
 
-where we started with Eq. 1.1, re-expressed the number 2, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one.6 By employing such tricks, we could cast any base to a power, like *bx* as some exponential function *ex* ln *b*, and thus can transform any âpowerâ relationship into an exponential using base *e* â 2.7183. Casting Eq. 1.2 in this form:
+where we started with Eq. {eq}`eq:expgrowth:doubling`, re-expressed the number $2$, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one. By employing such tricks, we could cast any base to a power, like $b^x$ as some exponential function $e^{x \ln~b}$, and thus can transform any âpowerâ relationship into an exponential using base $e\approx 2.7183$. Casting Eq. {eq}`eq:expgrowth:baseton` in this form:
 
-$$M = b^n = e^{n \ln b}.$$ (1.4)
+$$M = b^n = e^{n \ln b}.$$
 
-If we want to go backwards, and compute the time to reach a certain *M* factor, we can take the natural logarithm of both sides to learn that
+If we want to go backwards, and compute the time to reach a certain $M$ factor, we can take the natural logarithm of both sides to learn that
 
-$$\ln M = n \ln b,$$ (1.5)
+$$
+\label{eq:expgrowth:logM}
+\ln M = n \ln b,
+$$
 
-so that the number of applications of base, *b*, needed to achieve multi- plicative factor *M* is found by solving the equation above for *n*, in which
-
----
-
-# 1 Exponential Growth 5
-
-For instance, doubling has *M* = 2, tripling has *M* = 3, and increasing by 29% would mean *M* = 1.29.
+so that the number of applications of base, $b$, needed to achieve multiplicative factor $M$ is found by solving Eq. {eq}`eq:expgrowth:logM` for $n$, in which case we get: $n = \ln M/\ln b$.
 
 
-
----
-
-By âtrick,â we do not mean to imply anything devious or untoward: just a cute manipulation that can bring additional insight or make something easier.
+[^6]: By trick, we do not mean to imply anything devious or untoward: just a cute manipulation that can bring additional insight or make something easier.
 
 > Try it on a calculator for several examples of *b* that you concoct (make it real for yourself!).
 
-6: As an example, think of (53)4 as (5 Ã 5 Ã 5)4 = (5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã 5 Ã 5), which is just 12 fives multiplied, or 512. So we effectively just multiplied the two exponentsâ3 and 4âto get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
+```{exercise}
+:label: ex:expgrowth:
+As an example, think of (53)4 as (5 Ã 5 Ã 5)4 = (5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã5Ã5)Ã(5Ã 5 Ã 5), which is just 12 fives multiplied, or 512. So we effectively just multiplied the two exponentsâ3 and 4âto get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
+```
 
----
 
-Â© 2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.; Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 5
-
-# 1 Exponential Growth | 6
-
-case we get: n = ln M/lnb.
 
 Example 1.1.1 The time it would take to increase by a factor of 1,000 (M = 1000) at a rate of 1.07 (annual growth rate of 7%; b = 1.07) is n = ln M/ln 1.07 = 102 years.
 
