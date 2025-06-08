@@ -6,6 +6,20 @@ project:
     - title: Part I - Setting the Stage - Growth and Limitations
       children:
         - file: ./markdown/Ch01_ExponentialGrowth.md
+        - file: ./markdown/Ch02_EconomicGrowth.md
+        - file: ./markdown/Ch03.md
+        - file: ./markdown/Ch04.md
+    -title: Part II - Energy and Fossil Fuels
+      children:
+        - file: ./markdown/Ch05.md
+        - file: ./markdown/Ch06.md
+        - file: ./markdown/Ch07.md
+        - file: ./markdown/Ch08.md
+        - file: ./markdown/Ch09.md
+    -title: Part III - Alternative Energy
+      children:
+        - file: ./markdown/Ch10.md
+    -title: Part IV - Going Forward
     - title: Appendices
       children:
         - file: ./markdown/App01_MathEquations.md

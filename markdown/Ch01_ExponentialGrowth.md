@@ -67,7 +67,7 @@ In relation to the bacteria parable, we've already done a fair bit of exploring.
 This section is among the most mathematically sophisticated in the book. Don't let it intimidate you: just calmly take it in. Realize that exponential growth obeys an unchanging set of rules, and can be covered in just a few pages. Your brain can absorb it all if you give it a chance. Read paragraphs multiple times and find that each pass can add to your comprehension. Equations are just shorthand sentences[^5] capturing the essence of the concepts being covered, so rather than reading them as algorithms to file and use later when solving problems, work to comprehend the meaning behind each one and its reason for being a part of the development. In this way, what follows is not a disorganized jumble, recklessly bouncing between math and words, but one continuous development of thought expressed in two languages at once. The Preface offers additional thoughts related to this theme, and the appendix [](#app:matheq) provides a math refresher.
 ```
 
-The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
+The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1Ã the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
 
 $$M = 2^n = 2^{t/t_2},$$
 
@@ -77,7 +77,7 @@ $$M = 2^n = 2^{t/t_2},$$
 
 [^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaning, so electing to use $x, n, t, b, M$, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the structure of the equation/sentence.
 
-where $M$ represents the multiplicative scale, $t$ is the elapsed time, and $t_2$ is the symbol we choose to represent the doubling time - so that $n = t/t_2$ is just "counting" the number of doubling times.
+where $M$ represents the multiplicative scale, $t$ is the elapsed time, and $t_2$ is the symbol we choose to represent the doubling time - so that $n = t/t_2$ is just "counting" the number of doubling times.
 
 For instance, doubling has $M = 2$, tripling has $M = 3$, and increasing by 29% would mean $M = 1.29$.
 
@@ -121,7 +121,7 @@ $$
 M = 2^{t/t_2} = (e^{\ln 2})^{t/t_2} = e^{t \ln 2/t_2},
 $$
 
-where we started with Eq. {eq}`eq:expgrowth:doubling`, re-expressed the number $2$, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one. By employing such tricks, we could cast any base to a power, like $b^x$ as some exponential function $e^{x \ln~b}$, and thus can transform any âpowerâ relationship into an exponential using base $e\approx 2.7183$. Casting Eq. {eq}`eq:expgrowth:baseton` in this form:
+where we started with Eq. {eq}`eq:expgrowth:doubling`, re-expressed the number $2$, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one. By employing such tricks, we could cast any base to a power, like $b^x$ as some exponential function $e^{x \ln~b}$, and thus can transform any "power" relationship into an exponential using base $e\approx 2.7183$. Casting Eq. {eq}`eq:expgrowth:baseton` in this form:
 
 $$
 \label{eq:expgrowth:Mbn}
@@ -210,16 +210,10 @@ Don't view this as a recipe for solving prob- lems, but as a way to romp through
 
 More generally, we are not confined to any particular base, *b*, having just seized upon two convenient and relevant possibil- ities. If we wanted *b* = 10, we would have *n* = 0.211, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multi- plication, so that 47.4 years at 5% growth results in a factor of 10 growth.
 
-Â©2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 6
-
 We can check the result using Eq. 1.6 by putting in t = 22.5 and
 p = 0.05 or t2 = 14.2 in the latter form.
 
-## 1.2 Exponential Energy Extrapolation
+## Exponential Energy Extrapolation
 
 Having established some basic principles of exponential growth, it's time
 for a first look at how we can use the math to argue about limits to our
@@ -236,57 +230,38 @@ Even countries far behind are growing en-
 ergy use often faster than the 3% charac-
 teristic of U.S. history.
 
-![Chart of Energy Production Rate (TW) vs year]
+```{figure} ../figures/Ch01_ExponentialGrowth/EnergyProduction.png
+:label: fig:expgrowth:energyproduction
+:align: center
+:width: 100%
+:alt: U.S. energy over almost 400 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit.
+U.S. energy over almost 400 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit.
+```
 
-Note that the energy rate at the left edge of Figure 1.2 becomes almost
-invisibly small. Presenting the data on a logarithmic plot, as in Figure
-1.3, we can better see the entire trajectory. On such a plot, exponentials
-become straight lines. The trend is remarkably consistent with an expo-
-nential (red line) for most of the history, at a rate just shy of 3% per year.
-Note that this total effect includes population growth, but population
-has not grown as fast as energy, so that per-capita energy has also risen.
-This makes sense: our lives today are vastly more energetically rich than
-lives of yesteryear, on a per-person basis.
+Note that the energy rate at the left edge of [](#fig:expgrowth:energyproduction) becomes almost invisibly small. Presenting the data on a logarithmic plot, as in [](#fig:expgrowth:energyproductionlog), we can better see the entire trajectory. On such a plot, exponentials
+become straight lines. The trend is remarkably consistent with an exponential (red line) for most of the history, at a rate of about 2% per year. Note that this total effect includes population growth, but population has not grown as fast as energy, so that per-capita energy has also risen. This makes sense: our lives today are vastly more energetically rich than lives of yesteryear, on a per-person basis.
 
-Having established that energy growth over the past several centuries
-is well-described by an exponential, we can explore the implications of
-continuing this trend forward. Starting at a present-day global energy
-production rate of 18Ã1012 Watts (18 TW), we adopt a convenient growth
-rate of 2.3% per year for this exercise. We pick this for two reasons: 1) it
-is more modest than the historical trend, so will not over-exaggerate the
+The astute reader might note a departure from the exponential fit in recent years. This only reinforces the primary point of this
+chapter that sustaining exponential growth indefinitely is absurd and will not happen. If growth is destined to stop, perhaps we
+are beginning to experience its limits well before the theoretical timescales developed in this chapter.
 
-> Figure 1.2: U.S. energy over 200 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit tuned to cover the broader period shown in Figure 1.3.
-
-The astute reader might note a departure
-from the exponential fit in recent years. This
-only reinforces the primary point of this
-chapter that sustaining exponential growth
-indefinitely is absurd and will not happen.
-If growth is destined to stop, perhaps we
-are beginning to experience its limits well
-before the theoretical timescales developed
-in this chapter.
-
-Watts is a unit of power, which is a rate of
-energy. Chapter 5 will cover the concept
-and units more thoroughly.
-
-
--------------------------------------------------------------------------------- Page 7
-
-Energy Production Rate (Watts)
-
-# 1 Exponential Growth | 8
-
-![Figure of Energy trajectory in the U.S. over a long period]
-
-Figure 1.3: Energy trajectory in the U.S. over
-a long period. The red line is an exponential
-at a 2.9% growth rate, which appears linear
+Having established that energy growth over the past several is well-described by an exponential, we can explore the implications of
+continuing this trend forward. Present-day global energy production rate is approximately $18\times 10^{12}$ Watts (18 TW). Watts is a unit of power, which is a rate of energy. [](#chap:energyandpower) will cover the units more thoroughly. We adopt a convenient growth rate of 2.3% per year for this exercise. We pick this for two reasons: 
+1. It is in agreement with the historical trend, so will not over-exaggerate the
+2. This rate produces the mathematical convenience of a factor of 10 increase every century.[^8]
+```{figure} ../figures/Ch01_ExponentialGrowth/EnergyProductionLog.png
+:label: fig:expgrowth:energyproductionlog
+:align: center
+:width: 100%
+:alt: Energy trajectory in the U.S. over almost 400 years. The red line is an exponential fit at a 2% growth rate, which appears linear
 on a logarithmic plot.
+Energy trajectory in the U.S. over almost 400 years. The red line is an exponential fit at a 2% growth rate, which appears linear
+on a logarithmic plot.
+```
 
-result; 2) this rate produces the mathematical convenience of a factor of
-10 increase every century.[^8]
+
+
+
 
 What follows is a flight of fancy that quickly becomes absurd, but we will
 chase it to staggering levels of absurdity just because it is fun, instructive,
