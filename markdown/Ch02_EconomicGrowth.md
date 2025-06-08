@@ -1,4 +1,12 @@
-# 2 Economic Growth Limits
+---
+title: Chapter 2: Economic Growth
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
+
+(chap:econgrowth)=
+# Economic Growth Limits
 
 Chapter 1 demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of *economic growth,* which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growthâwhich we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.[^1] This is how it goes.
 
