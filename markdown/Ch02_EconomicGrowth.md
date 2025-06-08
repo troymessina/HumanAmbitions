@@ -1,5 +1,5 @@
 ---
-title: Chapter 2: Economic Growth
+title: Chapter 2 - Economic Growth
 kernelspec:
   name: python3
   display_name: 'Python 3'
