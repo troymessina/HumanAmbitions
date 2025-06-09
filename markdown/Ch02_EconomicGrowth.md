@@ -8,7 +8,7 @@ kernelspec:
 (chap:econgrowth)=
 # Economic Growth Limits
 
-Chapter 1 demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of economic growth, which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growth—which we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.<sup>1</sup> This is how it goes.
+[](#chap:expgrowth) demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of economic growth, which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growth—which we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.[^1] This is how it goes.
 
 ## 2.1 Historical Coupling
 
@@ -24,13 +24,9 @@ Agriculture freed some individuals in society to think and create. The economy f
 | 2.5 Upshot: Growth Will End 27         |  |
 | 2.6 Problems 28                        |  |
 
-1: See, for instance  $[5]$ .
+[^1]: See, for instance  $[5]$.
 
-2: Life, it turns out, is a struggle against thermodynamics.
-
-Banner photo pokes fun at what physics (gravity) finds more valuable: a silver dollar (real silver) vs. a \$20 bill; Credit: Tom Murphy
-
-<sup>© 2022</sup> T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.; Freely available at: https://escholarship.org/uc/energy\_ambitions.
+[^2]: Life, it turns out, is a struggle against thermodynamics.
 
 But resources are still paramount. The United States prospered largely because it possessed a frontier rich in natural resources. Mining and animal pelts dominated early on, as well as agriculture (tobacco, cotton, corn, wheat). In the middle of the 20th century, the United States was the dominant oil exporter worldwide (first developed in Pennsylvania, then California and Texas). Escaping the World Wars largely unscathed in terms of domestic infrastructure, the country had tooled-up a massive manufacturing capability. Together with a can-do attitude, Americans set out to rack up superlatives in virtually every category. As a manufacturing powerhouse during the middle of the 20th century, American raw materials joined a well-educated workforce to drive innovation and production. It is no accident that many in the U.S. yearn to return to these "glory days;" however we cannot possibly do so, having permanently depleted some of the original stocks.
 
@@ -239,15 +235,17 @@ We therefore have a logical sequence providing a few-century timescale for an en
 
 The foregoing arguments spell out why economic growth cannot be expected to continue indefinitely—contrary to prevalent assumptions. When a mathematically-framed model delivers nonsense results-like the one we used to extrapolate energy use to absurd extremes—it does not mean the math itself is wrong, just that it has been misapplied or layered onto faulty assumptions. In this case, the breakdown indicates that the assumption of indefinite growth is untenable.
 
-The growth regime is woven deeply into our current global society. And why wouldn't it be? We've enjoyed its benefits for many generations. We celebrate the myriad advantages it has brought, and therefore align our political and economic institutions toward its robust preservation. Community planning, interest rates, investment, loans, the very role of banks, social safety net systems,<sup>21</sup> and retirement plans all hinge on the assumption of growth. $^{22}$  Shock waves of panic reverberate at signs of (even temporary) recession, given the importance of growth to our institutions. Yet the message here is that we cannot expect its unfaltering continuance—implying that many things will have to change.
+The growth regime is woven deeply into our current global society. And why wouldn't it be? We've enjoyed its benefits for many generations. We celebrate the myriad advantages it has brought, and therefore align our political and economic institutions toward its robust preservation. Community planning, interest rates, investment, loans, the very role of banks, social safety net systems,[^21] and retirement plans all hinge on the assumption of growth. [^22]  Shock waves of panic reverberate at signs of (even temporary) recession, given the importance of growth to our institutions. Yet the message here is that we cannot expect its unfaltering continuance—implying that many things will have to change.
 
 What seems like a reasonable lower limit to you? How economically insignificant can essentials be and still make sense?
 
-21: In the U.S., Social Security and Medicare are examples.
+[^21]: In the U.S., Social Security and Medicare are examples.
 
-22: Growth in both workforce and investments are essential ingredients of these schemes that pay out more than an individual's past contributions to the program. Returning to the roots of economic theory, the earliest thinkers-Adam Smith, David Ricardo, Thomas Malthus, John Stuart Mill-had foundations in natural philosophy<sup>23</sup> and saw growth as a temporary phase, ultimately limited by a prime physical resource: land. In that time, land held the key to outputs from farming, timber, mining, and game—thereby dictating economic development. What these pioneering economic thinkers did not foresee was the arrival of fossil fuels, and the technological developments that accompanied this energy explosion.
+[^22]: Growth in both workforce and investments are essential ingredients of these schemes that pay out more than an individual's past contributions to the program. 
 
-Now, we have fallen into something of a lulled complacency: having rescued ourselves so far from the end-of-growth predictions of the early economists, the temptation is to conclude that they were just wrong,  $24$ and we have outsmarted natural limits. This is dangerous thinking. In the end, nature is indifferent to how smart we imagined ourselves to be. If we were truly clever, we would start thinking about a world that does not depend on growth, and how to live compatibly within planetary limits. Chapter 19 touches on this theme, after intervening chapters paint a more complete picture of energy constraints.
+Returning to the roots of economic theory, the earliest thinkers-Adam Smith, David Ricardo, Thomas Malthus, John Stuart Mill-had foundations in natural philosophy[^23] and saw growth as a temporary phase, ultimately limited by a prime physical resource: **land**. In that time, land held the key to outputs from farming, timber, mining, and game—thereby dictating economic development. What these pioneering economic thinkers did not foresee was the arrival of fossil fuels, and the technological developments that accompanied this energy explosion.
+
+Now, we have fallen into something of a lulled complacency: having rescued ourselves so far from the end-of-growth predictions of the early economists, the temptation is to conclude that they were just wrong,[^24] and we have outsmarted natural limits. This is dangerous thinking. In the end, nature is indifferent to how smart we imagined ourselves to be. If we were truly clever, we would start thinking about a world that does not depend on growth, and how to live compatibly within planetary limits. Chapter 19 touches on this theme, after intervening chapters paint a more complete picture of energy constraints.
 
 ## 2.5 Upshot: Economic Growth Will End
 
@@ -259,17 +257,17 @@ It is worth re-iterating the recipe for an end to economic growth in summary for
 - 2. Non-physical sectors of the economy must assume responsibility for continued economic growth, if growth is to continue.
 - 3. The economy comes to be dominated by non-physical sectors.
 - 4. Physical sectors are relegated to an ever-smaller fraction of the economy, ultimately vanishing if exponential growth is to hold.
-- 5. In this scenario,<sup>25</sup> physical goods (energy among them) become arbitrarily cheap, requiring only one week's worth of earnings, then a day's worth, then an hour, a minute, a second.
+- 5. In this scenario,[^25] physical goods (energy among them) become arbitrarily cheap, requiring only one week's worth of earnings, then a day's worth, then an hour, a minute, a second.
 - 6. This situation is impossible and does not respect commonsense supply/demand notions: a finite, limited but absolutely vital resource will never become arbitrarily cheap in a market system.
 - 7. At some point, physical resources will "saturate" to a minimum fraction of the economy, at which point overall growth in nonphysical sectors must also cease.
 
-23: ... closer to modern-day physics than to modern-day economics, rooted in the natural world
+[^23]: ... closer to modern-day physics than to modern-day economics, rooted in the natural world
 
-24: The classic example is Thomas Malthus, who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that "Malthus equals wrong," leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about "the boy who cried wolf" is that a real wolf did appear.
+[^24]: The classic example is Thomas Malthus, who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that "Malthus equals wrong," leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about "the boy who cried wolf" is that a real wolf did appear.
 
 As was stated before, experts frequently read complex sections more than once to fully absorb the arguments; feel free to do so here.
 
-25: ... which, let's be clear, we're arguing is ultimately not at all viable...
+[^25]: ... which, let's be clear, we're arguing is ultimately not at all viable...
 
 Just because we can point to some completely legitimate examples of decoupled activities and many impressive substitution stories does not mean that an entire economy can be based on indefinite continuance of such things. We are physical beings in a physical world and have non-negotiable minimum requirements for life. The activities and commodities that support critical functions cannot continue to expand indefinitely, and will not become arbitrarily cheap once their expansion hits physical limits. The finite nature of our world guarantees that such limits will be asserted, committing economic growth to stall in turn. Nothing, in the end, escapes physics.
 
@@ -279,30 +277,28 @@ So, while acknowledging that growth in the past has brought uncountable benefits
 
 - 1. At a 3.5% growth (interest) rate, how much would \$1,000 invested at the time Columbus sailed to America be worth today (hint: use the rule of 70)? Put this in context (compare to richest individuals or find a similar GDP for some country).
 - 2. As an indication of how sensitive the accumulation is to interest rate, compare the result from Problem 1 to what would happen for interest rates of  $4\%$  and  $5\%$ —again putting into context.
-- 3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: Wikipedia page on Primary Energy Consumption. [13] In order to compare to Figure 2.2, multiply the number in quadrillion Btu (qBtu) by  $1.055 \times 10^{18}$  J/qBtu. Also note that a trillion is  $10^{12}$ .
-- 4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around  $10^{15}$  J.<sup>26</sup> For the financial side, assume that student payments (tuition, fees, room and board) accounts for  $40\%$  of the total budget.<sup>27</sup> Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
+- 3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: Wikipedia page on Primary Energy Consumption. [13] In order to compare to Figure 2.2, multiply the number in quadrillion Btu (qBtu) by  $1.055 \times 10^{18}$  J/qBtu. Also note that a trillion is  $10^{12}$. Look at the column for total energy consumption in units of quadrillion Btu.
+- 4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around  $10^{15}$  J.[^26] For the financial side, assume that student payments (tuition, fees, room and board) accounts for  $40\%$  of the total budget.[^27] Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
 - 5. Typical energy costs are in the neighborhood of \$0.10 per kilowatthour (kWh), and 1 kWh is 3.6 MJ (megajoules). Take the ratio of these two figures to form an economic energy intensity of energy *itself*, in units of MJ/\$.
-- 6. If a country clocks in at  $5 MJ/\$$  for its *overall* energy intensity, and its energy costs work out to an energy intensity of 30 MJ/\$,<sup>28</sup> what percentage of the economy do we infer constitutes the energy sector?
+- 6. If a country clocks in at  $5 MJ/\$$  for its *overall* energy intensity, and its energy costs work out to an energy intensity of 30 MJ/\$,[^28] what percentage of the economy do we infer constitutes the energy sector?
 
- $\overline{u}$  Retention of Chapter 1 material is assumed. The real world is not partitioned into chapters, and neither should your brain be.
 
-Look at the column for total energy consumption in units of quadrillion Btu.
 
-26: Based on a 30 MW electrical load times the number of seconds in a year; this won't account for all energy expenditures, missing transportation, for instance.
+[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won't account for all energy expenditures, missing transportation, for instance.
 
-27: Federal grants comprise most of the rest, and a small amount from state taxes
+[^27]: Federal grants comprise most of the rest, and a small amount from state taxes
 
 Don't get hung up on in-state fraction; just make a crude guess (maybe guess an average) and clearly state assumptions.
 
 The result should be larger than the typical energy intensity for all economic activities within a country, since not all monetary expenditure goes toward energy.
 
-28: In the same sense as was calculated for Problem 5
+[^28]: In the same sense as was calculated for Problem 5
 
 The answer should be well less than 100%.
 
-- 7. Come up with some of your own examples (at least three; not listed in the text) of economic activities<sup>29</sup> that have little resource footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
-- 8. If a candle has a luminous efficacy of 0.3 lm/W and a modern LED light bulb achieves  $100 \text{ lm/W}$ , by what factor<sup>30</sup> have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
-- 9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long<sup>31</sup> might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
+- 7. Come up with some of your own examples (at least three; not listed in the text) of economic activities[^29] that have little resource footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
+- 8. If a candle has a luminous efficacy of 0.3 lm/W and a modern LED light bulb achieves  $100 \text{ lm/W}$ , by what factor[^30] have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
+- 9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long[^31] might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
 - 10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior[^32]
   substitutions over time (thus three steps: original, first replacement, second replacement).
 - 11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
