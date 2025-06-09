@@ -7,7 +7,7 @@ project:
       children:
         - file: ./markdown/Ch01_ExponentialGrowth.md
         - file: ./markdown/Ch02_EconomicGrowth.md
-        - file: ./markdown/Ch03.md
+        - file: ./markdown/Ch03_Population.md
         - file: ./markdown/Ch04.md
     - title: Part II - Energy and Fossil Fuels
       children:

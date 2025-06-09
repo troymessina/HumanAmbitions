@@ -1,4 +1,12 @@
-### **Economic Growth Limits**  $\overline{2}$
+---
+title: Chapter 2 - Economic Growth Limits
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
+
+(chap:econgrowth)=
+# Economic Growth Limits
 
 Chapter 1 demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of economic growth, which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growth—which we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.<sup>1</sup> This is how it goes.
 
@@ -295,7 +303,8 @@ The answer should be well less than 100%.
 - 7. Come up with some of your own examples (at least three; not listed in the text) of economic activities<sup>29</sup> that have little resource footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
 - 8. If a candle has a luminous efficacy of 0.3 lm/W and a modern LED light bulb achieves  $100 \text{ lm/W}$ , by what factor<sup>30</sup> have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
 - 9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long<sup>31</sup> might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
-- 10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior  $32$  substitutions over time (thus three steps: original, first replacement, second replacement).
+- 10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior[^32]
+  substitutions over time (thus three steps: original, first replacement, second replacement).
 - 11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
 - 12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes?
 - 13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes?
@@ -303,14 +312,12 @@ The answer should be well less than 100%.
 - 15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resourcehogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
 - 16. Are you sold on the argument that the physics-imposed limit to resource/energy growth demands an ultimate cessation of economic growth as well? If so, highlight the persuasive elements. If not, why not?
 
-29: ... things that cost money
+[^29]: ... things that cost money
 
-30: A factor is just a multiplicative scale: e.g., 24 is a factor of 6 larger than 4.
+[^30]: A factor is just a multiplicative scale: e.g., 24 is a factor of 6 larger than 4.
 
-31: You can just estimate, use appropriate math, or refer to the guiding line in Figure 2.3 to arrive at a rough number.
+[^31]: You can just estimate, use appropriate math, or refer to the guiding line in Figure 2.3 to arrive at a rough number.
 
-32: ... perhaps defined by widespread or universal adoption or replacement.
+[^32]: ... perhaps defined by widespread or universal adoption or replacement.
 
 You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, etc. to guide your thinking.
-
-<sup>© 2022</sup> T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.; Freely available at: https://escholarship.org/uc/energy\_ambitions.
