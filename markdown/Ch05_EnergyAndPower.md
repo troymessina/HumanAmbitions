@@ -28,20 +28,6 @@ Since work is force times distance, the unit for work (and thus energy) is Newto
 
 2: Acceleration is the rate of change of velocity. Since velocity is measured in meters per second, the rate at which it changes will be meters per second per second, or  $m/s/s$ , or  $m/s<sup>2</sup>$ . Some students may know that gravitational acceleration on Earth's surface is 9.8 m/s<sup>2</sup>, which is another way to remember.
 
-| 5.1 Energy (J)                  | 68 |
-|---------------------------------|----|
-| 5.2 Energy Forms & Conservation | 69 |
-| 5.3 Power (W)                   | 71 |
-| 5.4 Kilowatt-hour (kWh)         | 72 |
-| 5.5 Calories (kcal)             | 73 |
-| 5.6 British Thermal Unit (Btu)  | 75 |
-| 5.7 Therms                      | 76 |
-| 5.8 Electrical Power            | 76 |
-| 5.9 Electron Volt (eV)          | 78 |
-| 5.10 Light Energy               | 79 |
-| 5.11 Upshot on Units            | 79 |
-| 5.12 Problems                   | 80 |
-
 Energy units from everyday life. Clockwise from upper left: a utility bill (kWh and Therms); a hot water heater label (Btu/hr); EnergyGuide for same hot water heater (Therms); U.S. nutrition label for peanut butter (Calories; should be kcal); a German nutrition label for Nutella (kJ, kcal); and rechargeable AA batteries (2200 mAh, 1.2 V).
 
 Joule (J). Thus, the application of  $1 N$  of force across a distance of  $1 m$ constitutes 1 J of work, requiring 1 J of energy to perform. Table 5.1 offers contextual examples (unit prefixes are on page 420).
