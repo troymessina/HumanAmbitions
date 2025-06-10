@@ -41,7 +41,7 @@ project:
   keywords: [Introductory Physics, Environmental Science, Energy]
   authors: [Troy Messina]
   numbering:
-    headings: false
+    headings: true
   exclude: 
 #    - figures/**
  #   - trinket/**

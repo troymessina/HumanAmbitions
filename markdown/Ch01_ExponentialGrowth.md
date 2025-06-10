@@ -1,5 +1,9 @@
 ---
 title: Chapter 1 - Exponential Growth
+numbering:
+  headings:
+  heading_1:
+    start: 2
 kernelspec:
   name: python3
   display_name: 'Python 3'
