@@ -1,11 +1,11 @@
 ---
 title: Chapter 3 - Population
+banner: ../figures/Ch03_Population/_page_0_Picture_0.jpeg
 kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
 
-![](../figures/Ch03_Population/_page_0_Picture_0.jpeg)
 (chap:population)=
 # Population
 

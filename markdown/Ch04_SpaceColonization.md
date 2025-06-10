@@ -1,6 +1,13 @@
-![](../figures/Ch04_SpaceColonization/_page_0_Picture_0.jpeg)
+---
+title: Chapter 4 - Space Exploration vs. Colonization
+banner: ../figures/Ch04_SpaceColonization/_page_0_Picture_0.jpeg
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
+---
 
-# **Space Exploration vs. Colonization**  $\overline{4}$
+(chap:spacecolonization)=
+# Space Exploration vs. Colonization
 
 This textbook assesses the challenges and limitations imposed upon us by living on a finite planet having finite resources. If harboring expectations that we will break out into a space-faring existence as a way to mitigate our earthly challenges, then it becomes harder for us to respond earnestly to information about where things are headed on Earth. This chapter is placed where it is to "close the exit" so that the content in the rest of the book might become more relevant and worth the investment to learn. Some of the sections in this chapter offer more of an author's perspective than might be typical for a textbook. Some may disagree with the case that is made, but consider that the burden of proof for a way of life unfathomably beyond our current means should perhaps fall to the enthusiasts.<sup>1</sup>
 
