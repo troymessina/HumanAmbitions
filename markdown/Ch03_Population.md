@@ -2,6 +2,10 @@
 title: Chapter 3 - Population
 banner: ../figures/Ch03_Population/_page_0_Picture_0.jpeg
 thumbnail: ../figures/Ch03_Population/_page_0_Picture_0.jpeg
+numbering:
+  headings:
+  heading_1:
+    start: 4
 kernelspec:
   name: python3
   display_name: 'Python 3'

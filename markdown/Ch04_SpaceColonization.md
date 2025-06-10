@@ -1,6 +1,10 @@
 ---
 title: Chapter 4 - Space Exploration vs. Colonization
 banner: ../figures/Ch04_SpaceColonization/_page_0_Picture_0.jpeg
+numbering:
+  headings:
+  heading_1:
+    start: 5
 kernelspec:
   name: python3
   display_name: 'Python 3'
