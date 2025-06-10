@@ -10,42 +10,25 @@ kernelspec:
 (chap:population)=
 # Population
 
-Underlying virtually every concern relating to our experience on this planet is the story of human population. The discussion of continued energy growth in Chapter 1 was based on the historical growth rate of energy, which is partly due to growing population and partly due to increased use per capita. But the notion that population will continue an exponential climb, as is implicit in the Chapter 1 scenario, is impracticalone of many factors that will render the "predictions" of Chapter 1 invalid and prohibit "growth forever."
+Underlying virtually every concern relating to our experience on this planet is the story of human population. The discussion of continued energy growth in Chapter 1 was based on the historical growth rate of energy, which is partly due to growing population and partly due to increased use per capita. But the notion that population will continue an exponential climb, as is implicit in the Chapter 1 scenario, is impracticalone of many factors that will render the "predictions" of [Chapter 1](#chap:expgrowth) invalid and prohibit "growth forever."
 
-So let's add a dose of reality and examine a more practical scenario. Americans' per-capita use of energy is roughly five times the global average rate. If global population eventually doubles, and the average global citizen advances to use energy at the rate Americans currently  $do<sup>1</sup>$  then the total scale of energy use would go up by a factor of 10, which would take 100 years at our mathematically convenient 2.3% annual rate (see Eq. 1.5;  $p.5$ ). This puts a more realistic—and proximate timescale on the end of energy growth than the fantastical extrapolations of Chapter 1.
+So let's add a dose of reality and examine a more practical scenario. Americans' per-capita use of energy is roughly five times the global average rate. If global population eventually doubles, and the average global citizen advances to use energy at the rate Americans currently do[^1]  then the total scale of energy use would go up by a factor of 10, which would take 100 years at our mathematically convenient 2.3% annual rate (see Eq. {eq}`eq:expgrowth:logM`). This puts a more realistic—and proximate timescale on the end of energy growth than the fantastical extrapolations of [Chapter 1](#chap:expgrowth).
 
-Although the focus of this chapter will be on the alarming rate of population growth, we should keep the energy and resource context in mind in light of the overall theme of this book. To this end, Figure 3.1 shows the degree to which energy demand has outpaced population growth, when scaled vertically to overlap in the nineteenth century. From 1900 to 1950, per-capita energy consumption increased modestly, but then ballooned dramatically after 1950, so that today we have the equivalent of 25 billion people on the planet operating at nineteenth century energy levels.
+Although the focus of this chapter will be on the alarming rate of population growth, we should keep the energy and resource context in mind in light of the overall theme of this book. To this end, [](#fig:population:energypop) shows the degree to which energy demand has outpaced population growth, when scaled vertically to overlap in the nineteenth century. From 1900 to 1950, per-capita energy consumption increased modestly, but then ballooned dramatically after 1950, so that today we have the equivalent of 25 billion people on the planet operating at nineteenth century energy levels.
 
-Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical
+Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical expectations, then discuss the heralded "demographic transition" and its implications.
 
-| 3.1 Population History                | 31 |
-|---------------------------------------|----|
-| 3.2 Logistic Model  33                |    |
-| Overshoot 35                          |    |
-| Logistic Projection 38                |    |
-| 3.3 Demographic Transition 38         |    |
-| <b>Geographic Considerations . 41</b> |    |
-| Transition Cost 44                    |    |
-| 3.4 Touchy Aspects 46                 |    |
-| It's Personal  46                     |    |
-| Population Policy 47                  |    |
-| 3.5 Upshot: It Depends on Us 48       |    |
-| 3.6 Problems 48                       |    |
-|                                       |    |
 
-1: ... so that global average energy use per capita increases by a factor of five from where it is today
+[^1]: ... so that global average energy use per capita increases by a factor of five from where it is today
+```{figure} ../figures/Ch03_Population/_page_0_Figure_9.jpeg
+:label: fig:population:energypop
+:align: center
+:width: 80%
+:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [14-16].
+Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [14-16].
+```
 
-![](../figures/Ch03_Population/_page_0_Figure_9.jpeg)
-
-Figure 3.1: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [14-16].
-
-Photo Credit: Tom Murphy
-
-<sup>© 2022</sup> T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.; Freely available at: https://escholarship.org/uc/energy\_ambitions.
-
-expectations, then discuss the heralded "demographic transition" and its implications.
-
-### **3.1 Population History**
+## Population History
 
 Figure 3.2 shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a "hockey stick" plot. In order to peer deeper, we plot population on a logarithmic vertical axis (Figure 3.3). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
 
@@ -53,32 +36,42 @@ Wait, what? It still looks somewhat like a hockey stick (even more literally so)
 
 The recent rapid rise is a fascinating development, and begs for a closer look. Figure 3.4 shows the last  $\sim$ 1,000 years, for which we see several exponential-looking segments at ever-increasing rates. The doubling times associated with the four rates shown on the plot are presented in Table 3.1.
 
-An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.<sup>2</sup> The Renaissance  $(\sim 1700)$  introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century  $(\sim 1870)$ , the explosive expansion of fossil fuel usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century  $(\sim$ 1950), the Green Revolution [17] introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
+An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.[^2] The Renaissance  $(\sim 1700)$  introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century  $(\sim 1870)$ , the explosive expansion of fossil fuel usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century  $(\sim 1950)$, the Green Revolution [17] introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
+```{figure} ../figures/Ch03_Population/_page_1_Figure_8.jpeg
+:label: fig:population:globalpop
+:align: center
+:width: 80%
+:alt: Global population estimate, over the modern human era, on a linear scale. [](#fig:population:energypop) offers a recent close-up. [14, 15].
+Global population estimate, over the modern human era, on a linear scale. [](#fig:population:energypop) offers a recent close-up. [14, 15].
+```
 
-![](../figures/Ch03_Population/_page_1_Figure_8.jpeg)
+```{figure} ../figures/Ch03_Population/_page_1_Figure_10.jpeg
+:label: fig:population:globalpoplog
+:align: center
+:width: 80%
+:alt: Global population estimate, over the modern human era, on a logarithmic scale. [14, 15].
+Global population estimate, over the modern human era, on a logarithmic scale. [14, 15].
+```
 
-Figure 3.2: Global population estimate, over the modern human era, on a linear scale. Figure 3.1 offers a recent close-up. [14, 15].
+```{figure} ../figures/Ch03_Population/_page_1_Figure_12.jpeg
+:label: fig:population:globalpoplog
+:align: center
+:width: 80%
+:alt: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates.  [14, 15].
+Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates.  [14, 15].
+```
 
-![](../figures/Ch03_Population/_page_1_Figure_10.jpeg)
+[^2]: ... except that famine and plague took a toll in the 14th century
 
-Figure 3.3: Global population estimate, over the modern human era, on a logarithmic scale. [14, 15].
-
-![](../figures/Ch03_Population/_page_1_Figure_12.jpeg)
-
-Figure 3.4: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates.  $[14, 15]$ .
-
-2: ... except that famine and plague took a toll in the 14th century
-
-| Table 3.1: Doubling times for Fig. 3.4. |  |
-|-----------------------------------------|--|
-|-----------------------------------------|--|
-
+```{table} Doubling times for [](#fig:population:globalpoplog).
+:label: table:population:popgrowth
 | Years     | $%$ growth | t2                  |
 |-----------|------------|---------------------|
 | 1000-1700 | $0.12\%$   | $600 \,\mathrm{yr}$ |
 | 1700-1870 | 0.41%      | 170 yr              |
 | 1870-1950 | 0.82%      | 85 yr               |
 | 1950-2020 | 1.70%      | 40 <sub>yr</sub>    |
+```
 
 In more recent years, the rate has fallen somewhat from the 1.7% fit of the last segment in Figure 3.4, to around 1.1%. Rounding down for convenience, continuation at a 1% rate would increase population from 7 billion to 8 billion people in less than 14 years. The math is the same as in Chapter 1, re-expressed here as
 
