@@ -126,7 +126,7 @@ Table 5.2: Energy forms. Exchange is possible between all forms. Chemical energy
 
 6: The only exception is on cosmological scales and times. But across scales even as large as the Milky Way galaxy and over millions of years, we are on solid footing to consider conservation of energy to be inviolate. It is fascinating to note that conservation of energy stems from a symmetry in time itself: if the laws and constants of the Universe are the same across some span of time, then energy is conserved during such time-a concept we trace to Emmy Noether. See Sec. D.2 (p. 393) for more.
 
-![](_page_2_Figure_16.jpeg)
+![](../figures/Ch05_EnergyAndPower/_page_2_Figure_16.jpeg)
 
 Figure 5.1: Example exchange of potential energy (P.E.) into kinetic energy (K.E.) as an apple drops from a tree. The total energy always adds to the same amount (here 7 J). The apple speeds up as it gains kinetic energy (losing potential energy). When it comes to rest on the ground, the energy will have gone into 7 J of heat (the associated temperature rise is too small to notice).
 
@@ -158,7 +158,7 @@ One Watt is simply one Joule per second.
 
 Weight is  $mg$ . In this case,  $m$  is 10 kg. If we're being sticklers,  $g = 9.8$  m/s<sup>2</sup>, but for convenience we can typically use  $g \approx 10 \text{ m/s}^2$ without significant loss of precision.
 
-![](_page_4_Figure_1.jpeg)
+![](../figures/Ch05_EnergyAndPower/_page_4_Figure_1.jpeg)
 
 Figure 5.2: Various power levels for comparison and intuition-building. Green entries correspond to metabolic power [33]. Purple entries are devices and appliances. Orange entries are per-capita totals for societal (non-metabolic) energy use. Note that appliances whose job it is to create heat demand the greatest power. The "heating appliance" entry stands for things like microwave ovens, toaster ovens, space heaters, or hair dryers plugged into electrical outlets. Do not take the numbers provided as definitive or exact, as almost everything in the figure will vary somewhat from one instance to another.
 
@@ -220,7 +220,7 @@ One Calorie (note the capital " $C''$ )<sup>14</sup> is 1,000 calories, or 1 kil
 
 10: Literally, kW/hr would be a sort of acceleration through energy. It's a real thing that can happen, but it's usually not what people mean.
 
-![](_page_5_Picture_15.jpeg)
+![](../figures/Ch05_EnergyAndPower/_page_5_Picture_15.jpeg)
 
 12: ... an incandescent, for instance
 
@@ -232,7 +232,7 @@ One Calorie (note the capital " $C''$ )<sup>14</sup> is 1,000 calories, or 1 kil
 
 Food labels in the U.S. are in Calories, describing the energy content of the food we eat.<sup>15</sup> We would all do ourselves a favor by calling these kcal instead of Calories (same thing). Many other countries sensibly use either kJ or kcal for quantifying food energy.
 
-![](_page_6_Figure_3.jpeg)
+![](../figures/Ch05_EnergyAndPower/_page_6_Figure_3.jpeg)
 
 **Example 5.5.1** To change 30 mL  $(30 g)$  of water by  $5^{\circ}$ C requires 150 cal, or a little over 600 J.
 
@@ -517,7 +517,7 @@ Hint: either treating it as if it is only on for 12 hours, or operating at half-
 
  $\dot{U}$  For instance, if the temperature difference is  $10^{\circ}$ C, the house will require 2,000 W of steady input to maintain temperature.
 
-![](_page_14_Figure_13.jpeg)
+![](../figures/Ch05_EnergyAndPower/_page_14_Figure_13.jpeg)
 
 Hint: useful to convert to Therms/hr
 
