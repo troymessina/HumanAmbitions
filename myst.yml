@@ -14,15 +14,31 @@ project:
         - file: ./markdown/Ch05_EnergyAndPower.md
         - file: ./markdown/Ch06_ThermalEnergy.md
         - file: ./markdown/Ch07_EnergyLandscape.md
-        - file: ./markdown/Ch08.md
-        - file: ./markdown/Ch09.md
+        - file: ./markdown/Ch08_FossilFuels.md
+        - file: ./markdown/Ch09_ClimateChange.md
     - title: Part III - Alternative Energy
       children:
-        - file: ./markdown/Ch10.md
+        - file: ./markdown/Ch10_RenewableOverview.md
+        - file: ./markdown/Ch11_HydroelectricEnergy.md
+        - file: ./markdown/Ch12_WindEnergy.md
+        - file: ./markdown/Ch13_SolarEnergy.md
+        - file: ./markdown/Ch14_BiologicalEnergy.md
+        - file: ./markdown/Ch15_NuclearEnergy.md
+        - file: ./markdown/Ch16_SmallPlayers.md
+        - file: ./markdown/Ch17_CompareAlternatives.md
     - title: Part IV - Going Forward
+      children:
+        - file: ./markdown/Ch18_HumanFactors.md
+        - file: ./markdown/Ch19_APlanWelcome.md
+        - file: ./markdown/Ch20_AdaptationStrategies.md
+        - file: ./markdown/Epilogue.md
     - title: Appendices
       children:
-        - file: ./markdown/App01_MathEquations.md
+        - file: ./markdown/AppA_Math.md
+        - file: ./markdown/AppB_Chem.md
+        - file: ./markdown/AppC_Solns.md
+        - file: ./markdown/AppD_Tangents.md
+        - file: ./markdown/Glossary.md
   id: 
   title: Energy and Human Ambitions on a Finite Planet - Assessing and Adapting to Planetary Limits
   github: https://github.com/troymessina/HumanAmbitions

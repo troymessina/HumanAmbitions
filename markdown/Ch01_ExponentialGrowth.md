@@ -1,5 +1,6 @@
 ---
 title: Chapter 1 - Exponential Growth
+banner: ../figures/Ch01_ExponentialGrowth/_page_21_Picture_0.jpeg
 numbering:
   headings:
   heading_1:
