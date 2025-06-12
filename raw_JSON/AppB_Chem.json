@@ -1,0 +1,486 @@
+{
+  "table_of_contents": [
+    {
+      "title": "B.1 Moles",
+      "heading_level": null,
+      "page_id": 394,
+      "polygon": [
+        [
+          64.73410919308662,
+          217.70843505859375
+        ],
+        [
+          131.77161902189255,
+          217.70843505859375
+        ],
+        [
+          130.82391357421875,
+          233.41463792324066
+        ],
+        [
+          63.65012481808662,
+          234.81307542324066
+        ]
+      ]
+    },
+    {
+      "title": "Box B.1: Moles to Mass",
+      "heading_level": null,
+      "page_id": 395,
+      "polygon": [
+        [
+          71.83507852256298,
+          153.0189208984375
+        ],
+        [
+          173.28026801347733,
+          153.0189208984375
+        ],
+        [
+          173.16737365722656,
+          164.4340238571167
+        ],
+        [
+          70.75109414756298,
+          164.4340238571167
+        ]
+      ]
+    },
+    {
+      "title": "B.2 Stoichiometry",
+      "heading_level": null,
+      "page_id": 395,
+      "polygon": [
+        [
+          65.1969985961914,
+          404.5784606933594
+        ],
+        [
+          183.77238526940346,
+          404.5784606933594
+        ],
+        [
+          182.68840089440346,
+          421.9611461162567
+        ],
+        [
+          64.45876713842154,
+          421.9611461162567
+        ]
+      ]
+    },
+    {
+      "title": "B.3 Chemical Energy",
+      "heading_level": null,
+      "page_id": 398,
+      "polygon": [
+        [
+          65.1969985961914,
+          455.3514404296875
+        ],
+        [
+          201.5168733894825,
+          455.3514404296875
+        ],
+        [
+          201.01522827148438,
+          472.18715047836304
+        ],
+        [
+          64.4459980353713,
+          473.58558797836304
+        ]
+      ]
+    },
+    {
+      "title": "B.4 Ideal Gas Law",
+      "heading_level": null,
+      "page_id": 400,
+      "polygon": [
+        [
+          64.20658148825169,
+          48.8924560546875
+        ],
+        [
+          184.28657323122025,
+          48.8924560546875
+        ],
+        [
+          184.28657323122025,
+          64.60252696275711
+        ],
+        [
+          64.20658148825169,
+          64.60252696275711
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 394,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          693
+        ],
+        [
+          "TableCell",
+          380
+        ],
+        [
+          "Line",
+          279
+        ],
+        [
+          "Text",
+          23
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 6,
+        "llm_error_count": 1,
+        "llm_tokens_used": 19854
+      }
+    },
+    {
+      "page_id": 395,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          231
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 10013
+      }
+    },
+    {
+      "page_id": 396,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          276
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 6091
+      }
+    },
+    {
+      "page_id": 397,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          236
+        ],
+        [
+          "Line",
+          73
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 7,
+        "llm_error_count": 0,
+        "llm_tokens_used": 20040
+      }
+    },
+    {
+      "page_id": 398,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          248
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 4,
+        "llm_error_count": 0,
+        "llm_tokens_used": 14231
+      }
+    },
+    {
+      "page_id": 399,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          381
+        ],
+        [
+          "TableCell",
+          98
+        ],
+        [
+          "Line",
+          74
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 5,
+        "llm_error_count": 0,
+        "llm_tokens_used": 16290
+      }
+    },
+    {
+      "page_id": 400,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          340
+        ],
+        [
+          "Line",
+          66
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 10,
+        "llm_error_count": 0,
+        "llm_tokens_used": 33328
+      }
+    },
+    {
+      "page_id": 401,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 1,
+        "llm_error_count": 0,
+        "llm_tokens_used": 2159
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\HumanAmbitions"
+}

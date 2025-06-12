@@ -1,0 +1,876 @@
+{
+  "table_of_contents": [
+    {
+      "title": "12 Wind Energy",
+      "heading_level": null,
+      "page_id": 203,
+      "polygon": [
+        [
+          64.4540023803711,
+          170.6435546875
+        ],
+        [
+          223.993896484375,
+          170.6435546875
+        ],
+        [
+          223.993896484375,
+          195.638751745224
+        ],
+        [
+          64.4540023803711,
+          195.638751745224
+        ]
+      ]
+    },
+    {
+      "title": "12.1 Kinetic Energy",
+      "heading_level": null,
+      "page_id": 203,
+      "polygon": [
+        [
+          64.58783101290464,
+          448.0624084472656
+        ],
+        [
+          190.94015502929688,
+          448.0624084472656
+        ],
+        [
+          190.94015502929688,
+          465.4197850227356
+        ],
+        [
+          64.58783101290464,
+          465.4197850227356
+        ]
+      ]
+    },
+    {
+      "title": "12.2 Wind Energy",
+      "heading_level": null,
+      "page_id": 204,
+      "polygon": [
+        [
+          64.68038219958544,
+          426.6154479980469
+        ],
+        [
+          181.97640761733055,
+          426.6154479980469
+        ],
+        [
+          181.14344787597656,
+          443.3640937805176
+        ],
+        [
+          63.59639782458543,
+          443.3640937805176
+        ]
+      ]
+    },
+    {
+      "title": "See if you can confirm; own it\nyourself!",
+      "heading_level": null,
+      "page_id": 205,
+      "polygon": [
+        [
+          386.154052734375,
+          70.4833984375
+        ],
+        [
+          510.72032332420343,
+          69.87006521224976
+        ],
+        [
+          510.72032332420343,
+          92.55057865381241
+        ],
+        [
+          386.154052734375,
+          93.94901615381241
+        ]
+      ]
+    },
+    {
+      "title": "Box 12.1: The Value of Estimation/Checking",
+      "heading_level": null,
+      "page_id": 205,
+      "polygon": [
+        [
+          72.17105865478516,
+          425.0790100097656
+        ],
+        [
+          264.90490078926086,
+          425.0790100097656
+        ],
+        [
+          264.90490078926086,
+          437.5543131828308
+        ],
+        [
+          72.17105865478516,
+          437.5543131828308
+        ]
+      ]
+    },
+    {
+      "title": "12.2.1 Wind Turbines",
+      "heading_level": null,
+      "page_id": 206,
+      "polygon": [
+        [
+          64.7723089903593,
+          86.6083984375
+        ],
+        [
+          182.25483030080795,
+          86.6083984375
+        ],
+        [
+          181.17084592580795,
+          99.90604281425476
+        ],
+        [
+          63.6883246153593,
+          101.30448031425476
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 207,
+      "polygon": [
+        [
+          382.17075258493423,
+          228.23359513282776
+        ],
+        [
+          496.5838345885277,
+          226.83515763282776
+        ],
+        [
+          495.4998502135277,
+          235.57402634620667
+        ],
+        [
+          381.08676820993423,
+          236.97246384620667
+        ]
+      ]
+    },
+    {
+      "title": "12.3 Wind Installations",
+      "heading_level": null,
+      "page_id": 210,
+      "polygon": [
+        [
+          64.61288541555405,
+          128.0394287109375
+        ],
+        [
+          215.9992030262947,
+          128.0394287109375
+        ],
+        [
+          215.73812866210938,
+          143.601047873497
+        ],
+        [
+          63.52890104055404,
+          144.999485373497
+        ]
+      ]
+    },
+    {
+      "title": "12.4 Upshot: Wind is not Overblown",
+      "heading_level": null,
+      "page_id": 212,
+      "polygon": [
+        [
+          65.197021484375,
+          200.2734375
+        ],
+        [
+          301.9764518737793,
+          200.2734375
+        ],
+        [
+          300.8924674987793,
+          216.7317155599594
+        ],
+        [
+          64.25988256931305,
+          216.7317155599594
+        ]
+      ]
+    },
+    {
+      "title": "12.5 Problems",
+      "heading_level": null,
+      "page_id": 213,
+      "polygon": [
+        [
+          64.1123928129673,
+          307.1284484863281
+        ],
+        [
+          158.74658077955246,
+          306.5979689359665
+        ],
+        [
+          157.66259640455246,
+          323.26791751384735
+        ],
+        [
+          63.02840843796729,
+          324.66635501384735
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 203,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 1,
+        "llm_tokens_used": 7433
+      }
+    },
+    {
+      "page_id": 204,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          216
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 6042
+      }
+    },
+    {
+      "page_id": 205,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          277
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 10581
+      }
+    },
+    {
+      "page_id": 206,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          370
+        ],
+        [
+          "Line",
+          85
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 6,
+        "llm_error_count": 0,
+        "llm_tokens_used": 16757
+      }
+    },
+    {
+      "page_id": 207,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 9195
+      }
+    },
+    {
+      "page_id": 208,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          342
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 7,
+        "llm_error_count": 1,
+        "llm_tokens_used": 22562
+      }
+    },
+    {
+      "page_id": 209,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          224
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 8000
+      }
+    },
+    {
+      "page_id": 210,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          168
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 11332
+      }
+    },
+    {
+      "page_id": 211,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          203
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 1,
+        "llm_error_count": 0,
+        "llm_tokens_used": 4266
+      }
+    },
+    {
+      "page_id": 212,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 10688
+      }
+    },
+    {
+      "page_id": 213,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          231
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 7262
+      }
+    },
+    {
+      "page_id": 214,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          232
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 9516
+      }
+    },
+    {
+      "page_id": 215,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\HumanAmbitions"
+}

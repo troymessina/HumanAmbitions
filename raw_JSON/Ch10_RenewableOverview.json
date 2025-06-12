@@ -1,0 +1,668 @@
+{
+  "table_of_contents": [
+    {
+      "title": "10 Renewable Overview",
+      "heading_level": null,
+      "page_id": 183,
+      "polygon": [
+        [
+          63.70708130300044,
+          173.12957763671875
+        ],
+        [
+          302.1312689781189,
+          173.12957763671875
+        ],
+        [
+          301.0472846031189,
+          195.85074937343597
+        ],
+        [
+          62.62309692800044,
+          197.24918687343597
+        ]
+      ]
+    },
+    {
+      "title": "10.1 The Players",
+      "heading_level": null,
+      "page_id": 183,
+      "polygon": [
+        [
+          64.85240947455168,
+          480.04241943359375
+        ],
+        [
+          171.4437335729599,
+          480.04241943359375
+        ],
+        [
+          170.3597491979599,
+          496.65016174316406
+        ],
+        [
+          63.76842509955167,
+          498.04859924316406
+        ]
+      ]
+    },
+    {
+      "title": "10.2 Alternatives vs. Renewables",
+      "heading_level": null,
+      "page_id": 184,
+      "polygon": [
+        [
+          64.65163931250572,
+          481.8154296875
+        ],
+        [
+          278.56162190437317,
+          481.64563751220703
+        ],
+        [
+          278.56162190437317,
+          497.3932523727417
+        ],
+        [
+          64.65163931250572,
+          498.7916898727417
+        ]
+      ]
+    },
+    {
+      "title": "Box 10.1: About Those Asterisks. . .",
+      "heading_level": null,
+      "page_id": 185,
+      "polygon": [
+        [
+          72.1709976196289,
+          538.3189086914062
+        ],
+        [
+          224.81072998046875,
+          538.3189086914062
+        ],
+        [
+          224.81072998046875,
+          549.8707206249237
+        ],
+        [
+          71.58621333539486,
+          551.2691581249237
+        ]
+      ]
+    },
+    {
+      "title": "7: . . . now at 3.8 cm/year",
+      "heading_level": null,
+      "page_id": 185,
+      "polygon": [
+        [
+          382.677001953125,
+          600.4914779663086
+        ],
+        [
+          471.3809332251549,
+          599.6435387134552
+        ],
+        [
+          470.2969488501549,
+          609.7787110805511
+        ],
+        [
+          382.0396873354912,
+          611.1771485805511
+        ]
+      ]
+    },
+    {
+      "title": "10.3 Renewable Energy Budget",
+      "heading_level": null,
+      "page_id": 186,
+      "polygon": [
+        [
+          65.1969985961914,
+          222.25546264648438
+        ],
+        [
+          266.65421828627586,
+          222.25546264648438
+        ],
+        [
+          265.57023391127586,
+          238.8337539434433
+        ],
+        [
+          64.48739424347878,
+          240.2321914434433
+        ]
+      ]
+    },
+    {
+      "title": "Box 10.2: Making New Fossil Fuels",
+      "heading_level": null,
+      "page_id": 188,
+      "polygon": [
+        [
+          72.13969275355339,
+          194.3839111328125
+        ],
+        [
+          226.3711054623127,
+          194.3839111328125
+        ],
+        [
+          225.2871210873127,
+          205.7756311893463
+        ],
+        [
+          71.05570837855339,
+          205.7756311893463
+        ]
+      ]
+    },
+    {
+      "title": "10.4 Renewable Snapshot",
+      "heading_level": null,
+      "page_id": 188,
+      "polygon": [
+        [
+          65.1969985961914,
+          577.8324279785156
+        ],
+        [
+          231.81099146604538,
+          577.8324279785156
+        ],
+        [
+          231.81099146604538,
+          595.1736855506897
+        ],
+        [
+          65.1969985961914,
+          595.1736855506897
+        ]
+      ]
+    },
+    {
+      "title": "10.5 Upshot: Our Path Forward",
+      "heading_level": null,
+      "page_id": 189,
+      "polygon": [
+        [
+          65.0270377099514,
+          486.5584411621094
+        ],
+        [
+          265.6008003652096,
+          486.5584411621094
+        ],
+        [
+          264.5168159902096,
+          502.6019711494446
+        ],
+        [
+          63.943053334951394,
+          504.0004086494446
+        ]
+      ]
+    },
+    {
+      "title": "10.6 Problems",
+      "heading_level": null,
+      "page_id": 190,
+      "polygon": [
+        [
+          64.6494435891509,
+          102.4554443359375
+        ],
+        [
+          158.3560810983181,
+          102.4554443359375
+        ],
+        [
+          158.3560810983181,
+          118.97744333744049
+        ],
+        [
+          64.6494435891509,
+          118.97744333744049
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 183,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          158
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 1,
+        "llm_tokens_used": 7382
+      }
+    },
+    {
+      "page_id": 184,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          230
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 1,
+        "llm_error_count": 0,
+        "llm_tokens_used": 3482
+      }
+    },
+    {
+      "page_id": 185,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          217
+        ],
+        [
+          "TableCell",
+          140
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 6696
+      }
+    },
+    {
+      "page_id": 186,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          242
+        ],
+        [
+          "Line",
+          79
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 5,
+        "llm_error_count": 0,
+        "llm_tokens_used": 15534
+      }
+    },
+    {
+      "page_id": 187,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          282
+        ],
+        [
+          "TableCell",
+          80
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 8,
+        "llm_error_count": 0,
+        "llm_tokens_used": 26635
+      }
+    },
+    {
+      "page_id": 188,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          206
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 3,
+        "llm_error_count": 0,
+        "llm_tokens_used": 9589
+      }
+    },
+    {
+      "page_id": 189,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          279
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 4,
+        "llm_error_count": 0,
+        "llm_tokens_used": 14624
+      }
+    },
+    {
+      "page_id": 190,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          222
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 1,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 191,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          160
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 2,
+        "llm_error_count": 0,
+        "llm_tokens_used": 6760
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\HumanAmbitions"
+}
