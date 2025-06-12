@@ -1,4 +1,4 @@
-# <span id="page-439-0"></span>**Notation**
+# Notation
 
 This list describes several symbols that are commonly used within the body of the book.
 
@@ -17,7 +17,7 @@ This list describes several symbols that are commonly used within the body of th
 - <sup>Δ</sup>푇 Change in temperature, typically in ◦<sup>C</sup> or Kelvin (K)
 - <sup>Δ</sup>푊 Change in energy—work performed, in [Joules](#page-450-0)
 
-# **Scale Factor Prefixes**
+# Scale Factor Prefixes
 
 | Factor | Letter | Prefix | Factor | Letter | Prefix |
 |--------|--------|--------|--------|--------|--------|
@@ -31,7 +31,7 @@ This list describes several symbols that are commonly used within the body of th
 
 *© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
 
-# **Greek Letters, with Pronunciation**
+# Greek Letters, with Pronunciation
 
 | Character | Name               | Character | Name                      |
 |-----------|--------------------|-----------|---------------------------|
