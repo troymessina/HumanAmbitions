@@ -267,53 +267,21 @@ on a logarithmic plot.
 What follows is a flight of fancy that quickly becomes absurd, but we will chase it to staggering levels of absurdity just because it is fun, instructive, and mind-blowing. Bear in mind that what follows should not be taken as predictions[^9] of our future: rather, we can use the absurdity to predict how our future *will not* look!
 
 The sun deposits energy at Earth's surface at a rate of about 1000 W/m<sup>2</sup> (1000 Watts per square meter; we'll reach a better understanding for
-these units in [](#chap:energypower)). Ignoring clouds, the projected area intercepting the sun's rays is just $A = \pi R_{\oplus}^2$, where $R_{\oplus}$ is the radius of the earth, around
-6,400 km. Roughly a quarter of the earth's surface is land, and adding
-it all up we get about 30 Ã 10Â¹âµ W hitting land. If we put solar panels
-on every square meter of land converting sunlight to electrical energy
-at 20% efficiency,[^10] we keep 6 Ã 10Â¹âµ W. This is a little over 300 times
-the current global energy usage rate of 18 TW. What an encouraging
-number! Lots of margin. How long before our growth would get us
-here? After one century, we're 10 times higher, and 100 times higher after
-two centuries. It would take about 2.5 centuries (250 years) to hit this
-limit. Then no more energy growth.
+these units in [](#chap:energypower)). Ignoring clouds, the projected area intercepting the sun's rays is just $A = \pi R_{\oplus}^2$, where $R_{\oplus}$ is the radius of the earth, around 6400 km. Roughly a quarter of the earth's surface is land, and adding it all up we get about $30\times 10^{15}$ W hitting land. Approximate numbers are perfectly fine for this exercise. If we put solar panels on every square meter of land converting sunlight to electrical energy at 20% efficiency,[^10] we keep $6\times 1^{15}$ W. This is a little over 300 times the current global energy usage rate of 18 TW. What an encouraging number! Lots of margin. How long before our growth would get us here? After one century, we're 10 times higher, and 100 times higher after two centuries. It would take about 2.5 centuries (250 years) to hit this limit. Then no more energy growth. The merits of various alternative energy sources will be treated in later chapters, so do not use this chapter to form opinions on the usefulness of solar power, for instance.
 
-But wait, why not also float panels on all of the ocean, and also magically
-improve performance to 100%? Doing this, we can capture a whopping
-130 Ã 10Â¹âµ W, over 7,000 times our current rate. Now we're talking about
-maxing out in just under 400 years. Each factor of ten is a century, so a
-factor of 10,000 would be four factors of ten (10â´), taking four centuries.
+But wait, why not also float panels on all of the ocean, and also magically improve performance to 100%? Doing this, we can capture a whopping $130\times 10^{15}$ W, over 7000 times our current energy consumption rate. Now we're talking about maxing out in just under 400 years. Each factor of ten is a century, so a factor of 10000 would be four factors of ten ($10^4$), taking four centuries.
 
-So within 400 years, we would be at the point of using every scrap of
+So within 400 years, we would be at the point of using every scrap of solar energy hitting the planet at 100% efficiency. But our planet is a tiny speck in space. Why not capture *all* the light put out by the sun, in a sphere surrounding the sun (called a Dyson sphere; see [](#box:expgrowth:dyson))? Now we're talking some real power! The sun puts out $4\times 10^{26}$ W. If it were a light bulb, this would be its label (putting the 100 W standard incandescent bulb to shame). So the number is enormous. But the math is actually pretty easy to grasp.[^11] Every century gets another factor of ten. To go from where we are now ($18\times 10^{12}$ W) to the solar regime is about 14 orders-of-magnitude. So in 1400 years,[^12] we would be at $18\times 10^{26}$ W, which is about 4.5 times the solar output. Therefore we would use the entire sun's output in a time shorter than the 2000-year run of our current calendar.
 
-[^8]: Fundamentally, this relates to the fact that the natural log of 10 is 2.30. The analog of Eq. 1.7 using 10 in place of 2 and *p* = 0.023 for 2.3% growth rate will produce a factor-of-ten timescale *t*ââ â 100 years.
+[^8]: Fundamentally, this relates to the fact that the natural log of 10 is 2.30. The analog of Eq. {eq}`eq:expgrowth:t2` using 10 in place of 2 and $p = 0.023$ for 2.3% growth rate will produce a factor-of-ten timescale $t_{10}\approx 100$ years.
+[^9]: Do not interpret this section as pre-dictions of how our future *will* go.
+[^10]: 20% is on the higher end for typical solar panels.
 
-[^9]: â  Do not interpret this section as pre-dictions of how our future *will* go.
-
-Approximate numbers are perfectly fine for this exercise.
-
-[^10]: 20% is on the higher end for typical panels.
-
-The merits of various alternative energy sources will be treated in later chapters, so do not use this chapter to form opinions on the usefulness of solar power, for instance.
-
-â² In defiance of physical limits.
-
-10,000 is not too different from 7,000, and the "rounding up" helps us conveniently make sense of the result, since a factor of 10,000 is easier to interpret as four applications of 10Ã, and thus 400 years.
-
-Â©2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 8
-
-# 1 Exponential Growth
-
-solar energy hitting the planet at 100% efficiency. But our planet is a tiny speck in space. Why not capture *all* the light put out by the sun, in a sphere surrounding the sun (called a Dyson sphere; see Box 1.3)? Now we're talking some real power! The sun puts out 4 Ã 10Â²â¶ W. If it were a light bulb, this would be its label (putting the 100 W standard incandescent bulb to shame). So the number is enormous. But the math is actually pretty easy to grasp.[^11] Every century gets another factor of ten. To go from where we are now (18 Ã 10Â¹Â² W) to the solar regime is about 14 orders-of-magnitude. So in 1,400 years,[^12] we would be at 18 x 10Â²â¶ W, which is about 4.5 times the solar output. Therefore we would use the entire sun's output in a time shorter than the 2,000-year run of our current calendar.
-
-## Box 1.3: Dyson Sphere Construction
+```{hint} Dyson Sphere Construction
+:label: box:expgrowth:dyson
 
 If we took the material comprising the entire Earth (or Venus) and created a sphere around the sun at the current Earth-Sun distance, it would be a shell less than 4 mm thick! And it's not necessarily ideal material stock for building a high-tech sphere and solar panels. The earth's atmosphere distributed over this area would be 0.015 m thick. Don't hold your breath waiting for this to happen.
-
+```
 Bypassing boring realism, we recognize that our sun is not the only star in the Milky Way galaxy. In fact, we estimate our galaxy to contain roughly 100 billion stars! This seems infinite. A billion seconds is just over 30 years, so no one could count to 100 billion in a lifetime. But let's see: 100 billion is 10Â¹Â¹. Immediately, we see that we buy another 11 centuries at our 2.3% rate. So it takes 1,100 years to go from consuming our entire sun to all the stars in our galaxy! That's 2,500 years from now, adding the two timescales, and still a civilization-relevant time period. Leave aside the pesky fact that the scale of our galaxy is 100,000 light years, so that we can't possibly *get* to all the stars within a 2,500 year timeframe. So even as a mathematical exercise, physics places yet another limit on how long we could conceivably expect to maintain our current energy growth trajectory.
 
 The unhinged game can continue, pretending we could capture all the light put out by all the stars in all the galaxies in the visible universe. Because the visible universe contains about 100 billion galaxies, we buy another 1,100 years. We can go even further, imagining converting all matter (stars, gas, dust) into pure energy ($E = mc^2$), not limiting ourselves to only the light output from stars as we have so far. Even playing these unhinged games, we would exhaust all the matter in the visible universe within 5,000 years at a 2.3% rate. The exponential is a cruel beast. Table 1.3 summarizes the results.
