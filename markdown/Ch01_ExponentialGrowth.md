@@ -100,7 +100,7 @@ A bank account accumulates interest in the same way as described above. Consider
 ```{solution} ex:expgrowth:interest
 :label: soln:expgrowth:interest
 :class: dropdown
-The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
+The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 
 | year | b^n    | dollars |
 | ---: | ----: | :------: |
@@ -191,18 +191,18 @@ $$
 The rule of 70 can be recovered[^7] by setting the multiplicative factor, $M$, to 2. Comparing to interest accumulation described by $(1 + p)^t$, where $p$ is the annual interest (0.02 for 2%, e.g.) and $t$ is the number of years, Eq. {eq}`eq:expgrowth:Mbn` can be re-expressed by substituting $b = 1 + p$ and $n = t$ as the number of years, then equating the result to the doubling time representation in Eq. {eq}`eq:expgrowth:doubling` to form
 
 $$
-\label{eq:epgrowth:etoln}
+\label{eq:expgrowth:etoln}
 M = e^{t \ln(1+p)} = e^{t \ln 2/t_2}.
 $$
 
 From this expression, we can gather that $\ln(1 + p) = \ln 2/t_2$ by equating the exponents, and then see that the doubling time, $t_2$, can be solved as
 
 $$
-\label{t2}
+\label{eq:expgrowth:t2}
 t_2 = \ln 2/\ln(1+ p).
 $$
 
-For small values of $p$ (much smaller than 1), the natural log of $1 + p$ is approximately $p$. In other words, when $p = 0.02$, $\ln 1.02 \approx 0.02\approx p$. This is part of the reason why we chose $e$ as our base, as it is mathematically "natural." Since $\ln 2 \approx 0.693\approx 0.70$, the doubling time, $t_2$, is approximately 70 divided by the annual growth rate, $p$, in percent. So the reason it's a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70.
+For small values of $p$ (much smaller than 1), the natural log of $1 + p$ is approximately $p$. In other words, when $p = 0.02$, $\ln 1.02 \approx 0.02\approx p$. This is part of the reason why we chose $e$ as our base, as it is mathematically "natural." Since $\ln 2 \approx 0.693\approx 0.70$, the doubling time, $t_2$, is approximately 70 divided by the annual growth rate, $p$, in percent. So the reason it's a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70. 
 
 ```{tip} Example
 To tie some things together, let's look at a quantitative case that can be used to validate how various pieces relate to each other. We will describe a 5% annual growth rate.
@@ -218,33 +218,16 @@ We can check the result using Eq. {eq}`eq:expgrowth:etoln` by putting in $t = 22
 
 The same result happens if using $log_{10}$ instead of $\ln$: try it!
 
-[^7]: What follows is a high-brow symbolic approach, but the same effective result can be achieved by setting *M* = 2 in Eq. 1.5 and solving for *n*.
+[^7]: What follows is a high-brow symbolic approach, but the same effective result can be achieved by setting $M = 2$ in Eq. {eq}`eq:expgrowth:logM` and solving for $n$.
 
-> Try it yourself to verify on a
-> calculator, by sticking in various
-> small amounts for *p*.
+Don't view this as a recipe for solving problems but as a way to romp through the section and help piece it together.
 
-Don't view this as a recipe for solving prob- lems, but as a way to romp through the section and help piece it together.
-
-More generally, we are not confined to any particular base, *b*, having just seized upon two convenient and relevant possibil- ities. If we wanted *b* = 10, we would have *n* = 0.211, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multi- plication, so that 47.4 years at 5% growth results in a factor of 10 growth.
+More generally, we are not confined to any particular base, $b$, having just seized upon two convenient and relevant possibil- ities. If we wanted $b = 10$, we would have $n = 0.211$, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multiplication, so that 47.4 years at 5% growth results in a factor of 10 growth.
 
 ## Exponential Energy Extrapolation
 
-Having established some basic principles of exponential growth, it's time
-for a first look at how we can use the math to argue about limits to our
-expectations. We'll concentrate on energy use. The United States Energy
-Information Administration (EIA) provides information on energy use
-from 1949 to the present. An appendix (E1: [3]) presents an approximate
-account of energy use from 1635-1945. Figure 1.2 displays the more
-recent portion of this history.
-
-Lacking comparable data for the world, we
-use U.S. data simply to illustrate the more
-broadly applicable global growth trend.
-Even countries far behind are growing en-
-ergy use often faster than the 3% charac-
-teristic of U.S. history.
-
+Having established some basic principles of exponential growth, it's time for a first look at how we can use the math to argue about limits to our expectations. We'll concentrate on energy use. The United States Energy Information Administration (EIA) provides information on energy use from 1949 to the present. An appendix (E1: [3]) presents an approximate
+account of energy use from 1635-1945. [](#fig:expgrowth:energyproduction) displays this full range of history.
 ```{figure} ../figures/Ch01_ExponentialGrowth/EnergyProduction.png
 :label: fig:expgrowth:energyproduction
 :align: center
@@ -252,6 +235,17 @@ teristic of U.S. history.
 :alt: U.S. energy over almost 400 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit.
 U.S. energy over almost 400 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit.
 ```
+
+We use U.S. data simply to illustrate the more broadly applicable global growth trend. Even countries far behind the U.S. show growing energy use often faster than the 2-3% charac-
+teristic of U.S. history. To explore worldwide data over more recent years, select various countries in the Gapminder interactive [](#interact:expgrowth:gapmind).
+:::{iframe}//www.gapminder.org/tools/?embedded=true#$model$markers$bubble$encoding$y$data$concept=energy_use_per_person&source=sg&space@=geo&=time;;&scale$domain:null&zoomed:null&type:null;;&x$data$concept=time&space@=time;;&scale$domain:null&zoomed:null&type:null;;&frame$speed:1200&value=2015;&trail$data$filter$markers$usa=1960;;;;;;;;&chart-type=bubbles&url=v2
+:label: interact:expgrowth:gapmind
+:width: 100%
+:align: center
+:placeholder: ../figures/Ch01_ExponentialGrowth/gapminder.jpg
+Gapminder: An interactive website for global data.
+:::
+
 
 Note that the energy rate at the left edge of [](#fig:expgrowth:energyproduction) becomes almost invisibly small. Presenting the data on a logarithmic plot, as in [](#fig:expgrowth:energyproductionlog), we can better see the entire trajectory. On such a plot, exponentials
 become straight lines. The trend is remarkably consistent with an exponential (red line) for most of the history, at a rate of about 2% per year. Note that this total effect includes population growth, but population has not grown as fast as energy, so that per-capita energy has also risen. This makes sense: our lives today are vastly more energetically rich than lives of yesteryear, on a per-person basis.
