@@ -48,7 +48,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:
 | 2000 | 102 400    |
 ```
 
-10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20â30 minutes may be more realistic. We will also ignore deaths for this âtoyâ example, although the net effect only changes the rate and not the overall behavior.
+10 minutes is perhaps a little fast for biology, but we're looking for easy understanding and picking convenient numbers. In practice, 20-30 minutes may be more realistic. We will also ignore deaths for this "toy" example, although the net effect only changes the rate and not the overall behavior.
 ```{figure} ../figures/Ch01_ExponentialGrowth/BacteriaJar.svg
 :label: fig:expgrowth:bacteriajar
 :align: center
@@ -57,7 +57,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:
 The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
 ```
 
-Now let's imagine another illustrative scenario in connection with our jar of bacteria. The time is 11:30 PM: one-half hour before the end. The jar is one-eighth full. A thoughtful member of the culture projects the future and decides that more uninhabited resource-laden jars must be discovered in short order if the culture is to continue its trajectory. Imagine for a second the disbelief expressed by probably the vast majority of other inhabitants: the jar is far from full, and has served for 141 generationsâa seeming eternity. Nonetheless, this explorer returns reporting three other equal-sized food-filled jars within easy reach. A hero's welcome! How much longer will the culture be able to continue growing? What's your answer?
+Now let's imagine another illustrative scenario in connection with our jar of bacteria. The time is 11:30 PM: one-half hour before the end. The jar is one-eighth full. A thoughtful member of the culture projects the future and decides that more uninhabited resource-laden jars must be discovered in short order if the culture is to continue its trajectory. Imagine for a second the disbelief expressed by probably the vast majority of other inhabitants: the jar is far from full, and has served for 141 generations - a seeming eternity. Nonetheless, this explorer returns reporting three other equal-sized food-filled jars within easy reach. A hero's welcome! How much longer will the culture be able to continue growing? What's your answer?
 
 The population doubles every ten minutes. If the original jar is filled at 12:00, the population doubles to fill the second jar by 12:10. Another doubling fills all four by 12:20. The celebration is short-lived.
 
@@ -74,11 +74,14 @@ This section is among the most mathematically sophisticated in the book. Don't l
 
 The essential feature of exponential growth is that the scale goes as the power of some base (just some number) raised to the time interval. In the doubling sequence, we start at 1x the original scale, then go to 2x, then 4x, then 8x, etc. At each time interval, we multiply by 2 (the base). After 5 such intervals, for instance, we have $2\times 2\times 2\times 2\times 2 = 2^5 = 32$. More generally, after $n$ doubling times, we have increased by a factor of $2^n$, where $2$ is the base, and $n$ is the number of doubling times. We might formalize this as
 
-$$M = 2^n = 2^{t/t_2},$$
+$$
+\label{eq:expgrowth:M}
+M = 2^n = 2^{t/t_2},
+$$
 
 [^3]: If we're at 1/8 right now and double every 35 years, we will be at 1/4 in 35 years, 1/2 in 70 years, and full in 105 years.
 
-[^4]: [](#chap:spacecolonize) addresses space realities.
+[^4]: [](#chap:spacecolonization) addresses space realities.
 
 [^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaning, so electing to use $x, n, t, b, M$, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the structure of the equation/sentence.
 
@@ -187,23 +190,33 @@ $$
 
 The rule of 70 can be recovered[^7] by setting the multiplicative factor, $M$, to 2. Comparing to interest accumulation described by $(1 + p)^t$, where $p$ is the annual interest (0.02 for 2%, e.g.) and $t$ is the number of years, Eq. {eq}`eq:expgrowth:Mbn` can be re-expressed by substituting $b = 1 + p$ and $n = t$ as the number of years, then equating the result to the doubling time representation in Eq. {eq}`eq:expgrowth:doubling` to form
 
-$$M = e^{t \ln(1+p)} = e^{t \ln 2/t_2}.$$ (1.6)
+$$
+\label{eq:epgrowth:etoln}
+M = e^{t \ln(1+p)} = e^{t \ln 2/t_2}.
+$$
 
 From this expression, we can gather that $\ln(1 + p) = \ln 2/t_2$ by equating the exponents, and then see that the doubling time, $t_2$, can be solved as
 
-$$t_2 = \ln 2/\ln(1+ p).$$ (1.7)
+$$
+\label{t2}
+t_2 = \ln 2/\ln(1+ p).
+$$
 
-For small values of *p* (much smaller than 1), the natural log of 1 + *p* is approximately *p*. In other words, when *p* = 0.02, ln 1.02 â 0.02 â *p*. This is part of the reason why we chose *e* as our base, as it is mathematically ânatural.â Since In 2 â 0.693 â .70, the doubling time, *t*~2~, is approximately 70 divided by the annual growth rate, *p*, in percent. So the reason itâs a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70.
+For small values of $p$ (much smaller than 1), the natural log of $1 + p$ is approximately $p$. In other words, when $p = 0.02$, $\ln 1.02 \approx 0.02\approx p$. This is part of the reason why we chose $e$ as our base, as it is mathematically "natural." Since $\ln 2 \approx 0.693\approx 0.70$, the doubling time, $t_2$, is approximately 70 divided by the annual growth rate, $p$, in percent. So the reason it's a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70.
 
-Example 1.1.2 To tie some things together, letâs look at a quantitative case that can be used to validate how various pieces relate to each other. We will describe a 5% annual growth rate.
+```{tip} Example
+To tie some things together, let's look at a quantitative case that can be used to validate how various pieces relate to each other. We will describe a 5% annual growth rate.
 
-The rule of 70 indicates a 14 year doubling time, so that we could define *t*~2~ appearing in Eqs. 1.1, 1.3, 1.6, and 1.7 to be 14 years. Calculating exactly using Eq. 1.7 yields 14.2 years.
+The rule of 70 indicates a 14 year doubling time, so that we could define $t_2$ appearing in Eqs. {eq}`eq:expgrowth:M`, {eq}`eq:expgrowth:doubling`, {eq}`eq:expgrowth:etoln`, and {eq}`eq:expgrowth:t2` to be 14 years. Calculating exactly using Eq. {eq}`eq:expgrowth:t2` yields 14.2 years.
 
-To evaluate growth in 10 years, we could use Eq. 1.1 with *t* = 10 and *t*~2~ = 14.2 to suggest *M* = 1.63, meaning a 63% increase in size (1.63 times as large as at the start). Or we could apply Eq. 1.2 using *b* = 1.05 and *n* = 10 to get the exact same result. Note that we have freedom to define the base as 1.05 or 2, and the corresponding number of steps (*n*) as 10 or *t*/*t*~2~ = 0.704, respectively, and get the same answer. In terms of the exponential form in Eq. 1.4, either pair of *b* and *n* produces e^0.488^.
+To evaluate growth in 10 years, we could use Eq. {eq}`eq:expgrowth:M` with $t = 10$ and $t_2 = 14.2$ to suggest $M = 1.63$, meaning a 63% increase in size (1.63 times as large as at the start). Or we could apply Eq. {eq}`eq:expgrowth:baseton` using $b = 1.05$ and $n = 10$ to get the exact same result. Note that we have freedom to define the base as 1.05 or 2, and the corresponding number of steps ($n$) as 10 or $t/t_2 = 0.704$, respectively, and get the same answer. In terms of the exponential form in Eq. {eq}`eq:expgrowth:Mbn`, either pair of $b$ and $n$ produces $e^{0.488}$.
 
-If we wanted to âwork backwardsâ and ask when the amount is 3 times the original (*M* = 3), we could use Eq. 1.5 to find that *n* is 22.5 steps at *b* = 1.05 (thus 22.5 years, since this base is the yearly increase). Had we used *b* = 2, we would compute *n* = 1.58, meaning that the scale would reach 3Ã after 1.58 doubling times, or 1.58*t*~2~ = 22.5 years.
+If we wanted to work backwards and ask when the amount is 3 times the original ($M = 3$), we could use Eq. {eq}`eq:expgrowth:logM` to find that $n$ is 22.5 steps at $b = 1.05$ (thus 22.5 years, since this base is the yearly increase). Had we used $b = 2$, we would compute $n = 1.58$, meaning that the scale would reach 3x after 1.58 doubling times, or $1.58t_2 = 22.5$ years.
 
-The same result happens if using log instead of In: try it!
+We can check the result using Eq. {eq}`eq:expgrowth:etoln` by putting in $t = 22.5$ and $p = 0.05$ or $t_2 = 14.2$ in the latter form.
+```
+
+The same result happens if using $log_{10}$ instead of $\ln$: try it!
 
 [^7]: What follows is a high-brow symbolic approach, but the same effective result can be achieved by setting *M* = 2 in Eq. 1.5 and solving for *n*.
 
@@ -214,9 +227,6 @@ The same result happens if using log instead of In: try it!
 Don't view this as a recipe for solving prob- lems, but as a way to romp through the section and help piece it together.
 
 More generally, we are not confined to any particular base, *b*, having just seized upon two convenient and relevant possibil- ities. If we wanted *b* = 10, we would have *n* = 0.211, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multi- plication, so that 47.4 years at 5% growth results in a factor of 10 growth.
-
-We can check the result using Eq. 1.6 by putting in t = 22.5 and
-p = 0.05 or t2 = 14.2 in the latter form.
 
 ## Exponential Energy Extrapolation
 
