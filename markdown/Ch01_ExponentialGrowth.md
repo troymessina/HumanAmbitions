@@ -237,7 +237,7 @@ U.S. energy over almost 400 years, showing a dramatic rise due almost entirely t
 ```
 
 We use U.S. data simply to illustrate the more broadly applicable global growth trend. Even countries far behind the U.S. show growing energy use often faster than the 2-3% charac-
-teristic of U.S. history. To explore worldwide data over more recent years, select various countries in the Gapminder interactive [](#interact:expgrowth:gapmind).
+teristic of U.S. history. To explore worldwide data over more recent years, select various countries in the Gapminder interactive in [](#interact:expgrowth:gapmind). You may need to expand the interactive to have the full range of selections.
 :::{iframe}//www.gapminder.org/tools/?embedded=true#$model$markers$bubble$encoding$y$data$concept=energy_use_per_person&source=sg&space@=geo&=time;;&scale$domain:null&zoomed:null&type:null;;&x$data$concept=time&space@=time;;&scale$domain:null&zoomed:null&type:null;;&frame$speed:1200&value=2015;&trail$data$filter$markers$usa=1960;;;;;;;;&chart-type=bubbles&url=v2
 :label: interact:expgrowth:gapmind
 :width: 100%
@@ -247,15 +247,11 @@ Gapminder: An interactive website for global data.
 :::
 
 
-Note that the energy rate at the left edge of [](#fig:expgrowth:energyproduction) becomes almost invisibly small. Presenting the data on a logarithmic plot, as in [](#fig:expgrowth:energyproductionlog), we can better see the entire trajectory. On such a plot, exponentials
-become straight lines. The trend is remarkably consistent with an exponential (red line) for most of the history, at a rate of about 2% per year. Note that this total effect includes population growth, but population has not grown as fast as energy, so that per-capita energy has also risen. This makes sense: our lives today are vastly more energetically rich than lives of yesteryear, on a per-person basis.
+Note that the energy rate at the left edge of [](#fig:expgrowth:energyproduction) becomes almost invisibly small. Presenting the data on a logarithmic plot, as in [](#fig:expgrowth:energyproductionlog), we can better see the entire trajectory. On such a plot, exponentials become straight lines. The trend is remarkably consistent with an exponential (red line) for most of the history, at a rate of about 2% per year. Note that this total effect includes population growth, but population has not grown as fast as energy, so that per-capita energy has also risen. This makes sense: our lives today are vastly more energetically rich than lives of yesteryear, on a per-person basis.
 
-The astute reader might note a departure from the exponential fit in recent years. This only reinforces the primary point of this
-chapter that sustaining exponential growth indefinitely is absurd and will not happen. If growth is destined to stop, perhaps we
-are beginning to experience its limits well before the theoretical timescales developed in this chapter.
+The astute reader might note a departure from the exponential fit in past years. This only reinforces the primary point of this chapter that sustaining exponential growth indefinitely is absurd and will not happen. If growth is destined to stop, perhaps we are beginning to experience its limits well before the theoretical timescales developed in this chapter.
 
-Having established that energy growth over the past several is well-described by an exponential, we can explore the implications of
-continuing this trend forward. Present-day global energy production rate is approximately $18\times 10^{12}$ Watts (18 TW). Watts is a unit of power, which is a rate of energy. [](#chap:energyandpower) will cover the units more thoroughly. We adopt a convenient growth rate of 2.3% per year for this exercise. We pick this for two reasons: 
+Having established that energy growth over the past several is well-described by an exponential, we can explore the implications of continuing this trend forward. Present-day global energy production rate is approximately $18\times 10^{12}$ Watts (18 TW). Watts is a unit of power, which is a rate of energy. [](#chap:energyandpower) will cover the units more thoroughly. We adopt a convenient growth rate of 2.3% per year for this exercise. We pick this for two reasons: 
 1. It is in agreement with the historical trend, so will not over-exaggerate the
 2. This rate produces the mathematical convenience of a factor of 10 increase every century.[^8]
 ```{figure} ../figures/Ch01_ExponentialGrowth/EnergyProductionLog.png
@@ -268,20 +264,10 @@ Energy trajectory in the U.S. over almost 400 years. The red line is an exponent
 on a logarithmic plot.
 ```
 
+What follows is a flight of fancy that quickly becomes absurd, but we will chase it to staggering levels of absurdity just because it is fun, instructive, and mind-blowing. Bear in mind that what follows should not be taken as predictions[^9] of our future: rather, we can use the absurdity to predict how our future *will not* look!
 
-
-
-
-What follows is a flight of fancy that quickly becomes absurd, but we will
-chase it to staggering levels of absurdity just because it is fun, instructive,
-and mind-blowing. Bear in mind that what follows should not be taken
-as predictions[^9] of our future: rather, we can use the absurdity to predict
-how our future *will not* look!
-
-The sun deposits energy at Earth's surface at a rate of about 1,000 W/mÂ²
-(1,000 Watts per square meter; we'll reach a better understanding for
-these units in Chapter 5). Ignoring clouds, the projected area intercepting
-the sun's rays is just A = ÏRÂ², where Râ is the radius of the earth, around
+The sun deposits energy at Earth's surface at a rate of about 1000 W/m<sup>2</sup> (1000 Watts per square meter; we'll reach a better understanding for
+these units in [](#chap:energypower)). Ignoring clouds, the projected area intercepting the sun's rays is just $A = \pi R_{\oplus}^2$, where $R_{\oplus}$ is the radius of the earth, around
 6,400 km. Roughly a quarter of the earth's surface is land, and adding
 it all up we get about 30 Ã 10Â¹âµ W hitting land. If we put solar panels
 on every square meter of land converting sunlight to electrical energy
