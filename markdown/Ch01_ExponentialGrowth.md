@@ -324,7 +324,7 @@ $$
 P = A_{surf} \sigma \left(T_{hot}^4 - T_{cold}^4\right).
 $$
 
-$P$ is the power radiated, $A_{surf}$ is the surface area, $T_{hot}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{cold}$ is the temperature of the environment (also Kelvin), and $\sigma$ is the Stefan-Boltzmann constant: $\sigma$ = 5.67 \times 10{-8}~{\rm W/m^2/K^4}$.[^17] Note that the law operates on the difference of the fourth powers of two temperatures.
+$P$ is the power radiated, $A_{surf}$ is the surface area, $T_{hot}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{cold}$ is the temperature of the environment (also Kelvin), and $\sigma$ is the Stefan-Boltzmann constant: $\sigma = 5.67 \times 10{-8}~{\rm W/m^2/K^4}$.[^17] Note that the law operates on the difference of the fourth powers of two temperatures.
 
 ```{exercise} Radiation Example
 :label: ex:expgrowth:blackbody
@@ -351,45 +351,36 @@ $T(C) = (T(F) - 32) / 1.8$
 
 Because space is so cold (tens of Kelvin, effectively, unless exposed to the sun), the fourth power of such a small number pales so *much* in comparison to the fourth power of a number like 300 that we can safely ignore it for radiation to space:
 
-$$P_{space} \approx A_{surf}\sigma T^{4},$$
+$$
+\label{eq:expgrowth:stefansimple}
+P_{space} \approx A_{surf}\sigma T^{4},
+$$
 
 where we now just have a single temperature: that of the warm body in space.
 
-Earth reaches an equilibrium so that power-in equals power-out.[^1] If more power is dumped onto the planet, then the temperature rises until $\sigma T^{4}$ climbs to match. The relation in Eq. 1.9 is fundamentally important to Earth's temperature balance, and applies pretty universally, as highlighted in Box 1.4.
+Earth reaches an equilibrium so that power-in equals power-out.[^18] If more power is dumped onto the planet, then the temperature rises until $\sigma T^{4}$ climbs to match. The relation in Eq. {eq}`eq:expgrowth:stefansimple` is fundamentally important to Earth's temperature balance, and applies pretty universally, as highlighted in [](#box:expgrowth:everthingradiates).
 
 ```{note} Everything Radiates
-
+:label: box:expgrowth:everthingradiates
 The same relation (Eq. {eq}`eq:expgrowth:stefan`) governs the surface of the sun, light bulb filaments, glowing coals, and even the human body. While the human body expends metabolic energy at a similar rate to an incandescent light bulb (about 100 W), one is *much* hotter than the other because the surface areas are vastly different.
 ```
 ```{figure} ../figures/Ch01_ExponentialGrowth/EarthAbsorbsSun.jpeg
 :label: fig:expgrowth:sunonearth
 :width: 100%
 :align: center
-:alt: Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.
-Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.
+:alt: Earth-shown here in northern hemisphere summer-intercepts sunlight across the projected area of the Earth's disk ($\pi R^2$), while radiating from the entire surface area, which is four times larger ($4\pi R^2$).
+Earth-shown here in northern hemisphere summer-intercepts sunlight across the projected area of the Earth's disk ($\pi R^2$), while radiating from the entire surface area, which is four times larger ($4\pi R^2$).
 ```
 
-To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere ([](doi:10.1029/2010GL045777)) (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
+To evaluate the expected temperature of the earth, we know that the sun delivers 1360 W/m<sup>2</sup> to the *top* of the earth's atmosphere ([](doi:10.1029/2010GL045777)) (a bit less reaches the ground). This 1360 W/m<sup>2</sup>, known as the solar constant, is the incident energy rate (power), or the *flux*, of sunlight incident on Earth. We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/m<sup>2</sup>. It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this (the surface area of a sphere is $4\pi R^2$), all of it participating in the radiation to space ([](#fig:expgrowth:sunonearth). Equating the input and output for equilibrium conditions:
 
-$$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$ (1.10)
-
-[^1]: Climate change is due to greenhouse gases blocking the escape of some radiation to space, presently causing a ~0.1% imbalance that Chapter 9 will address.
-
-> [Figure 1.4: Earth-shown here in northern hemisphere summer-intercepts sunlight across the projected area of the Earth's disk ($ÏR^2$), while radiating from the entire surface area, which is four times larger ($4ÏR^2$).]
-
-This 1,360 W/mÂ², known as the solar constant, is the incident energy rate (power), or the *flux*, of sunlight incident on Earth.
-
-The 0.707 factor represents absorbed fraction after 29.3% is reflected.
-
-
--------------------------------------------------------------------------------- Page 11
-
-which we can rearrange to isolate temperature, satisfying
-
+$$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$
+The 0.707 factor represents absorbed fraction after 29.3% is reflected. We can rearrange to isolate temperature, satisfying
 $$T^{4} = \frac{0.707 \times 1360 \text{ W/m}^2}{4\sigma}$$
-(1.11)
 
-Solving for *T* yields *T* â 255 K, or -18Â°C (about 0Â°F). This is coldâtoo cold. We observe the average temperature of Earth to be about 288 K, or 15Â°C (59Â°F). The difference of 33Â°C is due to greenhouse gasesâmostly HâOâimpacting the thermal balance by preventing most radiation from escaping directly to space. We'll cover this more extensively in Chapter 9.
+[^18]: Climate change is due to greenhouse gases blocking the escape of some radiation to space, presently causing a ~0.1% imbalance that [Chapter 9](#chap:climatechange) will address.
+
+Solving for $T$ yields $T=255~{\rm K}$, or -18°C (about 0°F). This is cold - too cold. We observe the average temperature of Earth to be about 288 K, or 15°C (59°F). The difference of 33°C is due to greenhouse gases - mostly H<sub>2</sub>O - impacting the thermal balance by preventing most radiation from escaping directly to space. We'll cover this more extensively in [Chapter 9](#chap:climatechange).
 
 Armed with Eq. 1.11, we can now estimate the impact of waste heat on Earth's equilibrium temperature. Using the solar input as a baseline, we can add increasing input using the exponential scheme from the previous section: starting today at 18 TW and increasing at 2.3% per year (a factor of 10 each century). It is useful to express the human input in the same terms as the solar input so that we can just add to the numerator in Eq. 1.11. In this context, our current 18 TW into the projected area ÏRÂ² adds 0.14 W/mÂ² to the solar input (a trivial amount, today), but then increases by a factor of ten each century. Taking this in one-century chunks, the resulting temperaturesâadding in the 33 K from greenhouse gasesâfollow the evolution shown in Table 1.4. At first, the effect is unimportant, but in 300 years far outstrips global warming, and reaches boiling temperature in a little over 400 years! If we kept going (not possible), Earth's temperature would exceed the surface temperature of the sun inside of 1,000 years!
 
