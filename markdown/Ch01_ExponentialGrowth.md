@@ -14,6 +14,9 @@ kernelspec:
 
 Humans have amazing strengths, but also significant weaknesses. Chief among them, perhaps, is our collective difficulty in grasping the mathematical consequences of exponential growth.[^1] This is an ironic state, given that our economic and political goals are often geared explicitly to support continued growth. The degree to which an expectation and desire for continued growth is woven into our society makes it important to examine the phenomenon carefully, so that we might avoid building upon a shaky foundation. In this chapter, we explore the general nature of exponential growth, in order to understand the impossibility of its long-term continuance by way of exposing various absurd consequences that uninterrupted growth prescribes. The upshot[^2] is that our societal framework eventually must face a mandatory departure from the current model-a piece of knowledge we should all lodge into the backs of our minds. Subsequent chapters will address applications to economic and population growth-including more realistic logistic growth curves, then pivot toward nailing down limits imposed by our finite planet.
 
+(sec:expgrowth:bacteria)=
+## Bacteria in a Jar
+
 One hallmark of exponential growth is that the time it takes to double in size, or the doubling time, is constant. An important and convenient concept we will repeatedly use in this chapter is the rule of 70:
 
 ```{note} Definition: Rule of 70
@@ -412,102 +415,56 @@ We saw in this chapter that unabated growth leads to absurd results. First, we c
 
 Next, we found that continuing a modest growth rate in energy becomes hopelessly absurd in a matter of centuries. Then we saw another side to this coin, in the context of thermal consequences on the surface of the earth if energy growth continues.
 
+Was the exercise pointless, since the math leads to absurdity? Is the math wrong? No, it's immensely valuable to learn that our assumption of continued growth (and application of the corresponding correct math) fails to make sense, ultimately. The logical conclusion is that growth cannot continue indefinitely.
+
 In the end, physics puts a timeline on expectations with respect to growth in energy on Earth. Maybe the ~300 year scale is not alarming enough. But it imposes a hard barrier against preserving our historical growth rate. In reality, other practicalities are likely to assert themselves before these hard limits are reached. We can therefore expect our growth phase to end well within a few hundred years. Given that the growth phase has lasted for far longer than that, we can say that we are closer to the end of the saga than to the beginning, yet the world is not collectively preparing for such a new reality. This seems unwise, and we will evaluate related concerns in subsequent chapters.
 
-Many factors will intercede to limit growth in both population and resource use: resource scarcity, pollution, aquifer depletion and water availability, climate change, warfare, fisheries collapse, a limited amount of arable land (declining due to desertification), deforestation, disease, to name a few. The point is only reinforced. By some means or another, we should view the present period of physical growth as a temporary phase: a brief episode in the longer human saga.
+Note that a deviation from the assumed steady 2.3% growth rate changes all the numbers, and therein may lie the solution: ramp down growth!
+
+Many factors will intercede to limit growth in both population and resource use: resource scarcity, pollution, aquifer depletion and water availability, climate change, warfare, fisheries collapse, a limited amount of arable land (declining due to desertification), deforestation, disease, to name a few. The point is only reinforced. By some means or another, we should view the present period of physical growth as a temporary phase: a brief episode in the longer human saga. A number of these issues will be addressed in subsequent chapters.
 
 ## Problems
 
 Hint: for problems that require solving temperature when it appears as $T^4$, you'll need to take the fourth root, which is the same as raising to the 1/4 power. So use the $y^x$ button (or equivalent) and raise to the 0.25 power. You can check this technique by comparing the square root of a number to the result of raising that number to the 0.5 power. Another technique for the fourth root is to take the square root twice in a row.
 
 1.  Verify the claim in the text that the town of 100 residents in 1900 reaches approximately 100,000 in the year 2000 if the doubling time is 10 years.
-
-2.  Fill out Table 1.1 for the missing decades between 1940 and 2000.
-
-Was the exercise pointless, since the math leads to absurdity? Is the math wrong? Noâ it's immensely valuable to learn that our assumption of continued growth (and application of the corresponding correct math) fails to make sense, ultimately. The logical conclusion is that growth cannot continue indefinitely.
-
-Note that a deviation from the assumed steady 2.3% growth rate changes all the numbers, and therein may lie the solution: ramp down growth!
-
-A number of these issues will be addressed in subsequent chapters.
-
-3.  Our example town from the text (page 3) starting at 100 people in the year 1900 and doubling every 10 years was said to take about 260 years (26 doubling times) to reach world population. Verify that the population indeed would approach 7 billion in 260 years (when the year would be 2160), by any means you wish.[^20]
-
-4.  Use Eq. 1.5 with *b* = 2 to figure out exactly how many yearsâvia a computation of doubling times, which may not be an integerâour example town from the text (page 3) would take to reach 7 billion people.
-
-5.  If our example town from page 3, doubling every 10 years, reaches a population of 7 billion in 260 years, how many years before it reaches 14 billion?
-
-6.  In a classic story, a king is asked to offer a payment as follows: place one grain of rice on one square of a chess board (64 squares), then two on the next square, four on the next, 8 on the next, and double the previous on each subsequent square. The king agrees, not comprehending exponential growth. But the final number (adding all the grains) is one less than 2^64. How many grains is this?
-
-7.  In the bacteria example of Section 1.1, how many âdoubling timesâ are present in the 24 hour experiment (how many times did the population double)?
-
-8.  A one-liter jar would hold about 10^16 bacteria. Based on the number of doubling times in our 24-hour experiment, show by calculation that our setup was woefully unrealistic: that even if we started with a single bacterium, we would have far more than 10^16 bacteria after 24 hours if doubling every 10 minutes.
-
-9.  If a one-liter jar holds 10^16 bacteria, how many bacteria would we start in the jar so that the jar reaches full capacity after 24 hours if we increase the doubling time to a more modest/realistic 30 minutes?
-
+2.  Fill out [](#table:expgrowth:popgrowth) for the missing decades between 1940 and 2000.
+3.  Our example town from the text starting at 100 people in the year 1900 and doubling every 10 years was said to take about 260 years (26 doubling times) to reach world population. Verify that the population indeed would approach 7 billion in 260 years (when the year would be 2160), by any means you wish.[^20]
+4.  Use Eq. {eq}`eq:expgrowth:logM` with $b = 2$ to figure out exactly how many years - via a computation of doubling times, which may not be an integer - our example town from the text would take to reach 7 billion people.
+	* Hint: $\ln$ is the natural log function found on scientific calculators (sometimes as LN).
+	* Hint: $M$ is the ratio of the final population to the initial population.
+5.  If our example town, which doubles every 10 years, reaches a population of 7 billion in 260 years, how many years before it reaches 14 billion?
+6.  In a classic story, a king is asked to offer a payment as follows: place one grain of rice on one square of a chess board (64 squares), then two on the next square, four on the next, 8 on the next, and double the previous on each subsequent square. The king agrees, not comprehending exponential growth. But the final number (adding all the grains) is one less than 2<sup>64</sup>. How many grains is this? 
+	* To get 2,000 kcal of metabolic content per day, a person would need to eat 30,000 grains of rice each day. The amount of rice computed for this problem would feed the current world population for 240 years, which you are encouraged to check for yourself!
+7.  In the bacteria example of [%s](#sec:expgrowth:bacteria), how many doubling times are present in the 24 hour experiment (how many times did the population double)?
+8.  A one-liter jar would hold about 10<sup>16</sup> bacteria. Based on the number of doubling times in our 24-hour experiment, show by calculation that our setup was woefully unrealistic: that even if we started with a single bacterium, we would have far more than 10<sup>16</sup> bacteria after 24 hours if doubling every 10 minutes.
+9.  If a one-liter jar holds 10<sup>16</sup> bacteria, how many bacteria would we start in the jar so that the jar reaches full capacity after 24 hours if we increase the doubling time to a more modest/realistic 30 minutes?
+	* Roughly 10 bacteria fit within a cubic micron (tiny), so you would not be able to see this tiny starting amount.
 10. A more dramatic, if entirely unrealistic, version of the bacteria-jar story is having the population double every minute. Again, we start the jar with the right amount of bacteria so that the jar will be full 24 hours later, at midnight. At what time is the jar half full now?
-
 11. In the more dramatic bacteria-jar scenario in which doubling happens every minute and reaches single-jar capacity at midnight, at what time will the colony have to cease expansion if an explorer finds three more equivalent jars in which they are allowed to expand without interruption/delay?
-
 12. What is the doubling time associated with 3.5% annual growth?
-
-[^20]: E.g., brute force doubling 26 times or using math to get straight at the answer.
-
-Hint: In is the natural log function found on scientific calculators (sometimes as LN).
-
-Hint: *M* is the ratio of the final population to the initial population.
-
-To get 2,000 kcal of metabolic content per day, a person would need to eat 30,000 grains of rice each day. The amount of rice computed for this problem would feed the current world population for 240 years, which you are encouraged to check for yourself!
-
-Roughly 10 bacteria fit within a cubic micron (tiny), so you would not be able to see this tiny starting amount.
-
-13. Using Eq. 1.5 and showing work, what annual growth rate, in per- cent, leads to the mathematically convenient factor-of-ten growth every century?
-
-14. Use Eq. 1.5 with b = 1 + p to figure out how long it takes to increase our energy by a factor of 10 if the growth rate is closer to the historical value of 2.9% (p = 0.029). Using 2.3% as we did in the examples (starting on page 7) puts this at 100 years.[^1]
-
-15. Extrapolating a constant growth rate in energy is motivated by historical performance. During this period, population was also growing, albeit not as fast. If population were to double every 50 years,[^2] how many people would Earth host when we hit the energy/thermodynamic limits in roughly 300 years?
-
-16. In extrapolating a 2.3% growth rate in energy, we came to the absurd conclusion that we consume all the light from all the stars in the Milky Way galaxy within 2,500 years. How much longer would it take to energetically conquer 100 more "nearby" galaxies, assuming they are identical to our own?
-
-17. In the spirit of outlandish extrapolations, if we carry forward a 2.3% growth rate (10x per century), how long would it take to go from our current 18 TW (18 Ã 1012 W) consumption to annihilating an entire earth-mass planet every year, converting its mass into pure energy using E = mcÂ²? Things to know: Earth's mass is 6 Ã 1024 kg; c = 3 Ã 108 m/s; the result is in Joules, and one Watt is one Joule per second.
-
+13. Using Eq. {eq}`eq:expgrowth:logM` and showing work, what annual growth rate, in percent, leads to the mathematically convenient factor-of-ten growth every century?
+	* Hint: the exponential, $e^x$, "undoes" the natural logarithm.
+14. Use Eq. {eq}`eq:expgrowth:logM` with $b = 1 + p$ to figure out how long it takes to increase our energy by a factor of 10 if the growth rate is closer to the historical value of 2.9% ($p = 0.029$). Using 2.3% as we did in the chapter examples puts this at 100 years.[^21]
+15. Extrapolating a constant growth rate in energy is motivated by historical performance. During this period, population was also growing, albeit not as fast. If population were to double every 50 years,[^22] how many people would Earth host when we hit the energy/thermodynamic limits in roughly 300 years?
+	* We are unlikely to reach such a number for a host of other reasons.
+16. In extrapolating a 2.3% growth rate in energy, we came to the absurd conclusion that we consume all the light from all the stars in the Milky Way galaxy within 2500 years. How much longer would it take to energetically conquer 100 more "nearby" galaxies, assuming they are identical to our own?
+	* Ignoring the fact that it impossible to get to them fast enough, even at light speed.
+17. In the spirit of outlandish extrapolations, if we carry forward a 2.3% growth rate (10x per century), how long would it take to go from our current 18 TW ($18\times 10^{12}~{\rm W}$) consumption to annihilating an entire earth-mass planet every year, converting its mass into pure energy using $E = mc^$? Things to know: Earth's mass is $6\times 10^{24}~{\rm kg}$; $c = 3\times 10^8~{\rm m/s}$; the result is in Joules, and one Watt is one Joule per second.
+	* Hint: Dividing the number of Joules asso- ciated with Earth's mass by the number of seconds in a year gives the number of Watts being consumed. You may wish to compare the result to the timescale before we would use the power output of all stars in the Milky Way galaxy?
 18. Taking cues from the discussion of waste heat channels on page 10, describe some of the ways that all your energy output turns to heat when you go on a bicycle ride.
-
-19. Your skin temperature is about 308 K, and the walls in a typical room are about 295 K. If you have about 1 mÂ² of outward-facing surface area, how much power do you radiate as infrared radiation, in Watts? Compare this to the typical metabolic rate of 100 W.
-
-20. The moon absorbs 90% of the solar energy incident on it.[^3] How hot would you expect the surface to get under full sun? You don't need the factor of four here[^4] because the moon rotates very slowly under the sun and we're considering a patch experiencing overhead sunlight (rather than averaging over the sphere). Compare the result to boiling water temperature.
-
-21. Venus is, ironically, colder than Earth as an infrared radiator. This is because Venus is covered in bright clouds, absorbing only 25% of the incident solar flux. Sunlight is more intense there due to it's being closer to the sun: it's almost double, at 2,620 W/mÂ². Adapting Eq. 1.11, calculate the equilibrium temperature of Venus in the infrared and compare it to the Earth value of 255 K.
-
-Â©2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-Hint: the exponential, eË£, "undoes" the nat- ural logarithm.
-
-[^1]: Hint: a good way to check your math. Note that if we were to use 2.9% instead of 2.3%, all of the time estimates in Section 1.2 are reduced by the ratio of this question's answer to 100 years.
-
-[^2]: This corresponds to a 1.4% growth rate, but you don't need to use this number in your calculation.
-
-â We are unlikely to reach such a number for a host of other reasons.
-
-â Ignoring the fact that it impossible to get to them fast enough, even at light speed.
-
-Hint: Dividing the number of Joules asso- ciated with Earth's mass by the number of seconds in a year gives the number of Watts being consumed. You may wish to compare the result to the timescale before we would use the power output of all stars in the Milky Way galaxy?
-
-â Air convection also takes some heat away, but then clothing reduces both to bring us to equilibrium/comfort.
-
-[^3]: ... incident at the same rate/flux as at Earth
-
-[^4]: Referring to the 4 that shows up in Eqs. 1.10 and 1.11.
-
-â The surface of Venus is much hotter than that of Earth owing to a runaway green- house condition. On Earth, the greenhouse boost is only 33 K, but on Venus it's hun- dreds of degrees.
-
-
-22. Adapt Eq. 1.11 to Mars to find its equilibrium temperature. The solar flux averages 590 W/mÂ² there, and it absorbs 75% of incident sunlight. Express the answer in both Kelvin and Celsius, and put in context.
-
-23. If a human body having an outward surface area of 1 mÂ² continued to put out 100 W of metabolic power in the form of infrared radiation in the cold of space (naked; no sun), what would the equilibrium temperature be? Would this be comfortable (put in context)?
-
-24. Verify the total solar power output of 4 Ã 10Â²â¶ W based on its surface temperature of 5,800 K and radius of 7 Ã 10â¸ m, using Eq. 1.9.
-
+19. Your skin temperature is about 308 K, and the walls in a typical room are about 295 K. If you have about 1 m<sup>2</sup> of outward-facing surface area, how much power do you radiate as infrared radiation, in Watts? Compare this to the typical metabolic rate of 100 W.
+	* Air convection also takes some heat away, but then clothing reduces both to bring us to equilibrium/comfort.
+20. The moon absorbs 90% of the solar energy incident on it.[^23] How hot would you expect the surface to get under full sun? You don't need the factor of four here[^24] because the moon rotates very slowly under the sun and we're considering a patch experiencing overhead sunlight (rather than averaging over the sphere). Compare the result to boiling water temperature.
+21. Venus is, ironically, colder than Earth as an infrared radiator. This is because Venus is covered in bright clouds, absorbing only 25% of the incident solar flux. Sunlight is more intense there due to it's being closer to the sun: it's almost double, at 2620 W/m<sup>2</sup>. Adapting Eq. {eq}`eq:expgrowth:earthstefan`, calculate the equilibrium temperature of Venus in the infrared and compare it to the Earth value of 255 K. The surface of Venus is much hotter than that of Earth owing to a runaway greenhouse condition. On Earth, the greenhouse boost is only 33 K, but on Venus it's hundreds of degrees.
+22. Adapt Eq. {eq}`eq:expgrowth:earthstefan` to Mars to find its equilibrium temperature. The solar flux averages 590 W/m<sup>2</sup> there, and it absorbs 75% of incident sunlight. Express the answer in both Kelvin and Celsius, and put in context.
+23. If a human body having an outward surface area of 1 m<sup>2</sup> continued to put out 100 W of metabolic power in the form of infrared radiation in the cold of space (naked; no sun), what would the equilibrium temperature be? Would this be comfortable (put in context)?
+24. Verify the total solar power output of $4 \times 10^{26}~\rm W}$ based on its surface temperature of 5800 K and radius of $7\times 10^{8}~{\rm m}$, using Eq. {eq}`eq:expgrowth:stefansimple`.
 25. Verify that Earth would reach a temperature far in excess of boiling point of water[^25] after 500 years if today's power output (18 TW) increased by a factor of 10 each century.
 
+[^20]: E.g., brute force doubling 26 times or using math to get straight at the answer.
+[^21]: Hint: a good way to check your math. Note that if we were to use 2.9% instead of 2.3%, all of the time estimates in Section 1.2 are reduced by the ratio of this question's answer to 100 years.
+[^22]: This corresponds to a 1.4% growth rate, but you don't need to use this number in your calculation.
+[^23]: ... incident at the same rate/flux as at Earth
+[^24]: Referring to the 4 that shows up in Eqs. 1.10 and 1.11.
 [^25]: Water boils at 100Â°C, or 373 K.
