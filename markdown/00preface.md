@@ -47,11 +47,10 @@ was formulated as a physics course, but is written in the hope that it may also 
 this narrow setting. Physics is built on a mathematical foundation, and the domain of energy demands
 quantitative assessment. As a consequence, the book does not shy away from numbers. The math
 that is covered is presented in a way that aims to integrate intuition and the formality of equations.
-While math and quantitative elements are present throughout the book, Chapters 1, 3, and 6 are
-perhaps the most math-intense, featuring exponential functions, logarithms, and the lightest exposure
+While math and quantitative elements are present throughout the book, [Chapters 1](#chap:expgrowth), [3](#chap:population), and [6](#chap:thermalenergy) are perhaps the most math-intense, featuring exponential functions, logarithms, and the lightest exposure
 to differential equations. But students need not master math beyond simple arithmetic operations,
 being able to rearrange equations, compute logarithms and exponentials, and raise a number to a
-power. Appendix A may serve as a useful math refresher.
+power. [Appendix A](#chap:appAmath) may serve as a useful math refresher.
 
 An attempt is made to prevent students from equation-hunting, promoting instead development of a
 core understanding and intuition. This can require an adjustment on the part of students, who often
@@ -66,7 +65,7 @@ effort to gain elevation—no shortcuts can bypass the inevitable climb.
 
 Problems in this book are formulated to emphasize understanding the underlying concepts, rather
 than execution of a mathematical recipe. When students say they have math difficulties, it is usually
-not a problem carrying out the operations (¸ 􀀀  ), but in formulating an approach. Therefore, the
+not a problem carrying out the operations ($+, -, \times, \div$), but in formulating an approach. Therefore, the
 main difficulty is a conceptual one, but blamed on math because casting a problem in a mathematical
 framework forces a mastery of the conceptual underpinning: nowhere to hide. Given two numbers,
 should one divide or multiply them to get the answer sought? Resolving such questions requires a
@@ -134,7 +133,7 @@ prosperity—and resulting sugar high—unlike anything previously experienced i
 but may not exit this century in such a state of privilege. This sort of message may be off-putting to
 some (see also the Epilogue). But the stakes are important enough that it may be worth challenging
 assumptions and making students uncomfortable in a way that other texts might purposefully avoid.
-By the time students reach the end of Chapter 8, they are perhaps a little alarmed, and desperate to
+By the time students reach the end of [Chapter 8](#chap:fossilfuels), they are perhaps a little alarmed, and desperate to
 know “what’s the answer?” Even though the book does not completely satisfy on that front—because
 it can’t, in good faith—this is arguably exactly where an instructor would like students to be: attentive
 and eager. Having them carry the tension into theworld is oneway to help humanity take its challenges
