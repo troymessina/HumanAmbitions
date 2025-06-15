@@ -226,7 +226,7 @@ More generally, we are not confined to any particular base, $b$, having just sei
 
 ## Exponential Energy Extrapolation
 
-Having established some basic principles of exponential growth, it's time for a first look at how we can use the math to argue about limits to our expectations. We'll concentrate on energy use. The United States Energy Information Administration (EIA) provides information on energy use from 1949 to the present. An appendix (E1: [3]) presents an approximate
+Having established some basic principles of exponential growth, it's time for a first look at how we can use the math to argue about limits to our expectations. We'll concentrate on energy use. The United States Energy Information Administration (EIA) provides information on energy use from 1949 to the present. An appendix (E1: [@USEIA]) presents an approximate
 account of energy use from 1635-1945. [](#fig:expgrowth:energyproduction) displays this full range of history.
 ```{figure} ../figures/Ch01_ExponentialGrowth/EnergyProduction.png
 :label: fig:expgrowth:energyproduction
@@ -364,7 +364,7 @@ The same relation (Eq. 1.8) governs the surface of the sun, light bulb filaments
 
 > [Figure: Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.]
 
-To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere [4] (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
+To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere [](doi:10.1029/2010GL045777) (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
 
 $$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$ (1.10)
 
