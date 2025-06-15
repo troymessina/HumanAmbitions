@@ -53,7 +53,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [](#fig:expgrowth:
 :label: fig:expgrowth:bacteriajar
 :align: center
 :width: 100%
-:alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
+:alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
 The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green "bars" makes an exponential curve.
 ```
 
@@ -100,7 +100,7 @@ A bank account accumulates interest in the same way as described above. Consider
 ```{solution} ex:expgrowth:interest
 :label: soln:expgrowth:interest
 :class: dropdown
-The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times 1.02 x 1.02. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
+The same multiplicative process happens in a bank account accumulating interest. Let's consider that you deposit \$100 into a bank account bearing 2\% annual interest. At the end of one year, you'll have \$102, which is 1.02 times the original amount. For the next year, it is 1.02 times \$102, or \$104.04, which is the original \$100 times $1.02 \times 1.02$. Then in three years it will be \$106.18, or \$100 times $1.02\times 1.02\times 1.02=1.02^3$. Having sussed out the pattern, after 35 years it would be $\$100 \times 1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2\% exactly obeys the rule of 70.
 
 | year | b^n    | dollars |
 | ---: | ----: | :------: |
@@ -364,7 +364,7 @@ The same relation (Eq. 1.8) governs the surface of the sun, light bulb filaments
 
 > [Figure: Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.]
 
-To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere [](doi:10.1029/2010GL045777) (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
+To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere ([](doi:10.1029/2010GL045777)) (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
 
 $$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$ (1.10)
 
