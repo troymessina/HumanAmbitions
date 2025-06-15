@@ -400,22 +400,15 @@ Armed with Eq. {eq}`eq:expgrowth:earthstefan`, we can now estimate the impact of
 
 A potential inconsistency in our treatment is that we based our exploration of energy scale on solar energy as a prelude to stellar energy capture. But in the thermodynamic treatment, we implicitly added our power source to the existing solar input. If the sun is the source, we should not double-count its contribution. Nonetheless, continued, relentless growth would eventually demand a departure from solar capture on Earth and drive the same thermodynamic challenges regardless. Synthesizing the messages: we can't continue 2.3% growth for more than a few centuries using sunlight on Earth. And if we invent something new and different to replace the fully-tapped solar potential, it too will reach thermodynamic limits within a few centuries.
 
-Connecting some ideas, we found in the previous section that we would be consuming the sun's entire output in 1,400 years at the 2.3% growth rate. It stands to reason that if we used a sun's worth of energy confined to the surface of the earth, the (smaller) surface would necessarily be hotter than the sun (in 1,400 years), just like a light bulb filament is hotter than human skin despite putting out the same powerâowing to the difference in area.[^1]
+Connecting some ideas, we found in the previous section that we would be consuming the sun's entire output in 1400 years at the 2.3% growth rate. It stands to reason that if we used a sun's worth of energy confined to the surface of the earth, the (smaller) surface would necessarily be hotter than the sun (in 1,400 years), just like a light bulb filament is hotter than human skin despite putting out the same power - owing to the difference in area.[^19]
 
 One key aspect of this thermal radiation scenario is that it does not depend on the form of power source. It could in principle be fossil fuels, nuclear fission, nuclear fusion, or some form of energy we have not yet realized and may not even have named! Whatever it is, it will have to obey thermodynamics. Thus, thermodynamics puts a time limit on energy growth on this planet.
 
-[^1]: 19: This can be gleaned from Eq. 1.8 or Eq. 1.9.
+[^19]: This can be gleaned from Eq. {eq}`eq:expgrowth:stefan` or Eq. {eq}`eq:expgrowth:stefansimple`.
 
-Â© 2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.; Freely available at: https://escholarship.org/uc/energy_ambitions.
+## Upshot: Physics Limits Physical Growth
 
-
--------------------------------------------------------------------------------- Page 12
-
-# 1 Exponential Growth
-
-## 1.4 Upshot: Physics Limits Physical Growth
-
-We saw in this chapter that unabated growth leads to absurd results. First, we calibrated our intuition in the context of bacteria in jars. The key point is that the jar is half full one doubling time before it is full. While this seems obvious, it delays the drama to the very end, acting fast to impose hard limits and catch the inhabitants by surprise. The conditions that persisted for many generationsâthus taken for grantedâsuddenly change completely.
+We saw in this chapter that unabated growth leads to absurd results. First, we calibrated our intuition in the context of bacteria in jars. The key point is that the jar is half full one doubling time before it is full. While this seems obvious, it delays the drama to the very end, acting fast to impose hard limits and catch the inhabitants by surprise. The conditions that persisted for many generations - thus taken for granted - suddenly change completely.
 
 Next, we found that continuing a modest growth rate in energy becomes hopelessly absurd in a matter of centuries. Then we saw another side to this coin, in the context of thermal consequences on the surface of the earth if energy growth continues.
 
@@ -423,9 +416,9 @@ In the end, physics puts a timeline on expectations with respect to growth in en
 
 Many factors will intercede to limit growth in both population and resource use: resource scarcity, pollution, aquifer depletion and water availability, climate change, warfare, fisheries collapse, a limited amount of arable land (declining due to desertification), deforestation, disease, to name a few. The point is only reinforced. By some means or another, we should view the present period of physical growth as a temporary phase: a brief episode in the longer human saga.
 
-## 1.5 Problems
+## Problems
 
-Hint: for problems that require solving temperature when it appears as T4, you'll need to take the fourth root, which is the same as raising to the power. So use the yx button (or equivalent) and raise to the 0.25 power. You can check this technique by comparing the square root of a number to the result of raising that number to the 0.5 power. Another technique for the fourth root is to take the square root twice in a row.
+Hint: for problems that require solving temperature when it appears as $T^4$, you'll need to take the fourth root, which is the same as raising to the 1/4 power. So use the $y^x$ button (or equivalent) and raise to the 0.25 power. You can check this technique by comparing the square root of a number to the result of raising that number to the 0.5 power. Another technique for the fourth root is to take the square root twice in a row.
 
 1.  Verify the claim in the text that the town of 100 residents in 1900 reaches approximately 100,000 in the year 2000 if the doubling time is 10 years.
 
@@ -466,14 +459,6 @@ Hint: *M* is the ratio of the final population to the initial population.
 To get 2,000 kcal of metabolic content per day, a person would need to eat 30,000 grains of rice each day. The amount of rice computed for this problem would feed the current world population for 240 years, which you are encouraged to check for yourself!
 
 Roughly 10 bacteria fit within a cubic micron (tiny), so you would not be able to see this tiny starting amount.
-
-Â© 2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 14
-
-# 1 Exponential Growth 15
 
 13. Using Eq. 1.5 and showing work, what annual growth rate, in per- cent, leads to the mathematically convenient factor-of-ten growth every century?
 
@@ -516,8 +501,6 @@ Hint: Dividing the number of Joules asso- ciated with Earth's mass by the number
 
 â The surface of Venus is much hotter than that of Earth owing to a runaway green- house condition. On Earth, the greenhouse boost is only 33 K, but on Venus it's hun- dreds of degrees.
 
-
--------------------------------------------------------------------------------- Page 15
 
 22. Adapt Eq. 1.11 to Mars to find its equilibrium temperature. The solar flux averages 590 W/mÂ² there, and it absorbs 75% of incident sunlight. Express the answer in both Kelvin and Celsius, and put in context.
 
