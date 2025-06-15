@@ -60,7 +60,7 @@ project:
     headings: true
   exclude: 
   bibliography:
-  - bibliography.bib
+  - ./markdown/bibliography.bib
 #  exports:
 #    - format: typst
 #      id: typstpdf
