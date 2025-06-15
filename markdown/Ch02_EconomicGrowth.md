@@ -12,53 +12,41 @@ kernelspec:
 (chap:economicgrowth)=
 # Economic Growth Limits
 
-[Chapter](#page-21-0) [1](#page-21-0) demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of *economic* growth, which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growth—which we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.<sup>1</sup> 1: See, for instance [\[5\]](#page-431-0). This is how it goes.
+[Chapter 1](#chap:expgrowth) demonstrated that the laws of physics and mathematical logic render a constant few-percent growth trajectory to be absurd and untenable even a few hundred years into the future. In this chapter, we develop implications for the less physics-bound concept of *economic* growth, which is a cornerstone of modern society. Investment, loans, retirement and social security schemes all assume the march of growth. The conclusion of this chapter is that economic growth will not be able to continue at any significant rate in the absence of physical growth—which we have seen cannot continue indefinitely. The suggestion usually evokes quick criticism from economists, but they can be talked down, with patience.[^1] This is how it goes.
+[^1]: See, for instance [@Murphyblog1]. 
 
-## <span id="page-36-0"></span>**2.1 Historical Coupling**
+# Historical Coupling
 
-In subsistence times, esthetics held little value compared to physical goods: you couldn't eat a sculpture, for instance—nor would it help keep you warm.<sup>2</sup> Food, tools, resources like wood, pack or draft animals carried primary value. When basic subsistence requirements were met, gold or jewelry may have warranted some expenditure—but even these were physical resources.Agriculture freed some individuals in society to think and create. The economy found more room to value arts and performance: things that fueled the mind, if not the body. During the Renaissance, patrons would support artists and scientists whose output had few other channels of economic support. In today's world, a complex economy distributes financial assets to a wide variety of practitioners in general accordance with society's values.
+In subsistence times, esthetics held little value compared to physical goods: you couldn't eat a sculpture, for instance—nor would it help keep you warm.[^2] Food, tools, resources like wood, pack or draft animals carried primary value. When basic subsistence requirements were met, gold or jewelry may have warranted some expenditure—but even these were physical resources.Agriculture freed some individuals in society to think and create. The economy found more room to value arts and performance: things that fueled the mind, if not the body. During the Renaissance, patrons would support artists and scientists whose output had few other channels of economic support. In today's world, a complex economy distributes financial assets to a wide variety of practitioners in general accordance with society's values.
+[^2]: Life, it turns out, is a struggle against thermodynamics.
 
-1: See, for instance [5].
-
-2: Life, it turns out, is a struggle against thermodynamics.
-
-Banner photo pokes fun at what physics (gravity) finds more valuable: a silver dollar (real silver) vs. a \$20 bill; Credit: Tom Murphy
-
-But resources are still paramount. The United States prospered largely because it possessed a frontier rich in natural resources. Mining and animal pelts dominated early on, as well as agriculture (tobacco, cotton, corn, wheat). In the middle of the 20th century, the United States was the dominant oil exporter worldwide (first developed in Pennsylvania, then California and Texas). Escaping the World Wars largely unscathed in terms of domestic infrastructure, the country had tooled-up a massive manufacturing capability. Together with a can-do attitude, Americans set out to rack up superlatives in virtually every category. As a manufacturing powerhouse during the middle of the 20th century, American raw materials joined a well-educated workforce to drive innovation and production. It is no accident that many in the U.S. yearn to return to these "glory days;" however we cannot possibly do so, having permanently depleted some of the original stocks.
+But resources are still paramount. The United States prospered largely because it possessed a frontier rich in natural resources. Mining and animal pelts dominated early on, as well as agriculture (tobacco, cotton, corn, wheat). In the middle of the 20th century, the United States was the dominant oil exporter worldwide (first developed in Pennsylvania, then California and Texas). One might say that the U.S. was the Saudi Arabia of the day. Escaping the World Wars largely unscathed in terms of domestic infrastructure, the country had tooled-up a massive manufacturing capability. Together with a can-do attitude, Americans set out to rack up superlatives in virtually every category. As a manufacturing powerhouse during the middle of the 20th century, American raw materials joined a well-educated workforce to drive innovation and production. It is no accident that many in the U.S. yearn to return to these "glory days;" however we cannot possibly do so, having permanently depleted some of the original stocks. It is important to recognize that the past was not "glorious" for all people.
   
+What was true in the past is largely still true today: resources like oil, steel, metals, agricultural products, and heavy machinery continue to fetch a significant price on the market. Resources fuel prosperity. It is not the *only* source, but remains a reliable and bedrock component. [](#fig:econgrowth:energyvsGDP) shows the tight correlation between economic scale and energy use, which is often expressed by saying that the two tend to be {term}`coupled`.
+```{figure} ../figures/Ch02_EconomicGrowth/_page_37_Figure_3.jpeg
+:label: fig:econgrowth:energyvsGDP
+:width: 100%
+:align: center
+:alt: Per capita energy use as a function of [GDP](#page-448-0) on a logarithmic scale. Per capita GDP is the sum total of a country's economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed as a power, in [Watts.](#page-457-0) A strong correlation exists here across many orders-ofmagnitude: rich countries use more energy, per person [\[6](#page-431-1)[–8\]](#page-431-2). A few instructive cases (red dots) are labeled. The dot areas are scaled to population.
+```
 
-One might say that the U.S. was the Saudi
-  
+One way to capture the physical connection to economic activity is to represent the energy expenditure associated with each dollar[^3] spent. This economic {term}`energy intensity` of a country is just the energy expenditure of society divided by the gross domestic product ({term}`GDP`).[^4]
+[^3]: Or converted monetary equivalent.
+[^4]: GDP is a measure of total monetary value of goods and services produced in a country within a year.
 
-Arabia of the day.
-  
+```{note} Definition: Energy intensity
+A measure of how much energy a society uses relative to its economic scale—sort of like an efficiency. It can be a proxy for resource use in general, and is calculated as:*
 
-It is important to recognize that the pastWhat was true in the past is largely still true today: resources like oil, steel, metals, agricultural products, and heavy machinery continue to fetch a significant price on the market. Resources fuel prosperity. It is not the *only* source, but remains a reliable and bedrock component. [Figure](#page-37-0) [2.1](#page-37-0) shows the tight correlation between economic scale and energy use, which is often expressed by saying that the two tend to be [coupled.](#page-444-0)
 
-<span id="page-37-0"></span>![](../figures/Ch02_EconomicGrowth/_page_37_Figure_3.jpeg)
-
-One way to capture the physical connection to economic activity is to represent the energy expenditure associated with each dollar<sup>3</sup> This economic *energy intensity* (see [Definition](#page-38-0) [2.1.1\)](#page-38-0) of a country is just the energy expenditure of society divided by the gross domestic product [\(GDP\)](#page-448-0).<sup>4</sup>
-
-Arabia of the day.
-
-was not "glorious" for all people.
-
-**Figure 2.1:** Per capita energy use as a function of [GDP](#page-448-0) on a logarithmic scale. Per capita GDP is the sum total of a country's economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed as a power, in [Watts.](#page-457-0) A strong correlation exists here across many orders-ofmagnitude: rich countries use more energy, per person [\[6](#page-431-1)[–8\]](#page-431-2). A few instructive cases (red dots) are labeled. The dot areas are scaled to population.
-
-spent. 3: Or converted monetary equivalent.
-
-4: GDP is a measure of total monetary value of goods and services produced in a country within a year.
-
-<span id="page-38-0"></span>**Definition 2.1.1** *[Energy intensity](#page-446-0) is a measure of how much energy a society uses relative to its economic scale—sort of like an efficiency. It can be a proxy for resource use in general, and is calculated as:*
-
-Energy Intensity = 
 
 $$
-\frac{\text{Energy Expended}}{\text{Money Spent}}
+\label{eq:econgrowth:energyintensity}
+\text{Energy~Intensity} = \frac{\text{Energy~Expended}}{\text{Money~Spent}}
 $$
-. (2.1)
+.
 
 *In a resource-constrained world (limited material and energy supplies), a lower energy intensity translates to less energy consumption for a certain economic output, or conversely allows higher economic output for a fixed energy consumption rate. On a smaller scale, we can say, for instance, that spending \$100 on an airplane trip is far more energy intense than spending the same amount of money on legal advice.*
+```
 
 Energy intensity therefore provides a measure of how resource-heavy a country is in relation to the size of its economy. For instance, the U.S. uses about  $10^{20}$  Joules of energy per year and has a GDP of approximately 20 trillion dollars. Dividing these gives an intensity of  $5 \times 10^6$  J/\$, or 5 MJ/\$ (many variants are possible in terms of units). The world as a whole uses about  $4.5 \times 10^{20}$  J in a year at an estimated \$90 trillion gross world product, also resulting in 5 MJ/\$. The variation among developed countries is not especially large—generally in the single-digit MJ/\$ range.  
 We will cover units of energy in [Chapter](#page-87-0) [5.](#page-87-0)<span id="page-38-1"></span>![](../figures/Ch02_EconomicGrowth/_page_38_Figure_5.jpeg)
@@ -300,3 +288,10 @@ math, or refer to the guiding line in [Figure](#page-41-0) [2.3](#page-41-0) to 
 universal adoption or replacement.
 
 You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, etc. to guide your thinking.
+
+:::{glossary}
+coupled
+: refers to the tight connection often seen between energy/resource use and economic scale (as measured, for instance, by GDP.
+GDP
+: Gross Domestic Product, effectively representing the total monetary flow of goods and services within a society, typically over a one year period.
+:::
