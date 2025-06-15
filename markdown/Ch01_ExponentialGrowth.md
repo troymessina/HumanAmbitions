@@ -286,7 +286,7 @@ Bypassing boring realism, we recognize that our sun is not the only star in the 
 
 The unhinged game can continue, pretending we could capture all the light put out by all the stars in all the galaxies in the visible universe. Because the visible universe contains about 100 billion galaxies, we buy another 1,100 years. We can go even further, imagining converting all matter (stars, gas, dust) into pure energy ($E = mc^2$), not limiting ourselves to only the light output from stars as we have so far. Even playing these unhinged games, we would exhaust all the matter in the visible universe within 5,000 years at a 2.3% rate. The exponential is a cruel beast. [](#table:expgrowth:energytimescales) summarizes the results. By coincidence, the visible universe has about as many galaxies as our galaxy has stars. By "visible" universe, we mean everything within 13.8 billion light years, which is as far as light has been able to travel since the Big Bang (see [](#sec:appDtangents:universeedge)).
 
-The point is not to take seriously the timescales for conquering the sun or the galaxy. But the very absurdity of the exercise serves to emphasize the impossibility of our continuing exponential growth in energy. All kinds of reasons will preclude continued energy growth, including the fact that human population cannot continue indefinite growth on this planet. We will address space colonization fantasies in [Chapter 4](chap:spacecolonization).
+The point is not to take seriously the timescales for conquering the sun or the galaxy. But the very absurdity of the exercise serves to emphasize the impossibility of our continuing exponential growth in energy. All kinds of reasons will preclude continued energy growth, including the fact that human population cannot continue indefinite growth on this planet. We will address space colonization fantasies in [Chapter 4](#chap:spacecolonization).
 
 [^11]: Math becomes easier if you blur your vision a bit and do not demand lots of precision. In this case, we essentially ignore everything but the exponent, recognizing that each century will increment it by 1, at our chosen 2.3% rate.
 
@@ -296,13 +296,13 @@ The point is not to take seriously the timescales for conquering the sun or the 
 ```{table} Energy limit timescales.
 :label: table:expgrowth:energytimescales
 | Utilizing          | years until |
-| ------------------ | ----------- |
+| ------------------ | -----------: |
 | Solar, land, 20%   | 250         |
 | Solar, earth, 100% | 390         |
-| Entire Sun         | 1,400       |
-| Entire Galaxy      | 2,500       |
-| Light in Universe  | 3,600       |
-| Mass in Universe   | 5,000       |
+| Entire Sun         | 1400       |
+| Entire Galaxy      | 2500       |
+| Light in Universe  | 3600       |
+| Mass in Universe   | 5000       |
 ```
 
 ## Thermodynamic Consequences
@@ -328,7 +328,7 @@ $P$ is the power radiated, $A_{surf}$ is the surface area, $T_{hot}$ is the temp
 
 ```{exercise} Radiation Example
 :label: ex:expgrowth:blackbody
-A table in a room in which the table and walls are all at the same temperature does not experience net radiation flow since the two temperatures to the fourth power subtract to equal zero. In this case, as much radiation leaves the table for the walls as arrives from the walls to the table. But a room-temperature object at 300 K radiates approximately 450 W per square meter to the coldness of space. Show this is true by calculating Eq. {eq}`eq:expgrowth:stefan` with $T_{hot}=300~{\rm K}$ and $T_{cold}=0~{\rm K}$. Let $A_{surf} = 1~{\rm m2}$.
+A table in a room in which the table and walls are all at the same temperature does not experience net radiation flow since the two temperatures to the fourth power subtract to equal zero. In this case, as much radiation leaves the table for the walls as arrives from the walls to the table. But a room-temperature object at 300 K radiates approximately 450 W per square meter to the coldness of space. Show this is true by calculating Eq. {eq}`eq:expgrowth:stefan` with $T_{hot}=300~{\rm K}$ and $T_{cold}=0~{\rm K}$. Let $A_{surf} = 1~{\rm m^2}$.
 ```
 ```{solution} ex:expgrowth:blackbody
 :label: ex:expgrowth:blackbodysoln
@@ -349,17 +349,9 @@ $T(C) = (T(F) - 32) / 1.8$
 
 [^17]: It's actually an easy constant to remember: 5-6-7-8 (but must remember the minus sign on the exponent).
 
-Â©2022 T. W. Murphy, Jr.; Creative Commons Attribution-NonCommercial 4.0 International Lic.;
-Freely available at: https://escholarship.org/uc/energy_ambitions.
-
-
--------------------------------------------------------------------------------- Page 10
-
-## 1 Exponential Growth
-
 Because space is so cold (tens of Kelvin, effectively, unless exposed to the sun), the fourth power of such a small number pales so *much* in comparison to the fourth power of a number like 300 that we can safely ignore it for radiation to space:
 
-$$P_{space} \approx A_{surf}\sigma T^{4},$$ (1.9)
+$$P_{space} \approx A_{surf}\sigma T^{4},$$
 
 where we now just have a single temperature: that of the warm body in space.
 
