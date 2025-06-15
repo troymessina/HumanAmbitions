@@ -361,7 +361,7 @@ Earth reaches an equilibrium so that power-in equals power-out.[^1] If more powe
 
 The same relation (Eq. {eq}`eq:expgrowth:stefan`) governs the surface of the sun, light bulb filaments, glowing coals, and even the human body. While the human body expends metabolic energy at a similar rate to an incandescent light bulb (about 100 W), one is *much* hotter than the other because the surface areas are vastly different.
 ```
-```{figure}
+```{figure} ../figures/Ch01_ExponentialGrowth/EarthAbsorbsSun.jpeg
 :label: fig:expgrowth:sunonearth
 :width: 100%
 :align: center
