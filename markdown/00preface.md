@@ -27,7 +27,7 @@ think about viable long-term plans in a way that too few are doing today. Thus f
 boundaries has not been necessary for the most part, as the scale of human endeavors has only recently
 become significant in a planetary context.We are now entering into a new reality: one in which our
 ambitions are on a collision course with natural limits on a finite planet. It is a slow-motion trajectory
-that has been apparent to some for an embarrassingly long time [1], but not yet acute enough to have
+that has been apparent to some for an embarrassingly long time [@meadows2004limits], but not yet acute enough to have
 grabbed the lasting attention of the majority.
 
 The delirious ascent in energy and resource use witnessed over the past few centuries has been
@@ -110,7 +110,7 @@ analyses of energy resources, their implementations, and the advantages and disa
 each. This textbook also does so, but is less reserved about providing contextual interpretations,
 like saying that resources such as waves, geothermal, tidal, or ocean currents are probably not
 worth serious attention, due to their small scale. In this sense, the book bears some resemblance
-to David MacKay’s fabulous and inspirational Sustainable Energy: Without the Hot Air [2]. In fact,
+to David MacKay’s fabulous and inspirational Sustainable Energy: Without the Hot Air [@mackay2009sustainable]. In fact,
 the decision to make this text fully available for free in electronic form as a PDF (available at
 https://escholarship.org/uc/energy_ambitions) was completely inspired by MacKay’s first
 doing the same. The topic is too important to allow financial interests of a publisher to limit access.

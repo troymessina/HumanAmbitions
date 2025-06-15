@@ -59,8 +59,8 @@ project:
   numbering:
     headings: true
   exclude: 
-#    - figures/**
- #   - trinket/**
+  bibliography:
+  - bibliography.bib
 #  exports:
 #    - format: typst
 #      id: typstpdf
