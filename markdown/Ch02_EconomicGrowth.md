@@ -44,7 +44,6 @@ $$
 \label{eq:econgrowth:energyintensity}
 \text{Energy~Intensity} = \frac{\text{Energy~Expended}}{\text{Money~Spent}}
 $$
-.
 
 *In a resource-constrained world (limited material and energy supplies), a lower energy intensity translates to less energy consumption for a certain economic output, or conversely allows higher economic output for a fixed energy consumption rate. On a smaller scale, we can say, for instance, that spending \$100 on an airplane trip is far more energy intense than spending the same amount of money on legal advice.*
 ```
@@ -53,7 +52,7 @@ Energy intensity therefore provides a measure of how resource-heavy a country is
 
 We will cover units of energy in [Chapter 5](#chap:energypower). For now, it is sufficient to know that a {term}`Joule` (J) is a unit of energy, and that MJ means megajoules, or 10<sup>6</sup> J.
 
-[](#fig:econgrowth:energyintensity) illustrates the range of intensities for all the countries in the world. Among the factors driving energy use are geographical extent (large countries require more long-haul transportation), climate (cold countries require more heating), efficiency, and lifestyle. Russia, Canada, and the U.S. have large territories, and the former two require more heating than most. By contrast, Switzerland is geographically small
+[](#fig:econgrowth:energyintensity) illustrates the range of intensities for all the countries in the world. Among the factors driving energy use are geographical extent (large countries require more long-haul transportation), climate (cold countries require more heating), efficiency, and lifestyle. Russia, Canada, and the U.S. have large territories, and the former two require more heating than most. By contrast, Switzerland is geographically small and outsources much of its heavy industry. Somebody should probably check on what's happening in Venezuela.[^5]
 
 ```{figure} ../figures/Ch02_EconomicGrowth/_page_38_Figure_5.jpeg
 :label: fig:econgrowth:energyintensity
@@ -62,24 +61,22 @@ We will cover units of energy in [Chapter 5](#chap:energypower). For now, it is 
 :alt: Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
 Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
 ```
+[5]: Maybe they left the oven on by mistake?
 
-and outsources much of its heavy industry. Somebody should probably check on what's happening in Venezuela.<sup>5</sup>
+# Decoupling and Substitution
 
-## <span id="page-39-0"></span>**2.2 Decoupling and Substitution**
+As economies expand beyond subsistence level, a larger fraction of the total activity can go to "frivolous" elements, such as art and entertainment. The intensity of such activities can be quite low. An art collector may pay \$1 million for a coveted painting. Very little energy is required. The painting was produced long ago. It may even remain on display in the same location—only the name of the owner changing. Financial transactions that require no manufacture, transport, and negligible energy are said to be "decoupled" from physical resources. Plenty of examples exist in society, and are held up by economists as illustrating how we can continue to expand the economy without a commensurate expansion of resource needs.[^6]
 
-As economies expand beyond subsistence level, a larger fraction of the total activity can go to "frivolous" elements, such as art and entertainment. The intensity of such activities can be quite low. An art collector may pay \$1 million for a coveted painting. Very little energy is required. The painting was produced long ago. It may even remain on display in the same location—only the name of the owner changing. Financial transactions that require no manufacture, transport, and negligible energy are said to be "decoupled" from physical resources. Plenty of examples exist in society, and are held up by economists as illustrating how we can continue to expand the economy without a commensurate expansion of resource needs.<sup>6</sup> 6: This is the hope, anyway.
+```{note} Definition: Decoupling
+The notion that economic activities need not be strongly tied to physical (e.g., energy) requirements, so that energy intensity might become arbitrarily small. The degree to which some economic activity is decoupled forms a continuous scale, where intense utilization of energy and physical resources (e.g., steel production) are on one end and fine art dealing on the other.[^7] *The only way for an economy to maintain growth in the event that physical sector growth becomes limited is to increase the degree of decoupling in the society.*
+```
+The dream is that as development progresses, economic energy intensity may decline (greater decoupling) so that more money is made per unit of energy expended. If the economy can decouple from energy needs, we are not constrained in our quest to continue economic growth, bringing smiles to the faces of investors and politicians. Such a transition would mean less emphasis on energy and resource-intensive industrial development/manufacturing, and more on abstract *services*,[^8] broadly speaking.Because the world is a sort of "experiment," representing many countries having adopted many policies and in various states of development, [Figure](#page-38-1) [2.2](#page-38-1) can be viewed as a potential roadmap to decoupling.
 
-**Definition 2.2.1** *[Decoupling](#page-444-1) is the notion that economic activities need not be strongly tied to physical (e.g., energy) requirements, so that energy intensity might become arbitrarily small. The degree to which some economic activity is decoupled forms a continuous scale, where intense utilization of energy and physical resources (e.g., steel production) are on one end and fine art dealing on the other.*<sup>7</sup> *The only way for an economy to maintain growth in the event that physical sector growth becomes limited is to increase the degree of decoupling in the society.*
+The question is: as countries develop and become more prosperous, does intensity *decrease*, as we would want it to do as a signal of decoupling? On the large scale, any effect is modest. Going from India to the U.S. affords only a factor-of-two improvement in intensity, while spanning most of the horizontal extent in personal prosperity (a factor of 30 in per capita GDP).[^9] That's pretty weak tea.At the upper end of personal income (right side of [Figure](#page-38-1) [2.2\)](#page-38-1), we might detect a downward slope. But we must be careful about cherry-picking in
 
-The dream is that as development progresses, economic energy intensity may decline (greater decoupling) so that more money is made per unit of energy expended. If the economy can decouple from energy needs, we are not constrained in our quest to continue economic growth, bringing smiles to the faces of investors and politicians. Such a transition would mean less emphasis on energy and resource-intensive industrial development/manufacturing, and more on abstract *services*,<sup>8</sup> broadly speaking.Because the world is a sort of "experiment," representing many countries having adopted many policies and in various states of development, [Figure](#page-38-1) [2.2](#page-38-1) can be viewed as a potential roadmap to decoupling.
-
-The question is: as countries develop and become more prosperous, does intensity *decrease*, as we would want it to do as a signal of decoupling? On the large scale, any effect is modest. Going from India to the U.S. affords only a factor-of-two improvement in intensity, while spanning most of the horizontal extent in personal prosperity (a factor of 30 in per capita GDP).<sup>9</sup> That's pretty weak tea.At the upper end of personal income (right side of [Figure](#page-38-1) [2.2\)](#page-38-1), we might detect a downward slope. But we must be careful about cherry-picking in 5: Maybe they left the oven on by mistake?
-
-6: This is the hope, anyway.
-
-7: Services, like plumbing, journalism, or marketing fall in between, using some physical resources, but not as much as heavy industry.
-
-8: Such services might include things like singing lessons, life coaching, psychotherapy, financial planning, and other activities broadly that demand little physical input.
+[^6]: This is the hope, anyway.
+[^7]: Services, like plumbing, journalism, or marketing fall in between, using some physical resources, but not as much as heavy industry.
+[^8]: Such services might include things like singing lessons, life coaching, psychotherapy, financial planning, and other activities broadly that demand little physical input.
 
 > Part of the reason prosperous countries demonstrate a lower intensity is that manufacturing moves overseas. Driving the whole world toward lower intensity is a more difficult prospect, as the physical processes must still happen *somewhere*.
 
