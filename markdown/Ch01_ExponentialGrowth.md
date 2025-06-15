@@ -227,6 +227,7 @@ Don't view this as a recipe for solving problems but as a way to romp through th
 
 More generally, we are not confined to any particular base, $b$, having just seized upon two convenient and relevant possibil- ities. If we wanted $b = 10$, we would have $n = 0.211$, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multiplication, so that 47.4 years at 5% growth results in a factor of 10 growth.
 
+(sec:expgrowth:expenergyextrap)=
 ## Exponential Energy Extrapolation
 
 Having established some basic principles of exponential growth, it's time for a first look at how we can use the math to argue about limits to our expectations. We'll concentrate on energy use. The United States Energy Information Administration (EIA) provides information on energy use from 1949 to the present. An appendix (E1: [@USEIA]) presents an approximate
@@ -377,7 +378,10 @@ Earth-shown here in northern hemisphere summer-intercepts sunlight across the pr
 
 To evaluate the expected temperature of the earth, we know that the sun delivers 1360 W/m<sup>2</sup> to the *top* of the earth's atmosphere ([](doi:10.1029/2010GL045777)) (a bit less reaches the ground). This 1360 W/m<sup>2</sup>, known as the solar constant, is the incident energy rate (power), or the *flux*, of sunlight incident on Earth. We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/m<sup>2</sup>. It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this (the surface area of a sphere is $4\pi R^2$), all of it participating in the radiation to space ([](#fig:expgrowth:sunonearth). Equating the input and output for equilibrium conditions:
 
-$$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$
+$$
+\label{eq:expgrowth:earthP}
+P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},
+$$
 The 0.707 factor represents absorbed fraction after 29.3% is reflected. We can rearrange to isolate temperature, satisfying
 $$
 \label{eq:expgrowth:earthstefan}
@@ -463,8 +467,8 @@ Hint: for problems that require solving temperature when it appears as $T^4$, yo
 25. Verify that Earth would reach a temperature far in excess of boiling point of water[^25] after 500 years if today's power output (18 TW) increased by a factor of 10 each century.
 
 [^20]: E.g., brute force doubling 26 times or using math to get straight at the answer.
-[^21]: Hint: a good way to check your math. Note that if we were to use 2.9% instead of 2.3%, all of the time estimates in Section 1.2 are reduced by the ratio of this question's answer to 100 years.
+[^21]: Hint: a good way to check your math. Note that if we were to use 2.9% instead of 2.3%, all of the time estimates in [%s](#sec:expgrowth:expenergyextrap) are reduced by the ratio of this question's answer to 100 years.
 [^22]: This corresponds to a 1.4% growth rate, but you don't need to use this number in your calculation.
 [^23]: ... incident at the same rate/flux as at Earth
-[^24]: Referring to the 4 that shows up in Eqs. 1.10 and 1.11.
-[^25]: Water boils at 100Â°C, or 373 K.
+[^24]: Referring to the 4 that shows up in Eqs. {eq}`eq:expgrowth:earthP` and {eq}`eq:expgrowth:earthstefan`.
+[^25]: Water boils at 100°C, or 373 K.
