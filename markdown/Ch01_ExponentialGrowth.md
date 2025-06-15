@@ -1,6 +1,6 @@
 ---
 title: Chapter 1 - Exponential Growth
-banner: ../figures/Ch01_ExponentialGrowth/_page_21_Picture_0.jpeg
+banner: ../figures/Ch01_ExponentialGrowth/banner.jpeg
 numbering:
   headings:
   heading_1:
@@ -324,7 +324,7 @@ $$
 P = A_{surf} \sigma \left(T_{hot}^4 - T_{cold}^4\right).
 $$
 
-$P$ is the power radiated, $A_{surf}$ is the surface area, $T_{hot}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{cold}$ is the temperature of the environment (also Kelvin), and $\sigma$ is the Stefan-Boltzmann constant: $\sigma$ = 5.67 \times 10{-8}~{\rm W/m^2/K^4$.[^17] Note that the law operates on the difference of the fourth powers of two temperatures.
+$P$ is the power radiated, $A_{surf}$ is the surface area, $T_{hot}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{cold}$ is the temperature of the environment (also Kelvin), and $\sigma$ is the Stefan-Boltzmann constant: $\sigma$ = 5.67 \times 10{-8}~{\rm W/m^2/K^4}$.[^17] Note that the law operates on the difference of the fourth powers of two temperatures.
 
 ```{exercise} Radiation Example
 :label: ex:expgrowth:blackbody
@@ -357,11 +357,17 @@ where we now just have a single temperature: that of the warm body in space.
 
 Earth reaches an equilibrium so that power-in equals power-out.[^1] If more power is dumped onto the planet, then the temperature rises until $\sigma T^{4}$ climbs to match. The relation in Eq. 1.9 is fundamentally important to Earth's temperature balance, and applies pretty universally, as highlighted in Box 1.4.
 
-Box 1.4: Everything Radiates
+```{note} Everything Radiates
 
-The same relation (Eq. 1.8) governs the surface of the sun, light bulb filaments, glowing coals, and even the human body. While the human body expends metabolic energy at a similar rate to an incandescent light bulb (about 100 W), one is *much* hotter than the other because the surface areas are vastly different.
-
-> [Figure: Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.]
+The same relation (Eq. {eq}`eq:expgrowth:stefan`) governs the surface of the sun, light bulb filaments, glowing coals, and even the human body. While the human body expends metabolic energy at a similar rate to an incandescent light bulb (about 100 W), one is *much* hotter than the other because the surface areas are vastly different.
+```
+```{figure}
+:label: fig:expgrowth:sunonearth
+:width: 100%
+:align: center
+:alt: Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.
+Diagram illustrating Earth absorbing sunlight and radiating infrared radiation.
+```
 
 To evaluate the expected temperature of the earth, we know that the sun delivers 1,360 W/mÂ² to the *top* of the earth's atmosphere ([](doi:10.1029/2010GL045777)) (a bit less reaches the ground). We also know that about 29.3% of this is reflected by clouds, snow, and to a lesser extent water and terrain. So the earth system *absorbs* about 960 W/mÂ². It absorbs this energy onto the area facing the sun: a projected disk of area $A_{proj} = \pi R_{\bigoplus}^{2}$. But the total surface area of the earth is four times this, all of it participating in the radiation to space (Figure 1.4). Equating the input and output for equilibrium conditions:
 
