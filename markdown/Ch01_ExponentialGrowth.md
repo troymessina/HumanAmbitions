@@ -15,7 +15,7 @@ kernelspec:
 Humans have amazing strengths, but also significant weaknesses. Chief among them, perhaps, is our collective difficulty in grasping the mathematical consequences of exponential growth.[^1] This is an ironic state, given that our economic and political goals are often geared explicitly to support continued growth. The degree to which an expectation and desire for continued growth is woven into our society makes it important to examine the phenomenon carefully, so that we might avoid building upon a shaky foundation. In this chapter, we explore the general nature of exponential growth, in order to understand the impossibility of its long-term continuance by way of exposing various absurd consequences that uninterrupted growth prescribes. The upshot[^2] is that our societal framework eventually must face a mandatory departure from the current model-a piece of knowledge we should all lodge into the backs of our minds. Subsequent chapters will address applications to economic and population growth-including more realistic logistic growth curves, then pivot toward nailing down limits imposed by our finite planet.
 
 (sec:expgrowth:bacteria)=
-## Bacteria in a Jar
+# Bacteria in a Jar
 
 One hallmark of exponential growth is that the time it takes to double in size, or the doubling time, is constant. An important and convenient concept we will repeatedly use in this chapter is the rule of 70:
 
@@ -68,7 +68,7 @@ Now we draw the inevitable parallels. A planet that has served us for countless 
 
 In relation to the bacteria parable, we've already done a fair bit of exploring. We have no more jars. One planet rhymes with jars, but it is hostile to human life, has no food, and is not within easy reach. We have no meaningful outlet.[^4] And even if we ignore the practical hardships, how much time would a second planet buy us anyway for uninterrupted growth? Another 35 years?
 
-## Exponential Math
+# Exponential Math
 
 ```{hint} Advice on Reading Math
 
@@ -228,7 +228,7 @@ Don't view this as a recipe for solving problems but as a way to romp through th
 More generally, we are not confined to any particular base, $b$, having just seized upon two convenient and relevant possibil- ities. If we wanted $b = 10$, we would have $n = 0.211$, for example. In this case, the interpretation is that our ten-year point is 21.1% of the way to a factor-of-ten multiplication, so that 47.4 years at 5% growth results in a factor of 10 growth.
 
 (sec:expgrowth:expenergyextrap)=
-## Exponential Energy Extrapolation
+# Exponential Energy Extrapolation
 
 Having established some basic principles of exponential growth, it's time for a first look at how we can use the math to argue about limits to our expectations. We'll concentrate on energy use. The United States Energy Information Administration (EIA) provides information on energy use from 1949 to the present. An appendix (E1: [@USEIA]) presents an approximate
 account of energy use from 1635-1945. [](#fig:expgrowth:energyproduction) displays this full range of history.
@@ -309,7 +309,7 @@ The point is not to take seriously the timescales for conquering the sun or the 
 | Mass in Universe   | 5000       |
 ```
 
-## Thermodynamic Consequences
+# Thermodynamic Consequences
 
 Physics places another relevant constraint on growth rate, and that concerns waste heat. Essentially all of our energy expenditures end up as heat. Obviously many of our activities directly involve the production of heat: ovens, stoves, toasters, heaters, clothes dryers, etc. But even cooling devices are net heat generators. Anything that uses power from an electrical outlet ends up creating net heat in the environment, with very few exceptions. A car moving down the road gets you from place A to place B, but has stirred the air,[^13] heated the engine and surrounding air, and deposited heat into the brake pads and rotors, tires and road. Our metabolic energy mostly goes to maintaining body temperature. But even our own physical activity tends to end up as heat in the environment. The only exceptions would be beaming energy out of the earth environment (e.g., light or radio) or putting energy into storage (eventually to be converted to heat). But such exceptions do not amount to much, quantitatively.
 
@@ -413,7 +413,7 @@ One key aspect of this thermal radiation scenario is that it does not depend on 
 
 [^19]: This can be gleaned from Eq. {eq}`eq:expgrowth:stefan` or Eq. {eq}`eq:expgrowth:stefansimple`.
 
-## Upshot: Physics Limits Physical Growth
+# Upshot: Physics Limits Physical Growth
 
 We saw in this chapter that unabated growth leads to absurd results. First, we calibrated our intuition in the context of bacteria in jars. The key point is that the jar is half full one doubling time before it is full. While this seems obvious, it delays the drama to the very end, acting fast to impose hard limits and catch the inhabitants by surprise. The conditions that persisted for many generations - thus taken for granted - suddenly change completely.
 
@@ -427,7 +427,7 @@ Note that a deviation from the assumed steady 2.3% growth rate changes all the n
 
 Many factors will intercede to limit growth in both population and resource use: resource scarcity, pollution, aquifer depletion and water availability, climate change, warfare, fisheries collapse, a limited amount of arable land (declining due to desertification), deforestation, disease, to name a few. The point is only reinforced. By some means or another, we should view the present period of physical growth as a temporary phase: a brief episode in the longer human saga. A number of these issues will be addressed in subsequent chapters.
 
-## Problems
+# Problems
 
 Hint: for problems that require solving temperature when it appears as $T^4$, you'll need to take the fourth root, which is the same as raising to the 1/4 power. So use the $y^x$ button (or equivalent) and raise to the 0.25 power. You can check this technique by comparing the square root of a number to the result of raising that number to the 0.5 power. Another technique for the fourth root is to take the square root twice in a row.
 
