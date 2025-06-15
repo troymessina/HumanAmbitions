@@ -12,7 +12,8 @@ kernelspec:
 
 This Appendix contains tangential information that may be of interest to students, but too far removed from the main thread of material to warrant placement within chapters. Many of these items were prompted by student feedback on the first draft of the textbook, wanting to know more about some tantalizing piece mentioned in the text. Pick and choose according to your interests.
 
-# <span id="page-411-0"></span>**D.1 Edge of the Universe**
+(sec:appDtangents:universeedge)
+## Edge of the Universe
 
 [Sec.](#page-73-0) [4.1](#page-73-0) (p. [54\)](#page-73-0) built a step-wise scale out to the edge of the visible [universe,](#page-457-0) which a margin note clarifies as the visible horizon of our universe. This fascinating and deep concept deserves elaboration.
 
