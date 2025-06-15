@@ -11,7 +11,7 @@ project:
         - file: ./markdown/Ch04_SpaceColonization.md
     - title: Part II - Energy and Fossil Fuels
       children:
-        - file: ./markdown/Ch05_EnergyAndPower.md
+        - file: ./markdown/Ch05_EnergyPowerUnits.md
         - file: ./markdown/Ch06_ThermalEnergy.md
         - file: ./markdown/Ch07_EnergyLandscape.md
         - file: ./markdown/Ch08_FossilFuels.md

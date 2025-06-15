@@ -376,27 +376,29 @@ To evaluate the expected temperature of the earth, we know that the sun delivers
 
 $$P_{in} = 0.707 \times 1360 \text{ W/m}^2 \times \pi R_{\bigoplus}^{2} = P_{out} = 4\pi R_{\bigoplus}^{2}\sigma T^{4},$$
 The 0.707 factor represents absorbed fraction after 29.3% is reflected. We can rearrange to isolate temperature, satisfying
-$$T^{4} = \frac{0.707 \times 1360 \text{ W/m}^2}{4\sigma}$$
+$$
+\label{eq:expgrowth:earthstefan}
+T^{4} = \frac{0.707 \times 1360 \text{ W/m}^2}{4\sigma}
+$$
 
 [^18]: Climate change is due to greenhouse gases blocking the escape of some radiation to space, presently causing a ~0.1% imbalance that [Chapter 9](#chap:climatechange) will address.
 
 Solving for $T$ yields $T=255~{\rm K}$, or -18°C (about 0°F). This is cold - too cold. We observe the average temperature of Earth to be about 288 K, or 15°C (59°F). The difference of 33°C is due to greenhouse gases - mostly H<sub>2</sub>O - impacting the thermal balance by preventing most radiation from escaping directly to space. We'll cover this more extensively in [Chapter 9](#chap:climatechange).
 
-Armed with Eq. 1.11, we can now estimate the impact of waste heat on Earth's equilibrium temperature. Using the solar input as a baseline, we can add increasing input using the exponential scheme from the previous section: starting today at 18 TW and increasing at 2.3% per year (a factor of 10 each century). It is useful to express the human input in the same terms as the solar input so that we can just add to the numerator in Eq. 1.11. In this context, our current 18 TW into the projected area ÏRÂ² adds 0.14 W/mÂ² to the solar input (a trivial amount, today), but then increases by a factor of ten each century. Taking this in one-century chunks, the resulting temperaturesâadding in the 33 K from greenhouse gasesâfollow the evolution shown in Table 1.4. At first, the effect is unimportant, but in 300 years far outstrips global warming, and reaches boiling temperature in a little over 400 years! If we kept going (not possible), Earth's temperature would exceed the surface temperature of the sun inside of 1,000 years!
-
-| Years | Power Density (W/mÂ²) | T (K) | ÎT (C) |
-| ----- | -------------------- | ----- | ------ |
-| 100   | 1.4                  | 288.1 | 0.1    |
-| 200   | 14                   | 288.9 | ~1     |
-| 300   | 140                  | 296.9 | ~9     |
-| 400   | 1,400                | 344   | 56     |
-| 417   | 2,070                | 373   | 100    |
-| 1,000 | 1.4 x 10â¹            | 8,600 | 8,300  |
-
+Armed with Eq. {eq}`eq:expgrowth:earthstefan`, we can now estimate the impact of waste heat on Earth's equilibrium temperature. Using the solar input as a baseline, we can add increasing input using the exponential scheme from the previous section: starting today at 18 TW and increasing at 2.3% per year (a factor of 10 each century). It is useful to express the human input in the same terms as the solar input so that we can just add to the numerator in Eq. {eq}`eq:expgrowth:earthstefan`. In this context, our current 18 TW into the projected area $\pi R^2$ adds 0.14 W/m<sup>2</sup> to the solar input (a trivial amount, today), but then increases by a factor of ten each century. Taking this in one-century chunks, the resulting temperatures - adding in the 33 K from greenhouse gases - follow the evolution shown in [](#table:expgrowth:DT). At first, the effect is unimportant, but in 300 years far outstrips global warming, and reaches boiling temperature in a little over 400 years! If we kept going (not possible), Earth's temperature would exceed the surface temperature of the sun inside of 1,000 years!
+```{table} At a constant energy growth rate of 2.3% per year, the temperature climb from waste heat (not CO<sub>2</sub> emissions) is slow at first, but becomes preposterous within a few-hundred years. Water boils in just over 400 years, and by 900 years Earth is hotter than the sun! The scenario of continued growth is obviously absurd.
+:label: table:expgrowth:DT
+| Years | Power Density (W/m<sup>2</sup>) | T (K) | ΔT (C) |
+| -----: | --------------------: | -----: | ------: |
+| 100   | 1.4                  | 288.1  | 0.1    |
+| 200   | 14.0                 | 288.9  | ~1     |
+| 300   | 140.0                | 296.9  | ~9     |
+| 400   | 1400.0               | 344.0  | 56     |
+| 417   | 2070.0               | 373.0  | 100    |
+| 1000  | 1.4 x 10<sup>9</sup> | 8600.0 | 8300  |
+```
 
 A potential inconsistency in our treatment is that we based our exploration of energy scale on solar energy as a prelude to stellar energy capture. But in the thermodynamic treatment, we implicitly added our power source to the existing solar input. If the sun is the source, we should not double-count its contribution. Nonetheless, continued, relentless growth would eventually demand a departure from solar capture on Earth and drive the same thermodynamic challenges regardless. Synthesizing the messages: we can't continue 2.3% growth for more than a few centuries using sunlight on Earth. And if we invent something new and different to replace the fully-tapped solar potential, it too will reach thermodynamic limits within a few centuries.
-
-Table 1.4: At a constant energy growth rate of 2.3% per year, the temperature climb from waste heat (not COâ emissions) is slow at first, but becomes preposterous within a few-hundred years. Water boils in just over 400 years, and by 900 years Earth is hotter than the sun! The scenario of continued growth is obviously absurd.
 
 Connecting some ideas, we found in the previous section that we would be consuming the sun's entire output in 1,400 years at the 2.3% growth rate. It stands to reason that if we used a sun's worth of energy confined to the surface of the earth, the (smaller) surface would necessarily be hotter than the sun (in 1,400 years), just like a light bulb filament is hotter than human skin despite putting out the same powerâowing to the difference in area.[^1]
 
