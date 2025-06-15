@@ -49,15 +49,19 @@ $$
 *In a resource-constrained world (limited material and energy supplies), a lower energy intensity translates to less energy consumption for a certain economic output, or conversely allows higher economic output for a fixed energy consumption rate. On a smaller scale, we can say, for instance, that spending \$100 on an airplane trip is far more energy intense than spending the same amount of money on legal advice.*
 ```
 
-Energy intensity therefore provides a measure of how resource-heavy a country is in relation to the size of its economy. For instance, the U.S. uses about  $10^{20}$  Joules of energy per year and has a GDP of approximately 20 trillion dollars. Dividing these gives an intensity of  $5 \times 10^6~{rm J}$, or $5~{\rm MJ}$ (many variants are possible in terms of units). The world as a whole uses about  $4.5 \times 10^{20}~{\rm J}$ in a year at an estimated \$90 trillion gross world product, also resulting in $5~{\rm MJ}$. The variation among developed countries is not especially large—generally in the single-digit MJ range.
+Energy intensity therefore provides a measure of how resource-heavy a country is in relation to the size of its economy. For instance, the U.S. uses about  $10^{20}$  Joules of energy per year and has a GDP of approximately 20 trillion dollars. Dividing these gives an intensity of  $5 \times 10^6~{\rm J}$, or $5~{\rm MJ}$ (many variants are possible in terms of units). The world as a whole uses about  $4.5 \times 10^{20}~{\rm J}$ in a year at an estimated \$90 trillion gross world product, also resulting in $5~{\rm MJ}$. The variation among developed countries is not especially large—generally in the single-digit MJ range.
 
-We will cover units of energy in [Chapter 5](#chap:energypower). For now, it is sufficient to know that a {term}`Joule`(#page-450-0) (J) is a unit of energy, and that MJ means megajoules, or 10<sup>6</sup> J.
+We will cover units of energy in [Chapter 5](#chap:energypower). For now, it is sufficient to know that a {term}`Joule` (J) is a unit of energy, and that MJ means megajoules, or 10<sup>6</sup> J.
 
-![](../figures/Ch02_EconomicGrowth/_page_38_Figure_5.jpeg)
+[](#fig:econgrowth:energyintensity) illustrates the range of intensities for all the countries in the world. Among the factors driving energy use are geographical extent (large countries require more long-haul transportation), climate (cold countries require more heating), efficiency, and lifestyle. Russia, Canada, and the U.S. have large territories, and the former two require more heating than most. By contrast, Switzerland is geographically small
 
-[Figure](#page-38-1) [2.2](#page-38-1) illustrates the range of intensities for all the countries in the world. Among the factors driving energy use are geographical extent (large countries require more long-haul transportation), climate (cold countries require more heating), efficiency, and lifestyle. Russia, Canada, and the U.S. have large territories, and the former two require more heating than most. By contrast, Switzerland is geographically small
-
-**Figure 2.2:** Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [\[6–](#page-431-1)[8\]](#page-431-2).
+```{figure} ../figures/Ch02_EconomicGrowth/_page_38_Figure_5.jpeg
+:label: fig:econgrowth:energyintensity
+:width: 100%
+:align: center
+:alt: Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
+Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
+```
 
 and outsources much of its heavy industry. Somebody should probably check on what's happening in Venezuela.<sup>5</sup>
 
