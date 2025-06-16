@@ -208,37 +208,37 @@ We therefore have a logical sequence providing a few-century timescale for an en
 
 The foregoing arguments spell out why economic growth cannot be expected to continue indefinitely—contrary to prevalent assumptions. When a mathematically-framed model delivers nonsense results—like the one we used to extrapolate energy use to absurd extremes—it does not mean the math itself is wrong, just that it has been misapplied or layered onto faulty assumptions. In this case, the breakdown indicates that the assumption of indefinite growth is untenable.
 
-The growth regime is woven deeply into our current global society. And why wouldn't it be? We've enjoyed its benefits for many generations. We celebrate the myriad advantages it has brought, and therefore align our political and economic institutions toward its robust preservation. Community planning, interest rates, investment, loans, the very role of banks, social safety net systems,<sup>21</sup> and retirement plans all hinge on are examples. the assumption of growth.<sup>22</sup> Shock waves of panic reverberate at signs of (even temporary) recession, given the importance of growth to our institutions. Yet the message here is that we cannot expect its unfaltering continuance—implying that many things will have to change.
+The growth regime is woven deeply into our current global society. And why wouldn't it be? We've enjoyed its benefits for many generations. We celebrate the myriad advantages it has brought, and therefore align our political and economic institutions toward its robust preservation. Community planning, interest rates, investment, loans, the very role of banks, social safety net systems,[^21] and retirement plans all hinge on are examples. the assumption of growth.[^22] Shock waves of panic reverberate at signs of (even temporary) recession, given the importance of growth to our institutions. Yet the message here is that we cannot expect its unfaltering continuance—implying that many things will have to change.
 
+[^21]: In the U.S., Social Security and Medicare are examples.
+[^22]: Growth in both workforce and investments are essential ingredients of these schemes that pay out more than an individual's past contributions to the program. 
 
-
-21: In the U.S., Social Security and Medicare
-
-22: Growth in both workforce and investments are essential ingredients of these schemes that pay out more than an individual's past contributions to the program. Returning to the roots of economic theory, the earliest thinkers—Adam Smith, David Ricardo, Thomas Malthus, John Stuart Mill—had foundations in natural philosophy<sup>23</sup> and saw growth as a temporary phase, ultimately limited by a prime physical resource: **land**. In that time, land held the key to outputs from farming, timber, mining, and game—thereby dictating economic development. What these pioneering economic thinkers did not foresee was the arrival of [fossil fuels](#page-447-0), and the technological developments that accompanied this energy explosion.  
+Returning to the roots of economic theory, the earliest thinkers—Adam Smith, David Ricardo, Thomas Malthus, John Stuart Mill—had foundations in natural philosophy[^23] and saw growth as a temporary phase, ultimately limited by a prime physical resource: **land**. In that time, land held the key to outputs from farming, timber, mining, and game—thereby dictating economic development. What these pioneering economic thinkers did not foresee was the arrival of [fossil fuels](#chap:fossilfuels), and the technological developments that accompanied this energy explosion.  
   
-<sup>23</sup>: . . . closer to modern-day physics than to modern-day economics, rooted in the natural worldNow, we have fallen into something of a lulled complacency: having rescued ourselves so far from the end-of-growth predictions of the early economists, the temptation is to conclude that they were just wrong,<sup>24</sup> 24: The classic example is Thomas Malthus, and we have outsmarted natural limits. This is dangerous thinking. In the end, nature is indifferent to how smart we imagined ourselves to be. If we were truly clever, we would *start thinking about a world that does not depend on growth, and how to live compatibly within planetary limits*. [Chapter](#page-335-0) [19](#page-335-0) touches on this theme, after intervening chapters paint a more complete picture of energy constraints.
+[^23]: ... closer to modern-day physics than to modern-day economics, rooted in the natural world
 
-## <span id="page-46-0"></span>**2.5 Upshot: Economic Growth Will End**
+Now, we have fallen into something of a lulled complacency: having rescued ourselves so far from the end-of-growth predictions of the early economists, the temptation is to conclude that they were just wrong[^24], and we have outsmarted natural limits. This is dangerous thinking. In the end, nature is indifferent to how smart we imagined ourselves to be. If we were truly clever, we would *start thinking about a world that does not depend on growth, and how to live compatibly within planetary limits*. [Chapter 19](#chap:aplanwelcome) touches on this theme, after intervening chapters paint a more complete picture of energy constraints.
 
-It is worth re-iterating the recipe for an end to economic growth in summary form, as spelled out in [Box](#page-46-1) [2.5.](#page-46-1) Make sure you can trace the logic and connections from one point to the next—not to be memorized as disconnected facts.
+[^24]: The classic example is Thomas Malthus, who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that "Malthus equals wrong," leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about "the boy who cried wolf" is that a *real* wolf *did* appear.
 
-#### <span id="page-46-1"></span>**Box 2.5: Economic Growth Limit**
+# Upshot: Economic Growth Will End
 
-- 1. Physical resources (energy in our example) ultimately stabilize to a fixed annual amount.
-- 2. Non-physical sectors of the economy must assume responsibility for continued economic growth, *if* growth is to continue.
-- 3. The economy comes to be dominated by non-physical sectors.
-- 4. Physical sectors are relegated to an ever-smaller fraction of the economy, ultimately vanishing if exponential growth is to hold.
-- 5. In this scenario,<sup>25</sup> 25: . . . which, let's be clear, we're arguing physical goods (energy among them) become arbitrarily cheap, requiring only one week's worth of earnings, then a day's worth, then an hour, a minute, a second.
-- 6. This situation is impossible and does not respect commonsense supply/demand notions: a finite, limited but absolutely vital resource will never become arbitrarily cheap in a market system.
-- 7. At some point, physical resources will "saturate" to a minimum fraction of the economy, at which point overall growth in nonphysical sectors must also cease.
-
-to modern-day economics, rooted in the natural world
-
-who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that "Malthus equals wrong," leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about "the boy who cried wolf" is that a *real* wolf *did* appear.
+It is worth re-iterating the recipe for an end to economic growth in summary form, as spelled out in [](#box:econgrowth:econgrowlimit) Make sure you can trace the logic and connections from one point to the next—not to be memorized as disconnected facts.
 
 As was stated before, experts frequently read complex sections more than once to fully absorb the arguments; feel free to do so here.
 
-is ultimately not at all viable. . .
+```{hint} Economic Growth Limit
+:label: box:econgrowth:econgrowlimit
+1. Physical resources (energy in our example) ultimately stabilize to a fixed annual amount.
+2. Non-physical sectors of the economy must assume responsibility for continued economic growth, *if* growth is to continue.
+3. The economy comes to be dominated by non-physical sectors.
+4. Physical sectors are relegated to an ever-smaller fraction of the economy, ultimately vanishing if exponential growth is to hold.
+5. In this scenario[^25], physical goods (energy among them) become arbitrarily cheap, requiring only one week's worth of earnings, then a day's worth, then an hour, a minute, a second.
+6. This situation is impossible and does not respect commonsense supply/demand notions: a finite, limited but absolutely vital resource will never become arbitrarily cheap in a market system.
+7. At some point, physical resources will "saturate" to a minimum fraction of the economy, at which point overall growth in nonphysical sectors must also cease.
+```
+
+[^25]: ... which, let's be clear, we're arguing is ultimately not at all viable...
 
 Just because we can point to some completely legitimate *examples* of decoupled activities and many impressive substitution stories does not mean that an entire economy can be based on indefinite continuance of such things. We are physical beings in a physical world and have non-negotiable minimum requirements for life. The activities and commodities that support critical functions cannot continue to expand indefinitely, and will not become arbitrarily cheap once their expansion hits physical limits. The finite nature of our world guarantees that such limits will be asserted, committing economic growth to stall in turn. Nothing, in the end, escapes physics.
 
