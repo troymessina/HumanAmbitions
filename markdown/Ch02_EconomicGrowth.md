@@ -38,8 +38,6 @@ One way to capture the physical connection to economic activity is to represent 
 ```{note} Definition: Energy intensity
 A measure of how much energy a society uses relative to its economic scale—sort of like an efficiency. It can be a proxy for resource use in general, and is calculated as:*
 
-
-
 $$
 \label{eq:econgrowth:energyintensity}
 \text{Energy~Intensity} = \frac{\text{Energy~Expended}}{\text{Money~Spent}}
@@ -61,7 +59,7 @@ We will cover units of energy in [Chapter 5](#chap:energypower). For now, it is 
 :alt: Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
 Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically "hungry" each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [@wikiGDP; @wikienergyconsumption; @wikipopulation].
 ```
-[5]: Maybe they left the oven on by mistake?
+[^5]: Maybe they left the oven on by mistake?
 
 # Decoupling and Substitution
 
@@ -70,46 +68,49 @@ As economies expand beyond subsistence level, a larger fraction of the total act
 ```{note} Definition: Decoupling
 The notion that economic activities need not be strongly tied to physical (e.g., energy) requirements, so that energy intensity might become arbitrarily small. The degree to which some economic activity is decoupled forms a continuous scale, where intense utilization of energy and physical resources (e.g., steel production) are on one end and fine art dealing on the other.[^7] *The only way for an economy to maintain growth in the event that physical sector growth becomes limited is to increase the degree of decoupling in the society.*
 ```
-The dream is that as development progresses, economic energy intensity may decline (greater decoupling) so that more money is made per unit of energy expended. If the economy can decouple from energy needs, we are not constrained in our quest to continue economic growth, bringing smiles to the faces of investors and politicians. Such a transition would mean less emphasis on energy and resource-intensive industrial development/manufacturing, and more on abstract *services*,[^8] broadly speaking.Because the world is a sort of "experiment," representing many countries having adopted many policies and in various states of development, [Figure](#page-38-1) [2.2](#page-38-1) can be viewed as a potential roadmap to decoupling.
+The dream is that as development progresses, economic energy intensity may decline (greater decoupling) so that more money is made per unit of energy expended. If the economy can decouple from energy needs, we are not constrained in our quest to continue economic growth, bringing smiles to the faces of investors and politicians. Such a transition would mean less emphasis on energy and resource-intensive industrial development/manufacturing, and more on abstract *services*,[^8] broadly speaking. 
 
-The question is: as countries develop and become more prosperous, does intensity *decrease*, as we would want it to do as a signal of decoupling? On the large scale, any effect is modest. Going from India to the U.S. affords only a factor-of-two improvement in intensity, while spanning most of the horizontal extent in personal prosperity (a factor of 30 in per capita GDP).[^9] That's pretty weak tea.At the upper end of personal income (right side of [Figure](#page-38-1) [2.2\)](#page-38-1), we might detect a downward slope. But we must be careful about cherry-picking in
+
+Because the world is a sort of "experiment," representing many countries having adopted many policies and in various states of development, [](#fig:econgrowth:energyintensity) can be viewed as a potential roadmap to decoupling. Part of the reason prosperous countries demonstrate a lower intensity is that manufacturing moves overseas. Driving the whole world toward lower intensity is a more difficult prospect, as the physical processes must still happen *somewhere*.
+
+The question is: as countries develop and become more prosperous, does intensity *decrease*, as we would want it to do as a signal of decoupling? On the large scale, any effect is modest. Going from India to the U.S. affords only a factor-of-two improvement in intensity, while spanning most of the horizontal extent in personal prosperity (a factor of 30 in per capita GDP).[^9] That's pretty weak tea. 
+
+At the upper end of personal income (right side of [](#fig:econgrowth:energyintensity), we might detect a downward slope. But we must be careful about cherry-picking in the face of non-replicable circumstances. Not every country can assume the geography and financially-focused nature of Switzerland. And at the same time, if the U.S. imagines itself providing a model that other countries might emulate, the intensity of many European countries could actually increase if adopting U.S. habits. But more broadly, we don't have evidence that a country on the prosperous end of the distribution can operate at even a factor-of-four lower intensity than the 4 MJ/\$ level typical of developed countries. In the present context of assessing the future of growth, in which we are concerned with order-of-magnitude scales and limits (as in [Chapter 1](#chap:expgrowth)), it does not appear that decoupling has very much to offer.[^10]
 
 [^6]: This is the hope, anyway.
 [^7]: Services, like plumbing, journalism, or marketing fall in between, using some physical resources, but not as much as heavy industry.
 [^8]: Such services might include things like singing lessons, life coaching, psychotherapy, financial planning, and other activities broadly that demand little physical input.
+[^9]: \$65,000 vs. \$2100 for the U.S. and India, respectively.
+[^10]: That is, no orders-of-magnitude that will allow us to continue growth for centuries more after physical resources limit growth.
 
-> Part of the reason prosperous countries demonstrate a lower intensity is that manufacturing moves overseas. Driving the whole world toward lower intensity is a more difficult prospect, as the physical processes must still happen *somewhere*.
+```{note} Definition: Substitution
+ refers to the ability to switch resources when one becomes scarce or a better/superior alternative is found. Substitution is often invoked to counter concerns about scarcity. A common and cute way to frame it is that the stone age did not end because we ran out of stones—we found bronze.*
+```
 
-> respectively.
+The past is full of examples of substitution. Consider the progression in lighting technology from open fires to beeswax candles to whale oil lanterns to piped gas lanterns to incandescent electric bulbs to fluorescent lights to LED (light emitting diode) technology. Every step seems to be an improvement, and it is very natural to assume the story will continue developing along these lines. Through this example, we can see how substitution and decoupling might be connected: efficiency improves through substitution, requiring less energy for the same lighting value.
 
-the face of non-replicable circumstances. Not every country can assume the geography and financially-focused nature of Switzerland. And at the same time, if the U.S. imagines itself providing a model that other countries might emulate, the intensity of many European countries could actually increase if adopting U.S. habits. But more broadly, we don't have evidence that a country on the prosperous end of the distribution can operate at even a factor-of-four lower intensity than the 4 MJ/\$ level typical of developed countries. In the present context of assessing the future of growth, in which we are concerned with order-of-magnitude scales and limits (as in [Chapter](#page-21-0) [1\)](#page-21-0), it does not appear that decoupling has very much to offer.<sup>10</sup>
-
-<span id="page-40-0"></span>**Definition 2.2.2** *[Substitution](#page-456-0) refers to the ability to switch resources when one becomes scarce or a better/superior alternative is found. Substitution is often invoked to counter concerns about scarcity. A common and cute way to frame it is that the stone age did not end because we ran out of stones—we found bronze.*
-
-The past is full of examples of substitution [\(Definition](#page-40-0) [2.2.2\)](#page-40-0). Consider the progression in lighting technology from open fires to Through this example, we can see how beeswax candles to whale oil lanterns to piped gas lanterns to incandescent electric bulbs to fluorescent lights to [LED](#page-451-0) (light emitting diode) technology. Every step seems to be an improvement, and it is very natural to assume the story will continue developing along these lines.
-
-#### <span id="page-40-2"></span>**Box 2.1: A Story of Lighting Efficiency**
+```{hint} A Story of Lighting Efficiency
 
 One way to quantify lighting progress is in the *luminous efficacy* of light, in units of lumens per Watt. In the 20th century, incandescent bulbs were so ubiquitous for so long that we fell into the bad habit of characterizing brightness in terms of the electrical power consumed by the bulb, in [Watts.](#page-457-0) Thus we have generations of people accustomed to how bright a "100 W" or "60 W" bulb is. As technology changes, we should migrate to "lumens," which accurately captures how bright a source is perceived by the human eye.
 
-of power. [Table](#page-40-1) [2.1](#page-40-1) and [Figure](#page-41-0) [2.3](#page-41-0) present the evolution of luminous efficacy as sources improved. Can this trend continue indefinitely? No. Every [photon](#page-453-0) of light carries a minimum energy<sup>11</sup> requirement based on its wavelength. For photons spread across the visible spectrum (creating light we perceive as white), the theoretical limit is about 300 lm/W [\[9\]](#page-431-5). At this extreme, no energy is wasted in the production of light, putting 100% of the energy into the light itself. Engineering rarely reaches theoretical limits, due to a host of practical challenges. It would therefore not be surprising if lighting efficiency does not improve over where it is today by another factor of two, ending yet another centuries-long trend.10: That is, no orders-of-magnitude that will allow us to continue growth for centuries more after physical resources limit growth.
+Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a "60 W equivalent" bulb may only consume 12 W of power. 
 
-substitution and decoupling might be connected: efficiency improves through substitution, requiring less energy for the same lighting value.
+[](#table:econgrowth:luminousefficacies)  and [Figure](#page-41-0) [2.3](#page-41-0) present the evolution of luminous efficacy as sources improved. Can this trend continue indefinitely? No. Every [photon](#page-453-0) of light carries a minimum energy<sup>11</sup> requirement based on its wavelength. For photons spread across the visible spectrum (creating light we perceive as white), the theoretical limit is about 300 lm/W ([](doi:10.1063/1.4721897)). At this extreme, no energy is wasted in the production of light, putting 100% of the energy into the light itself. Engineering rarely reaches theoretical limits, due to a host of practical challenges. It would therefore not be surprising if lighting efficiency does not improve over where it is today by another factor of two, ending yet another centuries-long trend.
+```
 
-Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a "60 W equivalent" bulb may only consume 12 W
-
-<span id="page-40-1"></span>11: We will see this in [Sec.](#page-98-0) [5.10](#page-98-0) (p. [79\)](#page-98-0).
-
-**Table 2.1:** Luminous efficacies [\[10,](#page-431-3) [11\]](#page-431-4).
-
+[^11]: We will see this in [%s](#sec:energypower:lightenergy).
+```{table} Luminous efficacies [@energypedia_lights; @wiki_luminous]
+:label: table:econgrowth:luminousefficacies
+:align: center
 | Light Source | lm/W   |
-|--------------|--------|
+|:-------------|:--------:|
 | Candles      | ~0.3   |
 | Gas Lamp     | 1–2    |
 | Incandescent | 8–15   |
 | Halogen      | 15–25  |
 | CFL          | 45–75  |
 | LED          | 75–120 |
+```
 
 <span id="page-41-0"></span>![](../figures/Ch02_EconomicGrowth/_page_41_Figure_1.jpeg)
 
@@ -306,5 +307,5 @@ SI
 : Système International.
 
 Newtons
-: (N) is the SI unit of force, and is equivalent to  $\text{kg} \cdot \text{m/s^2}$ .
+: (N) is the SI unit of force, and is equivalent to  $\text{kg} \cdot \text{m/s^2}$.
 :::

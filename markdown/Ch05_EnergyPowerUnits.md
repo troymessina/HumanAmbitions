@@ -17,7 +17,7 @@ This chapter provides a baseline for understanding the rest of the content in th
 
 Unlike most chapters, this one does not tell a single story or advance our perspective on the world. But it builds a foundation, putting us in a position to start looking at consequential matters of energy use in our society in chapters to come. Hopefully, patience will be rewarded.
 
-### <span id="page-87-0"></span>**5.1 Energy (J)**
+# Energy (J)
 
 ### First, what is [energy?](#page-446-0)
 
@@ -50,7 +50,7 @@ $$
 
 We'll encounter other ways to describe energy in this book, but *any energy unit can always be cast into units of Joules*, if desired. Later sections in this chapter detail alternative units whose acquaintance we must make in order to interpret energy information in our lives.
 
-## <span id="page-88-0"></span>**5.2 Energy Forms and Conservation**
+# Energy Forms and Conservation
 
 Energy manifests in a variety of forms, which we will treat in greater detail in application-specific chapters in [Part](#page-182-0) [III](#page-182-0) of this text. For now we just want to name them and point to related chapters and applications, as is done in [Table](#page-89-0) [5.2.](#page-89-0)
 
@@ -123,7 +123,7 @@ Any of the forms of energy (e.g., in [Table](#page-89-0) [5.2\)](#page-89-0) can
 
 One useful clarification is that [thermal energy](#page-456-0) is really just random motions[—kinetic energy—](#page-450-1)of individual atoms and molecules. So in the case of nuclear fission in [Example](#page-89-1) [5.2.1,](#page-89-1) the initial kinetic energy of the nuclear fragments is already thermal in nature, but at a higher temperature (faster speeds) than the surrounding material. By bumping into surrounding atoms, the excess speed is diffused into the medium, raising its temperature while "cooling" the fragments themselves as they are slowed down.If accounting for all the possible paths<sup>7</sup> of energy, we are confident 7: . . . sometimes called channels that they always add up. Nothing is lost.<sup>8</sup> Energy is never created or destroyed in any process we study. It just sloshes from one form to another, often branching into multiple parallel avenues. The sum total will always add up to the starting amount. Sec. [D.2.3](#page-415-0) (p. [396\)](#page-415-0) provides a supplement for those interested in better understanding where energy ultimately goes, and why "losing energy to heat" is not actually a loss but just another reservoir for energy.
 
-### <span id="page-90-0"></span>**5.3 Power (W)**
+# Power (W)
 
 Before getting to the various common units for energy, we should absorb the very important concept and units of [power.](#page-453-1)
 
@@ -147,7 +147,7 @@ being sticklers,  $g = 9.8 \text{ m/s}^2$ , but for convenience we can typically
 
 Of course, we commonly apply the usual multipliers of factors of 10<sup>3</sup> to the unit to make it more useful. Thus we have the progression W, kW, MW, GW, TW, etc. For reference, a large college campus will require several tens of MW (megawatts) for electricity. A large power plant is typically in the 1–4 GW range. See [Table](#page-91-2) [5.3](#page-91-2) for scales at which we are likely to use the various multiplying factors, and a more complete set of multipliers on page [420.](#page-439-0)Although it won't come up too often in this course, it is worth mentioning that the common unit of horsepower equates to 745.7 W. It is usually sufficient to remember that 1 hp Thus a 100 hp car is capable of delivering about 75 kW of power.
 
-## <span id="page-91-0"></span>**5.4 Kilowatt-hour (kWh)**
+# Kilowatt-hour (kWh)
 
 **Definition 5.4.1** *The [kilowatt-hour](#page-450-2) is an amount of energy (not a power) resulting from an expenditure of energy at a* rate *of 1 kW for a* duration *of one hour, and is the unit of choice for residential electricity usage.*
 
@@ -189,7 +189,7 @@ The characteristic quality of the light bulb is the power it expends when it's o
 
 So view kWh (energy) as an *accumulated* amount that increases with time. On the other hand, kW is a *rate* of energy expenditure.
 
-# <span id="page-92-0"></span>**5.5 Calories (kcal)**
+# Calories (kcal)
 
 A common unit for describing chemical and thermal processes is the calorie and its siblings.
 
@@ -250,7 +250,7 @@ Appendix Sec. [A.8](#page-387-0) (p. [368\)](#page-387-0) addresses this We *cou
 
 formula, but we implicitly create the formula on the fly by recognizing that the amount of energy required should scale with the mass of water and with the amount of temperature increase. Hopefully, this approach leads to a deeper understanding of the concept, while printing a formula on the page might short-circuit comprehension.
 
-## <span id="page-94-0"></span>**5.6 British Thermal Unit (Btu)**
+# British Thermal Unit (Btu)
 
 Why would we waste our time talking about the arcane [British thermal](#page-442-1) [unit](#page-442-1) (Btu)? It's because data provided by the U.S. [Energy Information](#page-445-0) [Administration](#page-445-0) on global energy use is based on the Btu. More specifically, country-scale annual energy expenditures are measured in units of quadrillion ( $10^{15}$ ) Btu (see [Box](#page-94-1) [5.4\)](#page-94-1). Also, heating appliances in the U.S.<sup>18</sup> are rated in Btu/hour—a unit of power that can be converted to Watts.  
 18: . . . hot water heaters, furnaces, air conditioners, ovens and stoves**Definition 5.6.1** *The [Btu](#page-442-2) is the Imperial analog to the kcal.*<sup>19</sup> *One Btu is the energy required to heat one pound of water one degree Fahrenheit.*
@@ -290,7 +290,7 @@ this, approximately, is  $\pi$  × 10<sup>7</sup> seconds per year.or ∼8 L, pe
 
 2. In metric terms, the equivalent to 15 gallons is 57 L (57 kg), and we heat from 20◦C to 55◦C at 8,800 W.<sup>23</sup> 23: 30,000 Btu/hr is equivalent to 8,800 W, Since one kcal heats one kilogram of water 1◦C, heating 57 kg by 35◦C will require <sup>57</sup> <sup>×</sup> <sup>35</sup> kcal, or <sup>57</sup> <sup>×</sup> <sup>35</sup> <sup>×</sup> <sup>4</sup>, 184 J <sup>=</sup> <sup>8</sup>.35 MJ, which at 8,800 W will take 950 seconds, also just over 15 minutes (reassuringly, the same answer).
 
-### <span id="page-95-0"></span>**5.7 Therms**
+# Therms
 
 We will rarely encounter this unit, but include it here because natural gas utility bills<sup>24</sup> 24: See, for instance, the banner image for in the U.S. often employ [Therms.](#page-456-1) Since part of the goal of this book is to empower a personal understanding of energy and how to compare different measures of energy (e.g., on a utility bill), conventions in the U.S. demand that we cover the unit here.<sup>25</sup> 25: [Chapter](#page-347-0) [20](#page-347-0) will explore what might be
 
@@ -300,7 +300,7 @@ The [Therm](#page-456-1) is partly adopted for the near-convenience that 100 cub
 
 If we learn that the hot water heater is rated at 30,000 Btu per hour, it will take an hour and 20 minutes to complete the job.
 
-## <span id="page-95-1"></span>**5.8 Electrical Power**
+# Electrical Power
 
 Electronic interactions are governed by charges pushing on each other. For the purposes of this course, we need only understand a few concepts. The first is voltage.
 
@@ -360,7 +360,7 @@ per second) of current sustained for a duration of 100 seconds results in 10 Cou
 
 How long can we power a 1 W [LED](#page-451-1) array from this battery? We can go the long way (16.2 kJ divided by 1 J/s) and say 16,200 seconds, or recognize that a 4.5 Wh battery can dispense 1 W for 4.5 hours. It's the same either way.<sup>33</sup> 33: Approaching a problem from multiple
 
-### <span id="page-97-0"></span>**5.9 Electron Volt (eV)**
+# Electron Volt (eV)
 
 The [electron-volt](#page-446-2) (eV) is the unit of choice for energy at the atomic scale. This makes it ideal for discussing individual chemical bond strengths, the energy of individual [photons](#page-453-0) of light emitted from atoms, and thermal energy per atom or molecule.<sup>34</sup> 34: Really, this is just the kinetic energy of We also use the eV for nuclear physics, but must increase the scale one million-fold and therefore speak of the mega-electron-volt, or [MeV.](#page-451-2)
 
@@ -384,7 +384,8 @@ on chemistry.
 
 bond, meaning that two electrons participate in the link, for a total of four.
 
-## <span id="page-98-0"></span>**5.10 Light Energy**
+(sec:energypower:lightenergy)=
+# Light Energy
 
 Light energy and its spectrum will be explored more extensively in [Chapter](#page-216-0) [13,](#page-216-0) but the main concepts are covered here for completeness.
 
@@ -407,7 +408,7 @@ $$
 
 **Example 5.10.2** The red-end of the visible spectrum, around 0.7 휇m, corresponds to photon energies around 1.8 eV, while the blue-end, around 0.4 휇m, corresponds to 3.1 eV.
 
-# <span id="page-98-1"></span>**5.11 Upshot on Units**
+# Upshot on Units
 
 Every chapter has an upshot, usually distilling key lessons from the chapter or offering final thoughts. Such a treatment is not necessary here, although we could reinforce the idea that energy can always be expressed in Joules, or converted into any of the units described in the chapter. Also critical is the notion that energy is conserved—only exchanging from one form to another but never truly disappearing or coming from nowhere.
 
@@ -419,7 +420,7 @@ light,  $c$ , via  $\lambda \nu = c$ .other way to say 10−<sup>6</sup> m.
 - 2. Problems will ask you to do some of this;
 - Great idea! Go for it! 3. This would be a fantastic opportunity for you to design and populate your *own* master conversion table. Then you'll really own it.
 
-# <span id="page-99-0"></span>**5.12 Problems**
+# Problems
 
 - 1. A typical textbook may have a mass of 1 kg, and thus a weight of about 10 N. Weight is 푚 푔, where <sup>푔</sup> <sup>≈</sup> 10 m/<sup>s</sup> <sup>2</sup> How high could the textbook be lifted (against the . force of gravity) by supplying one Joule of energy?
 - 2. If you look in your "energy wallet" and only have 24 J of energy available to spend, how far can you expect to slide an empty box across the floor if it takes 6 N of force to move it along?

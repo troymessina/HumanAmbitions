@@ -300,6 +300,7 @@ The point is not to take seriously the timescales for conquering the sun or the 
 
 ```{table} Energy limit timescales.
 :label: table:expgrowth:energytimescales
+:align: center
 | Utilizing          | years until |
 | ------------------ | -----------: |
 | Solar, land, 20%   | 250         |
@@ -396,6 +397,7 @@ Solving for $T$ yields $T=255~{\rm K}$, or -18°C (about 0°F). This is cold - t
 Armed with Eq. {eq}`eq:expgrowth:earthstefan`, we can now estimate the impact of waste heat on Earth's equilibrium temperature. Using the solar input as a baseline, we can add increasing input using the exponential scheme from the previous section: starting today at 18 TW and increasing at 2.3% per year (a factor of 10 each century). It is useful to express the human input in the same terms as the solar input so that we can just add to the numerator in Eq. {eq}`eq:expgrowth:earthstefan`. In this context, our current 18 TW into the projected area $\pi R^2$ adds 0.14 W/m<sup>2</sup> to the solar input (a trivial amount, today), but then increases by a factor of ten each century. Taking this in one-century chunks, the resulting temperatures - adding in the 33 K from greenhouse gases - follow the evolution shown in [](#table:expgrowth:DT). At first, the effect is unimportant, but in 300 years far outstrips global warming, and reaches boiling temperature in a little over 400 years! If we kept going (not possible), Earth's temperature would exceed the surface temperature of the sun inside of 1,000 years!
 ```{table} At a constant energy growth rate of 2.3% per year, the temperature climb from waste heat (not CO<sub>2</sub> emissions) is slow at first, but becomes preposterous within a few-hundred years. Water boils in just over 400 years, and by 900 years Earth is hotter than the sun! The scenario of continued growth is obviously absurd.
 :label: table:expgrowth:DT
+:align: center
 | Years | Power Density (W/m<sup>2</sup>) | T (K) | ΔT (C) |
 | -----: | --------------------: | -----: | ------: |
 | 100   | 1.4                  | 288.1  | 0.1    |
