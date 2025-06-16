@@ -159,65 +159,58 @@ Efficiency improvements are not capable of resolving resource demand.
 
 # Physically Forced Economic Limits
 
-Let us now consider a thought experiment. We will use [Figure](#page-43-1) [2.4](#page-43-1) as a guide as we go along. Colored numbers in the following text point to similarly-colored labels in the figure. We start by positing a constant growth rate for the entire economy (point 1; red curve in [Figure](#page-43-1) [2.4\)](#page-43-1) following the familiar 2.3% annual growth rate, picked for its convenient factor of 10 each century. Meanwhile, the scale of physical resources (energy, materials) in the economy also climbs at the same rate, starting at point 2. The vertical gap between the curves at the left-hand edge conveys that the economy is not 100% physical in the beginning: the total economy is larger than the physical piece.<sup>18</sup> 18: . . . thus some room for services.
+Let us now consider a thought experiment. We will use [](#fig:econgrowth:econgrowvstime) as a guide as we go along. Colored numbers in the following text point to similarly-colored labels in the figure. We start by positing a constant growth rate for the entire economy (point 1; red curve in [](#fig:econgrowth:econgrowvstime) following the familiar 2.3% annual growth rate, picked for its convenient factor of 10 each century. Meanwhile, the scale of physical resources (energy, materials) in the economy also climbs at the same rate, starting at point 2. The vertical gap between the curves at the left-hand edge conveys that the economy is not 100% physical in the beginning: the total economy is larger than the physical piece.[^18]
+[^18]: ... thus some room for services.
 
-<span id="page-43-1"></span>![](../figures/Ch02_EconomicGrowth/_page_43_Figure_3.jpeg)
+```{figure} ../figures/Ch02_EconomicGrowth/_page_43_Figure_3.jpeg
+:label: fig:econgrowth:econgrowvstime
+:width: 100%
+:align: center
+:alt: Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or saturating). The solid red curve is the total economic scale, which we force to adhere to a constant growth rate (10× per century, or 2.3% annual rate). The magenta curve is the percentage of the economy in non-physical sectors, and the red dashed curve is a more realistic reaction of the economy to a saturating physical sector. Colored arrows point to the scale that each curve should use—logarithmic on the left for economic scales and linear on the right for the percentage curve. This model is constructed simply to illustrate the overall behavior: time scales and other quantitative details should not be taken literally.
+Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or saturating). The solid red curve is the total economic scale, which we force to adhere to a constant growth rate (10× per century, or 2.3% annual rate). The magenta curve is the percentage of the economy in non-physical sectors, and the red dashed curve is a more realistic reaction of the economy to a saturating physical sector. Colored arrows point to the scale that each curve should use—logarithmic on the left for economic scales and linear on the right for the percentage curve. This model is constructed simply to illustrate the overall behavior: time scales and other quantitative details should not be taken literally.
+```
 
-Fast-forward to a time when physical resources have stopped growing, starting at point 3. [Chapter](#page-21-0) [1—](#page-21-0)using energy and thermodynamics as the basis—made the case that we cannot expect physical growth to continue indefinitely, ending on a few-century timescale at the longest.<sup>19</sup> In this scenario, the scale of energy in our society flat-lines at a steady scale (point 4).
+Fast-forward to a time when physical resources have stopped growing, starting at point 3. [Chapter 1](#chap:expgrowth) using energy and thermodynamics as the basis—made the case that we cannot expect physical growth to continue indefinitely, ending on a few-century timescale at the longest.[^19] In this scenario, the scale of energy in our society flat-lines at a steady scale (point 4).
 
-If we demand continued economic growth in the context of fixed energy, decoupling becomes increasingly necessary, shown as a growing gap in [Figure](#page-43-1) [2.4.](#page-43-1) In other words, if the gross domestic product [\(GDP;](#page-448-0) as an indicator of economic activity) is to continue rising<sup>20</sup> 20: . . . and not artificially via inflation, but (point 5), then overall intensity (energy per dollar) must continually decrease. For this to happen, less-energetic activities must assume increasing importance in the economy. So far, economists are on board: this is precisely what inspires an affinity for decoupling—a way forward in the face of physical limits. One might expect more abstract services, virtual experiences, art dealing, enhanced presentation: all requiring little or no additional
+If we demand continued economic growth in the context of fixed energy, decoupling becomes increasingly necessary, shown as a growing gap in [](fig:econgrowth:econgrowvstime)  In other words, if the gross domestic product GDP as an indicator of economic activity) is to continue rising[^20] (point 5), then overall intensity (energy per dollar) must continually decrease. For this to happen, less-energetic activities must assume increasing importance in the economy. So far, economists are on board: this is precisely what inspires an affinity for decoupling—a way forward in the face of physical limits. One might expect more abstract services, virtual experiences, art dealing, enhanced presentation: all requiring little or no additional energy expenditure, or perhaps even less than before. In this way, the economic scale could keep rising while physical resources are held flat.
+[^19]: It is assumed here (optimistically) that we have managed to find a renewable alternative that can satisfy a constant demand effectively indefinitely. If not, the story is even worse and we are forced to *ramp down* the scale of the physical sector, which would force the blue curve in [](#fig:econgrowth:econgrowvstime) to descend in later years.
+[^20]: ... and not artificially via inflation, but in terms of real value
 
-#### *© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
-
-#### Verify this for yourself in [Figure](#page-43-1) [2.4!](#page-43-1)
-
-**Figure 2.4:** Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or saturating). The solid red curve is the total economic scale, which we force to adhere to a constant growth rate (10× per century, or 2.3% annual rate). The magenta curve is the percentage of the economy in non-physical sectors, and the red dashed curve is a more realistic reaction of the economy to a saturating physical sector. Colored arrows point to the scale that each curve should use—logarithmic on the left for economic scales and linear on the right for the percentage curve. This model is constructed simply to illustrate the overall behavior: time scales and other quantitative details should not be taken literally.
-
-19: It is assumed here (optimistically) that we have managed to find a renewable alternative that can satisfy a constant demand effectively indefinitely. If not, the story is even worse and we are forced to *ramp down* the scale of the physical sector, which would force the blue curve in [Figure](#page-43-1) [2.4](#page-43-1) to descend in later years.
-
-in terms of real value
-
-energy expenditure, or perhaps even less than before. In this way, the economic scale could keep rising while physical resources are held flat.
-
-If the economy is to continue to expand on the basis of decoupled activities, a greater fraction of it must go toward these non-physical sectors. This means more monetary flow is associated with low-impact activities. In practical terms, then, a greater fraction of one's income is directed toward experiences not tied to energy or other physical demands. In [Figure](#page-43-1) [2.4,](#page-43-1) we see, at point 6, the percentage of the economy in the non-physical sector starting at 25%: not dominant, but not negligible. The magenta curve must rise as the red and blue lines separate, until at point 7 it approaches 100% non-physical and continues to drive arbitrarily close to 100%.
+If the economy is to continue to expand on the basis of decoupled activities, a greater fraction of it must go toward these non-physical sectors. This means more monetary flow is associated with low-impact activities. In practical terms, then, a greater fraction of one's income is directed toward experiences not tied to energy or other physical demands. In [](#fig:econgrowth:econgrowvstime) we see, at point 6, the percentage of the economy in the non-physical sector starting at 25%: not dominant, but not negligible. The magenta curve must rise as the red and blue lines separate, until at point 7 it approaches 100% non-physical and continues to drive arbitrarily close to 100%.
 
 During this process, the obvious converse consequence is that the energetically or physically costly activities—like transportation, food, heating, cooking, manufactured items—become an ever-smaller fraction of the economy, or an ever smaller fraction of monthly expenses, to put it more personally. In other words, they become cheap. This, we will argue, is unrealistic.
 
-Now, in our imagined scenario of continued economic growth, the ruthlessness of the exponential grabs the reins and drives the gulf ever wider, so that physical goods become arbitrarily cheap and demand Again, seems unrealistic. an ever-smaller fraction of income. By the time we reach the right side of [Figure](#page-43-1) [2.4,](#page-43-1) the economic scale is over 1,000 times as large as the physical scale, meaning that the physical component is less than 0.1% of the total economy. [Table](#page-44-0) [2.2](#page-44-0) illustrates the progression under the foregoing growth rate of 2.3%. If in the year 2000, 50% of one's income (and thus about half of one's work hours) goes toward physically intense products, this becomes ever smaller until by the end of the table it only takes 6 minutes of your annual work to earn enough for the physically Clearly absurd result. intense goods: all your food, clothing, transportation, heating, cooking, manufactured goods.
+Now, in our imagined scenario of continued economic growth, the ruthlessness of the exponential grabs the reins and drives the gulf ever wider, so that physical goods become arbitrarily cheap and demand an ever-smaller fraction of income. Again, seems unrealistic. By the time we reach the right side of [](#fig:econgrowth:econgrowvstime) the economic scale is over 1000 times as large as the physical scale, meaning that the physical component is less than 0.1% of the total economy. [](#table:econgrowth:costgoods) illustrates the progression under the foregoing growth rate of 2.3%. If in the year 2000, 50% of one's income (and thus about half of one's work hours) goes toward physically intense products, this becomes ever smaller until by the end of the table it only takes 6 minutes of your annual work to earn enough for the physically intense goods: all your food, clothing, transportation, heating, cooking, manufactured goods. Clearly an absurd result.
+```{table} Cost of physical goods.
+:label: table:econgrowth:costgoods
+:align: center
+|  Year  | % income | hours |
+|:------:|----------:|-------:|
+| 2000   | 50%      | 1000 |
+| 2100   | 5%       | 100   |
+| 2200   | 0.5%     | 10    |
+| 2300   | 0.05%    | 1     |
+| 2400   | 0.005%   | 0.1   |
+```
 
 If this is starting to feel like unrealistic fantasy, then good: your intuition is serving you well. How can essential, non-negotiable, life-sustaining commodities *that are in finite supply* become essentially free? The idea goes against another, more fundamental economic principle of **supply and demand**. A limited life-essential resource will always carry a moderately high value. Limited supply and inflexible demand dictate a floor to the price.
 
-#### **Box 2.4: Monopoly Made Easy**
+```{hint} Monopoly Made Easy
+:label: box:econgrowth:monopoly
+One way to highlight the absurdity of the scenario is that if the physically-limited but essential (life sustaining) resources became arbitrarily cheap in the fullness of time, a single person could buy them *all* for a pittance, and then charge a hefty price for anyone who wants to keep living. We simply will not find ourselves in the situation where precious and limited resources become arbitrarily cheap. Alternatively, if people only needed to work an hour per year to accommodate basic needs, expect a lot less work to be done, acting as a drag on economic productivity and thus preventing inexorable growth—one way or another.
+```
 
-One way to highlight the absurdity of the scenario is that if the physically-limited but essential (life sustaining) resources became arbitrarily cheap in the fullness of time, a single person could buy them *all* for a pittance, and then charge a hefty price for anyone
-
-*© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
-
-![](../figures/Ch02_EconomicGrowth/_page_44_Figure_9.jpeg)
-
-#### <span id="page-44-0"></span>**Table 2.2:** Cost of physical goods.
-
-| Year | % income | hours |
-|------|----------|-------|
-| 2000 | 50%      | 1,000 |
-| 2100 | 5%       | 100   |
-| 2200 | 0.5%     | 10    |
-| 2300 | 0.05%    | 1     |
-| 2400 | 0.005%   | 0.1   |
-
-who wants to keep living. We simply will not find ourselves in the situation where precious and limited resources become arbitrarily cheap. Alternatively, if people only needed to work an hour per year to accommodate basic needs, expect a lot less work to be done, acting as a drag on economic productivity and thus preventing inexorable growth—one way or another.
-
-Once the price floor is reached, the cost of physical resources will not be able to fall any further. This happens pretty soon after physical resources cease to grow in scale. Indeed, it seems unlikely (to the author) that limited resources essential for survival would fall much below 10% of the total economic scale, which happens within a century of physical saturation in our 2.3% growth scenario. Point 8 in [Figure](#page-43-1) [2.4](#page-43-1) depicts a more realistic trajectory for the economy (red dashed line) in reaction to a saturated physical scale. In this case, the economy keeps growing a bit more than the physical sector, but eventually settles down itself into a non-growth phase.
+Once the price floor is reached, the cost of physical resources will not be able to fall any further. This happens pretty soon after physical resources cease to grow in scale. Indeed, it seems unlikely (to the author) that limited resources essential for survival would fall much below 10% of the total economic scale, which happens within a century of physical saturation in our 2.3% growth scenario. What seems like a reasonable lower limit to you? How economically insignificant can essentials be and still make sense? Point 8 in [](#fig:econgrowth:econgrowvstime) depicts a more realistic trajectory for the economy (red dashed line) in reaction to a saturated physical scale. In this case, the economy keeps growing a bit more than the physical sector, but eventually settles down itself into a non-growth phase.
 
 We therefore have a logical sequence providing a few-century timescale for an end to economic growth. Thermodynamics limits us to at most a few centuries of energy growth on Earth, and economic growth will cease within a century or so thereafter, assuming a target rate of a few percent per year. In practice, growth may come to an end well before theoretical extremes are reached.
 
-## <span id="page-45-0"></span>**2.4 No-Growth World**
+# 2.4 No-Growth World
 
 The foregoing arguments spell out why economic growth cannot be expected to continue indefinitely—contrary to prevalent assumptions. When a mathematically-framed model delivers nonsense results—like the one we used to extrapolate energy use to absurd extremes—it does not mean the math itself is wrong, just that it has been misapplied or layered onto faulty assumptions. In this case, the breakdown indicates that the assumption of indefinite growth is untenable.
 
 The growth regime is woven deeply into our current global society. And why wouldn't it be? We've enjoyed its benefits for many generations. We celebrate the myriad advantages it has brought, and therefore align our political and economic institutions toward its robust preservation. Community planning, interest rates, investment, loans, the very role of banks, social safety net systems,<sup>21</sup> and retirement plans all hinge on are examples. the assumption of growth.<sup>22</sup> Shock waves of panic reverberate at signs of (even temporary) recession, given the importance of growth to our institutions. Yet the message here is that we cannot expect its unfaltering continuance—implying that many things will have to change.
 
-What seems like a reasonable lower limit to you? How economically insignificant can essentials be and still make sense?
+
 
 21: In the U.S., Social Security and Medicare
 
