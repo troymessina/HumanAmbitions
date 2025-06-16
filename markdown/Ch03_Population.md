@@ -75,18 +75,21 @@ An interpretation of the population history might go as follows. Not much change
 :width: 100%
 :align: center
 :alt: Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
+Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 ```
 ```{figure} ../figures/Ch03_Population/_page_50_Figure_9.jpeg
 :label: fig:population:popestimatelog
 :width: 100%
 :align: center
 :alt: Global population estimate, over the modern human era, on a logarithmic scale. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
+Global population estimate, over the modern human era, on a logarithmic scale. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
 ```
 ```{figure} ../figures/Ch03_Population/_page_50_Figure_11.jpeg
 :label: fig:population:popestimatefourera
 :width: 100%
 :align: center
 :alt: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
+Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
 ```
 
 [^2]: ... except that famine and plague took a toll in the 14th century.
@@ -102,24 +105,21 @@ An interpretation of the population history might go as follows. Not much change
 | 1950–2020       | 1.70%    | 40  |
 ```
 
-In more recent years, the rate has fallen somewhat from the 1.7% fit of the last segment in [Figure 3.4](#page-50-1), to around 1.1%. Rounding down for convenience, continuation at a 1% rate would increase population from 7 billion to 8 billion people in less than 14 years. The math is the same as in [Chapter 1](#page-21-0), re-expressed here as<span id="page-51-1"></span>
+In more recent years, the rate has fallen somewhat from the 1.7% fit of the last segment in [](#fig:population:popestimatefourera), to around 1.1%. Rounding down for convenience, continuation at a 1% rate would increase population from 7 billion to 8 billion people in less than 14 years. The math is the same as in [Chapter 1](#chap:expgrowth), re-expressed here as
 $$
+\label{eq:population:popvst}
 P = P_{0}e^{\ln(1+p)(t-t_{0})},
 $$
 
-$$
-(3.1)
-$$
 
-where <sup>푃</sup><sup>0</sup> is the population at time <sup>푡</sup>0, and <sup>푃</sup> is the population at time <sup>푡</sup> if the growth rate is steady at 푝. Inverting this equation,<sup>3</sup> 3: . . . recalling that that the natural log and we have
+where $P_0$ is the population at time $t_0$, and $P$ is the population at time $t$ if the growth rate is steady at $p$. Inverting this equation,[^3] we have
+[^3]: ... recalling that that the natural log and exponential functions "undo" each other as inverse functions.
 
 $$
+\label{eq:population:inverted_t}
 t - t_{0} = \frac{\ln\left(\frac{p}{p_{0}}\right)}{\ln(1+p)}.
 $$
 
-$$
-(3.2)
-$$
 
 **Example 3.1.1** We can use [Eq.](#page-51-1) [3.1](#page-51-1) to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  [Gppl,](#page-448-1)<sup>4</sup>  $t_0 = 2010, p = 0.01$ , then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.<sup>4</sup>: Gppl is giga-people, or billion people[Eq.](#page-51-2) [3.2](#page-51-2) is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $ln(8/7)/ln 1.01 = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.<span id="page-51-0"></span>
 
