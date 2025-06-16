@@ -53,6 +53,7 @@ project:
     - matplotlib >= 3.5
     - numpy >= 2.2
     - scipy >= 1.15
+    - pandas >= 2.2
   description: An undergraduate text on energy, the environment, and the capacity of a planet
   keywords: [Introductory Physics, Environmental Science, Energy]
   authors: [Troy Messina]
