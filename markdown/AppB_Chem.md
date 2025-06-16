@@ -16,10 +16,15 @@ This book does not rely heavily on past knowledge of chemistry, but it is helpfu
 
 Chemistry deals with atoms and molecules and the interactions between them. Atoms and molecules<sup>1</sup> are irreducible nuggets of a substance—the minimum unit that carries the essential properties of that substance. Water, for instance, is comprised of two hydrogen atoms bonded to a single oxygen atom, which we denote as H2O.
 
-![](../figures/AppB_Chem/../figures/AppB_Chem/periodictable.jpg)
-**Figure B.1:** Periodic Table of the Elements. This version is too small to permit names, so that only symbols are given. The more familiar elements are highlighted. Numbers represent the number of [protons](#page-454-0) in the [nu](#page-452-0)[cleus](#page-452-0) of the associated atoms.
+```{figure} ../figures/AppB_Chem/../figures/AppB_Chem/periodictable.jpg
+:label: fig:appB:periodictable
+:width: 100%
+:align: center
+:alt: Periodic Table of the Elements. This version is too small to permit names, so that only symbols are given. The more familiar elements are highlighted. Numbers represent the number of protons in the nucleus of the associated atoms.
+```
 
-[Figure](#page-394-1) [B.1](#page-394-1) presents a stripped-down version of the periodic table. Additional exploration of more fully-featured versions is encouraged.<sup>2</sup> 2: Perhaps at least identifying the high-
+[](#fig:appB:periodictable) presents a stripped-down version of the periodic table. Additional exploration of more fully-featured versions is encouraged.[^2]
+[^2]: Perhaps at least identifying the high-
 
 
 It is natural to imagine that a first step in dealing with piles of atoms and/or molecules is being able to *count* them. But since individual atoms are fantastically small, the numbers can be overwhelmingly large. This is where the [mole](#page-452-1)<sup>3</sup> 3: . . . the word *molecule* begins with *mole*. comes in. A mole is *just a number*, and that number is called [Avogadro's number,](#page-441-0) having a value of <sup>푁</sup><sup>A</sup> <sup>=</sup> <sup>6</sup>.<sup>022</sup> <sup>×</sup> <sup>10</sup>23, or 602,214,076,000,000,000,000,000, if written out.<sup>4</sup>
