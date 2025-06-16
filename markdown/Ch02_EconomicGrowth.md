@@ -257,26 +257,22 @@ So, while acknowledging that growth in the past has brought uncountable benefits
 [^27]: Federal grants comprise most of the rest, and a small amount from state taxes.
 [^28]: In the same sense as was calculated for Problem 5.
 
-7. Come up with some of your own examples (at least three; not listed in the text) of economic activities<sup>29</sup> that have little resource 29: . . . things that cost money footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
-8. If a candle has a luminous efficacy of 0.3 lm/W and a modern [LED](#page-451-0) light bulb achieves 100 lm/W, by what factor<sup>30</sup> 30: A factor is just a multiplicative scale: have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
-9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long<sup>31</sup> 31: You can just estimate, use appropriate might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
-10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior<sup>32</sup> 32: . . . perhaps defined by widespread or substitutions over time (thus three steps: original, first replacement, second replacement).
+7. Come up with some of your own examples (at least three; not listed in the text) of economic activities[^29] that have little resource footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
+
+[^29]: ... things that cost money 
+
+8. If a candle has a luminous efficacy of 0.3 lm/W and a modern LED light bulb achieves 100 lm/W, by what factor[^30] have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go? 
+
+[^30]: A factor is just a multiplicative scale: e.g., 24 is a factor of 6 larger than 4.
+
+9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit? You can just estimate, use appropriate math, or refer to the guiding line in [](#fig:econgrowth:lightefficiency) to arrive at a rough number.
+10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior substitutions over (thus three steps: original, first replacement, second replacement). These examples are perhaps defined by widespread or universal adoption or replacement.
 11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
-12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes?
+12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes? You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, etc. to guide your thinking.
 13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes?
-14. Justify what, In your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities? Make an argument for what leads you to this "floor."
+14. Justify what, in your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities? Make an argument for what leads you to this "floor."
 15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resourcehogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
 16. Are you sold on the argument that the physics-imposed limit to resource/energy growth demands an ultimate cessation of economic growth as well? If so, highlight the persuasive elements. If not, why not?
-
-9: ... things that cost money
-
-e.g., 24 is a factor of 6 larger than 4.
-
-math, or refer to the guiding line in [Figure](#page-41-0) [2.3](#page-41-0) to arrive at a rough number.
-
-universal adoption or replacement.
-
-You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, etc. to guide your thinking.
 
 :::{glossary}
 coupled
@@ -300,7 +296,7 @@ photon
 Watts
 : (W) is a unit of power, defined so that 1 W is 1 J/s (one Joule per second).
 
-Doubling time
+Doubling times
 : how long it takes a system or collection to double its amount under conditions of growth, such as in exponential growth. See also the rule of 70.
 
 Jevons Paradox
