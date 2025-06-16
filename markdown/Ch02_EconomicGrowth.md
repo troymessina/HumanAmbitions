@@ -204,7 +204,7 @@ Once the price floor is reached, the cost of physical resources will not be able
 
 We therefore have a logical sequence providing a few-century timescale for an end to economic growth. Thermodynamics limits us to at most a few centuries of energy growth on Earth, and economic growth will cease within a century or so thereafter, assuming a target rate of a few percent per year. In practice, growth may come to an end well before theoretical extremes are reached.
 
-# 2.4 No-Growth World
+# No-Growth World
 
 The foregoing arguments spell out why economic growth cannot be expected to continue indefinitely—contrary to prevalent assumptions. When a mathematically-framed model delivers nonsense results—like the one we used to extrapolate energy use to absurd extremes—it does not mean the math itself is wrong, just that it has been misapplied or layered onto faulty assumptions. In this case, the breakdown indicates that the assumption of indefinite growth is untenable.
 
@@ -248,7 +248,7 @@ So, while acknowledging that growth in the past has brought uncountable benefits
 
 1. At a 3.5% growth (interest) rate, how much would \$1,000 invested at the time Columbus sailed to America be worth today (hint: use the rule of 70)? Put this in context (compare to richest individuals or find a similar GDP for some country).
 2. As an indication of how sensitive the accumulation is to interest rate, compare the result from Problem 1 to what would happen for interest rates of 4% and 5% — again putting into context.
-3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: [Wikipedia page on Primary Energy Consumption](https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production) or [Gapminder](https://www.gapminder.org/tools/#$model$markers$bubble$encoding$y$data$concept=energy_use_per_person&space@=geo&=time;&source=sg;&scale$domain:null&zoomed:null&type:null;;&frame$value=2015;;;;;&chart-type=bubbles&url=v2) [\[13\]](#page-431-7) In order to compare to [](#fig:econgrowth:energyintensity) you may need to convert units. Also note that a trillion is 10<sup>12</sup>.
+3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: [Wikipedia page on Primary Energy Consumption](https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production) or [Gapminder](https://www.gapminder.org/tools/#$model$markers$bubble$encoding$y$data$concept=energy_use_per_person&space@=geo&=time;&source=sg;&scale$domain:null&zoomed:null&type:null;;&frame$value=2015;;;;;&chart-type=bubbles&url=v2). In order to compare to [](#fig:econgrowth:energyintensity) you may need to convert units. Also note that a trillion is 10<sup>12</sup>.
 4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around 10<sup>15</sup> J.[^26] side, assume that student payments (tuition, fees, room and board) accounts for 40% of the total budget.[^27] Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity. Don't get hung up on in-state fraction; just make a crude guess (maybe guess an average) and clearly state assumptions.
 5. Typical energy costs are in the neighborhood of \$0.10 per kilowatthour (kWh), and 1 kWh is 3.6 MJ (megajoules). Take the ratio of these two figures to form an economic energy intensity *of energy itself*, in units of MJ/\$. The result should be larger than the typical energy intensity for all economic activities within a country, since not all monetary expenditure goes toward energy.
 6. If a country clocks in at 5 MJ/\$ for its *overall* energy intensity, and its energy costs work out to an energy intensity of 30 MJ/\$,[^28] what percentage of the economy do we infer constitutes the energy sector? The answer should be well less than 100%.
@@ -288,7 +288,7 @@ SI
 : Système International.
 
 Newtons
-: (N) is the SI unit of force, and is equivalent to  $\text{kg} \cdot \text{m/s^2}$.
+: (N) is the SI unit of force, and is equivalent to ${\rm kg} \cdot {\rm m/s^2}$.
 
 photon
 : the smallest indivisible particle of light: a minimum quantum packet of energy. Each photon has a well defined energy, which can also be expressed as a wavelength or frequency.
