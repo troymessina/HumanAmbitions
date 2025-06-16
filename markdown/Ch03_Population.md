@@ -28,6 +28,29 @@ Since population plays a giant role in our future trajectory, we need to better 
 Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 ```
 
+```{code-cell} python
+:tags: [remove-input]
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+data = pd.read_csv("../figures/Ch03_Population/global-energy-substitution.filtered/global-energy-substitution.csv")
+
+fig, ax1 = plt.subplots()
+ax2 = ax1.twinx()
+
+# Plot data on the first y-axis
+ax1.plot(data['Year'], data['Total (TWh)'], '-b', label='Energy')
+ax1.set_ylabel('Energy (TWh)')
+
+# Plot data on the second y-axis
+ax2.plot(data['pop year'], data['population']/1e9, '-.r', label='Population')
+ax2.set_ylabel('Population (billion)')
+ax2.set_ylim(1, 12)
+ax1.set_xlabel('Year')
+plt.show()
+```
+
 # Population History
 
 [](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a [hockey stick](#page-449-0) plot. In order to peer deeper, we plot population on a logarithmic vertical axis [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
