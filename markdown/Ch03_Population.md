@@ -30,6 +30,11 @@ Population (red) and energy demand (blue) on the same plot, showing how much fas
 
 ```{code-cell} python
 :tags: [remove-input]
+print("This will show output with no input!")
+```
+
+```{code-cell} python
+:tags: [remove-input]
 
 import numpy as np
 import matplotlib.pyplot as plt
