@@ -16,7 +16,7 @@ This book does not rely heavily on past knowledge of chemistry, but it is helpfu
 
 Chemistry deals with atoms and molecules and the interactions between them. Atoms and molecules<sup>1</sup> are irreducible nuggets of a substance—the minimum unit that carries the essential properties of that substance. Water, for instance, is comprised of two hydrogen atoms bonded to a single oxygen atom, which we denote as H2O.
 
-```{figure} ../figures/AppB_Chem/../figures/AppB_Chem/periodictable.jpg
+```{figure} ../figures/AppB_Chem/periodictable.jpg
 :label: fig:appB:periodictable
 :width: 100%
 :align: center

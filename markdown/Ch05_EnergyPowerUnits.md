@@ -1,6 +1,6 @@
 ---
 title: Chapter 5 - Energy and Power Units
-banner: ../figures/Ch05_EnergyAndPower/banner.jpeg
+banner: ../figures/Ch05_EnergyAndPower/banner.jpg
 numbering:
   headings:
   heading_1:

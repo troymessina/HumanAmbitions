@@ -1,6 +1,6 @@
 ---
 title: Chapter 10 - Renewable Energy Overview
-banner: ../figures/Ch10_RenewableOverview/_page_183_Picture_0.jpg)
+banner: ../figures/Ch10_RenewableOverview/_page_183_Picture_0.jpg
 numbering:
   headings:
   heading_1:

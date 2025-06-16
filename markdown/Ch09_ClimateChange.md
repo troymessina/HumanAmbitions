@@ -1,6 +1,6 @@
 ---
 title: Chapter 9 - Climate Change
-banner: ../figures/Ch09_ClimateChange/_page_157_Picture_0.jpg)
+banner: ../figures/Ch09_ClimateChange/_page_157_Picture_0.jpg
 numbering:
   headings:
   heading_1:
