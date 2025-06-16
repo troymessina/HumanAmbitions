@@ -20,7 +20,7 @@ So let's add a dose of reality and examine a more practical scenario. Americans'
 Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical expectations, then discuss the heralded "demographic transition" and its implications.
 
 [^1]: ... so that global average energy use per capita increases by a factor of five from where it is today.
-```{figure} ../figures/Ch03_Population/_page_49_Figure_9.jpeg
+```{figure} ../figures/Ch03_Population/powerpop.svg
 :label: fig:population:popenergy
 :width: 100%
 :align: center
@@ -40,20 +40,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("../figures/Ch03_Population/global-energy-substitution.filtered/global-energy-substitution.csv")
+data = pd.read_csv("global-energy-substitution.csv")
 
 fig, ax1 = plt.subplots()
 ax2 = ax1.twinx()
 
 # Plot data on the first y-axis
-ax1.plot(data['Year'], data['Total (TWh)'], '-b', label='Energy')
-ax1.set_ylabel('Energy (TWh)')
+ax1.plot(data['Year'], data['Total (TWh)']/8760, '-b', label='Energy')
+ax1.set_ylabel('Global Power (TW)')
+ax1.yaxis.label.set_color('blue')
+ax1.set_xlabel('Year')
 
 # Plot data on the second y-axis
 ax2.plot(data['pop year'], data['population']/1e9, '-.r', label='Population')
 ax2.set_ylabel('Population (billion)')
-ax2.set_ylim(1, 12)
-ax1.set_xlabel('Year')
+ax2.set_ylim(0, 22)
+ax2.yaxis.label.set_color('red')
+
 plt.show()
 ```
 
