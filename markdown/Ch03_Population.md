@@ -24,42 +24,51 @@ Since population plays a giant role in our future trajectory, we need to better 
 :label: fig:population:popenergy
 :width: 100%
 :align: center
-:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata).
+:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
+Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 ```
 
 # Population History
 
-[Figure](#page-50-2) [3.2](#page-50-2) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a ["hockey stick"](#page-449-0) plot. In order to peer deeper, we plot population on a logarithmic vertical axis [\(Figure](#page-50-3) [3.3\)](#page-50-3). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
+[](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a ["hockey stick"](#page-449-0) plot. In order to peer deeper, we plot population on a logarithmic vertical axis [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
 
-Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can't be good news. Peering more closely, we can crudely break the history into two eras, each following [exponential](#page-447-0) [growth](#page-447-0) (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the ["rule of 70,](#page-455-0)" the corresponding [doubling time](#page-445-0) is about 1,600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
+Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can't be good news. Peering more closely, we can crudely break the history into two eras, each following {term}`exponential growth` (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the rule of 70, the corresponding doubling time is about 1600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
 
-The recent rapid rise is a fascinating development, and begs for a closer look. [Figure](#page-50-1) [3.4](#page-50-1) shows the last ∼1,000 years, for which we see several exponential-looking segments at ever-increasing rates. The doubling times associated with the four rates shown on the plot are presented in [Table](#page-50-4) [3.1.](#page-50-4)
+The recent rapid rise is a fascinating development, and begs for a closer look. [](fig:population:popestimatefourera) shows the last ~1,000 years, for which we see several exponential-looking segments at ever-increasing rates. The doubling times associated with the four rates shown on the plot are presented in [Table](#page-50-4) [3.1.](#page-50-4)
 
-An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.<sup>2</sup> The Renaissance (∼1700) introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century (∼1870), the explosive expansion of [fossil fuel](#page-447-1) usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century (∼1950), the [Green](#page-448-0) [Revolution](#page-448-0) [\[17\]](#page-432-3) introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
+An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.[^2] The Renaissance (~1700) introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century (~1870), the explosive expansion of [fossil fuel](#chap:fossilfuels) usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century (~1950), the [Green](#page-448-0) [Revolution](#page-448-0) [\[17\]](#page-432-3) introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
 
-<span id="page-50-2"></span>![](../figures/Ch03_Population/_page_50_Figure_7.jpeg)
+```{figure} ../figures/Ch03_Population/_page_50_Figure_7.jpeg
+:label: fig:population:popestimatelin
+:width: 100%
+:align: center
+:alt: Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
+```
+```{figure} ../figures/Ch03_Population/_page_50_Figure_9.jpeg
+:label: fig:population:popestimatelog
+:width: 100%
+:align: center
+:alt: Global population estimate, over the modern human era, on a logarithmic scale. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
+```
+```{figure} ../figures/Ch03_Population/_page_50_Figure_11.jpeg
+:label: fig:population:popestimatefourera
+:width: 100%
+:align: center
+:alt: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
+```
 
-**Figure 3.2:** Global population estimate, over the modern human era, on a linear scale. [Figure](#page-49-0) [3.1](#page-49-0) offers a recent close-up. [\[14,](#page-432-0) [15\]](#page-432-2).
+[^2]: ... except that famine and plague took a toll in the 14th century.
 
-<span id="page-50-3"></span>![](../figures/Ch03_Population/_page_50_Figure_9.jpeg)
-
-**Figure 3.3:** Global population estimate, over the modern human era, on a logarithmic scale. [\[14,](#page-432-0) [15\]](#page-432-2).
-
-<span id="page-50-1"></span>![](../figures/Ch03_Population/_page_50_Figure_11.jpeg)
-
-**Figure 3.4:** Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [\[14,](#page-432-0) [15\]](#page-432-2).
-
-2: . . . except that famine and plague took a toll in the 14th century
-
-<span id="page-50-4"></span>
-
-| Table 3.1:<br>Doubling times for |          | Fig.   | 3.4. |
-|----------------------------------|----------|--------|------|
-| Years                            | % growth | t₂     |      |
-| 1000–1700                        | 0.12%    | 600 yr |      |
-| 1700–1870                        | 0.41%    | 170 yr |      |
-| 1870–1950                        | 0.82%    | 85 yr  |      |
-| 1950–2020                        | 1.70%    | 40 yr  |      |
+```{table} Doubling times for [](#fig:population:popestimatefourera)
+:label: table:population:popestimatefourera
+:align: center
+| Years           | % growth | t<sub>2</sub> (yr)|
+|----------------:|----------:|---:|
+| 1000–1700       | 0.12%    | 600 |
+| 1700–1870       | 0.41%    | 170 |
+| 1870–1950       | 0.82%    | 85  |
+| 1950–2020       | 1.70%    | 40  |
+```
 
 In more recent years, the rate has fallen somewhat from the 1.7% fit of the last segment in [Figure 3.4](#page-50-1), to around 1.1%. Rounding down for convenience, continuation at a 1% rate would increase population from 7 billion to 8 billion people in less than 14 years. The math is the same as in [Chapter 1](#page-21-0), re-expressed here as<span id="page-51-1"></span>
 $$
@@ -573,3 +582,11 @@ Hint: think about what the graph would look like in these scenarios.
 
 45: Assume for the purpose of the question
 that it is biologically possible.
+
+:::{glossary}
+exponential growth
+: happens when the rate of growth — as a percentage or fraction — is constant.
+
+hockey stick
+: a term used to describe plots that suddenly shoot up after a very long time of relative inaction. Plots of human population, atmospheric CO<sub>2</sub>, energy use, all tend to show this characteristic—which resembles an exponential curve.
+:::
