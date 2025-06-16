@@ -91,11 +91,11 @@ The past is full of examples of substitution. Consider the progression in lighti
 
 ```{hint} A Story of Lighting Efficiency
 :label: box:econgrowth:lightefficiency
-One way to quantify lighting progress is in the *luminous efficacy* of light, in units of lumens per Watt. In the 20th century, incandescent bulbs were so ubiquitous for so long that we fell into the bad habit of characterizing brightness in terms of the electrical power consumed by the bulb, in [Watts.](#page-457-0) Thus we have generations of people accustomed to how bright a "100 W" or "60 W" bulb is. As technology changes, we should migrate to "lumens," which accurately captures how bright a source is perceived by the human eye.
+One way to quantify lighting progress is in the *luminous efficacy* of light, in units of lumens per Watt. In the 20th century, incandescent bulbs were so ubiquitous for so long that we fell into the bad habit of characterizing brightness in terms of the electrical power consumed by the bulb, in {term}`Watts`. Thus we have generations of people accustomed to how bright a "100 W" or "60 W" bulb is. As technology changes, we should migrate to "lumens," which accurately captures how bright a source is perceived by the human eye.
 
 Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a "60 W equivalent" bulb may only consume 12 W of power. 
 
-[](#table:econgrowth:luminousefficacies)  and [Figure](#page-41-0) [2.3](#page-41-0) present the evolution of luminous efficacy as sources improved. Can this trend continue indefinitely? No. Every [photon](#page-453-0) of light carries a minimum energy<sup>11</sup> requirement based on its wavelength. For photons spread across the visible spectrum (creating light we perceive as white), the theoretical limit is about 300 lm/W ([](doi:10.1063/1.4721897)). At this extreme, no energy is wasted in the production of light, putting 100% of the energy into the light itself. Engineering rarely reaches theoretical limits, due to a host of practical challenges. It would therefore not be surprising if lighting efficiency does not improve over where it is today by another factor of two, ending yet another centuries-long trend.
+[](#table:econgrowth:luminousefficacies)  and [](#fig:econgrowth:energyintensity) present the evolution of luminous efficacy as sources improved. Can this trend continue indefinitely? No. Every {term}`photon` of light carries a minimum energy[^11] requirement based on its wavelength. For photons spread across the visible spectrum (creating light we perceive as white), the theoretical limit is about 300 lm/W ([](doi:10.1063/1.4721897)). At this extreme, no energy is wasted in the production of light, putting 100% of the energy into the light itself. Engineering rarely reaches theoretical limits, due to a host of practical challenges. It would therefore not be surprising if lighting efficiency does not improve over where it is today by another factor of two, ending yet another centuries-long trend.
 ```
 
 [^11]: We will see this in [%s](#sec:energypower:lightenergy).
@@ -118,9 +118,10 @@ Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a
 :width: 100%
 :align: center
 :alt: Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [@energypedia_lights; @wiki_luminous].
+Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [@energypedia_lights; @wiki_luminous].
 ```
 
-The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat[^12] in the example of lighting technology [](#box:econgrowth:lightefficiency) we are conditioned to believe more are forthcoming. It will be true until it isn't any more (e.g., see [Figure](#page-41-0) [2.3\)](#page-41-0) One way to put it is that 6 rabbits does not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
+The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat[^12] in the example of lighting technology ([](#box:econgrowth:lightefficiency)) we are conditioned to believe more are forthcoming. It will be true until it isn't any more (e.g., see [](#fig:econgrowth:energyintensity)) One way to put it is that 6 rabbits does not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
 
 [^12]: . . . magician reference 
 
@@ -128,7 +129,7 @@ We will return to this theme in the context of [fossil fuels](#chap:fossilfuels)
 
 For financially secure individuals at the top end of the wealth distribution, it is easier to buy into the allure of substitution as a way forward. Many have achieved wealth from humble beginnings, and have therefore lived a life of continual upgrades in terms of housing, transportation, clothing, food, travel, etc. Even those who have been surrounded by wealth their whole lives have been in a position to afford new upgrades as they become available. Yet, it is not always possible to export the capabilities of those at the top to a significant sector of the population. Not everything can scale.
 
-An electric car having hundreds of kilometers of range seems like an obvious path forward beyond fossil fuels. But at a price tag above \$40,000, it does not look like much of a solution to most people, and we can't be sure prices will fall steeply. [%s](#sec:appD:electrifiedtransport) covers electrified transportation in more detail.
+An electric car having hundreds of kilometers of range seems like an obvious path forward beyond fossil fuels. But at a price tag above \$40,000, it does not look like much of a solution to most people, and we can't be sure prices will fall steeply. Appendix [%s](#sec:appD:electrifiedtransport) covers electrified transportation in more detail.
 
 ```{hint} The Fate of the Concorde
 The fate of the Concorde—which offered supersonic transatlantic passenger service between 1976–2003—may offer a useful lesson here: just because it is *possible* to construct a supersonic passenger airplane does not mean that enough people can afford it to result in an economically *viable* reduction in trans-oceanic travel time for all. Consumers no longer have the option for supersonic flight, even though 50 years ago it was assumed that this was the future. Sometimes we go backwards, when our dreams don't line up to practical reality.
@@ -316,4 +317,10 @@ SI
 
 Newtons
 : (N) is the SI unit of force, and is equivalent to  $\text{kg} \cdot \text{m/s^2}$.
+
+photon
+: the smallest indivisible particle of light: a minimum quantum packet of energy. Each photon has a well defined energy, which can also be expressed as a wavelength or frequency.
+
+Watts
+: (W) is a unit of power, defined so that 1 W is 1 J/s (one Joule per second).
 :::
