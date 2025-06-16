@@ -90,7 +90,7 @@ At the upper end of personal income (right side of [](#fig:econgrowth:energyinte
 The past is full of examples of substitution. Consider the progression in lighting technology from open fires to beeswax candles to whale oil lanterns to piped gas lanterns to incandescent electric bulbs to fluorescent lights to LED (light emitting diode) technology. Every step seems to be an improvement, and it is very natural to assume the story will continue developing along these lines. Through this example, we can see how substitution and decoupling might be connected: efficiency improves through substitution, requiring less energy for the same lighting value.
 
 ```{hint} A Story of Lighting Efficiency
-
+:label: box:econgrowth:lightefficiency
 One way to quantify lighting progress is in the *luminous efficacy* of light, in units of lumens per Watt. In the 20th century, incandescent bulbs were so ubiquitous for so long that we fell into the bad habit of characterizing brightness in terms of the electrical power consumed by the bulb, in [Watts.](#page-457-0) Thus we have generations of people accustomed to how bright a "100 W" or "60 W" bulb is. As technology changes, we should migrate to "lumens," which accurately captures how bright a source is perceived by the human eye.
 
 Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a "60 W equivalent" bulb may only consume 12 W of power. 
@@ -99,6 +99,7 @@ Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a
 ```
 
 [^11]: We will see this in [%s](#sec:energypower:lightenergy).
+
 ```{table} Luminous efficacies [@energypedia_lights; @wiki_luminous]
 :label: table:econgrowth:luminousefficacies
 :align: center
@@ -112,21 +113,28 @@ Bulb packaging still refers to the "equivalent wattage" of a bulb, even though a
 | LED          | 75–120 |
 ```
 
-<span id="page-41-0"></span>![](../figures/Ch02_EconomicGrowth/_page_41_Figure_1.jpeg)
+```{figure} ../figures/Ch02_EconomicGrowth/_page_41_Figure_1.jpeg
+:label: fig:econgrowth:energyintensity
+:width: 100%
+:align: center
+:alt: Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [@energypedia_lights; @wiki_luminous].
+```
 
-The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat<sup>12</sup> in the example of lighting technology [\(Box](#page-40-2) 12: . . . magician reference [2.1\)](#page-40-2), we are conditioned to believe more are forthcoming. It will be true until it isn't any more (e.g., see [Figure](#page-41-0) [2.3\)](#page-41-0) One way to put it is that 6 rabbits does not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
+The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat[^12] in the example of lighting technology [](#box:econgrowth:lightefficiency) we are conditioned to believe more are forthcoming. It will be true until it isn't any more (e.g., see [Figure](#page-41-0) [2.3\)](#page-41-0) One way to put it is that 6 rabbits does not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
 
-For financially secure individuals at the top end of the wealth distribution, it is easier to buy into the allure of substitution as a way forward. Many have achieved wealth from humble beginnings, and have therefore lived a life of continual upgrades in terms of housing, transportation, clothing, food, travel, etc. Even those who have been surrounded by wealth their whole lives have been in a position to afford new upgrades as they become available. Yet, it is not always possible to export the capabilities of those at the top to a significant sector of the population. Not everything can scale.### **Box 2.2: The Fate of the Concorde**
+[^12]: . . . magician reference 
 
+We will return to this theme in the context of [fossil fuels](#chap:fossilfuels) which might be termed the *mother of all rabbits*, in this context. Having pulled such a stupendous rabbit out of the hat once, many assume we're set from now on. In this case, equating one to infinity is even more dubious.
+
+For financially secure individuals at the top end of the wealth distribution, it is easier to buy into the allure of substitution as a way forward. Many have achieved wealth from humble beginnings, and have therefore lived a life of continual upgrades in terms of housing, transportation, clothing, food, travel, etc. Even those who have been surrounded by wealth their whole lives have been in a position to afford new upgrades as they become available. Yet, it is not always possible to export the capabilities of those at the top to a significant sector of the population. Not everything can scale.
+
+An electric car having hundreds of kilometers of range seems like an obvious path forward beyond fossil fuels. But at a price tag above \$40,000, it does not look like much of a solution to most people, and we can't be sure prices will fall steeply. [%s](#sec:appD:electrifiedtransport) covers electrified transportation in more detail.
+
+```{hint} The Fate of the Concorde
 The fate of the Concorde—which offered supersonic transatlantic passenger service between 1976–2003—may offer a useful lesson here: just because it is *possible* to construct a supersonic passenger airplane does not mean that enough people can afford it to result in an economically *viable* reduction in trans-oceanic travel time for all. Consumers no longer have the option for supersonic flight, even though 50 years ago it was assumed that this was the future. Sometimes we go backwards, when our dreams don't line up to practical reality.
+```
 
 More generally, sometimes the best possible solution and "peak" technology arrives at some early point in history. As much as we mess around with elements on the Periodic Table, we are never going to beat H2O
-
-**Figure 2.3:** Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [\[10,](#page-431-3) [11\]](#page-431-4).
-
-We will return to this theme in the context of [fossil fuels,](#page-447-0) which might be termed the *mother of all rabbits*, in this context. Having pulled such a stupendous rabbit out of the hat once, many assume we're set from now on. In this case, equating one to infinity is even more dubious.
-
-An electric car having hundreds of kilometers of range seems like an obvious path forward beyond fossil fuels. But at a price tag above \$40,000, it does not look like much of a solution to most people, and we can't be sure prices will fall steeply. [Section](#page-416-0) [D.3](#page-416-0) covers electrified transportation in more detail.
 
 as a vital substance.<sup>13</sup> Marketers might sell  $H_2O_2$  as superior, having one more beneficial oxygen atom, but *please don't drink hydrogen peroxide*! Some technologies in use today would be recognized by pre-industrial people: wheels, string, bowls, glass, clothing. We won't always find better things, though we may make a series of incremental improvements over time. Not everything will experience game-changing developments.  
 <sup>13</sup>: Relatedly, consider that the Periodic Ta-In summary, decoupling and substitution are touted as mechanisms by which economic growth need not slow down as energy and other resources become constrained. We can make money using less of the resource (decoupling) or just find alternatives that are not constrained (substitution), the thinking goes. And yes, this is backed up by loads of examples where such things *have* happened. It would be foolish to claim that we have reached the end of the line and can expect *no* more gains from decoupling or substitution. But it would be equally foolish to imagine that they can produce dividends eternally so that economic growth is a permanent condition.

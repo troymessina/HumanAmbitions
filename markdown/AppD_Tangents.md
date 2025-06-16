@@ -13,7 +13,7 @@ kernelspec:
 This Appendix contains tangential information that may be of interest to students, but too far removed from the main thread of material to warrant placement within chapters. Many of these items were prompted by student feedback on the first draft of the textbook, wanting to know more about some tantalizing piece mentioned in the text. Pick and choose according to your interests.
 
 (sec:appDtangents:universeedge)
-## Edge of the Universe
+# Edge of the Universe
 
 [Sec.](#page-73-0) [4.1](#page-73-0) (p. [54\)](#page-73-0) built a step-wise scale out to the edge of the visible [universe,](#page-457-0) which a margin note clarifies as the visible horizon of our universe. This fascinating and deep concept deserves elaboration.
 
@@ -35,13 +35,13 @@ A nice way to think of it is familiar scenes of limited vision, like in a fog or
 
 Similarly, the universe would seem to be much larger than our visible horizon. Measurements of the "flatness" of the geometry of space suggest a universe that is *at least* 100 times larger than our horizon, and may in fact be *unfathomably* larger. We may never know for sure, as limits to light travel seal us off from direct observation of most of the universe.
 
-# <span id="page-412-0"></span>**D.2 Cosmic Energy Conservation**
+# Cosmic Energy Conservation
 
 [Sec.](#page-88-0) [5.2](#page-88-0) (p. [69\)](#page-88-0) discussed the foundational principle of the [conservation](#page-444-0) [of energy,](#page-444-0) claiming that the principle is never violated except on cosmic scales. Besides elaborating on that point, this section follows the story of energy across vast spans of time as our sun forms and ultimately delivers energy to propel a car. We also clarify what it means for energy to be "lost" to heat.
 
 1: . . . much as the sun, another [plasma](#page-453-0) is opaque: we only see light from its outer surface
 
-# <span id="page-413-0"></span>**D.2.1 Cosmological Exception**
+## Cosmological Exception
 
 Emmy Noether was a leading mathematician in the early twentieth century who also dabbled in physics. In a very profound insight, she recognized a deep connection between symmetries in nature and conservation laws. A *symmetry*, in this context, is a property that looks the same from multiple vantage points. For instance, a sphere is symmetric in that it looks the same from any angle. A cylinder or vase also has symmetry about one axis, but more limited than the sphere.
 
@@ -65,7 +65,7 @@ On timescales relevant to human activities, conservation of energy is extremely 
 
 But violations are even more restricted than that. A photon streaming across the universe is in the grip of cosmic expansion and bears witness to associated energy changes. But a deposit of oil lying underground for 100 million years is chemically bound and not "grabbable" by universal expansion, so is not "degraded" by cosmic expansion. In the end, while we acknowledge that energy conservation is not strictly obeyed in our universe, it might as well be for all practical purposes. Thus, this section amounts to a tiny asterisk or caveat on the statement that energy is always conserved.
 
-# <span id="page-414-0"></span>**D.2.2 Convoluted Conservation**
+## Convoluted Conservation
 
 This section follows a chain of energy conversions that starts before our own Sun was formed, and ends in a car wreck as a way to flesh out the manner in which energy is conserved, in practice. Don't worry about understanding every step, but absorb the overall theme that energy is changing from one form to the other throughout the process.
 
@@ -95,7 +95,7 @@ At the bottom, the crunch of the car ends up in bent metal<sup>9</sup> and heat.
 
 Tracing the energy we use for transportation back far enough, passes through oil, photosynthesis, sunlight, and nuclear fusion in the sun's core. Going back further, we recognize nuclear energy as deriving from gravitational energy of the collapsing material. What gave the atoms in the universe gravitational potential energy? The answer would have to be the [Big Bang,](#page-442-0) truly arriving at the end (beginning) of the story.
 
-# <span id="page-415-0"></span>**D.2.3 Lost to Heat**
+## Lost to Heat
 
 The sequence in [Section](#page-414-0) [D.2.2](#page-414-0) terminated in heat and infrared radiation. But let's flesh this out a bit, as heat is an almost-universal "endpoint" for energy flows.
 
@@ -121,7 +121,8 @@ Essentially the only exceptions to the heat fate of our energy expenditures is a
 
 In the end, most of the heat we generate on Earth's surface finds its way back to space as [infrared radiation.](#page-450-1) All objects glow in the infrared, and once the radiation escapes our atmosphere it is gone from Earth forever.<sup>12</sup> At this point, the energy is pretty well spent, so that we would not be able to profit from its use should we try to capture it.<sup>13</sup> The energy that came from the universe returns there, as part of the dull, fading glow that lingers from the Big Bang.
 
-# <span id="page-416-0"></span>**D.3 Electrified Transport**
+(sec:appD:electrifiedtransport)=
+# Electrified Transport
 
 This section aims to answer the question: Why can't we *just*<sup>[14](#page-14-1)</sup> electrify transportation and be done with fossil fuels? It turns out to be hard. Rather then rely on external studies, this section applies lessons from the book to demonstrate the power of first-principles quantitative assessment. [14](#page-14-1): ... beware of the word “just,” often hiding lack of familiaritytually collapses or is otherwise disturbed.
 
