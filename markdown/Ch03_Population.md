@@ -9,28 +9,25 @@ kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
+
 (chap:population)=
 # Population
 
-Underlying virtually every concern relating to our experience on this planet is the story of human population. The discussion of continued energy growth in [Chapter](#page-21-0) [1](#page-21-0) was based on the historical growth rate of energy, which is partly due to growing population and partly due to increased use per capita. But the notion that population will continue an exponential climb, as is implicit in the [Chapter1](#page-21-0) scenario, is impractical one of many factors that will render the "predictions" of [Chapter](#page-21-0) [1](#page-21-0) invalid and prohibit "growth forever."
+Underlying virtually every concern relating to our experience on this planet is the story of human population. The discussion of continued energy growth in [Chapter 1](chap:expgrowth) was based on the historical growth rate of energy, which is partly due to growing population and partly due to increased use per capita. But the notion that population will continue an exponential climb, as is implicit in the [Chapter 1](chap:expgrowth) scenario, is impractical one of many factors that will render the "predictions" of [Chapter 1](#chap:expgrowth) invalid and prohibit "growth forever."
 
-So let's add a dose of reality and examine a more practical scenario. Americans' per-capita use of energy is roughly *five times* the global average rate. If global population eventually doubles, and the average global citizen advances to use energy at the rate Americans currently do,<sup>1</sup> then the total scale of energy use would go up by a factor of 10, which would take 100 years at our mathematically convenient 2.3% annual rate (see Eq. [1.5; p. 5\)](#page-24-0). This puts a more realistic—and proximate-timescale on the end of energy growth than the fantastical extrapolations of [Chapter 1.](#page-21-0)Although the focus of this chapter will be on the alarming rate of population growth, we should keep the energy and resource context in mind in light of the overall theme of this book. To this end, [Figure](#page-49-0) [3.1](#page-49-0) shows the degree to which energy demand has outpaced population growth, when scaled vertically to overlap in the nineteenth century. From 1900 to 1950, per-capita energy consumption increased modestly, but then ballooned dramatically after 1950, so that today we have the equivalent of 25 billion people on the planet operating at nineteenth century energy levels.
+So let's add a dose of reality and examine a more practical scenario. Americans' per-capita use of energy is roughly *five times* the global average rate. If global population eventually doubles, and the average global citizen advances to use energy at the rate Americans currently do,[^1] then the total scale of energy use would go up by a factor of 10, which would take 100 years at our mathematically convenient 2.3% annual rate (see Eq. {eq}`eq:expgrowth:logM`. This puts a more realistic—and proximate-timescale on the end of energy growth than the fantastical extrapolations of [Chapter 1](chap:expgrowth). Although the focus of this chapter will be on the alarming rate of population growth, we should keep the energy and resource context in mind in light of the overall theme of this book. To this end, [Figure](#page-49-0) [3.1](#page-49-0) shows the degree to which energy demand has outpaced population growth, when scaled vertically to overlap in the nineteenth century. From 1900 to 1950, per-capita energy consumption increased modestly, but then ballooned dramatically after 1950, so that today we have the equivalent of 25 billion people on the planet operating at nineteenth century energy levels.
 
-Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical
+Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical expectations, then discuss the heralded "demographic transition" and its implications.
 
-1: . . . so that global average energy use per capita increases by a factor of five from where it is today
+[^1]: ... so that global average energy use per capita increases by a factor of five from where it is today.
+```{figure} ../figures/Ch03_Population/_page_49_Figure_9.jpeg
+:label: fig:population:popenergy
+:width: 100%
+:align: center
+:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata).
+```
 
-<span id="page-49-0"></span>![](../figures/Ch03_Population/_page_49_Figure_9.jpeg)
-
-**Figure 3.1:** Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand [\(power\)](#page-453-0) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [\[14–](#page-432-0)[16\]](#page-432-1).
-
-Photo Credit: Tom Murphy
-
-*<sup>©</sup> 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
-
-expectations, then discuss the heralded "demographic transition" and its implications.
-
-## <span id="page-50-0"></span>**3.1 Population History**
+# Population History
 
 [Figure](#page-50-2) [3.2](#page-50-2) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a ["hockey stick"](#page-449-0) plot. In order to peer deeper, we plot population on a logarithmic vertical axis [\(Figure](#page-50-3) [3.3\)](#page-50-3). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
 
