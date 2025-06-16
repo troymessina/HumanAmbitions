@@ -147,7 +147,7 @@ Efficiency improvements would seem to offer a way to tolerate a stagnation or de
 
 1. For the most part, realized efficiencies are already within a factor-of-two of theoretical limits[^14]. A motor or generator operating at 90% efficiency has little room to improve. If efficiencies were typically far smaller than 1%, it would be reasonable to seek improvements as a "resource" for some time to come, but that is not the lay of the land.
 2. Efficiency improvements in energy use tend to creep along at ~1% per year[^15], or sometimes 2%. {term}`Doubling times` are therefore measured in decades, which combined with the previous point suggests an end to this train ride within the century.[^16]
-3. Efficiency improvements can backfire, in a process called the {term}`Jevons Paradox` and [Figure](#page-41-0) [2.3](#page-41-0) [Jevons paradox](#page-450-1) or the [rebound effect.](#page-454-0) Increased demand for the more efficient technology results in *greater* demand for the underlying resource. For example, improvements in refrigerator efficiency resulted in larger refrigerators and more of them[^17], for a net increase in energy devoted to refrigeration. Consider that per-capita global energy and material resource use has climbed inexorably amidst a backdrop of substantial efficiency improvements over the last century [@jevons_paradox].
+3. Efficiency improvements can backfire, in a process called the {term}`Jevons Paradox` or the {term}`rebound effect`. Increased demand for the more efficient technology results in *greater* demand for the underlying resource. For example, improvements in refrigerator efficiency resulted in larger refrigerators and more of them[^17], for a net increase in energy devoted to refrigeration. Consider that per-capita global energy and material resource use has climbed inexorably amidst a backdrop of substantial efficiency improvements over the last century [@jevons_paradox].
 
 Efficiency improvements are not capable of resolving resource demand.
 ```
@@ -244,41 +244,29 @@ Just because we can point to some completely legitimate *examples* of decoupled 
 
 So, while acknowledging that growth in the past has brought uncountable benefits to the human endeavor, we have to ask ourselves: If the end of growth is inevitable, why does it remain our prevailing plan?
 
-## <span id="page-47-0"></span>**2.6 Problems**
+# Problems
 
-- <span id="page-47-1"></span>1. At a 3.5% growth (interest) rate, how much would \$1,000 invested at the time Columbus sailed to America be worth today (hint: use the [rule of 70\)](#page-455-0)? Put this in context (compare to richest individuals or find a similar GDP for some country).
-- 2. As an indication of how sensitive the accumulation is to interest rate, compare the result from [Problem](#page-47-1) [1](#page-47-1) to what would happen for interest rates of 4% and 5%—again putting into context.
-- 3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: Look at the column for total energy con-[Wikipedia page on Primary En](https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production)[ergy Consumption.](https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production) [\[13\]](#page-431-7) In order to compare to [Figure](#page-38-1) [2.2,](#page-38-1) multiply the number in quadrillion Btu [\(qBtu\)](#page-454-1) by <sup>1</sup>.<sup>055</sup> <sup>×</sup> <sup>10</sup><sup>18</sup> J/qBtu. Also note that a trillion is 10<sup>12</sup> .
-- 4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around 10<sup>15</sup> J.<sup>26</sup> side, assume that student payments (tuition, fees, room and board) accounts for 40% of the total budget.<sup>27</sup> typical tuition/fees and enrollment Don't get hung up on in-state fraction; just to come up with a number. Compare your result to global figures for energy intensity.
-- <span id="page-47-2"></span>5. Typical energy costs are in the neighborhood of The result should be larger than the typical \$0.10 per kilowatthour (kWh), and 1 kWh is 3.6 MJ (megajoules). Take the ratio of these two figures to form an economic energy intensity *of energy itself*, in units of MJ/\$.
-- 6. If a country clocks in at 5 MJ/\$ for its *overall* energy intensity, and its energy costs work out to an energy intensity of 30 MJ/\$,<sup>28</sup> what percentage of the economy do we infer constitutes the energy sector?
+1. At a 3.5% growth (interest) rate, how much would \$1,000 invested at the time Columbus sailed to America be worth today (hint: use the rule of 70)? Put this in context (compare to richest individuals or find a similar GDP for some country).
+2. As an indication of how sensitive the accumulation is to interest rate, compare the result from Problem 1 to what would happen for interest rates of 4% and 5% — again putting into context.
+3. Find the energy intensity for at least four countries spanning a range of development levels. For each country, look up the GDP, and find energy consumption at: [Wikipedia page on Primary Energy Consumption](https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production) or [Gapminder](https://www.gapminder.org/tools/#$model$markers$bubble$encoding$y$data$concept=energy_use_per_person&space@=geo&=time;&source=sg;&scale$domain:null&zoomed:null&type:null;;&frame$value=2015;;;;;&chart-type=bubbles&url=v2) [\[13\]](#page-431-7) In order to compare to [](#fig:econgrowth:energyintensity) you may need to convert units. Also note that a trillion is 10<sup>12</sup>.
+4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around 10<sup>15</sup> J.[^26] side, assume that student payments (tuition, fees, room and board) accounts for 40% of the total budget.[^27] Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity. Don't get hung up on in-state fraction; just make a crude guess (maybe guess an average) and clearly state assumptions.
+5. Typical energy costs are in the neighborhood of \$0.10 per kilowatthour (kWh), and 1 kWh is 3.6 MJ (megajoules). Take the ratio of these two figures to form an economic energy intensity *of energy itself*, in units of MJ/\$. The result should be larger than the typical energy intensity for all economic activities within a country, since not all monetary expenditure goes toward energy.
+6. If a country clocks in at 5 MJ/\$ for its *overall* energy intensity, and its energy costs work out to an energy intensity of 30 MJ/\$,[^28] what percentage of the economy do we infer constitutes the energy sector? The answer should be well less than 100%.
 
-*i* Retention of [Chapter](#page-21-0) [1](#page-21-0) material is assumed. The real world is not partitioned into chapters, and neither should your brain be.
+[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won't account for all energy expenditures, missing For the financial transportation, for instance.
+[^27]: Federal grants comprise most of the rest, and a small amount from state taxes.
+[^28]: In the same sense as was calculated for Problem 5.
 
-sumption in units of quadrillion Btu.
-
-26: Based on a 30 MW electrical load times the number of seconds in a year; this won't account for all energy expenditures, missing For the financial transportation, for instance.
-
-27: Federal grants comprise most of the Use your knowledge of rest, and a small amount from state taxes
-
-> make a crude guess (maybe guess an average) and clearly state assumptions.
-
-> energy intensity for *all* economic activities within a country, since not all monetary expenditure goes toward energy.
-
-> 28: In the same sense as was calculated for [Problem](#page-47-2) [5](#page-47-2)
-
-The answer should be well less than 100%.
-
-- 7. Come up with some of your own examples (at least three; not listed in the text) of economic activities<sup>29</sup> that have little resource 29: . . . things that cost money footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
-- 8. If a candle has a luminous efficacy of 0.3 lm/W and a modern [LED](#page-451-0) light bulb achieves 100 lm/W, by what factor<sup>30</sup> 30: A factor is just a multiplicative scale: have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
-- 9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long<sup>31</sup> 31: You can just estimate, use appropriate might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
-- 10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior<sup>32</sup> 32: . . . perhaps defined by widespread or substitutions over time (thus three steps: original, first replacement, second replacement).
-- 11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
-- 12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes?
-- 13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes?
-- 14. Justify what, In your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities? Make an argument for what leads you to this "floor."
-- 15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resourcehogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
-- 16. Are you sold on the argument that the physics-imposed limit to resource/energy growth demands an ultimate cessation of economic growth as well? If so, highlight the persuasive elements. If not, why not?
+7. Come up with some of your own examples (at least three; not listed in the text) of economic activities<sup>29</sup> that have little resource 29: . . . things that cost money footprint and are therefore fairly decoupled. These are transactions for which the intensity (energy or resource expenditure) is very low compared to the dollar amount.
+8. If a candle has a luminous efficacy of 0.3 lm/W and a modern [LED](#page-451-0) light bulb achieves 100 lm/W, by what factor<sup>30</sup> 30: A factor is just a multiplicative scale: have we improved lighting efficiency? If the theoretical limit is around 300 lm/W, what factor do we still have to go?
+9. In going from 0.3 lm/W candle technology to the theoretical maximum luminous efficacy, we see a factor of 1,000 increase. Taking about 300 years to do this, we might recognize that we are following along our familiar factor-of-ten each century trajectory. Approximately how long<sup>31</sup> 31: You can just estimate, use appropriate might we expect it to take to achieve the final factor of three to go from our current technology to the theoretical limit, at this same rate? Is it within your lifetime that we hit the limit?
+10. Provide your own example of a sequence of substitutions comprised of at least two qualitatively superior<sup>32</sup> 32: . . . perhaps defined by widespread or substitutions over time (thus three steps: original, first replacement, second replacement).
+11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
+12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes?
+13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes?
+14. Justify what, In your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities? Make an argument for what leads you to this "floor."
+15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resourcehogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
+16. Are you sold on the argument that the physics-imposed limit to resource/energy growth demands an ultimate cessation of economic growth as well? If so, highlight the persuasive elements. If not, why not?
 
 9: ... things that cost money
 
@@ -312,7 +300,7 @@ photon
 Watts
 : (W) is a unit of power, defined so that 1 W is 1 J/s (one Joule per second).
 
-doubling time
+Doubling time
 : how long it takes a system or collection to double its amount under conditions of growth, such as in exponential growth. See also the rule of 70.
 
 Jevons Paradox
