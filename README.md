@@ -10,11 +10,39 @@ This is an **open-access** textbook for courses on energy, environment, and clim
 
 This book is a remix of various electronics lab manuals I have found online. Anyone is welcome to compile their own version including or excluding chapters.  
 
-This textbook is open-access and can be found at https://github.com/troymessina/ElectronicsLab. The following chapters are included in the textbook:
+This textbook is open-access and can be found at https://github.com/troymessina/HumanAmbitions. The following chapters are included in the textbook:
 
-0. 
-1.
-2.
+0. [Preface](https://troymessina.github.io/HumanAmbitions/)
+Part I - Setting the Stage- Growth and Limitations
+1. [Exponential Growth]()
+2. [Economic Growth Limits](https://troymessina.github.io/HumanAmbitions/ch01-exponentialgrowth)
+3. [Population](https://troymessina.github.io/HumanAmbitions/ch03-population)
+4. [Space Exploration vs. Colonization](https://troymessina.github.io/HumanAmbitions/ch04-spacecolonization)
+Part II - Energy and Fossil Fuels
+5. [Energy and Power Units](https://troymessina.github.io/HumanAmbitions/ch05-energypowerunits)
+6. [Putting Thermal Energy to Work](https://troymessina.github.io/HumanAmbitions/ch06-thermalenergy)
+7. [The Energy Landscape](https://troymessina.github.io/HumanAmbitions/ch07-energylandscape)
+8. [Fossil Fuels](https://troymessina.github.io/HumanAmbitions/ch08-fossilfuels)
+9. [Climate Change](https://troymessina.github.io/HumanAmbitions/ch09-climatechange)
+Part III - Alternative Energy
+10. [Renewable Energy Overview](https://troymessina.github.io/HumanAmbitions/ch10-renewableoverview)
+11. [Hydroelectric Energy](https://troymessina.github.io/HumanAmbitions/ch11-hydroelectricenergy)
+12. [Wind Energy](https://troymessina.github.io/HumanAmbitions/ch12-windenergy)
+13. [Solar Energy](https://troymessina.github.io/HumanAmbitions/ch13-solarenergy)
+14. [Biological Energy](https://troymessina.github.io/HumanAmbitions/ch14-biologicalenergy)
+15. [Nuclear Energy](https://troymessina.github.io/HumanAmbitions/ch15-nuclearenergy)
+16. [Small Players](https://troymessina.github.io/HumanAmbitions/ch16-smallplayers)
+17. [Compare of Alternatives](https://troymessina.github.io/HumanAmbitions/ch17-comparealternatives)
+Part IV - Going Forward
+18. [HumanFactors](https://troymessina.github.io/HumanAmbitions/ch18-humanfactors)
+19. [A Plan Might Be Welcome](https://troymessina.github.io/HumanAmbitions/ch19-aplanwelcome)
+20. [Adaptation Strategies](https://troymessina.github.io/HumanAmbitions/ch20-adaptationstrategies)
+[Epilogue](https://troymessina.github.io/HumanAmbitions/epilogue)
+Appendices
+Appendix A - [Math and Equations](https://troymessina.github.io/HumanAmbitions/appa-math)
+Appendix B - [Chemistry Primer/Refresher](https://troymessina.github.io/HumanAmbitions/appb-chem)
+Appendix C - [Selected Answers](https://troymessina.github.io/HumanAmbitions/appc-solns)
+Appendix D - [Alluring Tangents](https://troymessina.github.io/HumanAmbitions/appd-tangents)
 
 
 # Original text copyrights
