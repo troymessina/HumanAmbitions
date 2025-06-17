@@ -63,7 +63,7 @@ plt.show()
 [](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a {term}`hockey stick` plot. In order to peer deeper, we plot population on a logarithmic vertical axis in [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story. Notice an exponential function when plotted logarithmically on the vertical axis looks like
 $$\ln(y) &= \ln\left(Ae^{mx}\right)\\
 \\
-\ln(y) &= \ln(A) + \ln(\left(e^{mx}\right)\\
+\ln(y) &= \ln(A) + \ln\left(e^{mx}\right)\\
 \\
 \ln(y) &= b + mx\\
 $$
@@ -157,45 +157,51 @@ Graphical representation of [](#tabel:population:popmilestones) showing the time
 
 # Logistic Model
 
-Absent human influence, the population of a particular animal species on the planet might fluctuate on short timescales (year by year) and experience large changes on very long timescales (centuries or longer). But by-and-large nature finds a rough equilibrium. Overpopulation proves to be temporary, as exhaustion of food resources, increased predation, and in some cases disease (another form of predation, really) knock back the population.<sup>5</sup> On the other hand, a small population finds it easy to expand into abundant food opportunities, and predators reliant on the species have also scaled back due to lack of prey.We have just described a form of [negative feedback:](#page-452-0) corrective action to remedy a maladjusted system back toward equilibrium.
+Absent human influence, the population of a particular animal species on the planet might fluctuate on short timescales (year by year) and experience large changes on very long timescales (centuries or longer). But by-and-large nature finds a rough equilibrium. Overpopulation proves to be temporary, as exhaustion of food resources, increased predation, and in some cases disease (another form of predation, really) knock back the population.[^5] On the other hand, a small population finds it easy to expand into abundant food opportunities, and predators reliant on the species have also scaled back due to lack of prey. We have just described a form of *negative feedback*, corrective action to remedy a maladjusted system back toward equilibrium.
+[^5]: For reference, the SARS-CoV2 pandemic of 2020 barely impacted global population growth rates. When population grows by more than 80 million each year, a disease killing even a few million people barely registers as a hit to the broader trend.
 
-**Definition 3.2.1** *[Negative feedback](#page-452-0) simply means that a correction is applied in a direction* opposite *the recent motion. If a pendulum moves to the right, a restoring force pushes it back to the left, while moving too far to the left results in a rightward push. A mass oscillating on a spring demonstrates similar characteristics, as must all equilibrium phenomena.*
-The word *negative* may sound like some-We can make a simple model for how a population might evolve in an environment hosting negative feedback. When a population is small and resources are abundant, the birth rate is proportional to the population.
+```{hint} Definition: Negative feedback
+Means that a correction is applied in a direction opposite the recent motion. If a pendulum moves to the right, a restoring force pushes it back to the left, while moving too far to the left results in a rightward push. A mass oscillating on a spring demonstrates similar characteristics, as must all equilibrium phenomena. 
 
-<span id="page-52-1"></span>**Example 3.2.1** If a forest has 100 breeding-aged deer, or 50 couples, we can expect 50 fawns in a year (under the simplifying and unimportant assumption of one fawn per female per year). If the forest has 200 deer, we can expect 100 fawns. The birth rate is simply *proportional* to the population capable of giving birth.<sup>6</sup> 6: . . . no negative feedback yet
+The word *negative* may sound like something thing we would not want, but its cousin {term}`positive feedback` leads to disastrous runaway conditions. An example of positive feedback is the bacteria example from [Chapter 1](#chap:expgrowth) having more bacteria only increases the rate of growth. Exponentials are the hallmark of positive feedback, while equilibrium signals negative feedback.
+```
+ We can make a simple model for how a population might evolve in an environment hosting negative feedback. When a population is small and resources are abundant, the birth rate is proportional to the population.
+```{note} Example
+:label: ex:population:fawns
+If a forest has 100 breeding-aged deer, or 50 couples, we can expect 50 fawns in a year (under the simplifying and unimportant assumption of one fawn per female per year). If the forest has 200 deer, we can expect 100 fawns. The birth rate is simply *proportional* to the population capable of giving birth.[^6] 
+```
+[^6]: 6: ... no negative feedback yet
+If the setup in the [Example](#ex:population:fawns) were the only element to the story, we would find exponential growth: more offspring means a larger population, which ultimately reaches breeding age to produce an even larger population.[^7] But as the population grows, negative feedback will begin to play a role. We will denote the population as  $P$ , and its rate of change as  $\dot{P}$.[^8]  We might say that the growth rate, or  $\dot{P}$, is
+[^7]: We have just described a state of {term}`positive feedback`: more begets more.
+[^8]:  $\dot{P}$  is a time derivative, i.e., the change in population over time (indicated by the dot on top), defined as  $\dot{P} = \Delta P/\Delta t$ . But don't panic if calculus is not your thing: what we describe here is still totally understandable.
 
-If the setup in [Example](#page-52-1) [3.2.1](#page-52-1) were the only element to the story, we would find [exponential growth:](#page-447-0) more offspring means a larger population, which ultimately reaches breeding age to produce an even larger population.<sup>7</sup> But as the population grows, negative feedback will begin to play a role. We will denote the population as  $P$ , and its rate of change as  $\dot{P}$ .<sup>7</sup> We might say that the growth rate, or  $\dot{P}$ , is
-<sup>8</sup> 8:  $\dot{P}$  is a time derivative (note the dot on
-top), defined as  $\dot{P} = dP/dt$ . But don't panic
-7: We have just described a state of [positive](#page-453-1)
-feedback: more begets more.<span id="page-52-2"></span>
 $$
+\label{eq:population:dotP}
 \dot{P} = rP,
 $$
 
-$$
-(3.3)
-$$
+where $r$ represents the birth rate in proportion to the population (e.g., 0.04 if 4% of the population will give birth in a year).[^9] This equation just re-iterates the simple idea that the rate of population growth is dependent on (proportional to) the *present* population. The solution to this {term}`differential equation` is an exponential:
 
-where 푟 represents the birth rate in proportion to the population (e.g., 0.04 if 4% of the population will give birth in a year).<sup>9</sup> This equation just re-iterates the simple idea that the rate of population growth is dependent on (proportional to) the *present* population. The solution to this [differential equation](#page-445-1) is an exponential:
-
-<span id="page-52-3"></span>
 $$
+\label{eq:population:expP}
 P = P_{0}e^{r(t - t_{0})},
 $$
- (3.4)
+which is really just a repeat of Eq. {eq}`eq:population:popvst` where  $r$  takes the place of  $\ln(1 + p)$.
 
-5: For reference, the SARS-CoV2 pandemic of 2020 barely impacted global population growth rates. When population grows by more than 80 million each year, a disease killing even a few million people barely registers as a hit to the broader trend.
+9: In terms of the growth rate we used before,  $p$ , as in Eq. {eq}`eq:population:popvst`  $r = \ln(1 + p)$ . So for instance, if growing at 2%,  $p = 0.02$  and  $r$  also is 0.02 ( $r \approx p$  for small values of  $p$ ).
 
-thing we would not want, but its cousin [positive feedback—](#page-453-1)leads to disastrous runaway conditions. An example of positive feedback is the bacteria example from [Chap](#page-21-0)[ter](#page-21-0) [1:](#page-21-0) having more bacteria only increases the rate of growth. Exponentials are the hallmark of positive feedback, while equilibrium signals negative feedback.
+```{note} Example
+Paralleling the deer population scenario from the [Example](#ex:population:fawns), if we set  $r = 0.5$ , and have a population of  $P = 100$  adult deer (half female), Eq. {eq}`eq:population:dotP` says that  $\dot{P} = 50$ , meaning the population will change by 50 units.[^10] We could then use Eq. {eq}`eq:population:expP` to determine the population after 4 years:  $P = 100e^{0.5 \cdot 4} \approx 739$.
+```
+[^10]: A more adorable term for "units" is fawns, in this case. We ignore death rate here, but it effectively reduces  $r$  in ways that we will encounter later.
+Let's say that a given forest can support an ultimate number of deer, labeled  $Q$ , in steady state, while the current population is labeled  $P$ . The difference,  $Q - P$  is the "room" available for growth, which we might think of as being tied to available resources. Once  $P = Q$ , no more resources are available to support growth.
 
-6: ...no negative feedback yet
-
-[feedback:](#page-453-1) more begets more.
-
-top), defined as  $\dot{P} = dP/dt$ . But don't panic if calculus is not your thing: what we describe here is still totally understandable.9: In terms of the growth rate we used before,  $p$ , as in [Eq.](#page-51-1) [3.1,](#page-51-1)  $r = \ln(1 + p)$ . So for instance, if growing at 2%,  $p = 0.02$  and  $r$  also is 0.02 ( $r \approx p$  for small values of  $p$ ).which is really just a repeat of [Eq.](#page-51-1) [3.1,](#page-51-1) where  $r$  takes the place of  $ln(1 + p)$ .<span id="page-53-3"></span>**Example 3.2.2** Paralleling the deer population scenario from [Example](#page-52-1) [3.2.1](#page-52-1), if we set  $r = 0.5$ , and have a population of  $P = 100$  adult deer (half female), [Eq.](#page-52-2) [3.3](#page-52-2) says that  $\dot{P} = 50$ , meaning the population will change by 50 units.<sup>10</sup> 10: A more adorable term for "units" isWe could then use [Eq.](#page-52-3) [3.4](#page-52-3) to determine the population after 4 years:  $P = 100e^{0.5 \cdot 4} \approx 739$ .Let's say that a given forest can support an ultimate number of deer, labeled  $Q$ , in steady state, while the current population is labeled  $P$ . The difference,  $Q - P$  is the "room" available for growth, which we might think of as being tied to available resources. Once  $P = Q$ , no more resources are available to support growth.**Definition 3.2.2** *The term "[carrying capacity](#page-443-0)" is often used to describe*  $Q$ : *the population supportable by the environment. The carrying capacity (* $Q$ *) for human population on Earth is not an agreed-upon number, and in any case it is a strong function of lifestyle choices and resource dependence.* $Q-P$  quantifies a growth-limiting mechanism by representing available room. One way to incorporate this feature into our growth rate equation is to make the rate of growth look like<span id="page-53-0"></span>
+```{hint} Definition: Carrying Capacity
+Often used to describe $Q$: the population supportable by the environment. The carrying capacity ($Q$) for human population on Earth is not an agreed-upon number, and in any case it is a strong function of lifestyle choices and resource dependence.
+```
+$Q-P$  quantifies a growth-limiting mechanism by representing available room. One way to incorporate this feature into our growth rate equation is to make the rate of growth look like
 $$
-\dot{P} = \frac{Q - P}{Q} rP. \tag{3.5}
+\dot{P} = \frac{Q - P}{Q} rP.
 $$
 
 We have multiplied the original rate of  $rP$  by a term that changes the effective growth rate  $r \rightarrow r(Q - P)/Q$ . When  $P$  is small relative to  $Q$ , the effective rate is essentially the original  $r$ . But the effective growth rate approaches zero as  $P$  approaches  $Q$ . In other words, growth slows down and hits zero when the population reaches its final saturation point, as  $P \rightarrow Q$  (see [Figure 3.6](#page-53-1)).The mathematical solution to this modified [differential equation](#page-445-1) (whose solution technique is beyond the scope of this course) is called a [logistic](#page-451-0) curve, plotted in [Figure](#page-54-1) [3.7](#page-54-1) and having the form<span id="page-53-2"></span>
@@ -206,7 +212,7 @@ $$
 (3.6)
 
 The first part of the curve in [Figure](#page-54-1) [3.7,](#page-54-1) for very negative values<sup>11</sup> of  $t - t_0$ , is exponential but still small. At  $t = t_0$  (time of inflection), the population is  $Q/2$ . As time marches forward into positive territory,  $P$  approaches  $Q$ . As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive
-<sup>11</sup>: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .fawns, in this case.We ignore death rate here, but it effectively reduces  $r$  in ways that we will encounter later.<span id="page-53-1"></span>![](../figures/Ch03_Population/_page_53_Figure_14.jpeg)
+<sup>11</sup>: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .fawns, in this case.<span id="page-53-1"></span>![](../figures/Ch03_Population/_page_53_Figure_14.jpeg)
 
 **Figure 3.6:** The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see [Eq.](#page-53-0) [3.5\)](#page-53-0).Try it yourself: pick a value for  $Q$  (1,000, maybe) and then various values of  $P$  to see how the effective growth rate will be modified.logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .<span id="page-54-1"></span>![](../figures/Ch03_Population/_page_54_Figure_1.jpeg)
 
@@ -631,4 +637,10 @@ hockey stick
 
 Green Revolution
 : refers to the modernization of agricultural practices worldwide beginning around 1950, when fossil fuels transformed both fertilization and mechanization.
+
+positive feedback
+: involves a reaction to some stimulus in the same direction as the stimulus, thus amplifying the effect. Positive feedback leads to an unstable, runaway process—like exponential growth.
+
+differential equation
+: an equation that relates functions and their derivatives. The subject is often sequenced after calculus within a curriculum.
 :::
