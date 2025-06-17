@@ -22,21 +22,17 @@ Since population plays a giant role in our future trajectory, we need to better 
 [^1]: ... so that global average energy use per capita increases by a factor of five from where it is today.
 ```{figure} ../figures/Ch03_Population/powerpop.svg
 :label: fig:population:popenergy
-:width: 100%
+:width: 95%
 :align: center
 :alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 ```
 
-```{code-cell} python
-:tags: [remove-input]
-:label: energypopgraph
-:caption: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
-print("This will show output with no input!")
-```
 
 ```{code-cell} python
 :tags: [remove-input]
+:label: fig:population:energypopgraph
+:caption: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -79,7 +75,7 @@ An interpretation of the population history might go as follows. Not much change
 :alt: Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 ```
-```{figure} ../figures/Ch03_Population/poplog3era.jpeg
+```{figure} ../figures/Ch03_Population/poplog3era.svg
 :label: fig:population:popestimatelog
 :width: 100%
 :align: center
