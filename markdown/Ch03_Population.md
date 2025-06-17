@@ -127,8 +127,8 @@ $$
 
 
 ```{note} Example 
-We can use Eq. {eq}`eq:population:eq:population:popvst` to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  Gppl[^4], $t_0 = 2010, p = 0.01$, then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.
-Eq. {eq}`eq:population:eq:inverted_t` is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $\ln(8/7)/\ln(1.01) = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.
+We can use Eq. {eq}`eq:population:popvst` to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  Gppl[^4], $t_0 = 2010, p = 0.01$, then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.
+Eq. {eq}`eq:population:inverted_t` is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $\ln(8/7)/\ln(1.01) = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.
 ```
 ```{table} Population milestones: dates at which we added another one billion living people to the planet. The Time and Doubling columns are expressed in years. Around 1965, the growth rate got up to 2%, for a 35 year doubling time.
 :label: table:population:popmilestones
@@ -146,7 +146,7 @@ Eq. {eq}`eq:population:eq:inverted_t` is the form that was used to conclude that
 ```
 [^4]: Gppl is giga-people, or billion people
 
-[](#table:population:popmilestones) and [](#page-51-3) [3.5](#page-51-3) illustrate how long it has taken to add each billion people, extrapolating to the 8 billion mark (as of writing in 2020). The first billion people obviously took tens of thousands of years, each new billion people taking less time ever since. Growth rate peaked in the 1960s at 2% and a doubling time of 35 years. The exponential rate is moderating now, but even 1% growth continues to add a billion people every 13 years, at this stage. A famous book by Paul Ehrlich called *The Population Bomb* [\[18\]](#page-432-4), first published in 1968, expressed understandable alarm at the 2% rate that had only *increased* to that point. The moderation to 1% since that period is reassuring, but we are not at all out of the woods yet. The next section addresses natural mechanisms for curbing growth.
+[](#table:population:popmilestones) and [](fig:population:popestimatefourera) illustrate how long it has taken to add each billion people, extrapolating to the 8 billion mark (as of writing in 2020). The first billion people obviously took tens of thousands of years, each new billion people taking less time ever since. Growth rate peaked in the 1960s at 2% and a doubling time of 35 years. The exponential rate is moderating now, but even 1% growth continues to add a billion people every 13 years, at this stage. A famous book by Paul Ehrlich called The Population Bomb[@populationbomb], first published in 1968, expressed understandable alarm at the 2% rate that had only *increased* to that point. The moderation to 1% since that period is reassuring, but we are not at all out of the woods yet. The next section addresses natural mechanisms for curbing growth.
 ```{figure} ../figures/Ch03_Population/_page_51_Figure_13.jpeg
 :label: fig:population:doublings
 :width: 100%
