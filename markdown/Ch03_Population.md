@@ -30,6 +30,8 @@ Population (red) and energy demand (blue) on the same plot, showing how much fas
 
 ```{code-cell} python
 :tags: [remove-input]
+:label: energypopgraph
+:caption: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 print("This will show output with no input!")
 ```
 
@@ -70,21 +72,21 @@ The recent rapid rise is a fascinating development, and begs for a closer look. 
 
 An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.[^2] The Renaissance (~1700) introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century (~1870), the explosive expansion of [fossil fuel](#chap:fossilfuels) usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century (~1950), the {term}`Green Revolution` [@greenrevolution] introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
 
-```{figure} ../figures/Ch03_Population/_page_50_Figure_7.jpeg
+```{figure} ../figures/Ch03_Population/poplinear.svg
 :label: fig:population:popestimatelin
 :width: 100%
 :align: center
 :alt: Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 Global population estimate, over the modern human era, on a linear scale. [](#fig:population:popenergy) offers a recent close-up. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 ```
-```{figure} ../figures/Ch03_Population/_page_50_Figure_9.jpeg
+```{figure} ../figures/Ch03_Population/poplog3era.jpeg
 :label: fig:population:popestimatelog
 :width: 100%
 :align: center
 :alt: Global population estimate, over the modern human era, on a logarithmic scale. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
 Global population estimate, over the modern human era, on a logarithmic scale. [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop]
 ```
-```{figure} ../figures/Ch03_Population/_page_50_Figure_11.jpeg
+```{figure} ../figures/Ch03_Population/poplog4era.svg
 :label: fig:population:popestimatefourera
 :width: 100%
 :align: center
