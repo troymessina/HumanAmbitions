@@ -102,12 +102,12 @@ Global population estimate, over recent centuries. On the logarithmic plot, line
 ```{table} Doubling times for [](#fig:population:popestimatefourera)
 :label: table:population:popestimatefourera
 :align: center
-| Years           | % growth | t<sub>2</sub> (yr)|
-|----------------:|----------:|---:|
-| 1000–1700       | 0.08%    | 875 |
-| 1700–1870       | 0.48%    | 145 |
-| 1870–1950       | 0.80%    | 87.5  |
-| 1950–2020       | 1.70%    | 40  |
+| Years      | % growth | t<sub>2</sub> (yr)|
+|:----------:|----------:|---:|
+| 1000–1700  | 0.08%    | 875 |
+| 1700–1870  | 0.48%    | 145 |
+| 1870–1950  | 0.80%    | 87.5|
+| 1950–2020  | 1.70%    | 40  |
 ```
 
 In more recent years, the rate has fallen somewhat from the 1.7% fit of the last segment in [](#fig:population:popestimatefourera), to around 1.1%. Rounding down for convenience, continuation at a 1% rate would increase population from 7 billion to 8 billion people in less than 14 years. The math is the same as in [Chapter 1](#chap:expgrowth), re-expressed here as
@@ -126,34 +126,36 @@ t - t_{0} = \frac{\ln\left(\frac{p}{p_{0}}\right)}{\ln(1+p)}.
 $$
 
 
-**Example 3.1.1** We can use [Eq.](#page-51-1) [3.1](#page-51-1) to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  [Gppl,](#page-448-1)<sup>4</sup>  $t_0 = 2010, p = 0.01$ , then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.<sup>4</sup>: Gppl is giga-people, or billion people[Eq.](#page-51-2) [3.2](#page-51-2) is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $ln(8/7)/ln 1.01 = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.<span id="page-51-0"></span>
+```{note} Example 
+We can use Eq. {eq}`eq:population:eq:population:popvst` to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  Gppl[^4], $t_0 = 2010, p = 0.01$, then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.
+Eq. {eq}`eq:population:eq:inverted_t` is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $\ln(8/7)/\ln(1.01) = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.
+```
+```{table} Population milestones: dates at which we added another one billion living people to the planet. The Time and Doubling columns are expressed in years. Around 1965, the growth rate got up to 2%, for a 35 year doubling time.
+:label: table:population:popmilestones
+:align: center
+| Year | Population (Gppl) | Time | Rate | Doubling |
+|:------:|:---------------:|-----:|:----:|----------:|
+| 1804 | 1                 | —    | 0.4% | 170      |
+| 1927 | 2                 | 123  | 0.8% | 85       |
+| 1960 | 3                 | 33   | 1.9% | 37       |
+| 1974 | 4                 | 14   | 1.9% | 37       |
+| 1987 | 5                 | 13   | 1.8% | 39       |
+| 1999 | 6                 | 12   | 1.3% | 54       |
+| 2011 | 7                 | 12   | 1.2% | 59       |
+| 2023 | 8                 | 12   | 1.1% | 66       |
+```
+[^4]: Gppl is giga-people, or billion people
 
-| Year | Population | Time | Rate | Doubling |
-|------|------------|------|------|----------|
-| 1804 | 1 Gppl     | —    | 0.4% | 170      |
-| 1927 | 2 Gppl     | 123  | 0.8% | 85       |
-| 1960 | 3 Gppl     | 33   | 1.9% | 37       |
-| 1974 | 4 Gppl     | 14   | 1.9% | 37       |
-| 1987 | 5 Gppl     | 13   | 1.8% | 39       |
-| 1999 | 6 Gppl     | 12   | 1.3% | 54       |
-| 2011 | 7 Gppl     | 12   | 1.2% | 59       |
-| 2023 | 8 Gppl     | 12   | 1.1% | 66       |
+[](#table:population:popmilestones) and [](#page-51-3) [3.5](#page-51-3) illustrate how long it has taken to add each billion people, extrapolating to the 8 billion mark (as of writing in 2020). The first billion people obviously took tens of thousands of years, each new billion people taking less time ever since. Growth rate peaked in the 1960s at 2% and a doubling time of 35 years. The exponential rate is moderating now, but even 1% growth continues to add a billion people every 13 years, at this stage. A famous book by Paul Ehrlich called *The Population Bomb* [\[18\]](#page-432-4), first published in 1968, expressed understandable alarm at the 2% rate that had only *increased* to that point. The moderation to 1% since that period is reassuring, but we are not at all out of the woods yet. The next section addresses natural mechanisms for curbing growth.
+```{figure} ../figures/Ch03_Population/_page_51_Figure_13.jpeg
+:label: fig:population:doublings
+:width: 100%
+:align: center
+:alt: Graphical representation of [](#tabel:population:popmilestones) showing the time between each billion people added.
+Graphical representation of [](#tabel:population:popmilestones) showing the time between each billion people added.
+```
 
-[Table](#page-51-0) [3.2](#page-51-0) and [Figure](#page-51-3) [3.5](#page-51-3) illustrate how long it has taken to add each billion people, extrapolating to the 8 billion mark (as of writing in 2020). The first billion people obviously took tens of thousands of years, each new billion people taking less time ever since. Growth rate peaked in the 1960s at 2% and a doubling time of 35 years. The exponential rate is moderating now, but even 1% growth continues to add a billion people every 13 years, at this stage. A famous book by Paul Ehrlich called *The Population Bomb* [\[18\]](#page-432-4), first published in 1968, expressed understandable alarm at the 2% rate that had only *increased* to that point. The moderation to 1% since that period is reassuring, but we are not at all out of the woods yet. The next section addresses natural mechanisms for curbing growth.
-
-<span id="page-51-2"></span>exponential functions "undo" each other (as [inverse functions\)](#page-450-0)
-
-4: Gppl is giga-people, or billion people
-
-ple has lately been 12 years, as we have been growing at a rate slightly higher than 1%.
-
-**Table 3.2:** Population milestones: dates at which we added another one billion living people to the planet. The Time and Doubling columns are expressed in years. Around 1965, the growth rate got up to 2%, for a 35 year [doubling time.](#page-445-0)
-
-<span id="page-51-3"></span>![](../figures/Ch03_Population/_page_51_Figure_13.jpeg)
-
-**Figure 3.5:** Graphical representation of [Ta](#page-51-0)[ble](#page-51-0) [3.2,](#page-51-0) showing the time between each billion people added [\[14,](#page-432-0) [15\]](#page-432-2).
-
-## <span id="page-52-0"></span>**3.2 Logistic Model**
+# Logistic Model
 
 Absent human influence, the population of a particular animal species on the planet might fluctuate on short timescales (year by year) and experience large changes on very long timescales (centuries or longer). But by-and-large nature finds a rough equilibrium. Overpopulation proves to be temporary, as exhaustion of food resources, increased predation, and in some cases disease (another form of predation, really) knock back the population.<sup>5</sup> On the other hand, a small population finds it easy to expand into abundant food opportunities, and predators reliant on the species have also scaled back due to lack of prey.We have just described a form of [negative feedback:](#page-452-0) corrective action to remedy a maladjusted system back toward equilibrium.
 
