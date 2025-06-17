@@ -60,13 +60,20 @@ plt.show()
 
 # Population History
 
-[](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a [hockey stick](#page-449-0) plot. In order to peer deeper, we plot population on a logarithmic vertical axis [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story.
+[](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a {term}`hockey stick` plot. In order to peer deeper, we plot population on a logarithmic vertical axis in [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story. Notice an exponential function when plotted logarithmically on the vertical axis looks like
+$$\ln(y) &= \ln\left(Ae^{mx}\right)\\
+\\
+\ln(y) &= \ln(A) + \ln(\left(e^{mx}\right)\\
+\\
+\ln(y) &= b + mx\\
+$$
+where in the second step, we used the rule that $\ln(a\cdot b)=\ln(a) +\ln(b)$, and in the third line we used the idea that the natural log "undoes" the exponential function. The last line also rewrites $\ln(A) = b$ since the natural log of the number $A$ is just some other number $b$. The last line looks like the equation of a line on the right hand side.
 
-Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can't be good news. Peering more closely, we can crudely break the history into two eras, each following {term}`exponential growth` (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the rule of 70, the corresponding doubling time is about 1600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
+Wait, what? [](#fig:population:popestimatelog) still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can't be good news. Peering more closely, we can crudely break the history into three eras, each following {term}`exponential growth` (straight lines on the plot), but at different rates. The early phase had a modest 0.004% growth rate. By the rule of 70, the corresponding doubling time is about 17000 years. From about -4000 years ago to 1700, the rate is about 0.075%, corresponding to a doubling time of approximately 1000 years. In more recent times, a 0.8% rate is more characteristic (90 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.075% line and the 0.8% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
 
 The recent rapid rise is a fascinating development, and begs for a closer look. [](fig:population:popestimatefourera) shows the last ~1,000 years, for which we see several exponential-looking segments at ever-increasing rates. The doubling times associated with the four rates shown on the plot are presented in [](#table:population:popestimatefourera)
 
-An interpretation of the population history might go as follows. Not much changed during the period following the Dark Ages.[^2] The Renaissance (~1700) introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century (~1870), the explosive expansion of [fossil fuel](#chap:fossilfuels) usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century (~1950), the {term}`Green Revolution` [@greenrevolution] introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
+An interpretation of the population history might go as follows. Early humans did not proliferate quickly. Around 6000 years ago was the an increase in agriculture and a move away from hunter-gatherer societies. Not much changed during the period following the Dark Ages.[^2] The Renaissance (~1700) introduced scientific thinking so that we began to conquer diseases, allowing an uptick in population growth. In the mid-19th century (~1870), the explosive expansion of [fossil fuel](#chap:fossilfuels) usage permitted industrialization at a large scale, and mechanized farming practices. More people could be fed and supported, while our mastery over human health continued to improve. In the mid-20th century (~1950), the {term}`Green Revolution` [@greenrevolution] introduced a fossil-fuel-heavy diet of fertilizer and largescale mechanization of agriculture, turning food production into an industry. The combination of a qualitative change in the availability of cheap nutrition and the march of progress on disease control cranked the population rate even higher.
 
 ```{figure} ../figures/Ch03_Population/poplinear.svg
 :label: fig:population:popestimatelin
@@ -97,9 +104,9 @@ Global population estimate, over recent centuries. On the logarithmic plot, line
 :align: center
 | Years           | % growth | t<sub>2</sub> (yr)|
 |----------------:|----------:|---:|
-| 1000–1700       | 0.12%    | 600 |
-| 1700–1870       | 0.41%    | 170 |
-| 1870–1950       | 0.82%    | 85  |
+| 1000–1700       | 0.08%    | 875 |
+| 1700–1870       | 0.48%    | 145 |
+| 1870–1950       | 0.80%    | 87.5  |
 | 1950–2020       | 1.70%    | 40  |
 ```
 
