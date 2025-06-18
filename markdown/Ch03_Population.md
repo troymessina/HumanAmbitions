@@ -171,7 +171,9 @@ The word *negative* may sound like something thing we would not want, but its co
 If a forest has 100 breeding-aged deer, or 50 couples, we can expect 50 fawns in a year (under the simplifying and unimportant assumption of one fawn per female per year). If the forest has 200 deer, we can expect 100 fawns. The birth rate is simply *proportional* to the population capable of giving birth.[^6] 
 ```
 [^6]: 6: ... no negative feedback yet
+
 If the setup in the [Example](#ex:population:fawns) were the only element to the story, we would find exponential growth: more offspring means a larger population, which ultimately reaches breeding age to produce an even larger population.[^7] But as the population grows, negative feedback will begin to play a role. We will denote the population as  $P$ , and its rate of change as  $\dot{P}$.[^8]  We might say that the growth rate, or  $\dot{P}$, is
+
 [^7]: We have just described a state of {term}`positive feedback`: more begets more.
 [^8]:  $\dot{P}$  is a time derivative, i.e., the change in population over time (indicated by the dot on top), defined as  $\dot{P} = \Delta P/\Delta t$ . But don't panic if calculus is not your thing: what we describe here is still totally understandable.
 
@@ -188,7 +190,7 @@ P = P_{0}e^{r(t - t_{0})},
 $$
 which is really just a repeat of Eq. {eq}`eq:population:popvst` where  $r$  takes the place of  $\ln(1 + p)$.
 
-9: In terms of the growth rate we used before,  $p$ , as in Eq. {eq}`eq:population:popvst`  $r = \ln(1 + p)$ . So for instance, if growing at 2%,  $p = 0.02$  and  $r$  also is 0.02 ( $r \approx p$  for small values of  $p$ ).
+[^9]: In terms of the growth rate we used before,  $p$ , as in Eq. {eq}`eq:population:popvst`  $r = \ln(1 + p)$ . So for instance, if growing at 2%,  $p = 0.02$  and  $r$  also is 0.02 ( $r \approx p$  for small values of  $p$ ).
 
 ```{note} Example
 Paralleling the deer population scenario from the [Example](#ex:population:fawns), if we set  $r = 0.5$ , and have a population of  $P = 100$  adult deer (half female), Eq. {eq}`eq:population:dotP` says that  $\dot{P} = 50$ , meaning the population will change by 50 units.[^10] We could then use Eq. {eq}`eq:population:expP` to determine the population after 4 years:  $P = 100e^{0.5 \cdot 4} \approx 739$.
@@ -201,23 +203,45 @@ Often used to describe $Q$: the population supportable by the environment. The c
 ```
 $Q-P$  quantifies a growth-limiting mechanism by representing available room. One way to incorporate this feature into our growth rate equation is to make the rate of growth look like
 $$
+\label{eq:population:Pdot2}
 \dot{P} = \frac{Q - P}{Q} rP.
 $$
 
-We have multiplied the original rate of  $rP$  by a term that changes the effective growth rate  $r \rightarrow r(Q - P)/Q$ . When  $P$  is small relative to  $Q$ , the effective rate is essentially the original  $r$ . But the effective growth rate approaches zero as  $P$  approaches  $Q$ . In other words, growth slows down and hits zero when the population reaches its final saturation point, as  $P \rightarrow Q$  (see [Figure 3.6](#page-53-1)).The mathematical solution to this modified [differential equation](#page-445-1) (whose solution technique is beyond the scope of this course) is called a [logistic](#page-451-0) curve, plotted in [Figure](#page-54-1) [3.7](#page-54-1) and having the form<span id="page-53-2"></span>
+We have multiplied the original rate of  $rP$  by a term that changes the effective growth rate  $r \rightarrow r(Q - P)/Q$ . When  $P$  is small relative to  $Q$ , the effective rate is essentially the original  $r$ . But the effective growth rate approaches zero as  $P$  approaches  $Q$ . In other words, growth slows down and hits zero when the population reaches its final saturation point, as  $P \rightarrow Q$  (see [](#fig:population:growthrate)).
+```{exercise} Growth Rate vs. Population
+:label: ex:population:growthrate
+Pick a value for  $Q$  (1,000, maybe) and then various values of $P$ that are less than or equal to $Q$ to see how the effective growth rate will be modified. Make a graph like [](#fig:population:growthrate).
+```
+```{solution} ex:population:growthrate
+:label: ex:population:growthratesoln
+:class: dropdown
+Let $Q=1000$ and $P=200$.
+```
+The mathematical solution to this modified differential equation (whose solution technique is beyond the scope of this course) is called a {term}`logistic curve`, plotted in [](#fig:population:logistic) and having the form
 $$
+\label{eq:population:logistic}
 P(t) = \frac{Q}{1 + e^{-r(t - t_0)}}.
 $$
 
 (3.6)
 
-The first part of the curve in [Figure](#page-54-1) [3.7,](#page-54-1) for very negative values<sup>11</sup> of  $t - t_0$ , is exponential but still small. At  $t = t_0$  (time of inflection), the population is  $Q/2$ . As time marches forward into positive territory,  $P$  approaches  $Q$ . As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive
-<sup>11</sup>: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .fawns, in this case.<span id="page-53-1"></span>![](../figures/Ch03_Population/_page_53_Figure_14.jpeg)
+The first part of the curve in [](#fig:population:logistic) for very negative values[^11] of  $t - t_0$ , is exponential but still small. At  $t = t_0$  (time of inflection), the population is  $Q/2$ . As time marches forward into positive territory,  $P$  approaches  $Q$ . As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive and suppress the rate of growth until it stops growing altogether when $P$ reaches $Q$.
 
-**Figure 3.6:** The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see [Eq.](#page-53-0) [3.5\)](#page-53-0).Try it yourself: pick a value for  $Q$  (1,000, maybe) and then various values of  $P$  to see how the effective growth rate will be modified.logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .<span id="page-54-1"></span>![](../figures/Ch03_Population/_page_54_Figure_1.jpeg)
+[^11]: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .
 
-**Figure 3.7:** Logistic population curve (blue), sometimes called an S-curve, as given in [Eq. 3.6](#page-53-2), in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.and suppress the rate of growth until it stops growing altogether when 푃 reaches 푄.
+```{figure} ../figures/Ch03_Population/_page_53_Figure_14.jpeg
+:label: fig:population:growthrate
+:width: 100%
+:align: center
+:alt: The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
+``` 
 
+```{figure} ../figures/Ch03_Population/_page_54_Figure_1.jpeg
+:label: fig:population:logistic
+:width: 100%
+:align: center
+:alt: Logistic population curve (blue), sometimes called an S-curve, as given in Eq. {eq}`eq:population:logistic`, in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.
+```
 <span id="page-54-2"></span>**Example 3.2.3** Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[<sup>12</sup>](#page-53-1) and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, [Eq.](#page-53-2) [3.6](#page-53-2) yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [Example](#page-52-1) [3.2.1](#page-52-1)). One year later, at  $t = t_0 - 3$ , [Eq.](#page-53-2) [3.6](#page-53-2) yields 153—very close to the nominal addition of 50 members. But now four years in ( $t = t_0$ ), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#page-53-3) [3.2.2](#page-53-3).[<sup>13</sup>](#page-53-3)The logistic curve is the *dream scenario*: no drama. The population simply approaches its ultimate value smoothly, in a tidy manner. We might imagine or hope that human population follows a similar path. Maybe the fact that we've hit a linear phase—consistently adding one billion people every 12 years, lately—is a sign that we are at the inflection, Three consecutive 12-year intervals appear and will start rolling over toward a stable endpoint. If so, we know from the logistic curve that the linear part is halfway to the final population.
 
 #### <span id="page-54-0"></span>**3.2.1 Overshoot**
@@ -643,4 +667,7 @@ positive feedback
 
 differential equation
 : an equation that relates functions and their derivatives. The subject is often sequenced after calculus within a curriculum.
+
+logistic curve
+: describes a mathematical model in which rate of growth depends on how close the population is to the carrying capacity. The resulting population curve over time is called the logistic function, or more informally, an S-curve.
 :::
