@@ -229,11 +229,12 @@ The first part of the curve in [](#fig:population:logistic) for very negative va
 
 [^11]: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .
 
-```{figure} ../figures/Ch03_Population/_page_53_Figure_14.jpeg
+```{figure} ../figures/Ch03_Population/growthvsPt.svg
 :label: fig:population:growthrate
 :width: 100%
 :align: center
 :alt: The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
+The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
 ``` 
 
 ```{figure} ../figures/Ch03_Population/_page_54_Figure_1.jpeg
