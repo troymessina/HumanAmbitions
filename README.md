@@ -49,10 +49,10 @@ This textbook is open-access and can be found at https://github.com/troymessina/
 
 **Appendices**
 
-* Appendix A - Math and Equations](https://troymessina.github.io/HumanAmbitions/appa-math)
-* Appendix B - Chemistry Primer/Refresher](https://troymessina.github.io/HumanAmbitions/appb-chem)
-* Appendix C - Selected Answers](https://troymessina.github.io/HumanAmbitions/appc-solns)
-* Appendix D - Alluring Tangents](https://troymessina.github.io/HumanAmbitions/appd-tangents)
+* [Appendix A - Math and Equations](https://troymessina.github.io/HumanAmbitions/appa-math)
+* [Appendix B - Chemistry Primer/Refresher](https://troymessina.github.io/HumanAmbitions/appb-chem)
+* [Appendix C - Selected Answers](https://troymessina.github.io/HumanAmbitions/appc-solns)
+* [Appendix D - Alluring Tangents](https://troymessina.github.io/HumanAmbitions/appd-tangents)
 
 
 # Original text copyrights
