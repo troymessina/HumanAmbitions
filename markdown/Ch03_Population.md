@@ -276,6 +276,7 @@ Eventually all the curves in [](#fig:population:feedback) converge to the steady
 :width: 100%
 :align: center
 :alt: Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has  $Q \approx 12$  Gppl,  $r = 0.028$ , and a midpoint at the year 1997. The actual data sequence has a sudden bend at 1950 (could this be the Green Revolution?) that prevents a suitable fit to a larger span of data. In other words, the actual data do not follow a single logistic function very well, which is to be expected when conditions change suddenly (energy and technology, in this case) [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
+Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has  $Q \approx 12$  Gppl,  $r = 0.028$ , and a midpoint at the year 1997. The actual data sequence has a sudden bend at 1950 (could this be the Green Revolution?) that prevents a suitable fit to a larger span of data. In other words, the actual data do not follow a single logistic function very well, which is to be expected when conditions change suddenly (energy and technology, in this case) [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
 ```
 
 ```{hint} Will Human Population Overshoot?
@@ -310,6 +311,7 @@ Typically expressed in births per 1000 people per year, minus {term}`death rate`
 :width: 100%
 :align: center
 :alt: Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
+Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
 ```
 
 ```{tip} Example
