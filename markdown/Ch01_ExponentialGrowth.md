@@ -366,7 +366,7 @@ where we now just have a single temperature: that of the warm body in space.
 
 Earth reaches an equilibrium so that power-in equals power-out.[^18] If more power is dumped onto the planet, then the temperature rises until $\sigma T^{4}$ climbs to match. The relation in Eq. {eq}`eq:expgrowth:stefansimple` is fundamentally important to Earth's temperature balance, and applies pretty universally, as highlighted in [](#box:expgrowth:everthingradiates).
 
-```{note} Everything Radiates
+```{hint} Everything Radiates
 :label: box:expgrowth:everthingradiates
 The same relation (Eq. {eq}`eq:expgrowth:stefan`) governs the surface of the sun, light bulb filaments, glowing coals, and even the human body. While the human body expends metabolic energy at a similar rate to an incandescent light bulb (about 100 W), one is *much* hotter than the other because the surface areas are vastly different.
 ```

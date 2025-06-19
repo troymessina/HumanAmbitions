@@ -126,7 +126,7 @@ t - t_{0} = \frac{\ln\left(\frac{p}{p_{0}}\right)}{\ln(1+p)}.
 $$
 
 
-```{note} Example 
+```{tip} Example 
 We can use Eq. {eq}`eq:population:popvst` to determine how many people we will have in the year 2100 if we continue growing at a 1% rate, starting from 7 billion in the year 2010. We set  $P_0 = 7$  Gppl[^4], $t_0 = 2010, p = 0.01$, then compute the population in 2100 to be  $P = 7e^{\ln 1.01 \cdot 90} = 17$  Gppl.
 Eq. {eq}`eq:population:inverted_t` is the form that was used to conclude that increasing from 7 to 8 Gppl takes less than 14 years at a 1% rate. The computation looks like:  $\ln(8/7)/\ln(1.01) = 13.4$ . Note that we need not include the factors of a billion in the numerator and denominator, since they cancel in the ratio. The actual time for adding one billion people has lately been 12 years, as we have been growing at a rate slightly higher than 1%.
 ```
@@ -160,13 +160,13 @@ Graphical representation of [](#tabel:population:popmilestones) showing the time
 Absent human influence, the population of a particular animal species on the planet might fluctuate on short timescales (year by year) and experience large changes on very long timescales (centuries or longer). But by-and-large nature finds a rough equilibrium. Overpopulation proves to be temporary, as exhaustion of food resources, increased predation, and in some cases disease (another form of predation, really) knock back the population.[^5] On the other hand, a small population finds it easy to expand into abundant food opportunities, and predators reliant on the species have also scaled back due to lack of prey. We have just described a form of *negative feedback*, corrective action to remedy a maladjusted system back toward equilibrium.
 [^5]: For reference, the SARS-CoV2 pandemic of 2020 barely impacted global population growth rates. When population grows by more than 80 million each year, a disease killing even a few million people barely registers as a hit to the broader trend.
 
-```{hint} Definition: Negative feedback
+```{note} Definition: Negative feedback
 Means that a correction is applied in a direction opposite the recent motion. If a pendulum moves to the right, a restoring force pushes it back to the left, while moving too far to the left results in a rightward push. A mass oscillating on a spring demonstrates similar characteristics, as must all equilibrium phenomena. 
 
 The word *negative* may sound like something thing we would not want, but its cousin {term}`positive feedback` leads to disastrous runaway conditions. An example of positive feedback is the bacteria example from [Chapter 1](#chap:expgrowth) having more bacteria only increases the rate of growth. Exponentials are the hallmark of positive feedback, while equilibrium signals negative feedback.
 ```
  We can make a simple model for how a population might evolve in an environment hosting negative feedback. When a population is small and resources are abundant, the birth rate is proportional to the population.
-```{note} Example
+```{tip} Example
 :label: ex:population:fawns
 If a forest has 100 breeding-aged deer, or 50 couples, we can expect 50 fawns in a year (under the simplifying and unimportant assumption of one fawn per female per year). If the forest has 200 deer, we can expect 100 fawns. The birth rate is simply *proportional* to the population capable of giving birth.[^6] 
 ```
@@ -192,13 +192,14 @@ which is really just a repeat of Eq. {eq}`eq:population:popvst` where  $r$  take
 
 [^9]: In terms of the growth rate we used before,  $p$ , as in Eq. {eq}`eq:population:popvst`  $r = \ln(1 + p)$ . So for instance, if growing at 2%,  $p = 0.02$  and  $r$  also is 0.02 ( $r \approx p$  for small values of  $p$ ).
 
-```{note} Example
+```{tip} Example
+:label: ex:population:fawns2
 Paralleling the deer population scenario from the [Example](#ex:population:fawns), if we set  $r = 0.5$ , and have a population of  $P = 100$  adult deer (half female), Eq. {eq}`eq:population:dotP` says that  $\dot{P} = 50$ , meaning the population will change by 50 units.[^10] We could then use Eq. {eq}`eq:population:expP` to determine the population after 4 years:  $P = 100e^{0.5 \cdot 4} \approx 739$.
 ```
 [^10]: A more adorable term for "units" is fawns, in this case. We ignore death rate here, but it effectively reduces  $r$  in ways that we will encounter later.
 Let's say that a given forest can support an ultimate number of deer, labeled  $Q$ , in steady state, while the current population is labeled  $P$ . The difference,  $Q - P$  is the "room" available for growth, which we might think of as being tied to available resources. Once  $P = Q$ , no more resources are available to support growth.
 
-```{hint} Definition: Carrying Capacity
+```{note} Definition: Carrying Capacity
 Often used to describe $Q$: the population supportable by the environment. The carrying capacity ($Q$) for human population on Earth is not an agreed-upon number, and in any case it is a strong function of lifestyle choices and resource dependence.
 ```
 $Q-P$  quantifies a growth-limiting mechanism by representing available room. One way to incorporate this feature into our growth rate equation is to make the rate of growth look like
@@ -229,18 +230,18 @@ Pick a value for  $Q$  (10 billion, maybe) and then various values of $P$ that a
 ```{solution} ex:population:growthrate
 :label: ex:population:growthratesoln
 :class: dropdown
-I'm going to set the carrying capacity to $Q=10$ and the initial population to $P=2.5$, corresponding to 1950. One can set $r$, but it is not necessary because we are interested in how $r$ changes. Since $r\rightarrow r(Q-P)/Q$, $r$ will change according to $(Q-P)/Q$. At any particular point in time, $P$ is a constant value, but the x-axis of [](#fig:population:growthrate) shows changing population values. Therefore, we first need to know how $P$ changes in time for a constant growth rate. To determine this, we must solve Eq. {eq}`eq:population:logistic`. I used Microsoft Excel to do calculations and make a graph. Here are the steps I used.
+I'm going to set the carrying capacity to $Q=10$ (billion people) and the initial population to $P=2.5$ (billion people), corresponding to 1950. One can set $r$, but it is not necessary because we are interested in how $r$ changes. Since $r\rightarrow r(Q-P)/Q$, $r$ will change according to $(Q-P)/Q$. At any particular point in time, $P$ is a constant value, but the x-axis of [](#fig:population:growthrate) shows changing population values. Therefore, we first need to know how $P$ changes in time for a constant growth rate. To determine this, we must solve Eq. {eq}`eq:population:logistic`. I used Microsoft Excel to do calculations and make a graph. Here are the steps I used.
 1. Enter years beginning at $t_0=1950$ and increment by 1 year up to the year $t=2000$.
 2. Notice in [](#fig:population:doublings) that the population in 1950 is approximately 2.5 billion.
 3. From [](#table:population:popestimatefourera), the rate from 1950 to 2000 is on average about $r=1.7\%=0.017$.
 4. Calculate the logistic equation {eq}`eq:population:logistic`. In cell B2, I enter `=2.5*exp(0.017*(A2-1950))'.
 5. Highlight the cells B2 to B52. Type `fill down` in the search bar, and Excel will copy the forumula for the rest of the cells.
-6. For fun, I made a graph of population over time. See [](#fig:population:Poftexercise)
+6. For fun, I made a graph of population over time.
 ![Excel spreadsheet for population vs. time calculations and graph.](../figures/Ch03_Population/PvtExcel.png)
 7. The population values are now going to be the x-axis for the rate, $r$.
 8. In cell C2, I calculate $r(Q - P)/Q$ by entering `=0.017*(10-B2)/10`.
 9. Use the fill down trick from step 5.
-10. Make a graph and label it. See [](#fig:population:roftexercise).
+10. Make a graph and label it.
 ![Excel spreadsheet for growth rate vs. population calculations and graph.](../figures/Ch03_Population/rvtExcel.png)
 ```
 
@@ -256,53 +257,65 @@ The first part of the curve in [](#fig:population:logistic) for very negative va
 Logistic population curve (blue), sometimes called an S-curve, as given in Eq. {eq}`eq:population:logistic`, in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.
 ```
 ```{note} Example
-Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[<sup>12</sup>](#page-53-1) and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, [Eq.](#page-53-2) [3.6](#page-53-2) yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [Example](#page-52-1) [3.2.1](#page-52-1)). One year later, at  $t = t_0 - 3$ , [Eq.](#page-53-2) [3.6](#page-53-2) yields 153—very close to the nominal addition of 50 members. But now four years in ( $t = t_0$ ), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#page-53-3) [3.2.2](#page-53-3).[<sup>13</sup>](#page-53-3)
+Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[^12] and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, Eq. {eq}`eq:population:logistic` yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [](#:label: ex:population:fawns). One year later, at  $t = t_0 - 3$ , Eq. {eq}`eq:population:logistic` yields 153—very close to the nominal addition of 50 members. But now four years in ($t = t_0$), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#:label: ex:population:fawns2).[^13]
 ```
 
-The logistic curve is the *dream scenario*: no drama. The population simply approaches its ultimate value smoothly, in a tidy manner. We might imagine or hope that human population follows a similar path. Maybe the fact that we've hit a linear phase—consistently adding one billion people every 12 years, lately—is a sign that we are at the inflection, Three consecutive 12-year intervals appear and will start rolling over toward a stable endpoint. If so, we know from the logistic curve that the linear part is halfway to the final population.
+The logistic curve is the *dream scenario*: no drama. The population simply approaches its ultimate value smoothly, in a tidy manner. We might imagine or hope that human population follows a similar path. Maybe the fact that we've hit a linear phase—consistently adding one billion people every 12 years, lately—is a sign that we are at the inflection, and will start rolling over toward a stable endpoint. If so, we know from the logistic curve that the linear part is halfway to the final population.
 
-#### <span id="page-54-0"></span>**3.2.1 Overshoot**
+Three consecutive 12-year intervals appear in [](#table:population:popmilestones). If the middle one is the midpoint of a logistic linear phase — in 2011 at 7 billion people — it would suggest an ultimate population of 14 billion.
 
-But not so fast. We left out a crucial piece: feedback delay. The math that leads to the logistic curve assumes that the negative feedback<sup>14</sup> 14: . . . based on remaining resources, 푄−푃, acts instantaneously in determining population rates.
+## Overshoot
+
+But not so fast. We left out a crucial piece: feedback delay. The math that leads to the logistic curve assumes that the negative feedback[^14]  acts instantaneously in determining population rates.
 
 Consider that human decisions to procreate are based on present conditions: food, opportunities, stability, etc. But humans live for many decades, and do not impose their full toll on the system until many years after birth, effectively delaying the negative feedback. The logistic curve and equation that guided it had no delay built in.
 
-numbers we have used in the foregoing examples
+[^12]: tuned for a convenient match to the numbers we have used in the foregoing examples.
+[^13]: Not coincidentally,  $P = Q/2$  at the halfway point, $t = t_0$.
+[^14]: ... based on remaining resources, $Q-P$, at the moment in Eq. {eq}`eq:population:dotP`.
 
-13: Not coincidentally,  $P = Q/2$  at the halfway point,  $t = t_0$ .
-> in [Table](#page-51-0) [3.2.](#page-51-0) If the middle one is the midpoint of a logistic linear phase—in 2011 at 7 billion people—it would suggest an ultimate population of 14 billion.
+```{note} Definition: Overshoot 
+A generic consequence of delaying negative feedback. Since negative feedback is a “corrective,” stabilizing influence, delaying its application allows the system to “get away” from the control, thereby exceeding the target equilibrium state.
 
-> at the moment in [Eq.](#page-53-0) [3.5](#page-53-0)
+By "generic consequence," we just mean an outcome that is characteristic of the situation, independent of details.
+```
 
-**Definition 3.2.3** *[Overshoot](#page-452-1) is a generic consequence of delaying negative feedback. Since negative feedback is a “corrective,” stabilizing influence, delaying its application allows the system to “get away” from the control, thereby exceeding the target equilibrium state.* By "generic consequence," we just mean an outcome that is characteristic of the situation, independent of details.This is a pretty easy concept to understand. The logistic curve of [Figure](#page-54-1) [3.7](#page-54-1) first accelerates, then briefly coasts before decelerating to arrive smoothly at a target. Following an example from [\[1\]](#page-431-0): Meadows et al. (1972), *The Limits to* , it is much like a car starting from rest by accelerating before applying the brakes to gently come to a stop when the bumper barely kisses a brick wall. The driver is operating a negative feedback loop: seeing/sensing the proximity to the wall and slowing down accordingly. The closer to the wall, the slower the driver goes until lightly touching the wall. Now imagine delaying the feedback to the driver by applying a blindfold and giving voice descriptions of the proximity to the wall, so that decisions about how much to brake are based on conditions from a delayed communication process. Obviously, the driver will crash into the wall if the feedback is delayed, unless slowing down the whole process dramatically. Likewise, if the negative consequences—signals that we need to slow down population growth—arrive decades after the act of producing more humans, we can expect to exceed the "natural" limit,  $Q$ —a condition called [overshoot.](#page-452-1)**Example 3.2.4** We did not detail the mechanisms of negative feedback operating on the deer population in [Example](#page-54-2) [3.2.3](#page-54-2) that act to stabilize the population at 푄, but to illustrate how delayed negative feedback produces overshoot, consider predation as one of the operating forces. To put some simple numbers on it, let's say that steady state can support one adult (hunting) mountain lion for every 50 deer. Initially, when the population was 100 deer, this means two predators. When the deer population reaches 푄 <sup>=</sup> 840, we might have <sup>∼</sup>17 predators. But it takes time for the predators to react to the growing number of prey, perhaps taking a few years to produce the requisite number of hunting adults. Lacking the full complement of predators, the deer population will sail past the 840 mark until the predator population rises to establish the ultimate balance. In fact, the predators will likely also exceed their steady population in a game of catch-up that leads to oscillations like those seen in [Figure](#page-56-0) [3.8.](#page-56-0)
-
-We can explore what happens to our logistic curve if the negative feedback is delayed by various amounts. [Figure](#page-56-0) [3.8](#page-56-0) gives a few examples of overshoot as the delay increases. To avoid significant overshoot, the delay (휏) needs to be smaller than the natural timescale governing the problem: <sup>1</sup>/푟, where 푟 is the rate in Eqs. [3.5](#page-53-0) and [3.6.](#page-53-2) In our deer example using 푟 <sup>=</sup> <sup>0</sup>.5, any delay longer than about 2 years causes overshoot. For more modest growth rates (human populations), relevant delays are in decades (see [Box](#page-56-1) [3.1\)](#page-56-1).
-
-outcome that is characteristic of the situation, independent of details.
-
-## *Growth: A Report for the Club of Rome's Project on the Predicament of Mankind*
+This is a pretty easy concept to understand. The logistic curve of [](#fig:population:logistic) first accelerates, then briefly coasts before decelerating to arrive smoothly at a target. Following an example from [@meadows2004limits], *The Limits to* , it is much like a car starting from rest by accelerating before applying the brakes to gently come to a stop when the bumper barely kisses a brick wall. The driver is operating a negative feedback loop: seeing/sensing the proximity to the wall and slowing down accordingly. The closer to the wall, the slower the driver goes until lightly touching the wall. Now imagine delaying the feedback to the driver by applying a blindfold and giving voice descriptions of the proximity to the wall, so that decisions about how much to brake are based on conditions from a delayed communication process. Obviously, the driver will crash into the wall if the feedback is delayed, unless slowing down the whole process dramatically. Likewise, if the negative consequences—signals that we need to slow down population growth—arrive decades after the act of producing more humans, we can expect to exceed the "natural" limit,  $Q$ — a condition called *overshoot*.
 
 Another example of feedback delay leading to overshoot: let's say you are holding down the space bar and trying to position the cursor in the middle of the screen. But your connection is lagging and even though you release the space bar when you *see*the cursor reach the middle, it keeps sailing past due to the delay: overshooting.
 
-<span id="page-56-0"></span>![](../figures/Ch03_Population/_page_56_Figure_1.jpeg)
+```{tip} Example
+We did not detail the mechanisms of negative feedback operating on the deer population in [Example](#page-54-2) [3.2.3](#page-54-2) that act to stabilize the population at 푄, but to illustrate how delayed negative feedback produces overshoot, consider predation as one of the operating forces. To put some simple numbers on it, let's say that steady state can support one adult (hunting) mountain lion for every 50 deer. Initially, when the population was 100 deer, this means two predators. When the deer population reaches 푄 <sup>=</sup> 840, we might have <sup>∼</sup>17 predators. But it takes time for the predators to react to the growing number of prey, perhaps taking a few years to produce the requisite number of hunting adults. Lacking the full complement of predators, the deer population will sail past the 840 mark until the predator population rises to establish the ultimate balance. In fact, the predators will likely also exceed their steady population in a game of catch-up that leads to oscillations like those seen in [](#fig:population:feedback)
+```
 
-Eventually all the curves in [Figure](#page-56-0) [3.8](#page-56-0) converge to the steady state value of 1.0,<sup>15</sup> but human population involves complexities not captured at <sup>푄</sup> in this bare-bones mathematical model.<sup>16</sup> 16: For instance, a dramatic overshoot and All the same, the generic phenomenon of overshooting when negative feedback is delayed is a robust attribute, even if the oscillation and eventual settling does not capture the future of human population well.
+We can explore what happens to our logistic curve if the negative feedback is delayed by various amounts. [](#fig:population:feedback) gives a few examples of overshoot as the delay increases. To avoid significant overshoot, the delay ($\tau$) needs to be smaller than the natural timescale governing the problem: $1/r$, where $r$ is the rate in Eqs. {eq}`eq:population:dotP` and `eq:population:logistic` In our deer example using $r=0.5$, any delay longer than about 2 years causes overshoot. For more modest growth rates (human populations), relevant delays are in decades (see [Box](#box:population:overshoot).
 
-<span id="page-56-2"></span>![](../figures/Ch03_Population/_page_56_Figure_3.jpeg)
+```{figure} ../figures/Ch03_Population/_page_56_Figure_1.jpeg
+:label: fig:population:feedback
+:width: 100%
+:align: center
+:alt: Feedback delay generally results in overshoot and oscillation, shown for various delay values, $\tau$. The black curve ($\tau = 0$) is the nominal no-delay logistic curve. As the delay increases, the severity of overshoot increases. Delays are explored in increments of 0.5 times the characteristic timescale of $1/r$ (using $r=0.5$ here to match previous examples, so that a delay of $\tau = 1.5/r$ equates to 3 time units on the graph, for instance). The delay durations are also indicated by bar lengths in the legend.
+Feedback delay generally results in overshoot and oscillation, shown for various delay values, $\tau$. The black curve ($\tau = 0$) is the nominal no-delay logistic curve. As the delay increases, the severity of overshoot increases. Delays are explored in increments of 0.5 times the characteristic timescale of $1/r$ (using $r=0.5$ here to match previous examples, so that a delay of $\tau = 1.5/r$ equates to 3 time units on the graph, for instance). The delay durations are also indicated by bar lengths in the legend.
+```
 
-#### <span id="page-56-1"></span>**Box 3.1: Will Human Population Overshoot?**
+Eventually all the curves in [](#fig:population:feedback) converge to the steady state value of 1.0,[^15] but human population involves complexities not captured in this bare-bones mathematical model.[^16] All the same, the generic phenomenon of overshooting when negative feedback is delayed is a robust attribute, even if the oscillation and eventual settling does not capture the future of human population well.
 
+```{figure} ../figures/Ch03_Population/_page_56_Figure_3.jpeg
+:label: fig:population:popalonglogistic
+:width: 100%
+:align: center
+:alt: Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has  $Q \approx 12$  Gppl,  $r = 0.028$ , and a midpoint at the year 1997. The actual data sequence has a sudden bend at 1950 (could this be the Green Revolution?) that prevents a suitable fit to a larger span of data. In other words, the actual data do not follow a single logistic function very well, which is to be expected when conditions change suddenly (energy and technology, in this case) [[](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop].
+```
+
+```{hint} Will Human Population Overshoot?
+:label: box:population:overshoot
 Are humans in danger of population overshoot? What is our 푟 value? It is tempting to take 푟 <sup>=</sup> <sup>0</sup>.<sup>01</sup> corresponding to the present 1% growth rate. This would imply that any delay shorter than 100 years will not produce significant overshoot, which seems reassuring. But if human population is following a logistic curve rather than an exponential, resource availability is already exerting a moderating influence, now appearing to be in the linear "cruise" phase roughly
+```
 
-*© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
+[^15]: ... meaning that population $P$ arrives at $Q$.
+[^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the $Q$ value essentially resets to some lower value.
 
-**Figure 3.8:** Feedback delay generally results in overshoot and oscillation, shown for various delay values, 휏. The black curve (휏 = 0) is the nominal no-delay logistic curve. As the delay increases, the severity of overshoot increases. Delays are explored in increments of 0.5 times the characteristic timescale of <sup>1</sup>/푟 (using 푟 <sup>=</sup> <sup>0</sup>.<sup>5</sup> here to match previous examples, so that a delay of <sup>휏</sup> <sup>=</sup> <sup>1</sup>.5/푟 equates to 3 time units on the graph, for instance). The delay durations are also indicated by bar lengths in the legend.
-
-15: . . . meaning that population 푃 arrives
-
-collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the 푄 value essentially resets to some lower value.
-
-**Figure 3.9:** Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has  $Q \approx 12$  Gppl,  $r = 0.028$ , and a midpoint at the year 1997. The actual data sequence has a sudden bend at 1950 [\(Green Revolution?](#page-448-0)) that prevents a suitable fit to a larger span of data. In other words, the actual data do not follow a single logistic function very well, which is to be expected when conditions change suddenly (energy and technology, in this case) [\[14,](#page-432-0) [15\]](#page-432-2).halfway to the limiting value. A fit to the data [\(Figure 3.9\)](#page-56-2) suggests that  $r \approx 0.028$ , corresponding to a timescale of 36 years  $(1/r)$ . This puts the overshoot-prone delay squarely into relevant timescales for human lifetimes, generations, and societal change—thus leaving the door open for an overshoot scenario.### <span id="page-57-0"></span>**3.2.2 Logistic Projection**
+halfway to the limiting value. A fit to the data [\(Figure 3.9\)](#page-56-2) suggests that  $r \approx 0.028$ , corresponding to a timescale of 36 years  $(1/r)$ . This puts the overshoot-prone delay squarely into relevant timescales for human lifetimes, generations, and societal change—thus leaving the door open for an overshoot scenario.### <span id="page-57-0"></span>**3.2.2 Logistic Projection**
 
 As suggested by [Figure](#page-56-2) [3.9,](#page-56-2) Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the ∼2.8% rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before ∼1950. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model literally*, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:- 1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
 - 2. logistic curves add a sensible layer of reality, capping growth in some steady-state outcome;
@@ -315,14 +328,18 @@ Perhaps not surprisingly, the rate of a country's population growth is correlate
 
 Population growth happens when the birth rate exceeds the death rate.
 
-**Definition 3.3.1** *[Birth rate](#page-442-0)*, typically expressed in births per 1,000 people per year, minus *[death rate](#page-444-0)* (also in deaths per 1,000 people per year) is the net population rate<sup>17</sup>. If the difference is positive, the population grows, and it shrinks if the difference is negative.  
-17: This ignores immigration, which just shifts living persons around.shifts living persons around.
+```{note} Definition: Birth rate
+Typically expressed in births per 1,000 people per year, minus *[death rate](#page-444-0)* (also in deaths per 1,000 people per year) is the net population rate<sup>17</sup>. If the difference is positive, the population grows, and it shrinks if the difference is negative.
+``` 
+[^17]: This ignores immigration, which just shifts living persons around.shifts living persons around.
 
 <span id="page-58-0"></span>![](../figures/Ch03_Population/_page_58_Figure_1.jpeg)
 
 **Figure 3.10:** Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [\[6,](#page-431-1) [8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
 
-<span id="page-58-1"></span>**Example 3.3.1** The U.S. has a birth rate of about 12 people per 1,000 per year, and a death rate of 8.1 people per 1,000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.<sup>18</sup> 18: 4 per 1,000 is 0.4 per 100, which is an-
+```{tip} Example
+3.3.1 The U.S. has a birth rate of about 12 people per 1,000 per year, and a death rate of 8.1 people per 1,000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.<sup>18</sup> 18: 4 per 1,000 is 0.4 per 100, which is an-
+```
 
 Niger has a birth rate of 46 per 1,000 per year and a death rate of 11, resulting in a net of positive 35, or 3.5%.
 
@@ -330,7 +347,10 @@ As conditions change, birth and death rates need not change in lock-step. Develo
 
 The general sense is that developed countries have "made it" to a respon- the country. sible low-growth condition, and that population growth is driven by poorer countries. An attractive solution to many<sup>20</sup> is to bring developing countries up to developed-country standards so that they, too, can settle into a low growth rate. This evolution from a fast-growing poor country to a slow (or zero) growth well-off country is called the [demographic transition.](#page-445-2)
 20: . . . but unsolicited "preaching" to oth-
-ers**Definition 3.3.2** *The [demographic transition](#page-445-2) refers to the process by which developing countries having high death rates and high birth rates adopt technologies, education, and higher standards of living that result in low death rates* and *low birth rates, more like advanced countries.*
+ers
+```{note} Definition: The demographic transition
+Refers to the process by which developing countries having high death rates and high birth rates adopt technologies, education, and higher standards of living that result in low death rates and low birth rates, more like advanced countries.
+```
 
 In order to accomplish this goal, reduced death rates are facilitated by
 
