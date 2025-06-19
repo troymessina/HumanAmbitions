@@ -208,6 +208,20 @@ $$
 $$
 
 We have multiplied the original rate of  $rP$  by a term that changes the effective growth rate  $r \rightarrow r(Q - P)/Q$ . When  $P$  is small relative to  $Q$ , the effective rate is essentially the original  $r$ . But the effective growth rate approaches zero as  $P$  approaches  $Q$ . In other words, growth slows down and hits zero when the population reaches its final saturation point, as  $P \rightarrow Q$  (see [](#fig:population:growthrate)).
+```{figure} ../figures/Ch03_Population/growthvsPt.svg
+:label: fig:population:growthrate
+:width: 100%
+:align: center
+:alt: The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
+The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
+``` 
+
+The mathematical solution to this modified differential equation (whose solution technique is beyond the scope of this course) is called a {term}`logistic curve`, plotted in [](#fig:population:logistic) and having the form
+$$
+\label{eq:population:logistic}
+P(t) = \frac{Q}{1 + e^{-r(t - t_0)}}.
+$$
+
 ```{exercise} Growth Rate vs. Population
 :label: ex:population:growthrate
 Pick a value for  $Q$  (10 billion, maybe) and then various values of $P$ that are less than or equal to $Q$ to see how the effective growth rate will be modified. Make a graph like [](#fig:population:growthrate).
@@ -222,47 +236,17 @@ I'm going to set the carrying capacity to $Q=10$ and the initial population to $
 4. Calculate the logistic equation {eq}`eq:population:logistic`. In cell B2, I enter `=2.5*exp(0.017*(A2-1950))'.
 5. Highlight the cells B2 to B52. Type `fill down` in the search bar, and Excel will copy the forumula for the rest of the cells.
 6. For fun, I made a graph of population over time. See [](#fig:population:Poftexercise)
-
-```{figure} ../figures/Ch03_Population/PvtExcel.png
-:label: fig:population:Poftexercise
-:width: 100%
-:align: center
-:alt: Excel spreadsheet for population vs. time calculations and graph.
-Excel spreadsheet for population vs. time calculations and graph.
-```
-
+![Excel spreadsheet for population vs. time calculations and graph.](../figures/Ch03_Population/PvtExcel.png)
 7. The population values are now going to be the x-axis for the rate, $r$.
 8. In cell C2, I calculate $r(Q - P)/Q$ by entering `=0.017*(10-B2)/10`.
 9. Use the fill down trick from step 5.
 10. Make a graph and label it. See [](#fig:population:roftexercise).
-
-```{figure} ../figures/Ch03_Population/rvtExcel.png
-:label: fig:population:roftexercise
-:width: 100%
-:align: center
-:alt: Excel spreadsheet for growth rate vs. population calculations and graph.
-Excel spreadsheet for growth rate vs. population calculations and graph.
+![Excel spreadsheet for growth rate vs. population calculations and graph.](../figures/Ch03_Population/rvtExcel.png)
 ```
-```
-The mathematical solution to this modified differential equation (whose solution technique is beyond the scope of this course) is called a {term}`logistic curve`, plotted in [](#fig:population:logistic) and having the form
-$$
-\label{eq:population:logistic}
-P(t) = \frac{Q}{1 + e^{-r(t - t_0)}}.
-$$
-
-(3.6)
 
 The first part of the curve in [](#fig:population:logistic) for very negative values[^11] of  $t - t_0$ , is exponential but still small. At  $t = t_0$  (time of inflection), the population is  $Q/2$ . As time marches forward into positive territory,  $P$  approaches  $Q$ . As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive and suppress the rate of growth until it stops growing altogether when $P$ reaches $Q$.
 
 [^11]: The parameter  $t_0$  is the time when the logistic curve hits its halfway point. Times before this have negative values of  $t - t_0$ .
-
-```{figure} ../figures/Ch03_Population/growthvsPt.svg
-:label: fig:population:growthrate
-:width: 100%
-:align: center
-:alt: The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
-The rate of growth in the logistic model decreases as population increases, starting out at *r* when  $P = 0$  and reaching zero as  $P \rightarrow Q$  (see Eq.{eq}`eq:population:Pdot2`
-``` 
 
 ```{figure} ../figures/Ch03_Population/_page_54_Figure_1.jpeg
 :label: fig:population:logistic
