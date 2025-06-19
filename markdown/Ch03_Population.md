@@ -28,36 +28,6 @@ Since population plays a giant role in our future trajectory, we need to better 
 Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
 ```
 
-
-```{code-cell} python
-:tags: [remove-input]
-:label: fig:population:energypopgraph
-:caption: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. ([](doi:10.1111/j.1466-8238.2010.00587.x); @wiki_worldpop; @ourworldindata)
-
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
-data = pd.read_csv("global-energy-substitution.csv")
-
-fig, ax1 = plt.subplots()
-ax2 = ax1.twinx()
-
-# Plot data on the first y-axis
-ax1.plot(data['Year'], data['Total (TWh)']/8760, '-b', label='Energy')
-ax1.set_ylabel('Global Power (TW)')
-ax1.yaxis.label.set_color('blue')
-ax1.set_xlabel('Year')
-
-# Plot data on the second y-axis
-ax2.plot(data['pop year'], data['population']/1e9, '-.r', label='Population')
-ax2.set_ylabel('Population (billion)')
-ax2.set_ylim(0, 22)
-ax2.yaxis.label.set_color('red')
-
-plt.show()
-```
-
 # Population History
 
 [](fig:population:popestimatelin) shows a history of global population for the last 12,000 years. Notice that for most of this time, the level is so far down as to be essentially invisible. It is natural to be alarmed by the sharp rise in recent times, which makes the current era seem wholly unusual: an aberration. But wait—maybe it's just a plain exponential function. All exponential functions—ruthless as they are—would show this alarming rise at some point, sometimes called a {term}`hockey stick` plot. In order to peer deeper, we plot population on a logarithmic vertical axis in [](#fig:population:popestimatelog). Now we bring the past into view, and can see whether a single exponential function (which would have a constant slope in a logarithmic plot) captures the story. Notice an exponential function when plotted logarithmically on the vertical axis looks like
@@ -257,6 +227,7 @@ The first part of the curve in [](#fig:population:logistic) for very negative va
 Logistic population curve (blue), sometimes called an S-curve, as given in Eq. {eq}`eq:population:logistic`, in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.
 ```
 ```{note} Example
+:label: ex:population:fawns3
 Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[^12] and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, Eq. {eq}`eq:population:logistic` yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [](#:label: ex:population:fawns). One year later, at  $t = t_0 - 3$ , Eq. {eq}`eq:population:logistic` yields 153—very close to the nominal addition of 50 members. But now four years in ($t = t_0$), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#:label: ex:population:fawns2).[^13]
 ```
 
@@ -285,10 +256,10 @@ This is a pretty easy concept to understand. The logistic curve of [](#fig:popul
 Another example of feedback delay leading to overshoot: let's say you are holding down the space bar and trying to position the cursor in the middle of the screen. But your connection is lagging and even though you release the space bar when you *see*the cursor reach the middle, it keeps sailing past due to the delay: overshooting.
 
 ```{tip} Example
-We did not detail the mechanisms of negative feedback operating on the deer population in [Example](#page-54-2) [3.2.3](#page-54-2) that act to stabilize the population at 푄, but to illustrate how delayed negative feedback produces overshoot, consider predation as one of the operating forces. To put some simple numbers on it, let's say that steady state can support one adult (hunting) mountain lion for every 50 deer. Initially, when the population was 100 deer, this means two predators. When the deer population reaches 푄 <sup>=</sup> 840, we might have <sup>∼</sup>17 predators. But it takes time for the predators to react to the growing number of prey, perhaps taking a few years to produce the requisite number of hunting adults. Lacking the full complement of predators, the deer population will sail past the 840 mark until the predator population rises to establish the ultimate balance. In fact, the predators will likely also exceed their steady population in a game of catch-up that leads to oscillations like those seen in [](#fig:population:feedback)
+We did not detail the mechanisms of negative feedback operating on the deer population in [Example](#ex:population:fawns3) that act to stabilize the population at 푄, but to illustrate how delayed negative feedback produces overshoot, consider predation as one of the operating forces. To put some simple numbers on it, let's say that steady state can support one adult (hunting) mountain lion for every 50 deer. Initially, when the population was 100 deer, this means two predators. When the deer population reaches $Q= 840$, we might have $\sim 17$ predators. But it takes time for the predators to react to the growing number of prey, perhaps taking a few years to produce the requisite number of hunting adults. Lacking the full complement of predators, the deer population will sail past the 840 mark until the predator population rises to establish the ultimate balance. In fact, the predators will likely also exceed their steady population in a game of catch-up that leads to oscillations like those seen in [](#fig:population:feedback)
 ```
 
-We can explore what happens to our logistic curve if the negative feedback is delayed by various amounts. [](#fig:population:feedback) gives a few examples of overshoot as the delay increases. To avoid significant overshoot, the delay ($\tau$) needs to be smaller than the natural timescale governing the problem: $1/r$, where $r$ is the rate in Eqs. {eq}`eq:population:dotP` and `eq:population:logistic` In our deer example using $r=0.5$, any delay longer than about 2 years causes overshoot. For more modest growth rates (human populations), relevant delays are in decades (see [Box](#box:population:overshoot).
+We can explore what happens to our logistic curve if the negative feedback is delayed by various amounts. [](#fig:population:feedback) gives a few examples of overshoot as the delay increases. To avoid significant overshoot, the delay ($\tau$) needs to be smaller than the natural timescale governing the problem: $1/r$, where $r$ is the rate in Eqs. {eq}`eq:population:dotP` and {eq}`eq:population:logistic` In our deer example using $r=0.5$, any delay longer than about 2 years causes overshoot. For more modest growth rates (human populations), relevant delays are in decades (see [Box](#box:population:overshoot).
 
 ```{figure} ../figures/Ch03_Population/_page_56_Figure_1.jpeg
 :label: fig:population:feedback
