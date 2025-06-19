@@ -310,7 +310,7 @@ Typically expressed in births per 1000 people per year, minus {term}`death rate`
 :label: fig:population:popgrowthvGDP
 :width: 100%
 :align: center
-:alt: Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
+:alt: Net population rate, in percent, as a function of per-capita GDP. A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
 Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
 ```
 
@@ -687,5 +687,5 @@ death rate
 : quantifies the number of deaths per 1000 people per year, typically. Numbers tend to be in the 5–30 range.
 
 demographic transition
-: refers to the process in which an undeveloped country initially having high [birth rate](#page-442-4) and high [death rate](#page-444-8) transitions to low death rates followed by low birth rates as medical and resource conditions improve.
+: refers to the process in which an undeveloped country initially having high birth rate and high death rate transitions to low death rates followed by low birth rates as medical and resource conditions improve.
 :::
