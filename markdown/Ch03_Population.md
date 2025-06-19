@@ -210,12 +210,39 @@ $$
 We have multiplied the original rate of  $rP$  by a term that changes the effective growth rate  $r \rightarrow r(Q - P)/Q$ . When  $P$  is small relative to  $Q$ , the effective rate is essentially the original  $r$ . But the effective growth rate approaches zero as  $P$  approaches  $Q$ . In other words, growth slows down and hits zero when the population reaches its final saturation point, as  $P \rightarrow Q$  (see [](#fig:population:growthrate)).
 ```{exercise} Growth Rate vs. Population
 :label: ex:population:growthrate
-Pick a value for  $Q$  (1,000, maybe) and then various values of $P$ that are less than or equal to $Q$ to see how the effective growth rate will be modified. Make a graph like [](#fig:population:growthrate).
+Pick a value for  $Q$  (10 billion, maybe) and then various values of $P$ that are less than or equal to $Q$ to see how the effective growth rate will be modified. Make a graph like [](#fig:population:growthrate).
 ```
 ```{solution} ex:population:growthrate
 :label: ex:population:growthratesoln
 :class: dropdown
-Let $Q=1000$ and $P=200$.
+I'm going to set the carrying capacity to $Q=10$ and the initial population to $P=2.5$, corresponding to 1950. One can set $r$, but it is not necessary because we are interested in how $r$ changes. Since $r\rightarrow r(Q-P)/Q$, $r$ will change according to $(Q-P)/Q$. At any particular point in time, $P$ is a constant value, but the x-axis of [](#fig:population:growthrate) shows changing population values. Therefore, we first need to know how $P$ changes in time for a constant growth rate. To determine this, we must solve Eq. {eq}`eq:population:logistic`. I used Microsoft Excel to do calculations and make a graph. Here are the steps I used.
+1. Enter years beginning at $t_0=1950$ and increment by 1 year up to the year $t=2000$.
+2. Notice in [](#fig:population:doublings) that the population in 1950 is approximately 2.5 billion.
+3. From [](#table:population:popestimatefourera), the rate from 1950 to 2000 is on average about $r=1.7\%=0.017$.
+4. Calculate the logistic equation {eq}`eq:population:logistic`. In cell B2, I enter `=2.5*exp(0.017*(A2-1950))'.
+5. Highlight the cells B2 to B52. Type `fill down` in the search bar, and Excel will copy the forumula for the rest of the cells.
+6. For fun, I made a graph of population over time. See [](#fig:population:Poftexercise)
+
+```{figure} ../figures/Ch03_Population/PvtExcel.png
+:label: fig:population:Poftexercise
+:width: 100%
+:align: center
+:alt: Excel spreadsheet for population vs. time calculations and graph.
+Excel spreadsheet for population vs. time calculations and graph.
+```
+
+7. The population values are now going to be the x-axis for the rate, $r$.
+8. In cell C2, I calculate $r(Q - P)/Q$ by entering `=0.017*(10-B2)/10`.
+9. Use the fill down trick from step 5.
+10. Make a graph and label it. See [](#fig:population:roftexercise).
+
+```{figure} ../figures/Ch03_Population/rvtExcel.png
+:label: fig:population:roftexercise
+:width: 100%
+:align: center
+:alt: Excel spreadsheet for growth rate vs. population calculations and graph.
+Excel spreadsheet for growth rate vs. population calculations and graph.
+```
 ```
 The mathematical solution to this modified differential equation (whose solution technique is beyond the scope of this course) is called a {term}`logistic curve`, plotted in [](#fig:population:logistic) and having the form
 $$
@@ -242,8 +269,13 @@ The rate of growth in the logistic model decreases as population increases, star
 :width: 100%
 :align: center
 :alt: Logistic population curve (blue), sometimes called an S-curve, as given in Eq. {eq}`eq:population:logistic`, in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.
+Logistic population curve (blue), sometimes called an S-curve, as given in Eq. {eq}`eq:population:logistic`, in this case plotting for  $r = 0.5$  to match examples in the text. The red curve is the exponential that would result without any negative feedback.
 ```
-<span id="page-54-2"></span>**Example 3.2.3** Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[<sup>12</sup>](#page-53-1) and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, [Eq.](#page-53-2) [3.6](#page-53-2) yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [Example](#page-52-1) [3.2.1](#page-52-1)). One year later, at  $t = t_0 - 3$ , [Eq.](#page-53-2) [3.6](#page-53-2) yields 153—very close to the nominal addition of 50 members. But now four years in ( $t = t_0$ ), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#page-53-3) [3.2.2](#page-53-3).[<sup>13</sup>](#page-53-3)The logistic curve is the *dream scenario*: no drama. The population simply approaches its ultimate value smoothly, in a tidy manner. We might imagine or hope that human population follows a similar path. Maybe the fact that we've hit a linear phase—consistently adding one billion people every 12 years, lately—is a sign that we are at the inflection, Three consecutive 12-year intervals appear and will start rolling over toward a stable endpoint. If so, we know from the logistic curve that the linear part is halfway to the final population.
+```{note} Example
+Continuing the deer scenario, let's say the forest can ultimately support 840 adults,[<sup>12</sup>](#page-53-1) and keep  $r = 0.5$  as the uninhibited growth rate. Using these numbers, [Eq.](#page-53-2) [3.6](#page-53-2) yields 100 adults at  $t = t_0-4$  years (effectively the initial state in [Example](#page-52-1) [3.2.1](#page-52-1)). One year later, at  $t = t_0 - 3$ , [Eq.](#page-53-2) [3.6](#page-53-2) yields 153—very close to the nominal addition of 50 members. But now four years in ( $t = t_0$ ), we have 420 instead of the 739 we got under unrestricted exponential growth in [Example](#page-53-3) [3.2.2](#page-53-3).[<sup>13</sup>](#page-53-3)
+```
+
+The logistic curve is the *dream scenario*: no drama. The population simply approaches its ultimate value smoothly, in a tidy manner. We might imagine or hope that human population follows a similar path. Maybe the fact that we've hit a linear phase—consistently adding one billion people every 12 years, lately—is a sign that we are at the inflection, Three consecutive 12-year intervals appear and will start rolling over toward a stable endpoint. If so, we know from the logistic curve that the linear part is halfway to the final population.
 
 #### <span id="page-54-0"></span>**3.2.1 Overshoot**
 
