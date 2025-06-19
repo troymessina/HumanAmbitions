@@ -280,64 +280,66 @@ Eventually all the curves in [](#fig:population:feedback) converge to the steady
 
 ```{hint} Will Human Population Overshoot?
 :label: box:population:overshoot
-Are humans in danger of population overshoot? What is our 푟 value? It is tempting to take 푟 <sup>=</sup> <sup>0</sup>.<sup>01</sup> corresponding to the present 1% growth rate. This would imply that any delay shorter than 100 years will not produce significant overshoot, which seems reassuring. But if human population is following a logistic curve rather than an exponential, resource availability is already exerting a moderating influence, now appearing to be in the linear "cruise" phase roughly
+Are humans in danger of population overshoot? What is our $r$ value? It is tempting to take $r=0.01$ corresponding to the present 1% growth rate. This would imply that any delay shorter than 100 years will not produce significant overshoot, which seems reassuring. But if human population is following a logistic curve rather than an exponential, resource availability is already exerting a moderating influence, now appearing to be in the linear "cruise" phase roughly halfway to the limiting value. A fit to the data [](#fig:population:popalonglogistic) suggests that  $r \approx 0.028$ , corresponding to a timescale of 36 years  $(1/r)$ . This puts the overshoot-prone delay squarely into relevant timescales for human lifetimes, generations, and societal change—thus leaving the door open for an overshoot scenario.
 ```
 
 [^15]: ... meaning that population $P$ arrives at $Q$.
 [^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the $Q$ value essentially resets to some lower value.
 
-halfway to the limiting value. A fit to the data [\(Figure 3.9\)](#page-56-2) suggests that  $r \approx 0.028$ , corresponding to a timescale of 36 years  $(1/r)$ . This puts the overshoot-prone delay squarely into relevant timescales for human lifetimes, generations, and societal change—thus leaving the door open for an overshoot scenario.### <span id="page-57-0"></span>**3.2.2 Logistic Projection**
+# Logistic Projection
 
-As suggested by [Figure](#page-56-2) [3.9,](#page-56-2) Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the ∼2.8% rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before ∼1950. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model literally*, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:- 1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
-- 2. logistic curves add a sensible layer of reality, capping growth in some steady-state outcome;
-- 3. other dynamical factors such as delays can prevent a smooth logistic function, possibly leading to overshoot; and
-- 4. many other factors (medical and technological breakthroughs, war, famine, climate change) can muddy the waters in ways that could make the situation better or worse than simple projections.
+As suggested by [](#fig:population:popalonglogistic) Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the ~2.8% rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before ∼1950. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model literally*, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
+1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
+2. logistic curves add a sensible layer of reality, capping growth in some steady-state outcome;
+3. other dynamical factors such as delays can prevent a smooth logistic function, possibly leading to overshoot; and
+4. many other factors (medical and technological breakthroughs, war, famine, climate change) can muddy the waters in ways that could make the situation better or worse than simple projections.
 
-# <span id="page-57-1"></span>**3.3 Demographic Transition**
+# Demographic Transition
 
-Perhaps not surprisingly, the rate of a country's population growth is correlated to its wealth, as seen in [Figure](#page-58-0) [3.10.](#page-58-0) An attractive path to reducing population growth would be to have poor countries slide down this curve to the right: becoming more affluent and transforming societal values and pressures accordingly to produce a lower net population growth rate.
+Perhaps not surprisingly, the rate of a country's population growth is correlated to its wealth, as seen in [](#fig:population:popgrowthvGDP) An attractive path to reducing population growth would be to have poor countries slide down this curve to the right: becoming more affluent and transforming societal values and pressures accordingly to produce a lower net population growth rate.
 
 Population growth happens when the birth rate exceeds the death rate.
 
 ```{note} Definition: Birth rate
-Typically expressed in births per 1,000 people per year, minus *[death rate](#page-444-0)* (also in deaths per 1,000 people per year) is the net population rate<sup>17</sup>. If the difference is positive, the population grows, and it shrinks if the difference is negative.
+Typically expressed in births per 1000 people per year, minus {term}`death rate` (also in deaths per 1000 people per year) is the net population rate[^17]. If the difference is positive, the population grows, and it shrinks if the difference is negative.
 ``` 
 [^17]: This ignores immigration, which just shifts living persons around.shifts living persons around.
 
-<span id="page-58-0"></span>![](../figures/Ch03_Population/_page_58_Figure_1.jpeg)
-
-**Figure 3.10:** Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [\[6,](#page-431-1) [8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
-
-```{tip} Example
-3.3.1 The U.S. has a birth rate of about 12 people per 1,000 per year, and a death rate of 8.1 people per 1,000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.<sup>18</sup> 18: 4 per 1,000 is 0.4 per 100, which is an-
+```{figure} ../figures/Ch03_Population/_page_58_Figure_1.jpeg
+:label: fig:population:popgrowthvGDP
+:width: 100%
+:align: center
+:alt: Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2) A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [@wikiGDP; @wikipopulation; @wikibirthrate; @wikideathrate].
 ```
 
-Niger has a birth rate of 46 per 1,000 per year and a death rate of 11, resulting in a net of positive 35, or 3.5%.
+```{tip} Example
+3.3.1 The U.S. has a birth rate of about 12 people per 1000 per year, and a death rate of 8.1 people per 1000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.[^18] 
 
-As conditions change, birth and death rates need not change in lock-step. Developed countries tend to have low birth rates *and* low death rates, balancing to a relatively low net population growth rate. Developing countries tend to have high death rates and even higher birth rates, leading to large net growth rates. [Figure](#page-59-0) [3.11](#page-59-0) depicts both birth rates and death rates for the countries of the world. A few countries (mostly in Europe) have slipped below the replacement line, indicating declining population.<sup>19</sup> 19: Note that immigration is not considered
+Niger has a birth rate of 46 per 1000 per year and a death rate of 11, resulting in a net of positive 35, or 3.5%.
+```
 
-The general sense is that developed countries have "made it" to a respon- the country. sible low-growth condition, and that population growth is driven by poorer countries. An attractive solution to many<sup>20</sup> is to bring developing countries up to developed-country standards so that they, too, can settle into a low growth rate. This evolution from a fast-growing poor country to a slow (or zero) growth well-off country is called the [demographic transition.](#page-445-2)
-20: . . . but unsolicited "preaching" to oth-
-ers
+
+
+As conditions change, birth and death rates need not change in lock-step. Developed countries tend to have low birth rates *and* low death rates, balancing to a relatively low net population growth rate. Developing countries tend to have high death rates and even higher birth rates, leading to large net growth rates. [Figure](#page-59-0) [3.11](#page-59-0) depicts both birth rates and death rates for the countries of the world. A few countries (mostly in Europe) have slipped below the replacement line, indicating declining population.[^19] 
+
+The general sense is that developed countries have "made it" to a respon- the country. sible low-growth condition, and that population growth is driven by poorer countries. An attractive solution to many<sup>20</sup> is to bring developing countries up to developed-country standards so that they, too, can settle into a low growth rate. This evolution from a fast-growing poor country to a slow (or zero) growth well-off country is called the {term}`demographic transition`.
+
 ```{note} Definition: The demographic transition
 Refers to the process by which developing countries having high death rates and high birth rates adopt technologies, education, and higher standards of living that result in low death rates and low birth rates, more like advanced countries.
 ```
 
-In order to accomplish this goal, reduced death rates are facilitated by
+[^18]: 4 per 1000 is 0.4 per 100, which is another way to say 0.4 percent.
+[^19]: Note that immigration is not considered here: just birth rate and death rate within the country.
+[^20]: . . . but unsolicited "preaching" to others.
 
-*© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
+In order to accomplish this goal, reduced death rates are facilitated by introducing modern medicine and health services to the population. Reduced birth rates are partly in response to reduced infant mortality eventually leading to fewer children as survival is more guaranteed. But also important is better education—especially among women in the society who are more likely to have jobs and be empowered to exercise control of their reproduction (e.g., more say in relationships and/or use of contraception). All of these developments take time and substantial financial investment.<sup>21</sup> Also, the economy in general 21: Better hospitals and schools are not free. must be able to support a larger and better-educated workforce. The demographic transition is envisioned as a transformation or complete overhaul, resulting in a country more in the mold of a "first-world" country.<sup>22</sup>
 
-other way to say 0.4 percent.
-
-here: just birth rate and death rate within
-
-ers
 
 <span id="page-59-0"></span>![](../figures/Ch03_Population/_page_59_Figure_1.jpeg)
 
 **Figure 3.11:** Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while countries below are shrinking. A few countries fall a bit below this line [\[8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
 
-introducing modern medicine and health services to the population. Reduced birth rates are partly in response to reduced infant mortality eventually leading to fewer children as survival is more guaranteed. But also important is better education—especially among women in the society who are more likely to have jobs and be empowered to exercise control of their reproduction (e.g., more say in relationships and/or use of contraception). All of these developments take time and substantial financial investment.<sup>21</sup> Also, the economy in general 21: Better hospitals and schools are not free. must be able to support a larger and better-educated workforce. The demographic transition is envisioned as a transformation or complete overhaul, resulting in a country more in the mold of a "first-world" country.<sup>22</sup>
+
 
 [Figure](#page-59-0) [3.11](#page-59-0) hints at the narrative. Countries are spread into an arc, one segment occupying a band between 5–10 deaths per 1,000 people per year and birth rates lower than 20 per 1,000 people per year. Another set of countries (many of which are in Africa) have birth rates above 20 per 1,000 per year, but also show higher death rates. The narrative arc is that a country may start near Lesotho, at high death and birth rates, then migrate over toward Nigeria as death rates fall (and birth rates experience a temporary surge). Next both death and birth rates fall and run through a progression toward Pakistan, India, the U.S., and finally the European steady state. [Figure](#page-59-1) [3.12](#page-59-1) schematically illustrates the typical journey.
 
@@ -678,4 +680,10 @@ differential equation
 
 logistic curve
 : describes a mathematical model in which rate of growth depends on how close the population is to the carrying capacity. The resulting population curve over time is called the logistic function, or more informally, an S-curve.
+
+death rate
+: quantifies the number of deaths per 1000 people per year, typically. Numbers tend to be in the 5–30 range.
+
+demographic transition
+: refers to the process in which an undeveloped country initially having high [birth rate](#page-442-4) and high [death rate](#page-444-8) transitions to low death rates followed by low birth rates as medical and resource conditions improve.
 :::
