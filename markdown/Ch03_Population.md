@@ -315,16 +315,15 @@ Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2)
 ```
 
 ```{tip} Example
+:label: ex:population:USbirthrate
 3.3.1 The U.S. has a birth rate of about 12 people per 1000 per year, and a death rate of 8.1 people per 1000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.[^18] 
 
 Niger has a birth rate of 46 per 1000 per year and a death rate of 11, resulting in a net of positive 35, or 3.5%.
 ```
 
+As conditions change, birth and death rates need not change in lock-step. Developed countries tend to have low birth rates *and* low death rates, balancing to a relatively low net population growth rate. Developing countries tend to have high death rates and even higher birth rates, leading to large net growth rates. [](#fig:population:birthtodeathrates) depicts both birth rates and death rates for the countries of the world. A few countries (mostly in Europe) have slipped below the replacement line, indicating declining population.[^19] 
 
-
-As conditions change, birth and death rates need not change in lock-step. Developed countries tend to have low birth rates *and* low death rates, balancing to a relatively low net population growth rate. Developing countries tend to have high death rates and even higher birth rates, leading to large net growth rates. [Figure](#page-59-0) [3.11](#page-59-0) depicts both birth rates and death rates for the countries of the world. A few countries (mostly in Europe) have slipped below the replacement line, indicating declining population.[^19] 
-
-The general sense is that developed countries have "made it" to a respon- the country. sible low-growth condition, and that population growth is driven by poorer countries. An attractive solution to many<sup>20</sup> is to bring developing countries up to developed-country standards so that they, too, can settle into a low growth rate. This evolution from a fast-growing poor country to a slow (or zero) growth well-off country is called the {term}`demographic transition`.
+The general sense is that developed countries have "made it" to a responsible low-growth condition, and that population growth is driven by poorer countries. An attractive solution to many[^20] is to bring developing countries up to developed-country standards so that they, too, can settle into a low growth rate. This evolution from a fast-growing poor country to a slow (or zero) growth well-off country is called the {term}`demographic transition`.
 
 ```{note} Definition: The demographic transition
 Refers to the process by which developing countries having high death rates and high birth rates adopt technologies, education, and higher standards of living that result in low death rates and low birth rates, more like advanced countries.
@@ -334,48 +333,50 @@ Refers to the process by which developing countries having high death rates and 
 [^19]: Note that immigration is not considered here: just birth rate and death rate within the country.
 [^20]: . . . but unsolicited "preaching" to others.
 
-In order to accomplish this goal, reduced death rates are facilitated by introducing modern medicine and health services to the population. Reduced birth rates are partly in response to reduced infant mortality eventually leading to fewer children as survival is more guaranteed. But also important is better education—especially among women in the society who are more likely to have jobs and be empowered to exercise control of their reproduction (e.g., more say in relationships and/or use of contraception). All of these developments take time and substantial financial investment.<sup>21</sup> Also, the economy in general 21: Better hospitals and schools are not free. must be able to support a larger and better-educated workforce. The demographic transition is envisioned as a transformation or complete overhaul, resulting in a country more in the mold of a "first-world" country.<sup>22</sup>
+In order to accomplish this goal, reduced death rates are facilitated by introducing modern medicine and health services to the population. Reduced birth rates are partly in response to reduced infant mortality eventually leading to fewer children as survival is more guaranteed. But also important is better education—especially among women in the society who are more likely to have jobs and be empowered to exercise control of their reproduction (e.g., more say in relationships and/or use of contraception). All of these developments take time and substantial financial investment.[^21] Also, the economy in general  must be able to support a larger and better-educated workforce. The demographic transition is envisioned as a transformation or complete overhaul, resulting in a country more in the mold of a "first-world" country.[^22]
 
+[^21]: Better hospitals and schools are not free.
+[^22]: One may justifiably question whether this is the "correct" goal.
 
-<span id="page-59-0"></span>![](../figures/Ch03_Population/_page_59_Figure_1.jpeg)
+```{figure} ../figures/Ch03_Population/_page_59_Figure_1.jpeg
+:label: fig:population:birthtodeathrates
+:width: 100%
+:align: center
+:alt: Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while countries below are shrinking. A few countries fall a bit below this line [@wikipopulation; @wikibirthrate; @wikideathrate].
+Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while countries below are shrinking. A few countries fall a bit below this line [@wikipopulation; @wikibirthrate; @wikideathrate].
+```
 
-**Figure 3.11:** Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while countries below are shrinking. A few countries fall a bit below this line [\[8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
+[](#fig:population:birthtodeathrates) hints at the narrative. Countries are spread into an arc, one segment occupying a band between 5–10 deaths per 1000 people per year and birth rates lower than 20 per 1000 people per year. Another set of countries (many of which are in Africa) have birth rates above 20 per 1000 per year, but also show higher death rates. The narrative arc is that a country may start near Lesotho, at high death and birth rates, then migrate over toward Nigeria as death rates fall (and birth rates experience a temporary surge). Next both death and birth rates fall and run through a progression toward Pakistan, India, the U.S., and finally the European steady state. [](#fig:population:demogtransition) schematically illustrates the typical journey.
 
+The demographic transition receives widespread advocacy among Western intellectuals for its adoption, often coupled with the sentiment that it can't come soon enough. Indeed, the humanitarian consequences appear to be positive and substantial: fewer people living in poverty and hunger; empowered women; better education; more advanced jobs; and greater tolerance in the society. It might even seem condemnable *not* to wish for these things for all people on Earth.
 
-
-[Figure](#page-59-0) [3.11](#page-59-0) hints at the narrative. Countries are spread into an arc, one segment occupying a band between 5–10 deaths per 1,000 people per year and birth rates lower than 20 per 1,000 people per year. Another set of countries (many of which are in Africa) have birth rates above 20 per 1,000 per year, but also show higher death rates. The narrative arc is that a country may start near Lesotho, at high death and birth rates, then migrate over toward Nigeria as death rates fall (and birth rates experience a temporary surge). Next both death and birth rates fall and run through a progression toward Pakistan, India, the U.S., and finally the European steady state. [Figure](#page-59-1) [3.12](#page-59-1) schematically illustrates the typical journey.
-
-The demographic transition receives widespread advocacy among Western intellectuals for its adoption, often coupled with the sentiment that it can't come soon enough. Indeed, the humanitarian consequences appear to be positive and substantial: fewer people living in poverty and hunger;
-
-21: Better hospitals and schools are not free.
-
-22: One may justifiably question whether this is the "correct" goal.
-
-<span id="page-59-1"></span>![](../figures/Ch03_Population/_page_59_Figure_8.jpeg)
-
-**Figure 3.12:** Schematic of how the demographic transition may play out in the space plotted in [Figure](#page-59-0) [3.11.](#page-59-0) At points A and D, birth rates and death rates are equal, resulting in no population growth. Typically, death rates decline while birth rates increase (point B), and eventually death rates reach a floor while birth rates begin to fall (at C).
-
-empowered women; better education; more advanced jobs; and greater tolerance in the society. It might even seem condemnable *not* to wish for these things for all people on Earth.
+```{figure} ../figures/Ch03_Population/_page_59_Figure_8.jpeg
+:label: fig:population:demogtransition
+:width: 100%
+:align: center
+:alt: Schematic of how the demographic transition may play out in the space plotted in [](#fig:population:birthtodeathrates) At points A and D, birth rates and death rates are equal, resulting in no population growth. Typically, death rates decline while birth rates increase (point B), and eventually death rates reach a floor while birth rates begin to fall (at C).
+Schematic of how the demographic transition may play out in the space plotted in [](#fig:population:birthtodeathrates) At points A and D, birth rates and death rates are equal, resulting in no population growth. Typically, death rates decline while birth rates increase (point B), and eventually death rates reach a floor while birth rates begin to fall (at C).
+```
 
 However, we need to understand the consequences. Just because we *want* something does not mean nature will comply. Do we have the resources to accomplish this goal? If we fail in pursuit of a global demographic transition, have we unwittingly unleashed even *greater* suffering on humanity by increasing the total number of people who can no longer be supported? It is possible that well-intentioned actions produce catastrophic results, so let us at least understand what is at stake. It may be condemnable *not to wish* for a global demographic transition, but failing to explore potential downsides may be equally ignoble.
 
-### <span id="page-60-0"></span>**3.3.1 Geographic Considerations**
+## Geographic Considerations
 
-<span id="page-60-1"></span>![](../figures/Ch03_Population/_page_60_Figure_4.jpeg)
+```{figure} ../figures/Ch03_Population/_page_60_Figure_4.jpeg
+:label: fig:population:popgrowbycountry
+:width: 100%
+:align: center
+:alt: Net population growth rate by country: birth rate minus death rate per 1000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [@wikibirthrate; @wikideathrate].
+```
 
-[Figure](#page-60-1) [3.13](#page-60-1) shows the net population rate (birth minus death rate) on a world map. Africa stands out as the continent having the largest net population growth rate, and has been the focus of much attention when discussing population dynamics.
+[](#fig:population:popgrowbycountry) shows the net population rate (birth minus death rate) on a world map. Africa stands out as the continent having the largest net population growth rate, and has been the focus of much attention when discussing population dynamics.
 
-But let us cast population rates in different countries in a new light. Referring to [Figure](#page-60-1) [3.13,](#page-60-1) it is too easy to look at Niger's net population rate—which is about ten times higher than that of the U.S. (see [Example](#page-58-1) [3.3.1\)](#page-58-1)—and conclude that countries similar to Niger present a greater risk to the planet in terms of population growth. However, our perspective changes when we consider absolute population levels. Who cares if a country's growth rate is an explosive 10% if the population is only 73 people?<sup>23</sup> 23: But check back in 100 years!
+But let us cast population rates in different countries in a new light. Referring to [](#fig:population:popgrowbycountry) it is too easy to look at Niger's net population rate—which is about ten times higher than that of the U.S. (see [](#ex:population:USbirthrate)—and conclude that countries similar to Niger present a greater risk to the planet in terms of population growth. However, our perspective changes when we consider absolute population levels. Who cares if a country's growth rate is an explosive 10% if the population is only 73 people?[^23] 
 
-[Figure](#page-61-0) [3.14](#page-61-0) multiplies the net rate by population to see which countries contribute the most *net new people* to the planet each year, and [Table](#page-61-1) [3.3](#page-61-1) lists the top ten. Africa no longer appears to be the most worrisome region in this light.<sup>24</sup> India is the largest people-producing country at present, adding almost 18 million per year. Far behind is China, in second
+[Figure](#page-61-0) [3.14](#page-61-0) multiplies the net rate by population to see which countries contribute the most *net new people* to the planet each year, and [Table](#page-61-1) [3.3](#page-61-1) lists the top ten. Africa no longer appears to be the most worrisome region in this light.[^24] India is the largest people-producing country at present, adding almost 18 million per year. Far behind is China, in second
 
-*© 2022 T. W. Murphy, Jr.; [Creative Commons Attribution-NonCommercial 4.0 International Lic.;](https://creativecommons.org/licenses/by-nc/4.0/) Freely available at: [https://escholarship.org/uc/energy\\_ambitions.](https://escholarship.org/uc/energy_ambitions)*
-
-**Figure 3.13:** Net population growth rate by country: birth rate minus death rate per 1,000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [\[19,](#page-432-5) [20\]](#page-432-6).
-
-23: But check back in 100 years!
-
-24: Although, the continent as a whole accounts for 35% of the total added population each year.
+[^23]: But check back in 100 years!
+[^24]: Although, the continent as a whole accounts for 35% of the total added population each year.
 
 <span id="page-61-0"></span>![](../figures/Ch03_Population/_page_61_Figure_1.jpeg)
 
