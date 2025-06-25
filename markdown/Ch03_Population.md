@@ -367,73 +367,80 @@ However, we need to understand the consequences. Just because we *want* somethin
 :width: 100%
 :align: center
 :alt: Net population growth rate by country: birth rate minus death rate per 1000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [@wikibirthrate; @wikideathrate].
+Net population growth rate by country: birth rate minus death rate per 1000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [@wikibirthrate; @wikideathrate].
 ```
 
 [](#fig:population:popgrowbycountry) shows the net population rate (birth minus death rate) on a world map. Africa stands out as the continent having the largest net population growth rate, and has been the focus of much attention when discussing population dynamics.
 
 But let us cast population rates in different countries in a new light. Referring to [](#fig:population:popgrowbycountry) it is too easy to look at Niger's net population rate—which is about ten times higher than that of the U.S. (see [](#ex:population:USbirthrate)—and conclude that countries similar to Niger present a greater risk to the planet in terms of population growth. However, our perspective changes when we consider absolute population levels. Who cares if a country's growth rate is an explosive 10% if the population is only 73 people?[^23] 
 
-[Figure](#page-61-0) [3.14](#page-61-0) multiplies the net rate by population to see which countries contribute the most *net new people* to the planet each year, and [Table](#page-61-1) [3.3](#page-61-1) lists the top ten. Africa no longer appears to be the most worrisome region in this light.[^24] India is the largest people-producing country at present, adding almost 18 million per year. Far behind is China, in second
+[](#fig:population:absgrowthcountry) multiplies the net rate by population to see which countries contribute the most *net new people* to the planet each year, and [](#table:population:toptenpop) lists the top ten. Africa no longer appears to be the most worrisome region in this light.[^24] India is the largest people-producing country at present, adding almost 18 million per year. Far behind is China, in second place. The U.S. adds about 1.6 million per year, a little beyond the top ten. This exercise goes to show that context is important in evaluating data.
 
 [^23]: But check back in 100 years!
 [^24]: Although, the continent as a whole accounts for 35% of the total added population each year.
 
-<span id="page-61-0"></span>![](../figures/Ch03_Population/_page_61_Figure_1.jpeg)
+```{figure} ../figures/Ch03_Population/_page_61_Figure_1.jpeg
+:label: fig:population:absgrowthcountry
+:width: 100%
+:align: center
+:alt: Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [@wikipopulation; @wikibirthrate; @wikideathrate].
+Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [@wikipopulation; @wikibirthrate; @wikideathrate].
 
-place. The U.S. adds about 1.6 million per year, a little beyond the top ten. This exercise goes to show that context is important in evaluating data.
+```
 
-<span id="page-61-1"></span>
+```{table} Top ten populators [@wikipopulation; @wikibirthrate; @wikideathrate], in terms of absolute number of people added to each country. Birth rates and death rates are presented as number per 1,000 people per year. These ten countries account for 55% of population growth worldwide.
+:label: table:population:toptenpop
 
-| Country     | Population<br>(millions) | Birth Rate | Death Rate | Annual<br>Millions Added |
-|-------------|--------------------------|------------|------------|--------------------------|
-| India       | 1,366                    | 20.0       | 7.1        | 17.7                     |
-| China       | 1,434                    | 12.1       | 7.1        | 7.2                      |
-| Nigeria     | 201                      | 38.0       | 15.3       | 4.6                      |
-| Pakistan    | 216                      | 24.9       | 7.3        | 3.8                      |
-| Indonesia   | 271                      | 17.6       | 6.3        | 3.1                      |
-| Ethiopia    | 112                      | 36.1       | 10.7       | 2.8                      |
-| Bangladesh  | 163                      | 20.2       | 5.6        | 2.3                      |
-| Philippines | 108                      | 24.2       | 5.0        | 2.1                      |
-| Egypt       | 100                      | 26.8       | 6.1        | 2.1                      |
-| DR Congo    | 87                       | 36.9       | 15.8       | 1.8                      |
-| Whole World | 7,711                    | 19.1       | 8.1        | 86                       |
+| Country     | Population (millions) | Birth Rate | Death Rate | Annual Millions Added |
+|------------:|----------------------:|-----------:|-----------:|--------------------:|
+| India       | 1366                  | 20.0       | 7.1        | 17.7                |
+| China       | 1434                  | 12.1       | 7.1        | 7.2                 |
+| Nigeria     | 201                   | 38.0       | 15.3       | 4.6                 |
+| Pakistan    | 216                   | 24.9       | 7.3        | 3.8                 |
+| Indonesia   | 271                   | 17.6       | 6.3        | 3.1                 |
+| Ethiopia    | 112                   | 36.1       | 10.7       | 2.8                 |
+| Bangladesh  | 163                   | 20.2       | 5.6        | 2.3                 |
+| Philippines | 108                   | 24.2       | 5.0        | 2.1                 |
+| Egypt       | 100                   | 26.8       | 6.1        | 2.1                 |
+| DR Congo    | 87                    | 36.9       | 15.8       | 1.8                 |
+| Whole World | 7711                  | 19.1       | 8.1        | 86                  |
+```
 
-**Figure 3.14:** Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [\[8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
+Adding another relevant perspective, when one considers that the percapita energy consumption in the United States is more than 200 times that of Niger,[^25]  together with the larger U.S. population, we find that the *resource impact* from births is almost 400 times higher for the U.S. than for Niger.[^26] On a per capita basis, a citizen of the U.S. places claims on future resources at a rate 28 times higher than a citizen of Niger via population growth.[^27] On a finite planet, the main reason we *care* about population growth is in relation to limited resources. Thus from the resource point of view, the problem is not at all confined to the developing world. [](#table:population:toptenenergy) indicates how rapidly the top ten countries are creating energy demand (as a proxy to resource demands in general) based on population growth alone. [](#fig:population:toptenenergy) provides a graphical perspective of the same (for all countries). For reference, one gigawatt (GW) is the equivalent of a large-scale nuclear or coal-fired power plant. So China, the U.S., and India each add the equivalent of 10–20 such plants per year just to satisfy the demand created by population growth.[^28]
 
-**Table 3.3:** Top ten populators [\[8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6), in terms of absolute number of people added to each country. Birth rates and death rates are presented as number per 1,000 people per year. These ten countries account for 55% of population growth worldwide.
+[^25]: The average American rate of energy use is 10,000 W vs. 50 W for Niger.
+[^26]: In other words, for every additional kilogram of coal, steel, or whatever required by Niger's added population, the U.S. will require 400 kg of the same to satisfy its population growth.
+[^27]: 28 is smaller than 400 by the ratio of populations in the two countries.
+[^28]: This does not even consider rising standards placing additional burdens.
 
-Adding another relevant perspective, when one considers that the percapita energy consumption in the United States is more than 200 times that of Niger,<sup>25</sup> 25: The average American rate of energy use is 10,000 W vs. 50 W for Niger. together with the larger U.S. population, we find that the *resource impact* from births is almost 400 times higher for the U.S. than for Niger.<sup>26</sup> 26: In other words, for every additional On a per capita basis, a citizen of the U.S. places claims on future resources at a rate 28 times higher than a citizen of Niger via population growth.<sup>27</sup> On a finite planet, the main reason we *care* about population growth is in relation to limited resources. Thus from the resource point of view, the problem is not at all confined to the developing world. [Table](#page-62-0) [3.4](#page-62-0) indicates how rapidly the top ten countries are creating energy demand (as a proxy to resource demands in general) based on population growth alone. [Figure](#page-62-1) [3.15](#page-62-1) provides a graphical perspective of the same (for all countries). For reference, one gigawatt (GW) is the equivalent of a large-scale nuclear or coal-fired power plant. So China, the U.S., and India each add the equivalent of 10–20 such plants per year just to satisfy the demand created by population growth.<sup>28</sup>
-
-25: The average American rate of energy
-use is 10,000 W vs. 50 W for Niger.
-
-kilogram of coal, steel, or whatever required by Niger's added population, the U.S. will require 400 kg of the same to satisfy its population growth.
-
-27: 28 is smaller than 400 by the ratio of populations in the two countries.
-
-28: This does not even consider rising standards placing additional burdens.
-
-<span id="page-62-0"></span>
-
-| Country       | Population<br>(×106) | Annual<br>Growth<br>(×106) | Per Capita<br>Power (W) | Power Added<br>Annually<br>(GW) | Power<br>Added Per<br>Citizen (W) |
-|---------------|----------------------|----------------------------|-------------------------|---------------------------------|-----------------------------------|
-| China         | 1,434                | 7.2                        | 2,800                   | 20.2                            | 14                                |
+```{table} Top ten countries for growth in energy demand. Populations are in millions. Poweris in Watts or 10<sup>9</sup> W (= GW). The power added annually is the absolute increase in demand *due to population growth*, and is a proxy for resource demands in general. The last column provides some measure of an individual citizen's share of the responsibility in terms of increasing pressure on resources. The top three contributors to new power demand via population growth alone (China, the U.S., and India) account for about a third of the global total. [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate]
+:label: table:population:toptenenergy
+| Country       | Population(×10<sup>6</sup>) | Annual<br>Growth (×10<sup>6</sup>) | Per Capita Power (W) | Power Added Annually (GW) | Power Added Per Citizen (W) |
+|--------------:|---------------------:|---------------------------:|------------------------:|--------------------------------:|----------------------------------:|
+| China         | 1434                 | 7.2                        | 2800                    | 20.2                            | 14                                |
 | United States | 329                  | 1.6                        | 10,000                  | 15.6                            | 48                                |
-| India         | 1,366                | 17.7                       | 600                     | 10.5                            | 8                                 |
+| India         | 1366                 | 17.7                       | 600                     | 10.5                            | 8                                 |
 | Saudi Arabia  | 34                   | 0.54                       | 10,100                  | 5.5                             | 160                               |
-| Iran          | 83                   | 1.0                        | 4,300                   | 4.3                             | 52                                |
-| Mexico        | 128                  | 1.7                        | 2,000                   | 3.3                             | 26                                |
+| Iran          | 83                   | 1.0                        | 4300                    | 4.3                             | 52                                |
+| Mexico        | 128                  | 1.7                        | 2000                    | 3.3                             | 26                                |
 | Indonesia     | 271                  | 3.1                        | 900                     | 2.8                             | 10                                |
-| Brazil        | 211                  | 1.3                        | 2,000                   | 2.7                             | 13                                |
-| Egypt         | 100                  | 2.1                        | 1,200                   | 2.5                             | 25                                |
-| Turkey        | 83                   | 0.85                       | 2,100                   | 1.8                             | 21                                |
-| Whole World   | 7,711                | 86                         | 2,300                   | 143                             | 18.4                              |
+| Brazil        | 211                  | 1.3                        | 2000                    | 2.7                             | 13                                |
+| Egypt         | 100                  | 2.1                        | 1200                    | 2.5                             | 25                                |
+| Turkey        | 83                   | 0.85                       | 2100                    | 1.8                             | 21                                |
+| Whole World   | 7711                 | 86                         | 2300                    | 143                             | 18.4                              |
+```
 
-**Table 3.4:** Top ten countries for growth in energy demand. Populations are in millions. [Power](#page-453-0)is in [Watts](#page-457-0) or 10<sup>9</sup> W (GW). The power added annually is the absolute increase in demand *due to population growth*, and is a proxy for resource demands in general. The last column provides some measure of an individual citizen's share of the responsibility in terms of increasing pressure on resources. The top three contributors to new power demand via population growth alone (China, the U.S., and India) account for about a third of the global total. [\[7,](#page-431-3) [8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6)
+```{figure} ../figures/Ch03_Population/_page_62_Figure_3.jpeg
+:label: fig:population:toptenenergy
+:width: 100%
+:align: center
+:alt: Graphical representation of [](#table:population:toptenenergy) for all countries. Dots, whose size is proportional to population, indicate how many people are added per year, and how much additional energy demand is created as a consequence. Color indicates the added population-growth-driven power demand an individual citizen is responsible for generating each year as a member of the society. Negative cases (contracting) include Russia, Japan, Germany, and Ukraine [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate].
+Graphical representation of [](#table:population:toptenenergy) for all countries. Dots, whose size is proportional to population, indicate how many people are added per year, and how much additional energy demand is created as a consequence. Color indicates the added population-growth-driven power demand an individual citizen is responsible for generating each year as a member of the society. Negative cases (contracting) include Russia, Japan, Germany, and Ukraine [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate].
+```
 
-<span id="page-62-1"></span>![](../figures/Ch03_Population/_page_62_Figure_3.jpeg)
+The last column in [](#table:population:toptenenergy) is the per-citizen cost, meaning, for instance that each person in the U.S. adds about 50 Watts per year of energy demand via the country's net population growth rate.[^29] In this sense, the last column is a sort of "personal contribution" an individual makes to the world's resource demands via net population rates and consumption rates in their society. Those having high scores should think twice about assigning blame externally, and should perhaps tend to their own house, as the saying goes. 
 
-The last column in [Table](#page-62-0) [3.4](#page-62-0) is the per-citizen cost, meaning, for instance that each person in the U.S. adds about 50 [Watts](#page-457-0) per year of energy demand via the country's net population growth rate.<sup>29</sup> In this sense, the last column is a sort of "personal contribution" an individual makes to the world's resource demands via net population rates and consumption rates in their society. Those having high scores should think twice about assigning blame externally, and should perhaps tend to their own house, as the saying goes.Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table](#page-63-1) [3.5](#page-63-1) echoes similar information to that in [Table](#page-62-0) [3.4,](#page-62-0) in modified form. What we learn from this table is that Asia's demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population; **Figure 3.15:** Graphical representation of [Ta](#page-62-0)[ble](#page-62-0) [3.4,](#page-62-0) for all countries. Dots, whose size is proportional to population, indicate how many people are added per year, and how much additional energy demand is created as a consequence. Color indicates the added population-growth-driven power demand an individual citizen is responsible for generating each year as a member of the society. Negative cases (contracting) include Russia, Japan, Germany, and Ukraine [\[7,](#page-431-3) [8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6).
+Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table](#page-63-1) [3.5](#page-63-1) echoes similar information to that in [Table](#page-62-0) [3.4,](#page-62-0) in modified form. What we learn from this table is that Asia's demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population; 
 
 adds 1.7 W of demand per year on energy resources via population growth.
 
