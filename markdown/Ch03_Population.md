@@ -316,7 +316,7 @@ Net population rate, in percent, as a function of per-capita [GDP.](#page-448-2)
 
 ```{tip} Example
 :label: ex:population:USbirthrate
-3.3.1 The U.S. has a birth rate of about 12 people per 1000 per year, and a death rate of 8.1 people per 1000 per year. The net rate is then roughly +4 per 1,000 per year, translating to 0.4% net growth.[^18] 
+The U.S. has a birth rate of about 12 people per 1000 per year, and a death rate of 8.1 people per 1000 per year. The net rate is then roughly +4 per 1000 per year, translating to 0.4% net growth.[^18] 
 
 Niger has a birth rate of 46 per 1000 per year and a death rate of 11, resulting in a net of positive 35, or 3.5%.
 ```
