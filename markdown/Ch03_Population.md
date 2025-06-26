@@ -287,7 +287,7 @@ Are humans in danger of population overshoot? What is our $r$ value? It is tempt
 [^15]: ... meaning that population $P$ arrives at $Q$.
 [^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the $Q$ value essentially resets to some lower value.
 
-# Logistic Projection
+## Logistic Projection
 
 As suggested by [](#fig:population:popalonglogistic) Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the ~2.8% rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before ∼1950. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model literally*, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
 1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
@@ -453,7 +453,7 @@ Before departing this section, let us look at continent-scale regions rather tha
 | S. America  | 5.5            | 4.4               | 2000                    | 5.4                      | 18.1                        |
 | Oceania     | 0.5            | 0.5               | 5400                    | 1.5                      | 49.5                        |
 | Europe      | 9.7            | −0.1              | 4900                    | −0.3                     | −0.6                        |
-|-------------+----------------+-------------------+-------------------------+--------------------------+----------------------------:|
+|-------------|----------------|-------------------|-------------------------|--------------------------|-----------------------------|
 | Whole World | 7,711 M        | 86 M              | 2300                    | 143 GW                   | 18.4                        |
 ```
 [^29]: citizen of Niger, by comparison, only adds 1.7 W of demand per year on energy resources via population growth.
