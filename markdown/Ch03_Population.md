@@ -453,7 +453,7 @@ Before departing this section, let us look at continent-scale regions rather tha
 | S. America  | 5.5            | 4.4               | 2000                    | 5.4                      | 18.1                        |
 | Oceania     | 0.5            | 0.5               | 5400                    | 1.5                      | 49.5                        |
 | Europe      | 9.7            | −0.1              | 4900                    | −0.3                     | −0.6                        |
-|-------------|----------------|-------------------|-------------------------|--------------------------|-----------------------------|
+|_____________|________________|___________________|_________________________|__________________________|_____________________________|
 | Whole World | 7,711 M        | 86 M              | 2300                    | 143 GW                   | 18.4                        |
 ```
 [^29]: citizen of Niger, by comparison, only adds 1.7 W of demand per year on energy resources via population growth.
