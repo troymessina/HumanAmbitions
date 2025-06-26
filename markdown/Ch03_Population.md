@@ -361,8 +361,8 @@ Schematic of how the demographic transition may play out in the space plotted in
 However, we need to understand the consequences. Just because we *want* something does not mean nature will comply. Do we have the resources to accomplish this goal? If we fail in pursuit of a global demographic transition, have we unwittingly unleashed even *greater* suffering on humanity by increasing the total number of people who can no longer be supported? It is possible that well-intentioned actions produce catastrophic results, so let us at least understand what is at stake. It may be condemnable *not to wish* for a global demographic transition, but failing to explore potential downsides may be equally ignoble.
 
 ## Geographic Considerations
-
-```{figure} ../figures/Ch03_Population/_page_60_Figure_4.jpeg
+% ../figures/Ch03_Population/_page_60_Figure_4.jpeg was the original image
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Population-growth-rate-2023-OWID.png/1280px-Population-growth-rate-2023-OWID.png
 :label: fig:population:popgrowbycountry
 :width: 100%
 :align: center
@@ -453,7 +453,6 @@ Before departing this section, let us look at continent-scale regions rather tha
 | S. America  | 5.5            | 4.4               | 2000                    | 5.4                      | 18.1                        |
 | Oceania     | 0.5            | 0.5               | 5400                    | 1.5                      | 49.5                        |
 | Europe      | 9.7            | −0.1              | 4900                    | −0.3                     | −0.6                        |
-|_____________|________________|___________________|_________________________|__________________________|_____________________________|
 | Whole World | 7,711 M        | 86 M              | 2300                    | 143 GW                   | 18.4                        |
 ```
 [^29]: citizen of Niger, by comparison, only adds 1.7 W of demand per year on energy resources via population growth.
