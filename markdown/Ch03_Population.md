@@ -440,25 +440,26 @@ Graphical representation of [](#table:population:toptenenergy) for all countries
 
 The last column in [](#table:population:toptenenergy) is the per-citizen cost, meaning, for instance that each person in the U.S. adds about 50 Watts per year of energy demand via the country's net population growth rate.[^29] In this sense, the last column is a sort of "personal contribution" an individual makes to the world's resource demands via net population rates and consumption rates in their society. Those having high scores should think twice about assigning blame externally, and should perhaps tend to their own house, as the saying goes. 
 
-Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table](#page-63-1) [3.5](#page-63-1) echoes similar information to that in [Table](#page-62-0) [3.4,](#page-62-0) in modified form. What we learn from this table is that Asia's demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population; 
+Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [](#table:population:poppressures) echoes similar information to that in [](#table:population:toptenenergy) in modified form. What we learn from this table is that Asia's demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population; Africa is significant in terms of population growth, but constitutes only 10% of resource pressure at present. Finally, Europe holds 10% of the globe's people but lays no claim on added resources via population growth, resembling the target end-state of the demographic transition.[^30]
 
-adds 1.7 W of demand per year on energy resources via population growth.
+```{tabel} Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate]
+:label: table:population:poppressures
 
-<span id="page-63-1"></span>
+| Country     | Population (%) | Annual Growth (%) | Per Capita<br>Power (W) | Power Added Annually (%) | Power Added Per Citizen (W) |
+|------------:|---------------:|------------------:|------------------------:|-------------------------:|----------------------------:|
+| Asia        | 59.7           | 55.1              | 1800                    | 60.5                     | 18.9                        |
+| N. America  | 7.6            | 5.5               | 7100                    | 23.0                     | 56.1                        |
+| Africa      | 16.9           | 34.7              | 500                     | 9.9                      | 10.8                        |
+| S. America  | 5.5            | 4.4               | 2000                    | 5.4                      | 18.1                        |
+| Oceania     | 0.5            | 0.5               | 5400                    | 1.5                      | 49.5                        |
+| Europe      | 9.7            | −0.1              | 4900                    | −0.3                     | −0.6                        |
+|-------------+----------------+-------------------+-------------------------+--------------------------+----------------------------:|
+| Whole World | 7,711 M        | 86 M              | 2300                    | 143 GW                   | 18.4                        |
+```
+[^29]: citizen of Niger, by comparison, only adds 1.7 W of demand per year on energy resources via population growth.
+[^30]: Note that European countries are nervous about their decline in a growing, competitive world.
 
-| Country     | Population<br>(%) | Annual<br>Growth<br>(%) | Per Capita<br>Power (W) | Power Added<br>Annually (%) | Power<br>Added Per<br>Citizen (W) |
-|-------------|-------------------|-------------------------|-------------------------|-----------------------------|-----------------------------------|
-| Asia        | 59.7              | 55.1                    | 1,800                   | 60.5                        | 18.9                              |
-| N. America  | 7.6               | 5.5                     | 7,100                   | 23.0                        | 56.1                              |
-| Africa      | 16.9              | 34.7                    | 500                     | 9.9                         | 10.8                              |
-| S. America  | 5.5               | 4.4                     | 2,000                   | 5.4                         | 18.1                              |
-| Oceania     | 0.5               | 0.5                     | 5,400                   | 1.5                         | 49.5                              |
-| Europe      | 9.7               | −0.1                    | 4,900                   | −0.3                        | −0.6                              |
-| Whole World | 7,711 M           | 86 M                    | 2,300                   | 143 GW                      | 18.4                              |
-
-Africa is significant in terms of population growth, but constitutes only 10% of resource pressure at present. Finally, Europe holds 10% of the globe's people but lays no claim on added resources via population growth, resembling the target end-state of the demographic transition.<sup>30</sup>
-
-## <span id="page-63-0"></span>**3.3.2 Cost of the Demographic Transition**
+## Cost of the Demographic Transition
 
 A final point relates to the trajectory depicted in [Figure](#page-59-1) [3.12](#page-59-1) for [demo](#page-445-2)[graphic transitions:](#page-445-2) death rate decreases first while birth rates remain high—or rise even higher—before starting to come down. An example sequence is illustrated in [Figure](#page-63-2) [3.16:](#page-63-2) initially the rates are high (at 푟1), and the same (resulting in steady population); then the death rate transitions to a new low rate (푟2) over a time 푇; and the birth rate begins to fall some time 휏 later before matching the death rate and stabilizing population again. The yellow-shaded area between the curves indicates the region where birth rate exceeds death rate, leading to a net population growth (a surge in population).
 
@@ -467,7 +468,7 @@ $$
 e^{(r_1 - r_2)\tau} = e^{(0.025 - 0.008) \cdot 50} = e^{0.85} = 2.34.
 $$
 
-**Table 3.5:** Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [\[7,](#page-431-3) [8,](#page-431-2) [19,](#page-432-5) [20\]](#page-432-6)
+**Table 3.5:** 
 
 30: Note that European countries are nervous about their decline in a growing, competitive world.
 
