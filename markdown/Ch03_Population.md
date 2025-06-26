@@ -442,7 +442,7 @@ The last column in [](#table:population:toptenenergy) is the per-citizen cost, m
 
 Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [](#table:population:poppressures) echoes similar information to that in [](#table:population:toptenenergy) in modified form. What we learn from this table is that Asia's demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population; Africa is significant in terms of population growth, but constitutes only 10% of resource pressure at present. Finally, Europe holds 10% of the globe's people but lays no claim on added resources via population growth, resembling the target end-state of the demographic transition.[^30]
 
-```{tabel} Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate]
+```{table} Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [wikienergyconsumption; @wikipopulation; @wikibirthrate; @wikideathrate]
 :label: table:population:poppressures
 
 | Country     | Population (%) | Annual Growth (%) | Per Capita<br>Power (W) | Power Added Annually (%) | Power Added Per Citizen (W) |
