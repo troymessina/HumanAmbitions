@@ -361,6 +361,9 @@ Schematic of how the demographic transition may play out in the space plotted in
 However, we need to understand the consequences. Just because we *want* something does not mean nature will comply. Do we have the resources to accomplish this goal? If we fail in pursuit of a global demographic transition, have we unwittingly unleashed even *greater* suffering on humanity by increasing the total number of people who can no longer be supported? It is possible that well-intentioned actions produce catastrophic results, so let us at least understand what is at stake. It may be condemnable *not to wish* for a global demographic transition, but failing to explore potential downsides may be equally ignoble.
 
 ## Geographic Considerations
+
+[](#fig:population:popgrowbycountry) shows the net population rate (birth minus death rate) on a world map. Africa stands out as the continent having the largest net population growth rate, and has been the focus of much attention when discussing population dynamics.
+
 % ../figures/Ch03_Population/_page_60_Figure_4.jpeg was the original image
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Population-growth-rate-2023-OWID.png/1280px-Population-growth-rate-2023-OWID.png
 :label: fig:population:popgrowbycountry
@@ -369,8 +372,6 @@ However, we need to understand the consequences. Just because we *want* somethin
 :alt: Net population growth rate by country: birth rate minus death rate per 1000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [@wikibirthrate; @wikideathrate].
 Net population growth rate by country: birth rate minus death rate per 1000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [@wikibirthrate; @wikideathrate].
 ```
-
-[](#fig:population:popgrowbycountry) shows the net population rate (birth minus death rate) on a world map. Africa stands out as the continent having the largest net population growth rate, and has been the focus of much attention when discussing population dynamics.
 
 But let us cast population rates in different countries in a new light. Referring to [](#fig:population:popgrowbycountry) it is too easy to look at Niger's net population rate—which is about ten times higher than that of the U.S. (see [](#ex:population:USbirthrate)—and conclude that countries similar to Niger present a greater risk to the planet in terms of population growth. However, our perspective changes when we consider absolute population levels. Who cares if a country's growth rate is an explosive 10% if the population is only 73 people?[^23] 
 
