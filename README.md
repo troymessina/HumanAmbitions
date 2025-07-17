@@ -8,7 +8,7 @@ This is an **open-access** textbook for courses on energy, environment, and clim
 ![License](https://badgen.net/badge/license/CC-BY-NC-4.0/green)
 
 
-This book is a remix of various electronics lab manuals I have found online. Anyone is welcome to compile their own version including or excluding chapters.  
+This book is a conversion to markdown from [Energy and Human Ambitions on a Finite Planet](https://escholarship.org/uc/item/9js5291m#article_main). Some updating and editing are ongoing from this original text.
 
 This textbook is open-access and can be found at https://github.com/troymessina/HumanAmbitions. The following chapters are included in the textbook:
 
