@@ -16,8 +16,8 @@ This textbook is open-access and can be found at https://github.com/troymessina/
 
 **Part I - Setting the Stage- Growth and Limitations**
 
-1. [Exponential Growth]()
-2. [Economic Growth Limits](https://troymessina.github.io/HumanAmbitions/ch01-exponentialgrowth)
+1. [Exponential Growth](https://troymessina.github.io/HumanAmbitions/ch01-exponentialgrowth)
+2. [Economic Growth Limits](https://troymessina.github.io/HumanAmbitions/ch01-economicgrowth)
 3. [Population](https://troymessina.github.io/HumanAmbitions/ch03-population)
 4. [Space Exploration vs. Colonization](https://troymessina.github.io/HumanAmbitions/ch04-spacecolonization)
 
